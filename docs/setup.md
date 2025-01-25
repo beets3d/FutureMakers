@@ -145,6 +145,34 @@ table {
 - this is first point test
 - this is cursor test
 - [Visit YouTube](https://www.youtube.com)
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+</style>
+
 | 1/one | two   | three | four  |
 |-------|--------|--------|--------|
 | 2     | test1  | edited | -      |
