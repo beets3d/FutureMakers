@@ -150,6 +150,8 @@ nav:
         - Handbook: projects/double-side-character/lesson1/handbook.md
         - Lesson Plan: projects/double-side-character/lesson1/lesson-plan.md
         - Exercise Cards: projects/double-side-character/lesson1/exercise-cards.md
+    - Walking Robot:
+      - Overview: projects/walking-robot/index.md
   - Resources:
     - Assessment: resources/assessment/index.md
     - Teaching Tips: resources/teaching-tips/index.md
