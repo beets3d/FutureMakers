@@ -6,6 +6,11 @@ comments: true
 # Walking Robot Project
 
 ## What is this?
+
+<video width="100%" controls>
+  <source src="videos/walking-demo.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 A walking crank robot that demonstrates fundamental walking mechanism concepts through hands-on experimentation. This educational platform allows students and teachers to explore how different physical attributes affect robot locomotion. By modifying key components like leg length and foot design using LEGO blocks, students can investigate:
 
 - Walking speed and efficiency
