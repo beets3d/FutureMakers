@@ -6,18 +6,20 @@ comments: true
 # Walking Robot Project
 
 ## What is this?
+![Walking Robot Overview](images/robot-overview.jpg)
 
-<video width="100%" controls>
-  <source src="videos/walking-demo.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
 A walking crank robot that demonstrates fundamental walking mechanism concepts through hands-on experimentation. This educational platform allows students and teachers to explore how different physical attributes affect robot locomotion. By modifying key components like leg length and foot design using LEGO blocks, students can investigate:
 
 - Walking speed and efficiency
 - Robot stability and balance
 - Different walking gaits and patterns
 
+
+Understanding the concepts of walking mechanisms, balance, and motion dynamics is crucial for developing a deeper understanding of robotics. For details, please refer to the [Concepts of Walking](concept-of-walking.md) page.
+
 Key Features:
+
 - Modular design compatible with LEGO blocks for easy modification
 - Basic walking functions (forward/backward movement)
 - Remote control capability
@@ -25,6 +27,7 @@ Key Features:
 - Adjustable leg lengths to explore optimal walking configurations
 
 Key Components:
+
 - Micro:bit x 2
 - Main board x 1
 - geared motors x 2
@@ -50,6 +53,7 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 ## What you need
 
 ### Hardware
+![Required Hardware Components](images/hardware-components.jpg)
 - 2x BBC micro:bit
 - 1x Main control board ()
 - 2x Geared motors
@@ -88,11 +92,13 @@ Suitable for ages 11-14
 
 ### Assembly Guide
 1. Mechanical Assembly
+   ![Mechanical Assembly Steps](images/mechanical-assembly.jpg)
    - 3D printed parts connection
    - Motor and gear installation
    - LEGO attachment points setup
 
 2. Electronics Setup
+   ![Electronics Wiring Diagram](images/wiring-diagram.jpg)
    - Micro:bit installation
    - Motor driver connections
    - Battery pack setup
@@ -142,6 +148,7 @@ Suitable for ages 11-14
 
 ## Student / Teacher Materials
 ### Student Resources
+![Assembly Guide Example](images/assembly-guide.jpg)
 - Assembly guide with pictures
 - Programming tutorial
 - Experiment worksheet
