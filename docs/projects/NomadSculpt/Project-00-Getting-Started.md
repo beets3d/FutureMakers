@@ -183,7 +183,7 @@ This tool lets you mask points. Masked vertices can't be sculpted or painted aft
 
 **Unmask** will erase where the mask has been painted.
 
-![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-28.jpeg)
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-28.png)
 
 ### Mask settings
 
