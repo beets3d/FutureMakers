@@ -155,7 +155,7 @@ Smooth the area by average the point positions. This tool is highly dependent on
 
 The alternate mode is the **Relax** mode, which only smooths the wireframe but tries to retain the geometric details.
 
-![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-25.png)
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-25.jpeg)
 
 ### Smooth settings
 
@@ -176,3 +176,43 @@ Tries to make the smoothing topology independent. This works best with varying t
 ##### TIP
 
 Higher polygon densities can require raising the intensity above 100%. Very high   values (300%, 500%) can also work well as a sculpting tool, forcing areas to go flat and smooth quickly under the brush, like hitting clay with a mallet!
+
+## ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-27.png)
+
+This tool lets you mask points. Masked vertices can't be sculpted or painted afterwards, this is a way to "protect" areas. 
+
+**Unmask** will erase where the mask has been painted.
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-28.jpeg)
+
+### Mask settings
+
+A toolbar will appear at the top of the viewport with extra controls:
+
+- Clear：   Clear the mask					
+- Invert：  Invert the mask
+- Blur：    Blur the mask edge				
+- Sharpen： Sharpen the mask edge
+
+#### Quick gesture
+
+4 gestures while holding the quick masking button:
+
+- Clear：   Drag on the background
+- Invert：  Tap on the background			
+- Blur：    Tap on masked area				
+- Sharpen： Tap on unmasked area
+
+Masks can also be used to extract geometry. The **Carve**, **Extract** and **Split** buttons will create new shapes from the masked region. The following settings offer more control:
+
+- Thickness
+The distance of the extraction. Use the ± button to set the distance to be positive, negative, or centered from the surface.
+- Smoothness
+Will smooth the border of the extracted shape, it works better with higher polygon counts.
+- Extract
+In default mode 'shell' mode, behave like an extrude in other 3d apps, pulling the mask section out from the surface.
+- Split
+Will extract the masked region into a new shape, but also apply an operation to the unmasked region. By default ths operation is 'shell', resulting in a fat extruded mask and a matching unmasked shape.
+- Carve
+In default mode, behave a if you had trimmed into the surface by the 'thickness' amount, like cutting a section of orange peel.
+
