@@ -20,3 +20,15 @@ When you first start Nomad you'll see a sphere on screen. Simply drag your stylu
 Symmetry is enabled by default to make sculpting easier.
 
 <img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-02.png" alt="My Image" height="300"/><img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-03.png" alt="My Image" height="300"/>
+
+# Interface
+
+![P0-05.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-04.png)
+
+## Nav Cube
+
+A helper to show which side of the sculpt you're viewing, as well as a shortcut to jump to different views. 
+Tapping the cube will jump the view to the tapped side. Dragging the cube will rotate. 
+Tap the small icons next to the cube to frame the current object or reset to the default home view.
+
+### Three Gestures to Control the View of Screen
