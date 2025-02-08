@@ -1,12 +1,12 @@
 ---
-title: Walking Robot
+title: Walking Robot (B2)
 comments: true
 ---
 
-# Walking Robot Project
+# Walking Robot Project (B2)
 
 ## What is this?
-<img src="images/robot-overview.jpg" alt="Walking Robot Overview" width="500"/>
+<img src="images/IMG_4034.jpg" alt="Walking Robot Overview" width="500"/>
 
 
 A walking crank robot that demonstrates fundamental walking mechanism concepts through hands-on experimentation. This educational platform allows students and teachers to explore how different physical attributes affect robot locomotion. By modifying key components like leg length and foot design using LEGO blocks, students can investigate:
