@@ -33,8 +33,8 @@ Tap the small icons next to the cube to frame the current object or reset to the
 
 ### Three Gestures to Control the View of Screen
 
-<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-06.png" alt="My Image" height="300"/><img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-07.png" alt="My Image" height="300"/><img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-08.png" alt="My Image" height="300"/>
-#### Drag to Rotate #### Swipe to Pan #### Pinch to Zoom
+<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-06.png" alt="My Image" height="200"/><img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-07.png" alt="My Image" height="200"/><img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-08.png" alt="My Image" height="200"/>
+#### Drag to   Rotate Swipe to Pan   Pinch to Zoom
 
 ## Top menus
 
@@ -50,11 +50,12 @@ Sliders for radius and intensity for most tools, context-specific buttons for ot
 Shortcuts for commonly used features are explained below.
 
 ## Toolbox
+
 Nomad's tools are accessible from this scrollable region.
 
-### Top 3 icons
-
 ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-09.png)
+
+### Top 3 icons
 
 #### Undo 
 revert the last operation
