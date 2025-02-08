@@ -205,23 +205,23 @@ A toolbar will appear at the top of the viewport with extra controls:
 
 Masks can also be used to extract geometry. The **Carve**, **Extract** and **Split** buttons will create new shapes from the masked region. The following settings offer more control:
 
-- ### Thickness
+- #### Thickness
   
   The distance of the extraction. Use the ± button to set the distance to be positive, negative, or centered from the surface.
 
-- ### Smoothness
+- #### Smoothness
   
   Will smooth the border of the extracted shape, it works better with higher polygon counts.
   
-- ### Extract
+- #### Extract
   
   In default mode 'shell' mode, behave like an extrude in other 3d apps, pulling the mask section out from the surface.
   
-- ### Split
+- #### Split
   
   Will extract the masked region into a new shape, but also apply an operation to the unmasked region. By default ths operation is   'shell', resulting in a fat extruded mask and a matching unmasked shape.
   
-- ### Carve
+- #### Carve
   
   In default mode, behave a if you had trimmed into the surface by the 'thickness' amount, like cutting a section of orange peel.
 
@@ -239,28 +239,28 @@ Selector mask shares the same tool settings as the **Mask** tool.
 
 The **Trim**, **Split**, **Project**, **Facegroup** and **Hide** tools all use similar controls for selecting areas of the mesh, and are chosen with the shape selector panel on the left of the screen.
 
-- ### Lasso
+- #### Lasso
 A freehand drawn shape
 
-- ### Polygon
+- #### Polygon
 An enclosed shape defined by a combination of curves and/or straight lines. See **Shape editing** below for more info.
 
-- ### Curve		(Project only) 
+- #### Curve		(Project only) 
 A freehand curve for the projection
 
-- ### Path		(Project only)
+- #### Path		(Project only)
 A curve defined by points. See **Shape editing** below for more info.
 
-- ### Line
+- #### Line
 Drag a line to define a planar segment. By default it will operate on the mesh immediately, turn off auto validate if you don't want this (long press or swipe on the line icon)
 
-- ### Rect
+- #### Rect
 Drag a diagonal line, this will define the corners of a rectangle shape. Long press or swipe to reveal options for auto validate, force to a square shape, and for the first click to be the center of the rectangle.
 
-- ### Ellipse
+- #### Ellipse
 Drag a diagonal line, this will define the size of an ellipse. Long press or swipe to reveal options for auto validate, force to a circle shape, and for the the first click to be the center of the ellipse.
 
-- ### Flip
+- #### Flip
 Invert the shape mask, or the direction of the project tool.
 
 ### Shape editing
