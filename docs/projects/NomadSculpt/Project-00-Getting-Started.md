@@ -148,3 +148,31 @@ The area under the brush will stick to the brush, allowing for elastic deformati
 ### How Normal moves
 
 ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-23.png)
+
+## ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-24.png)
+
+Smooth the area by average the point positions. This tool is highly dependent on the polygon density. So if you have many polygons, the smoothing will be less effective.
+
+The alternate mode is the **Relax** mode, which only smooths the wireframe but tries to retain the geometric details.
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-25.png)
+
+### Smooth settings
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-26.png)
+
+- #### Sticky vertex on border
+
+For meshes with open edges, eg a plane, it is possible to smooth out the corners. Enabling this option will lock the open edges.
+
+#### Relax
+
+The same as the relax alternate mode in the left-hand toolbar.
+
+#### Stable Smoothing
+
+Tries to make the smoothing topology independent. This works best with varying topology density and with a high smoothing intensity value.
+
+##### TIP
+
+Higher polygon densities can require raising the intensity above 100%. Very high   values (300%, 500%) can also work well as a sculpting tool, forcing areas to go flat and smooth quickly under the brush, like hitting clay with a mallet!
