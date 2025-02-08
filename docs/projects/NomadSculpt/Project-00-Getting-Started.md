@@ -62,4 +62,39 @@ Undo:     revert the last operation
 Redo:     restore the last undo operation
 History:  acccess history options, explained in the History menu
 
+# Tools
 
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-10.png)
+
+## Overview
+
+Nomad has many tools that can be broadly categorized as follows: 
+
+- Brush tools that directly affect the surface of an object, eg Clay
+- Mask tools that will protect the surface from changes, eg Mask
+- Selection based tools where a 2d mask is drawn first, then an operation happens, eg Trim
+- Special tools with their own interaction methods, eg Tube
+
+Many of these tools can be customized with different brush behavior, pressure, textures etc via the Stroke menu.
+
+## Tool controls
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-11.png)
+
+The panel on the left side of the screen controls the tool radius and intensity, and hotkeys specific to certain tools, explained in each tool's help section below.
+
+### TIP
+
+The intensity slider for many tools can go above 100%, worth experimenting with!
+
+## Tool context menu 
+
+A right click or long press on a tool will bring up a context menu. 
+
+This menu has the following options:
+
+Save:       save any changes you made to the tool 
+Clone:      duplicate the tool into a new tool shortcut
+Last save:  revert to the previously saved version of the tool
+Icon:       change the icon for the tool 
+Reset:      reset the tool to its defaults
