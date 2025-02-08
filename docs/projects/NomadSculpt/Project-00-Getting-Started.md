@@ -124,3 +124,27 @@ The standard brush.
 ### How Sub removes materials
 
 ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-17.png)
+
+## ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-18.png)
+
+The area under the brush will stick to the brush, allowing for elastic deformation. The selection is maintained during the move, so if you move the brush away, then move it back where you started, you will see no deformation. 
+
+**Normal** will move the area under the brush along the surface normal.
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-19.png)
+
+### How Normal moves
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-20.png)
+
+## ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-21.png)
+
+The area under the brush will stick to the brush, allowing for elastic deformation. Unlike the move brush, the selection is continuously updated during the stroke, so it is possible to make longer, snake like objects, especially when Dynamic Topology is activated. 
+
+**Normal** will move the area under the brush along the surface normal.
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-22.png)
+
+### How Normal moves
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-23.png)
