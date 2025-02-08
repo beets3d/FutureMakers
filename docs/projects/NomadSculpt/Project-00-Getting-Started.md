@@ -165,11 +165,11 @@ The alternate mode is the **Relax** mode, which only smooths the wireframe but t
 
 For meshes with open edges, eg a plane, it is possible to smooth out the corners. Enabling this option will lock the open edges.
 
-#### Relax
+- #### Relax
 
 The same as the relax alternate mode in the left-hand toolbar.
 
-#### Stable Smoothing
+- #### Stable Smoothing
 
 Tries to make the smoothing topology independent. This works best with varying topology density and with a high smoothing intensity value.
 
