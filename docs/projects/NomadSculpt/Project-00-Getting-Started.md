@@ -205,14 +205,23 @@ A toolbar will appear at the top of the viewport with extra controls:
 
 Masks can also be used to extract geometry. The **Carve**, **Extract** and **Split** buttons will create new shapes from the masked region. The following settings offer more control:
 
-- Thickness
-The distance of the extraction. Use the ± button to set the distance to be positive, negative, or centered from the surface.
-- Smoothness
-Will smooth the border of the extracted shape, it works better with higher polygon counts.
-- Extract
-In default mode 'shell' mode, behave like an extrude in other 3d apps, pulling the mask section out from the surface.
-- Split
-Will extract the masked region into a new shape, but also apply an operation to the unmasked region. By default ths operation is 'shell', resulting in a fat extruded mask and a matching unmasked shape.
-- Carve
-In default mode, behave a if you had trimmed into the surface by the 'thickness' amount, like cutting a section of orange peel.
+- ### Thickness
+  
+  The distance of the extraction. Use the ± button to set the distance to be positive, negative, or centered from the surface.
+
+- ### Smoothness
+  
+  Will smooth the border of the extracted shape, it works better with higher polygon counts.
+  
+- ### Extract
+  
+  In default mode 'shell' mode, behave like an extrude in other 3d apps, pulling the mask section out from the surface.
+  
+- ### Split
+  
+  Will extract the masked region into a new shape, but also apply an operation to the unmasked region. By default ths operation is   'shell', resulting in a fat extruded mask and a matching unmasked shape.
+  
+- ### Carve
+  
+  In default mode, behave a if you had trimmed into the surface by the 'thickness' amount, like cutting a section of orange peel.
 
