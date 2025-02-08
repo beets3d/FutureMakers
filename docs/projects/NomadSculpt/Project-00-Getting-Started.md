@@ -19,4 +19,6 @@ If this is your first time doing 3d sculpting, then it's good to know some basic
 When you first start Nomad you'll see a sphere on screen. Simply drag your stylus on the sphere to start sculpting. 
 Symmetry is enabled by default to make sculpting easier.
 
-![P0-02.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-02.png) ![P0-03.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-03.png)
+![P0-02.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-02.png) 
+<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-02.png" alt="My Image" height="200"/>
+![P0-03.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-03.png)
