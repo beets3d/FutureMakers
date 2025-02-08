@@ -1,5 +1,5 @@
 # Getting to Know Nomad Sculpt
-[P0-01.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-01.png)
+![P0-01.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-01.png)
 
 ## Welcome to Nomad!
 Nomad is a 3D sculpting app that works best on tablets with a pressure sensitive stylus, 
