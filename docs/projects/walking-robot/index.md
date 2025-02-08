@@ -43,6 +43,7 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 - **Mechanical Principles**: Walking mechanisms, balance, motion dynamics
 - **Design & Experimentation**: Testing different foot designs, leg lengths, and their effects on robot movement
 - **Electronics**: Working with micro:bit, motor control, basic circuitry
+- **Coding**: Programming to control robot, and remote control 
 - **Engineering**: Understanding gear systems, mechanical advantage
 - **Problem Solving**: Analyzing movement patterns, improving stability, optimizing performance
 - **Documentation**: Recording observations, comparing different configurations
@@ -54,13 +55,15 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 ### Hardware
 
 - 2x BBC micro:bit
-- 1x Main control board for connecting to Micro:bit including motor driver (developed by Beets3D)
-- 2x Geared motors
-- 1x Battery pack
-- 3D printed parts (chassis and mechanical components)
-- Outer shell components
-- LEGO blocks (for modifications)
 - USB cable for programming
+- 1 x Walking Robot Kit, with the followings:
+   - 1x Main control board for connecting to Micro:bit including motor driver (developed by Beets3D)
+   - 2x Geared motors
+   - 1x Battery pack
+   - 3D printed parts (chassis and mechanical components)
+   - Outer shell components
+   - LEGO blocks (for modifications)
+
 
 ### Software
 - MakeCode for micro:bit (web-based programming platform Or using iPad app)
@@ -72,7 +75,7 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 - 3D printer access (for parts)
 
 ### Age
-Suitable for ages 11-14 
+Suitable for ages 11-17 
 
 ## How it works
 
