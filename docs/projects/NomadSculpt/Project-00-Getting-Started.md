@@ -105,7 +105,7 @@ This menu has the following options:
 
 The Clay tool is useful for building up your sculpture. 
 
-<span style="color: orange;">Sub</span> will remove material from your sculpture.
+**Sub** will remove material from your sculpture.
 
 ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-13.png)
 
@@ -117,7 +117,7 @@ The Clay tool is useful for building up your sculpture.
 
 The standard brush. 
 
-<span style="color: orange;">Sub</span> will remove material.
+**Sub** will remove material.
 
 ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-15.png)
 
