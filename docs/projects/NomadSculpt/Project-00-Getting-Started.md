@@ -33,9 +33,9 @@ Tap the small icons next to the cube to frame the current object or reset to the
 
 ### Three Gestures to Control the View of Screen
 
-<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-06.png" alt="My Image" height="200"/>##### Drag to Rotate
-<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-07.png" alt="My Image" height="200"/>#### Swipe to Pan
-<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-08.png" alt="My Image" height="200"/>#### Pinch to Zoom
+<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-06.png" alt="My Image" height="200"/>Drag to Rotate
+<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-07.png" alt="My Image" height="200"/>Swipe to Pan
+<img src="https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-08.png" alt="My Image" height="200"/>Pinch to Zoom
 
 ## Top menus
 
