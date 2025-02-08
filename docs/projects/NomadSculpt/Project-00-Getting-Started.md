@@ -225,3 +225,46 @@ Masks can also be used to extract geometry. The **Carve**, **Extract** and **Spl
   
   In default mode, behave a if you had trimmed into the surface by the 'thickness' amount, like cutting a section of orange peel.
 
+## ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-29.png)
+
+This tool is mostly similar to the **Masking tool**, the main difference is that you don't use stroke to paint mask, but instead use the **shape selector**.
+
+Selector mask shares the same tool settings as the **Mask** tool.
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-30.jpeg)
+
+### Shape selector
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-31.png)
+
+The **Trim**, **Split**, **Project**, **Facegroup** and **Hide** tools all use similar controls for selecting areas of the mesh, and are chosen with the shape selector panel on the left of the screen.
+
+- ### Lasso
+A freehand drawn shape
+
+- ### Polygon
+An enclosed shape defined by a combination of curves and/or straight lines. See **Shape editing** below for more info.
+
+- ### Curve		(Project only) 
+A freehand curve for the projection
+
+- ### Path		(Project only)
+A curve defined by points. See **Shape editing** below for more info.
+
+- ### Line
+Drag a line to define a planar segment. By default it will operate on the mesh immediately, turn off auto validate if you don't want this (long press or swipe on the line icon)
+
+- ### Rect
+Drag a diagonal line, this will define the corners of a rectangle shape. Long press or swipe to reveal options for auto validate, force to a square shape, and for the first click to be the center of the rectangle.
+
+- ### Ellipse
+Drag a diagonal line, this will define the size of an ellipse. Long press or swipe to reveal options for auto validate, force to a circle shape, and for the the first click to be the center of the ellipse.
+
+- ### Flip
+Invert the shape mask, or the direction of the project tool.
+
+### Shape editing
+
+Polygon editing and curve editing behave in similar ways:
+
+To start, drag a line to define 2 points, then drag out from the middle of the line to define a polygon or curve. Click on the points to toggle between smooth and sharp. Click and drag on the curve or line sections to create new points.To delete a point, drag a point into its neighbor until it turns red. The trash icon in the corner of the polygon or path icon will delete the shape.
