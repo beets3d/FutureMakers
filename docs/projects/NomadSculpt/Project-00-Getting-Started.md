@@ -231,7 +231,7 @@ This tool is mostly similar to the **Masking tool**, the main difference is that
 
 Selector mask shares the same tool settings as the **Mask** tool.
 
-![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-30.jpeg)
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-30.png)
 
 ### Shape selector
 
