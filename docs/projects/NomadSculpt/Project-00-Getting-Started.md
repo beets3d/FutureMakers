@@ -58,9 +58,9 @@ Nomad's tools are accessible from this scrollable region.
 
 ### Top 3 icons
 
-Undo:     revert the last operation
-Redo:     restore the last undo operation
-History:  acccess history options, explained in the History menu
+- Undo:     revert the last operation
+- Redo:     restore the last undo operation
+- History:  acccess history options, explained in the History menu
 
 # Tools
 
@@ -93,8 +93,8 @@ A right click or long press on a tool will bring up a context menu.
 
 This menu has the following options:
 
-Save:       save any changes you made to the tool 
-Clone:      duplicate the tool into a new tool shortcut
-Last save:  revert to the previously saved version of the tool
-Icon:       change the icon for the tool 
-Reset:      reset the tool to its defaults
+- Save:       save any changes you made to the tool 
+- Clone:      duplicate the tool into a new tool shortcut
+- Last save:  revert to the previously saved version of the tool
+- Icon:       change the icon for the tool 
+- Reset:      reset the tool to its defaults
