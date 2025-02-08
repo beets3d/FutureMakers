@@ -28,7 +28,7 @@ Key Features:
 Key Components:
 
 - Micro:bit x 2
-- Main board x 1
+- Main board x 1 (developed by Beets3D)
 - geared motors x 2
 - motor driver board x1
 - Battery pack
@@ -57,12 +57,12 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 - 2x BBC micro:bit
 - USB cable for programming
 - 1 x Walking Robot Kit, with the followings:
-   - 1x Main control board for connecting to Micro:bit including motor driver (developed by Beets3D)
-   - 2x Geared motors
-   - 1x Battery pack
-   - 3D printed parts (chassis and mechanical components)
-   - Outer shell components
-   - LEGO blocks (for modifications)
+    - 1x Main control board for connecting to Micro:bit including motor driver (developed by Beets3D)
+    - 2x Geared motors
+    - 1x Battery pack
+    - 3D printed parts (chassis and mechanical components)
+    - Outer shell components
+    - LEGO blocks (for modifications)
 
 
 ### Software
