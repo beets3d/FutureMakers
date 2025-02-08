@@ -98,3 +98,11 @@ This menu has the following options:
 - Last save:  revert to the previously saved version of the tool
 - Icon:       change the icon for the tool 
 - Reset:      reset the tool to its defaults
+
+# Common Sculpting Tools
+
+## Clay
+
+The Clay tool is useful for building up your sculpture. 
+
+Sub will remove material from your sculpture.
