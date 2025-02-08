@@ -101,25 +101,25 @@ This menu has the following options:
 
 # Common Sculpting Tools
 
-## Clay ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-12.png)
-
-![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-13.png)
+## ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-12.png)
 
 The Clay tool is useful for building up your sculpture. 
 
 <span style="color: orange;">Sub</span> will remove material from your sculpture.
 
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-13.png)
+
 ### How Sub removes materials
 
 ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-16.png)
 
-## Brush ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-14.png)
-
-![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-15.png)
+## ![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-14.png)
 
 The standard brush. 
 
 <span style="color: orange;">Sub</span> will remove material.
+
+![P0-09.png](https://github.com/beets3d/FutureMakers/blob/main/docs/projects/NomadSculpt/Images/P0-15.png)
 
 ### How Sub removes materials
 
