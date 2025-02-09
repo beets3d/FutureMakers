@@ -144,7 +144,7 @@ nav:
   - Setup: setup.md
   - Projects:
     - NomadSculpt:
-      - Overview: projects/NomadSculpt/Project-00-Getting-Started.md
+      - Overview: projects/NomadSculpt/index.md
     - Walking Robot:
       - Overview: projects/walking-robot/index.md
   - Resources:

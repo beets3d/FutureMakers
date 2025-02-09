@@ -19,7 +19,8 @@ If this is your first time doing 3d sculpting, then it's good to know some basic
 When you first start Nomad you'll see a sphere on screen. Simply drag your stylus on the sphere to start sculpting. 
 Symmetry is enabled by default to make sculpting easier.
 
-<img src="images/p0-02.png" alt="My Image" height="300"/><img src="images/p0-03.png" alt="My Image" height="300"/>
+<img src="images/p0-02.png" alt="Sculpting Example 1" height="300"/>
+<img src="images/p0-03.png" alt="Sculpting Example 2" height="300"/>
 
 # Interface
 
