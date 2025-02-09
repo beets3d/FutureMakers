@@ -12,11 +12,10 @@ comments: true
 
 ## 這是什麼？
 
-<p align="center">
-<img src="images/Robot-Side-1.png" width="33%"/>
-<img src="images/Robot-Front.png" width="33%"/>
-<img src="images/Robot-Side-2.png" width="33%"/>
-</p>
+![Robot-Side-1](images/Robot-Side-1.png){ width=33% }
+![Robot-Front](images/Robot-Front.png){ width=33% }
+![Robot-Side-2](images/Robot-Side-2.png){ width=33% }
+
 
 一個行走曲柄機器人，通過實踐實驗展示基本的行走機制概念。這個教育平台讓學生和教師探索不同的物理特性如何影響機器人的運動。通過使用 LEGO 積木修改關鍵組件，如腿長和腳設計，學生可以研究：
 
@@ -80,20 +79,14 @@ comments: true
 
 #### 核心行走機制
    - 馬達單元 - 由 2 個齒輪馬達組成   
-   <p align="left">
-      <img src="images/Motor-Unit.PNG" width="50%"/>
-   </p>  
+   ![Motor Unit](images/Motor-Unit.png){: style="width: 50%; display: block; margin-left: auto; margin-right: auto;"}
+
 
    - 腿（左/右） - 由腿部和模擬行走擺動的機制組成，腳部有 LEGO 兼容的附件。
-      <p align="left">
-      <img src="images/leg-1.png" width="45%"/>
-      <img src="images/leg-2.png" width="45%"/>
-      </p>  
-
-      <p align="left">
-      <img src="images/leg-lego-attachment.png" width="45%"/>
-      <img src="images/leg-foot.png" width="45%"/>
-      </p>  
+   
+   ![Leg 1](images/leg-1.png){ width=30%; display: inline-block; margin-right: 10px; } ![Leg 2](images/leg-2.png){ width=30%; display: inline-block; } 
+   
+   ![LEGO 附件](images/leg-lego-attachment.png){ width=30%; display: inline-block; margin-right: 10px; } ![腳部](images/leg-foot.png){ width=30%; display: inline-block; }
 #### 電子學
    - 主板
    - Micro:bit
