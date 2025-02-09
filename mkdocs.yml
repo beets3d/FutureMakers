@@ -145,7 +145,8 @@ nav:
   - Home: index.md
   - Setup: setup.md
   - Projects:
-    - NomadSculpt: projects/NomadSculpt/index.md
+    - NomadSculpt:
+      - Overview: projects/NomadSculpt/index.md
     - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
       - Concepts of Walking: projects/walking-robot/concept-of-walking.md
