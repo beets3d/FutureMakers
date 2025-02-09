@@ -71,7 +71,7 @@ comments: true
 適合 11-17 歲 
 
 ## 它是如何工作的
-<img src="images/Walking-Robot-Drawing.jpg" alt="行走機器人概述" width="80%"/>
+![Walking Robot Overview](images/Walking-Robot-Drawing.jpg){ width=80% }
 
 ### 設計
 

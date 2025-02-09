@@ -70,7 +70,7 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 Suitable for ages 11-17 
 
 ## How it works
-<img src="images/Walking-Robot-Drawing.jpg" alt="Walking Robot Overview" width="80%"/>
+![Walking Robot Overview](images/Walking-Robot-Drawing.jpg){ width=80% }
 
 ### The Design
 
