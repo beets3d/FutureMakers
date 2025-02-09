@@ -79,7 +79,7 @@ It is designed using Autodesk Fusion 360, the STEP file is available in [Design 
 #### Core Walking Mechanism
    - Motor Unit - consists of 2 geared motors   
    <p align="left">
-      <img src="images/Motor-Unit.PNG"width="50%"/>
+      <img src="images/Motor-Unit.png"width="50%"/>
    </p>  
 
    - Leg (left / right) - consists of leg with mechamism to simulate the walking Pendulum motion, and foot with LEGO compatible attachment.
