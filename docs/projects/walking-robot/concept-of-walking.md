@@ -1,3 +1,12 @@
+---
+title: Concepts of Walking
+lang: en
+lang_name: English
+alt_lang: zh_HK
+alt_lang_name: 繁體中文 (香港)
+comments: true
+---
+
 # Concepts of Walking
 
 ## Basic Principles
