@@ -8,11 +8,11 @@ comments: true
 
 ## What is this?
 
-<p align="center">
-<img src="images/Robot-Side-1.png"width="33%"/>
-<img src="images/Robot-Front.png" width="33%"/>
-<img src="images/Robot-Side-2.png" width="33%"/>
-</p>
+  ![Robot-Side-1](images/Robot-Side-1.png){ width=33% }
+  ![Robot-Front](images/Robot-Front.png){ width=33% }
+  ![Robot-Side-2](images/Robot-Side-2.png){ width=33% }
+
+
 
 A walking crank robot that demonstrates fundamental walking mechanism concepts through hands-on experimentation. This educational platform allows students and teachers to explore how different physical attributes affect robot locomotion. By modifying key components like leg length and foot design using LEGO blocks, students can investigate:
 
@@ -78,20 +78,15 @@ It is designed using Autodesk Fusion 360, the STEP file is available in [Design 
 
 #### Core Walking Mechanism
    - Motor Unit - consists of 2 geared motors   
-   <p align="left">
-      <img src="images/Motor-Unit.png"width="50%"/>
-   </p>  
+   ![Motor Unit](images/Motor-Unit.png){: style="width: 50%; display: block; margin-left: auto; margin-right: auto;"}
 
    - Leg (left / right) - consists of leg with mechamism to simulate the walking Pendulum motion, and foot with LEGO compatible attachment.
-      <p align="left">
-      <img src="images/leg-1.png" width="45%"/>
-      <img src="images/leg-2.png" width="45%"/>
-      </p>  
 
-      <p align="left">
-      <img src="images/leg-lego-attachment.png" width="45%"/>
-      <img src="images/leg-foot.png" width="45%"/>
-      </p> 
+
+   ![Leg 1](images/leg-1.png){: style="width: 30%; display: inline-block; margin-right: 10px;"} ![Leg 2](images/leg-2.png){: style="width: 30%; display: inline-block;"} 
+      
+   ![LEGO Attachment](images/leg-lego-attachment.png){: style="width: 30%; display: inline-block; margin-right: 10px;"} ![Foot](images/leg-foot.png){: style="width: 30%; display: inline-block;"}
+
 #### Electronics
    - Main Board
    - Micro:bit
