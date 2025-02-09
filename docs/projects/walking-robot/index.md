@@ -3,7 +3,7 @@ title: Walking Robot (B2)
 comments: true
 ---
 
-# Walking Robot Project (B2)
+# Walking Robot  (B2) Project
 
 ## What is this?
 <img src="images/IMG_4034.jpg" alt="Walking Robot Overview" width="500"/>
