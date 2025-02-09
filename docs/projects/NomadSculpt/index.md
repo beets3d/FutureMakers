@@ -107,7 +107,7 @@ This menu has the following options:
 
 # Common Sculpting Tools
 
-## ![p0-12.png](images/P0-12.png)
+## Clay ![p0-12.png](images/P0-12.png)
 
 The Clay tool is useful for building up your sculpture. 
 
@@ -119,7 +119,7 @@ The Clay tool is useful for building up your sculpture.
 
 ![p0-16.png](images/P0-16.png)
 
-## ![p0-14.png](images/P0-14.png)
+## Brush ![p0-14.png](images/P0-14.png)
 
 The standard brush. 
 
@@ -131,7 +131,7 @@ The standard brush.
 
 ![p0-17.png](images/P0-17.png)
 
-## ![p0-18.png](images/P0-18.png)
+## Move ![p0-18.png](images/P0-18.png)
 
 The area under the brush will stick to the brush, allowing for elastic deformation. The selection is maintained during the move, so if you move the brush away, then move it back where you started, you will see no deformation. 
 
@@ -143,7 +143,7 @@ The area under the brush will stick to the brush, allowing for elastic deformati
 
 ![p0-20.png](images/P0-20.png)
 
-## ![p0-21.png](images/P0-21.png)
+## Drag ![p0-21.png](images/P0-21.png)
 
 The area under the brush will stick to the brush, allowing for elastic deformation. Unlike the move brush, the selection is continuously updated during the stroke, so it is possible to make longer, snake like objects, especially when Dynamic Topology is activated. 
 
@@ -155,7 +155,7 @@ The area under the brush will stick to the brush, allowing for elastic deformati
 
 ![p0-23.png](images/P0-23.png)
 
-## ![p0-24.png](images/P0-24.png)
+## Smooth ![p0-24.png](images/P0-24.png)
 
 Smooth the area by average the point positions. This tool is highly dependent on the polygon density. So if you have many polygons, the smoothing will be less effective.
 
@@ -183,7 +183,7 @@ Tries to make the smoothing topology independent. This works best with varying t
 
 Higher polygon densities can require raising the intensity above 100%. Very high   values (300%, 500%) can also work well as a sculpting tool, forcing areas to go flat and smooth quickly under the brush, like hitting clay with a mallet!
 
-## ![p0-27.png](images/P0-27.png)
+## Mask ![p0-27.png](images/P0-27.png)
 
 This tool lets you mask points. Masked vertices can't be sculpted or painted afterwards, this is a way to "protect" areas. 
 
@@ -231,7 +231,7 @@ Masks can also be used to extract geometry. The **Carve**, **Extract** and **Spl
   
   In default mode, behave a if you had trimmed into the surface by the 'thickness' amount, like cutting a section of orange peel.
 
-## ![p0-29.png](images/P0-29.png)
+## Selector Mask ![p0-29.png](images/P0-29.png)
 
 This tool is mostly similar to the **Masking tool**, the main difference is that you don't use stroke to paint mask, but instead use the **shape selector**.
 
