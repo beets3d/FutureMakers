@@ -7,7 +7,7 @@ comments: true
 
 ![p0-01.png](images/p0-01.png)
 
-## Welcome to Nomad!
+## Welcome to Nomad! 
 
 Nomad is a 3D sculpting app that works best on tablets with a pressure sensitive stylus, 
 eg an Apple iPad and pencil, or a Samsung Galaxy Tab with stylus.
