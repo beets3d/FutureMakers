@@ -1,13 +1,17 @@
 ---
-title: Walking Robot (B2)
+title: Walking Robot (B3D1)
 comments: true
 ---
 
-# Walking Robot  (B2) Project
+# Walking Robot  (B3D1) Project
 
 ## What is this?
-<img src="images/IMG_4034.jpg" alt="Walking Robot Overview" width="500"/>
 
+<p align="center">
+<img src="images/Robot-Side-1.png"width="33%"/>
+<img src="images/Robot-Front.png" width="33%"/>
+<img src="images/Robot-Side-2.png" width="33%"/>
+</p>
 
 A walking crank robot that demonstrates fundamental walking mechanism concepts through hands-on experimentation. This educational platform allows students and teachers to explore how different physical attributes affect robot locomotion. By modifying key components like leg length and foot design using LEGO blocks, students can investigate:
 
@@ -24,18 +28,6 @@ Key Features:
 - Basic walking functions (forward movement and potential turn left/right)
 - Customizable foot attachments for experimenting with different concepts by changing leg length and foot design by using LEGO blocks
 - Remote control capability to test different walking patterns
-
-Key Components:
-
-- Micro:bit x 2
-- Main board x 1 (developed by Beets3D)
-- geared motors x 2
-- motor driver board x1
-- Battery pack
-- 3D printed parts
-- Outter shell
-- LEGO blocks
-
 
 The robot serves as an excellent teaching tool for understanding mechanical principles, robotics fundamentals, and the relationship between design choices and movement outcomes.
 
@@ -55,13 +47,12 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 ### Hardware
 
 - 2x BBC micro:bit
-- USB cable for programming
-- 1 x Walking Robot Kit, with the followings:
-    - 1x Main control board for connecting to Micro:bit including motor driver (developed by Beets3D)
-    - 2x Geared motors
-    - 1x Battery pack
+- USB cable for programming (please note V2 is used to developed this project)
+    - 1x Main control board for connecting to Micro:bit including motor driver and Battery pack (developed by Beets3D)
+    - 4 X AA Batteries
+    - 2x Geared motors (N20 DC motor)
     - 3D printed parts (chassis and mechanical components)
-    - Outer shell components
+    - Outer shell components (External casing)
     - LEGO blocks (for modifications)
 
 
@@ -78,17 +69,43 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 Suitable for ages 11-17 
 
 ## How it works
+<img src="images/Walking-Robot-Drawing.jpg" alt="Walking Robot Overview" width="80%"/>
 
-### Design Process
-1. Understanding the Walking Mechanism
-   - Crank-based walking principles
-   - Balance and weight distribution
-   - Motor and gear system operation
+### The Design
 
-2. Customization Options
+It is designed using Autodesk Fusion 360, the STEP file is available in [Design File](Walking-Crank-Robotv91.step).
+
+#### Core Walking Mechanism
+   - Motor Unit - consists of 2 geared motors 
+   <p align="left">
+      <img src="images/Motor-Unit.PNG"width="50%"/>
+   </p>  
+
+   - Leg (left / right) - consists of leg with mechamism to simulate the walking Pendulum motion, and foot with LEGO compatible attachment.
+      <p align="left">
+      <img src="images/leg-1.png" width="45%"/>
+      <img src="images/leg-2.png" width="45%"/>
+      </p>  
+
+      <p align="left">
+      <img src="images/leg-lego-attachment.png" width="45%"/>
+      <img src="images/leg-foot.png" width="45%"/>
+      </p>  
+#### Electronics
+   - Main Board
+   - Micro:bit
+   - Battery Cases
+#### Outter Shell
+   - Body
+   - Head
+#### Remote Control
+
+
+#### Customization Options
    - LEGO attachment points for feet
    - Adjustable leg lengths
-   - Modifiable walking patterns
+   - Adjustable foot shape
+   - Modifiable walking patterns by control
 
 ### Assembly Guide
 1. Mechanical Assembly
