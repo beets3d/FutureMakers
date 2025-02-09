@@ -3,7 +3,7 @@ title: Walking Robot (B3D1)
 comments: true
 ---
 
-# Walking Robot  (B3D1) Project
+# Walking Robot  (B3D1) Project 
 
 ## What is this?
 
