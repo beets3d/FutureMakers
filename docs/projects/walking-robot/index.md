@@ -91,7 +91,7 @@ It is designed using Autodesk Fusion 360, the STEP file is available in [Design 
       <p align="left">
       <img src="images/leg-lego-attachment.png" width="45%"/>
       <img src="images/leg-foot.png" width="45%"/>
-      </p>  
+      </p> 
 #### Electronics
    - Main Board
    - Micro:bit
