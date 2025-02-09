@@ -1,5 +1,6 @@
 ---
 title: Walking Robot (B3D1)
+lang_name: en 
 comments: true
 ---
 
