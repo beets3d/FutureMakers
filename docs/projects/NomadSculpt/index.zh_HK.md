@@ -5,7 +5,7 @@ comments: true
 ---
 # 認識 Nomad Sculpt
 
-![p0-01.png](images/p0-01.png)
+![p0-01.png](images/P0-01.png)
 
 ## 歡迎來到 Nomad! 
 
@@ -17,16 +17,16 @@ Nomad 是一款 3D 雕刻應用程式，最適合在配備壓力感應筆的平�
 
 ## 您的第一個雕刻
 
-![p0-04.png](images/p0-04.png)
+![p0-04.png](images/P0-04.png)
 
 當您第一次啟動 Nomad 時，您會看到螢幕上有一個球體。只需在球體上拖動您的觸控筆即可開始雕刻。對稱功能預設為啟用，以便於雕刻。
 
-<img src="images/p0-02.png" alt="雕刻範例 1" height="300"/>
-<img src="images/p0-03.png" alt="雕刻範例 2" height="300"/>
+<img src="images/P0-02.png" alt="雕刻範例 1" height="300"/>
+<img src="images/P0-03.png" alt="雕刻範例 2" height="300"/>
 
 # 界面
 
-![p0-05.png](images/p0-05.png)
+![p0-05.png](images/P0-05.png)
 
 ## 導航立方體
 
@@ -34,9 +34,9 @@ Nomad 是一款 3D 雕刻應用程式，最適合在配備壓力感應筆的平�
 
 ### 三種手勢控制螢幕視圖
 
-<img src="images/p0-06.png" alt="我的圖片" height="200"/>拖動以旋轉
-<img src="images/p0-07.png" alt="我的圖片" height="200"/>滑動以平移
-<img src="images/p0-08.png" alt="我的圖片" height="200"/>捏合以縮放
+<img src="images/P0-06.png" alt="我的圖片" height="200"/>拖動以旋轉
+<img src="images/P0-07.png" alt="我的圖片" height="200"/>滑動以平移
+<img src="images/P0-08.png" alt="我的圖片" height="200"/>捏合以縮放
 
 ## 上方菜單
 
@@ -55,7 +55,7 @@ Nomad 的菜單讓您可以訪問大多數功能。左上方的菜單主要涵�
 
 Nomad 的工具可以從這個可滾動的區域訪問。
 
-![p0-09.png](images/p0-09.png)
+![p0-09.png](images/P0-09.png)
 
 ### 前三個圖標
 
@@ -65,7 +65,7 @@ Nomad 的工具可以從這個可滾動的區域訪問。
 
 # 工具
 
-![p0-10.png](images/p0-10.png)
+![p0-10.png](images/P0-10.png)
 
 ## 概述
 
@@ -80,7 +80,7 @@ Nomad 擁有許多工具，可以大致分為以下幾類：
 
 ## 工具控制
 
-![p0-11.png](images/p0-11.png)
+![p0-11.png](images/P0-11.png)
 
 螢幕左側的面板控制工具的半徑和強度，以及特定於某些工具的熱鍵，這些在每個工具的幫助部分中解釋。
 
@@ -102,65 +102,65 @@ Nomad 擁有許多工具，可以大致分為以下幾類：
 
 # 常見雕刻工具
 
-## ![p0-12.png](images/p0-12.png)
+## ![p0-12.png](images/P0-12.png)
 
 Clay 工具對於建立您的雕塑非常有用。
 
 **Sub** 將從您的雕塑中移除材料。
 
-![p0-13.png](images/p0-13.png)
+![p0-13.png](images/P0-13.png)
 
 ### Sub 如何移除材料
 
-![p0-16.png](images/p0-16.png)
+![p0-16.png](images/P0-16.png)
 
-## ![p0-14.png](images/p0-14.png)
+## ![p0-14.png](images/P0-14.png)
 
 標準刷子。 
 
 **Sub** 將移除材料。
 
-![p0-15.png](images/p0-15.png)
+![p0-15.png](images/P0-15.png)
 
 ### Sub 如何移除材料
 
-![p0-17.png](images/p0-17.png)
+![p0-17.png](images/P0-17.png)
 
-## ![p0-18.png](images/p0-18.png)
+## ![p0-18.png](images/P0-18.png)
 
 刷子下的區域將粘附於刷子，允許彈性變形。選擇在移動過程中保持，因此如果您將刷子移開，然後將其移回原處，您將不會看到變形。
 
 **Normal** 將沿著表面法線移動刷子下的區域。
 
-![p0-19.png](images/p0-19.png)
+![p0-19.png](images/P0-19.png)
 
 ### Normal 如何移動
 
-![p0-20.png](images/p0-20.png)
+![p0-20.png](images/P0-20.png)
 
-## ![p0-21.png](images/p0-21.png)
+## ![p0-21.png](images/P0-21.png)
 
 刷子下的區域將粘附於刷子，允許彈性變形。與移動刷子不同，選擇在筆劃過程中不斷更新，因此可以製作更長的蛇形物體，特別是在啟用動態拓撲時。
 
 **Normal** 將沿著表面法線移動刷子下的區域。
 
-![p0-22.png](images/p0-22.png)
+![p0-22.png](images/P0-22.png)
 
 ### Normal 如何移動
 
-![p0-23.png](images/p0-23.png)
+![p0-23.png](images/P0-23.png)
 
-## ![p0-24.png](images/p0-24.png)
+## ![p0-24.png](images/P0-24.png)
 
 通過平均點位置來平滑區域。此工具高度依賴於多邊形密度。因此，如果您有許多多邊形，平滑效果將不那麼明顯。
 
 替代模式是 **Relax** 模式，僅平滑網格，但試圖保留幾何細節。
 
-![p0-25.jpeg](images/p0-25.jpeg)
+![p0-25.jpeg](images/P0-25.jpeg)
 
 ### 平滑設置
 
-![p0-26.png](images/p0-26.png)
+![p0-26.png](images/P0-26.png)
 
 - #### 邊界上的粘性頂點
 
@@ -178,13 +178,13 @@ Clay 工具對於建立您的雕塑非常有用。
 
 較高的多邊形密度可能需要將強度提高到 100% 以上。非常高的值（300%、500%）也可以很好地作為雕刻工具，強迫區域迅速變平滑，像用槌子敲打粘土一樣！
 
-## ![p0-27.png](images/p0-27.png)
+## ![p0-27.png](images/P0-27.png)
 
 此工具允許您遮罩點。被遮罩的頂點無法進行雕刻或上色，這是一種"保護"區域的方法。
 
 **Unmask** 將擦除已繪製的遮罩區域。
 
-![p0-28.png](images/p0-28.png)
+![p0-28.png](images/P0-28.png)
 
 ### 遮罩設置
 
@@ -226,17 +226,17 @@ Clay 工具對於建立您的雕塑非常有用。
   
   在默認模式下，像是將"厚度"量修剪到表面一樣，像切割橙皮一樣。
 
-## ![p0-29.png](images/p0-29.png)
+## ![p0-29.png](images/P0-29.png)
 
 此工具與 **遮罩工具** 大致相似，主要區別在於您不使用筆劃來繪製遮罩，而是使用 **形狀選擇器**。
 
 選擇器遮罩與 **遮罩** 工具共享相同的工具設置。
 
-![p0-30.png](images/p0-30.png)
+![p0-30.png](images/P0-30.png)
 
 ### 形狀選擇器
 
-![p0-31.png](images/p0-31.png)
+![p0-31.png](images/P0-31.png)
 
 **Trim**、**Split**、**Project**、**Facegroup** 和 **Hide** 工具都使用類似的控制來選擇網格區域，並通過螢幕左側的形狀選擇器面板進行選擇。
 

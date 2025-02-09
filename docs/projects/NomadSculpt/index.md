@@ -5,7 +5,7 @@ comments: true
 ---
 # Getting to Know Nomad Sculpt
 
-![p0-01.png](images/p0-01.png)
+![p0-01.png](images/P0-01.png)
 
 ## Welcome to Nomad! 
 
@@ -19,17 +19,17 @@ If this is your first time doing 3d sculpting, then it's good to know some basic
 
 ## Your first sculpt
 
-![p0-04.png](images/p0-04.png)
+![p0-04.png](images/P0-04.png)
 
 When you first start Nomad you'll see a sphere on screen. Simply drag your stylus on the sphere to start sculpting. 
 Symmetry is enabled by default to make sculpting easier.
 
-<img src="images/p0-02.png" alt="Sculpting Example 1" height="300"/>
-<img src="images/p0-03.png" alt="Sculpting Example 2" height="300"/>
+<img src="images/P0-02.png" alt="Sculpting Example 1" height="300"/>
+<img src="images/P0-03.png" alt="Sculpting Example 2" height="300"/>
 
 # Interface
 
-![p0-05.png](images/p0-05.png)
+![p0-05.png](images/P0-05.png)
 
 ## Nav Cube
 
@@ -39,9 +39,9 @@ Tap the small icons next to the cube to frame the current object or reset to the
 
 ### Three Gestures to Control the View of Screen
 
-<img src="images/p0-06.png" alt="My Image" height="200"/>Drag to Rotate
-<img src="images/p0-07.png" alt="My Image" height="200"/>Swipe to Pan
-<img src="images/p0-08.png" alt="My Image" height="200"/>Pinch to Zoom
+<img src="images/P0-06.png" alt="My Image" height="200"/>Drag to Rotate
+<img src="images/P0-07.png" alt="My Image" height="200"/>Swipe to Pan
+<img src="images/P0-08.png" alt="My Image" height="200"/>Pinch to Zoom
 
 ## Top menus
 
@@ -60,7 +60,7 @@ Shortcuts for commonly used features are explained below.
 
 Nomad's tools are accessible from this scrollable region.
 
-![p0-09.png](images/p0-09.png)
+![p0-09.png](images/P0-09.png)
 
 ### Top 3 icons
 
@@ -70,7 +70,7 @@ Nomad's tools are accessible from this scrollable region.
 
 # Tools
 
-![p0-10.png](images/p0-10.png)
+![p0-10.png](images/P0-10.png)
 
 ## Overview
 
@@ -85,7 +85,7 @@ Many of these tools can be customized with different brush behavior, pressure, t
 
 ## Tool controls
 
-![p0-11.png](images/p0-11.png)
+![p0-11.png](images/P0-11.png)
 
 The panel on the left side of the screen controls the tool radius and intensity, and hotkeys specific to certain tools, explained in each tool's help section below.
 
@@ -107,65 +107,65 @@ This menu has the following options:
 
 # Common Sculpting Tools
 
-## ![p0-12.png](images/p0-12.png)
+## ![p0-12.png](images/P0-12.png)
 
 The Clay tool is useful for building up your sculpture. 
 
 **Sub** will remove material from your sculpture.
 
-![p0-13.png](images/p0-13.png)
+![p0-13.png](images/P0-13.png)
 
 ### How Sub removes materials
 
-![p0-16.png](images/p0-16.png)
+![p0-16.png](images/P0-16.png)
 
-## ![p0-14.png](images/p0-14.png)
+## ![p0-14.png](images/P0-14.png)
 
 The standard brush. 
 
 **Sub** will remove material.
 
-![p0-15.png](images/p0-15.png)
+![p0-15.png](images/P0-15.png)
 
 ### How Sub removes materials
 
-![p0-17.png](images/p0-17.png)
+![p0-17.png](images/P0-17.png)
 
-## ![p0-18.png](images/p0-18.png)
+## ![p0-18.png](images/P0-18.png)
 
 The area under the brush will stick to the brush, allowing for elastic deformation. The selection is maintained during the move, so if you move the brush away, then move it back where you started, you will see no deformation. 
 
 **Normal** will move the area under the brush along the surface normal.
 
-![p0-19.png](images/p0-19.png)
+![p0-19.png](images/P0-19.png)
 
 ### How Normal moves
 
-![p0-20.png](images/p0-20.png)
+![p0-20.png](images/P0-20.png)
 
-## ![p0-21.png](images/p0-21.png)
+## ![p0-21.png](images/P0-21.png)
 
 The area under the brush will stick to the brush, allowing for elastic deformation. Unlike the move brush, the selection is continuously updated during the stroke, so it is possible to make longer, snake like objects, especially when Dynamic Topology is activated. 
 
 **Normal** will move the area under the brush along the surface normal.
 
-![p0-22.png](images/p0-22.png)
+![p0-22.png](images/P0-22.png)
 
 ### How Normal moves
 
-![p0-23.png](images/p0-23.png)
+![p0-23.png](images/P0-23.png)
 
-## ![p0-24.png](images/p0-24.png)
+## ![p0-24.png](images/P0-24.png)
 
 Smooth the area by average the point positions. This tool is highly dependent on the polygon density. So if you have many polygons, the smoothing will be less effective.
 
 The alternate mode is the **Relax** mode, which only smooths the wireframe but tries to retain the geometric details.
 
-![p0-25.jpeg](images/p0-25.jpeg)
+![p0-25.jpeg](images/P0-25.jpeg)
 
 ### Smooth settings
 
-![p0-26.png](images/p0-26.png)
+![p0-26.png](images/P0-26.png)
 
 - #### Sticky vertex on border
 
@@ -183,13 +183,13 @@ Tries to make the smoothing topology independent. This works best with varying t
 
 Higher polygon densities can require raising the intensity above 100%. Very high   values (300%, 500%) can also work well as a sculpting tool, forcing areas to go flat and smooth quickly under the brush, like hitting clay with a mallet!
 
-## ![p0-27.png](images/p0-27.png)
+## ![p0-27.png](images/P0-27.png)
 
 This tool lets you mask points. Masked vertices can't be sculpted or painted afterwards, this is a way to "protect" areas. 
 
 **Unmask** will erase where the mask has been painted.
 
-![p0-28.png](images/p0-28.png)
+![p0-28.png](images/P0-28.png)
 
 ### Mask settings
 
@@ -231,17 +231,17 @@ Masks can also be used to extract geometry. The **Carve**, **Extract** and **Spl
   
   In default mode, behave a if you had trimmed into the surface by the 'thickness' amount, like cutting a section of orange peel.
 
-## ![p0-29.png](images/p0-29.png)
+## ![p0-29.png](images/P0-29.png)
 
 This tool is mostly similar to the **Masking tool**, the main difference is that you don't use stroke to paint mask, but instead use the **shape selector**.
 
 Selector mask shares the same tool settings as the **Mask** tool.
 
-![p0-30.png](images/p0-30.png)
+![p0-30.png](images/P0-30.png)
 
 ### Shape selector
 
-![p0-31.png](images/p0-31.png)
+![p0-31.png](images/P0-31.png)
 
 The **Trim**, **Split**, **Project**, **Facegroup** and **Hide** tools all use similar controls for selecting areas of the mesh, and are chosen with the shape selector panel on the left of the screen.
 
