@@ -1,3 +1,8 @@
+---
+title: NomadSculpt
+lang_name: en 
+comments: true
+---
 # Getting to Know Nomad Sculpt
 
 ![p0-01.png](images/p0-01.png)
@@ -269,3 +274,17 @@ Invert the shape mask, or the direction of the project tool.
 Polygon editing and curve editing behave in similar ways:
 
 To start, drag a line to define 2 points, then drag out from the middle of the line to define a polygon or curve. Click on the points to toggle between smooth and sharp. Click and drag on the curve or line sections to create new points.To delete a point, drag a point into its neighbor until it turns red. The trash icon in the corner of the polygon or path icon will delete the shape.
+
+## Common Issues and Solutions
+
+### App Crashes
+- **Solution:** Ensure your device has enough storage space, close other running applications, and restart the app.
+
+### Performance Issues
+- **Solution:** Reduce model complexity, lower brush resolution, and clear undo history.
+
+### Tool Not Responding
+- **Solution:** Check if the tool is selected properly and ensure that the app is updated to the latest version.
+
+### Export Problems
+- **Solution:** Verify the file format and ensure that the model is not too complex for the export settings.

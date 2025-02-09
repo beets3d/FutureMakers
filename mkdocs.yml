@@ -145,7 +145,7 @@ nav:
   - Projects:
     - NomadSculpt:
       - Overview: projects/nomadsculpt/index.md
-    - Walking Robot:
+    - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
   - Resources:
     - Assessment: resources/assessment/index.md
