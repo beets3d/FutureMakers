@@ -73,10 +73,10 @@ Suitable for ages 11-17
 
 ### The Design
 
-It is designed using Autodesk Fusion 360, the STEP file is available in [Design File](Walking-Crank-Robotv91.step).
+It is designed using Autodesk Fusion 360, the STEP file is available in [Design File](cad/Walking-Crank-Robot-v91.step).
 
 #### Core Walking Mechanism
-   - Motor Unit - consists of 2 geared motors 
+   - Motor Unit - consists of 2 geared motors   
    <p align="left">
       <img src="images/Motor-Unit.PNG"width="50%"/>
    </p>  

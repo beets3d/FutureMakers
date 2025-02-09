@@ -143,13 +143,8 @@ nav:
   - Home: index.md
   - Setup: setup.md
   - Projects:
-    - Double Side Character: 
-      - Overview: projects/double-side-character/index.md
-      - Lesson 1:
-        - Overview: projects/double-side-character/lesson1/index.md
-        - Handbook: projects/double-side-character/lesson1/handbook.md
-        - Lesson Plan: projects/double-side-character/lesson1/lesson-plan.md
-        - Exercise Cards: projects/double-side-character/lesson1/exercise-cards.md
+    - NomadSculpt:
+      - Overview: projects/NomadSculpt/Project-00-Getting-Started.md
     - Walking Robot:
       - Overview: projects/walking-robot/index.md
   - Resources:
