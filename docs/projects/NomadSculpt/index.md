@@ -435,7 +435,7 @@ this is a subdivided box as well. However the base mesh in Nomad doesn't use **P
 
 Once a primitive is created, a toolbar will appear to control it's parameters.
 
-- **Validate:** 	
+- **Validate:**
 Bake the primitive into a standard object so it can be sculpted and painted.
 
 - **Edit:** 		  
