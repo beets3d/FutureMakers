@@ -65,7 +65,6 @@ Nomad's tools are accessible from this scrollable region.
 #### Top 3 icons
 
 - **Undo**
-  
 revert the last operation
 
 - **Redo**
