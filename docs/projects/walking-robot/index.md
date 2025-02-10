@@ -8,9 +8,9 @@ comments: true
 
 ## What is this?
 
-  ![Robot-Side-1](images/Robot-Side-1.png){ width=33% }
-  ![Robot-Front](images/Robot-Front.png){ width=33% }
-  ![Robot-Side-2](images/Robot-Side-2.png){ width=33% }
+  ![Robot-Side-1](images/Robot-Side-1.png){ width=30% }
+  ![Robot-Front](images/Robot-Front.png){ width=30% }
+  ![Robot-Side-2](images/Robot-Side-2.png){ width=30% }
 
 
 
@@ -90,18 +90,30 @@ It is designed using Autodesk Fusion 360, the STEP file is available in [Design 
 #### Electronics
    - Main Board
    - Micro:bit
+
+      ![Leg 1](images/microbit-1.png){: style="width: 30%; display: inline-block; margin-left: auto; margin-right: auto;"} ![Leg 2](images/microbit-2.png){: style="width: 30%; display: inline-block;margin-left: auto; margin-right: auto;"} 
+
    - Battery Cases
 #### Outter Shell
-   - Body
-   - Head
+   - **Body**- This is the main body of the walking robot, designed to house the internal components and provide structural support for the legs and head.
+      ![Body](images/body.png){: style="width: 50%; display: block; margin-left: auto; margin-right: auto;"}
+
+   - **Head** - This component serves as the robot's head, providing a visual representation and housing any necessary sensors or features for interaction. This can be customised according the learning needs.
+      ![Head](images/head.png){: style="width: 50%; display: block; margin-left: auto; margin-right: auto;"}
+   - **Outer Shell** - This component provides the external casing for the robot, giving a nice outlook and customise base any requirements.  
+      ![Shell](images/body-outter-shell.png){: style="width: 50%; display: block; margin-left: auto; margin-right: auto;"}
 #### Remote Control
+You can use another Micro:bit to control the walking pattern by pressing the A or B button. Each button corresponds to the movement of one leg; pressing a button will make the associated leg step forward. For example, let's assume the A button controls the left leg and the B button controls the right leg. When you press the A button, the left leg will step forward, and when you press the B button, the right leg will step forward. This setup allows you to manage the timing and motion of both legs, providing an opportunity to explore how "control timing" affects balance, speed, and direction during walking.
 
 
 #### Customization Options
-   - LEGO attachment points for feet
-   - Adjustable leg lengths
-   - Adjustable foot shape
-   - Modifiable walking patterns by control
+   - **LEGO attachment** - Foot is designed to allow any LEGO attachment to be added
+      ![LEGO Attachment](images/lego-attachment-2.png){: style="width: 30%; display: inline-block; margin-left: auto; margin-right: auto;"} 
+      ![LEGO Foot](images/lego-attachment.png){: style="width: 30%; display: inline-block;margin-left: auto; margin-right: auto;"} 
+
+   - **Adjustable leg lengths** - With the LEGO attachment, you can adjust the length of the legs by adding LEGO blocks, which will change the range of motion for each steps.
+   - **Adjustable foot shape** - You can also design the any shapes to test out the different effect to walking behavior, taking consideration of balance.
+
 
 ### Assembly Guide
 1. Mechanical Assembly
