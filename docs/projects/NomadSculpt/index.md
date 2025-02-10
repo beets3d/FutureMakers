@@ -64,9 +64,12 @@ Nomad's tools are accessible from this scrollable region.
 
 #### Top 3 icons
 
-- **Undo**:     revert the last operation
-- **Redo**:     restore the last undo operation
-- **History**:  acccess history options, explained in the History menu
+- **Undo**
+revert the last operation
+- **Redo**
+restore the last undo operation
+- **History**
+acccess history options, explained in the History menu
 
 ## Tools
 
@@ -99,11 +102,16 @@ A right click or long press on a tool will bring up a context menu.
 
 This menu has the following options:
 
-- **Save**:       save any changes you made to the tool 
-- **Clone**:      duplicate the tool into a new tool shortcut
-- **Last save**:  revert to the previously saved version of the tool
-- **Icon**:       change the icon for the tool 
-- **Reset**:      reset the tool to its defaults
+- **Save**
+save any changes you made to the tool 
+- **Clone**
+duplicate the tool into a new tool shortcut
+- **Last save**
+revert to the previously saved version of the tool
+- **Icon**
+change the icon for the tool 
+- **Reset**
+reset the tool to its defaults
 
 ## Common Sculpting Tools
 
@@ -195,19 +203,27 @@ This tool lets you mask points. Masked vertices can't be sculpted or painted aft
 
 A toolbar will appear at the top of the viewport with extra controls:
 
-- **Clear**：   Clear the mask					
-- **Invert**：  Invert the mask
-- **Blur**：    Blur the mask edge				
-- **Sharpen**： Sharpen the mask edge
+- **Clear**
+Clear the mask					
+- **Invert**
+Invert the mask
+- **Blur**
+Blur the mask edge				
+- **Sharpen**
+Sharpen the mask edge
 
 ##### Quick gesture
 
 4 gestures while holding the quick masking button:
 
-- **Clear**：   Drag on the background
-- **Invert**：  Tap on the background			
-- **Blur**：    Tap on masked area				
-- **Sharpen**： Tap on unmasked area
+- **Clear**
+Drag on the background
+- **Invert**
+Tap on the background			
+- **Blur**
+Tap on masked area				
+- **Sharpen**
+Tap on unmasked area
 
 Masks can also be used to extract geometry. The **Carve**, **Extract** and **Split** buttons will create new shapes from the masked region. The following settings offer more control:
 
@@ -300,8 +316,11 @@ The viewport handle has the following features:
 
 Every object in Nomad is made of a node and vertices:
 
-- **Node**		    The 'handle' of the object, which stores its translation, rotation, scale, called its transformation matrix.
-- **Vertices**		The points that define the surface of an object, they store position and paint information.
+- **Node**
+The 'handle' of the object, which stores its translation, rotation, scale, called its transformation matrix.
+
+- **Vertices**
+The points that define the surface of an object, they store position and paint information.
 
 ## Top meun
 
@@ -315,13 +334,20 @@ The files menu allows you to save and load nomad projects, import and export 3d 
 
 A thumbnail is shown of the last save at the top of this menu. Clicking this thumbnail brings up a mini browser, tap twice on another project to bring up a mini menu to open, add, save, clone, rename, delete that project.
 
-- **Save**			    Save the Nomad project.
-- **Save As**		    Display the project browser to allow you to save the Nomad project with a new name.
-- **Rename**		    Display a text box to rename the current project.
-- **Open**  		    Display the project browser to open a project.
-- **Add to scene**	Display the project browser, when a project is selected it's contents will be merged with the current scene.
-- **Delete**		    Display the project browser, any selected projects will be deleted from the file system.
-- **New**			      Start a new project, if there are unsaved changes you will be asked if you want to save.
+- **Save**
+Save the Nomad project.
+- **Save As**
+Display the project browser to allow you to save the Nomad project with a new name.
+- **Rename**
+Display a text box to rename the current project.
+- **Open**
+Display the project browser to open a project.
+- **Add to scene**
+Display the project browser, when a project is selected it's contents will be merged with the current scene.
+- **Delete**
+Display the project browser, any selected projects will be deleted from the file system.
+- **New**
+Start a new project, if there are unsaved changes you will be asked if you want to save.
 
 #### Import
 
@@ -392,7 +418,11 @@ Add menu will create **primitives**, **groups**, **cameras**, **repeaters**, and
 
 #### Primitives
 
+![p0-39.png](images/P0-39.jpg)
+
 Primitives are basic shape types that can be adjusted using parameters. Once you have the primitive adjusted to your needs, you then 'validate' it, which bakes those parameters down into a polygon mesh that can be sculpted and painted. A primitive cannot have its parameters adjusted after it has been validated.
+
+![p0-40.png](images/P0-40.jpg)
 
 If you wonder what is the base mesh when you launch Nomad: 
 this is a subdivided box as well. However the base mesh in Nomad doesn't use **Project on sphere**, meaning it is not perfectly round.
@@ -401,14 +431,18 @@ this is a subdivided box as well. However the base mesh in Nomad doesn't use **P
 
 Once a primitive is created, a toolbar will appear to control it's parameters.
 
-**Validate** 	Bake the primitive into a standard object so it can be sculpted and painted.
+- **Validate** 	
+Bake the primitive into a standard object so it can be sculpted and painted.
 
-**Edit** 		  Toggle displaying the primitive gizmo. This is shown directly on the primitive to control its parameters, 
-              eg the cube width, or a cylinder hole radius.
+- **Edit** 		  
+Toggle displaying the primitive gizmo. This is shown directly on the primitive to control its parameters, 
+eg the cube width, or a cylinder hole radius.
 
-**Mirror** 	  Toggle placing a mirror repeater above the primitive.
+- **Mirror** 	  
+Toggle placing a mirror repeater above the primitive.
 
-**...** 		  Displays the primitive menu.
+- **...** 		  
+Displays the primitive menu.
 
 Different primitives will have extra options on the toolbar:
 
