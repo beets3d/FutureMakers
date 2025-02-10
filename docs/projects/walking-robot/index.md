@@ -92,7 +92,7 @@ It is designed using Autodesk Fusion 360, the STEP file is available in [Design 
   - **Micro:bit** - The Micro:bit is a compact, versatile microcontroller designed for educational purposes. It features a range of sensors, buttons, and LED lights, making it an ideal choice for programming and robotics projects. In this robot, the Micro:bit acts as the brain, controlling the motors and processing inputs from the user. 
 
       ![Microbit 1](images/microbit-1.png){: style="width: 30%; display: inline-block; margin-left: auto; margin-right: auto;"} ![Microbit 2](images/microbit-2.png){: style="width: 30%; display: inline-block;margin-left: auto; margin-right: auto;"} 
-      
+
    - **Battery Cases** - The battery cases are designed to securely hold the power source for the robot, ensuring that the batteries are protected and easily accessible for replacement. A well-designed battery case contributes to the overall stability of the robot by maintaining a low center of gravity, which is crucial for effective walking. Proper weight distribution helps prevent tipping and enhances the robot's balance during movement.
 
 #### Outter Shell
@@ -118,21 +118,23 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
 
 
 ### Assembly Guide
+
+
 1. Mechanical Assembly
-   - Left and right legs assembly
-   - Motor and gear installation
-   - Main board installation
-   - Install Micro:bit to main board
-   - LEGO attachment points setup
+1.1 Motor and gear installation
 
-2. Electronics Setup
-   - Micro:bit wiring
-   - Battery pack setup
+1.2 Left and right legs assembly
+1.3 Main board installation
+1.4 Install Micro:bit to main board
+1.5 Battery Cases
+1.6 Body and Outter Shell
 
-3. Programming
-   - Basic Micro:bit programming using MakeCode
-   - Remote control setup
-   - Testing and calibration
+2. Programming
+2.1 Basic Micro:bit programming using MakeCode
+2.2 Remote control setup
+2.3 Testing and calibration
+
+
 
 ## Lesson Plan
 1. **Day 1: Introduction and Design** (45 min)
