@@ -390,20 +390,23 @@ This menu lets you manage objects, lights, cameras and repeaters in Nomad. It di
 
 Add menu will create **primitives**, **groups**, **cameras**, **repeaters**, and **lights**.
 
-##### Primitives
+#### Primitives
 
 Primitives are basic shape types that can be adjusted using parameters. Once you have the primitive adjusted to your needs, you then 'validate' it, which bakes those parameters down into a polygon mesh that can be sculpted and painted. A primitive cannot have its parameters adjusted after it has been validated.
 
 If you wonder what is the base mesh when you launch Nomad: 
 this is a subdivided box as well. However the base mesh in Nomad doesn't use **Project on sphere**, meaning it is not perfectly round.
 
-###### Primitive Toolbar
+##### Primitive Toolbar
 
 Once a primitive is created, a toolbar will appear to control it's parameters.
 
 **Validate** 	Bake the primitive into a standard object so it can be sculpted and painted.
+
 **Edit** 		  Toggle displaying the primitive gizmo. This is shown directly on the primitive to control its parameters, eg the cube width, or a cylinder hole radius.
+
 **Mirror** 	  Toggle placing a mirror repeater above the primitive.
+
 **...** 		  Displays the primitive menu.
 
 Different primitives will have extra options on the toolbar:
