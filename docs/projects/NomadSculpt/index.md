@@ -314,10 +314,10 @@ The viewport handle has the following features:
 
 Every object in Nomad is made of a node and vertices:
 
-**Node**:
+**Node**
 - The 'handle' of the object, which stores its translation, rotation, scale, called its transformation matrix.
 
-**Vertices**:
+**Vertices**
 - The points that define the surface of an object, they store position and paint information.
 
 ## Top meun
@@ -375,33 +375,40 @@ Display advanced import options:
 **Project (Nomad) / glTF / OBJ / STL / FBX**
 
 - Keep topology
+  
 Nomad by default will attempt to fix problem geometry on load. 
 Enabling this will stop Nomad from vertex/face reordering, removal of vertex/face duplicates, removal of unused vertices.
 
 - Skip textures
+  
 Skip loading of textures for formats that support it like glTF
 
 **Project (Nomad) / glTF**	
 
 - Keep gui settings
+  
 Enable savng of the gui and project settings within the Nomad .nom or glTF file.
 
 **OBJ**
 
 - Split OBJ by groups
+  
 Enable splitting OBJ groups into separate objects.
 
 - Color Space
+  
 Set the color mode interpreted from the obj as Linear, sRGB, or Auto.
 
 **PLY**
 
 - Color Space
+  
 Set the color mode interpreted from the ply as Linear, sRGB, or Auto.
 
 **FBX**	
 
-- Color Space		
+- Color Space
+  
 Set the color mode interpreted from the obj as Linear, sRGB, or Auto.
 
 ### Scene
@@ -435,17 +442,17 @@ this is a subdivided box as well. However the base mesh in Nomad doesn't use **P
 
 Once a primitive is created, a toolbar will appear to control it's parameters.
 
-- **Validate:**
+- **Validate** 		  
 Bake the primitive into a standard object so it can be sculpted and painted.
 
-- **Edit:** 		  
+- **Edit** 		  
 Toggle displaying the primitive gizmo. This is shown directly on the primitive to control its parameters, 
 eg the cube width, or a cylinder hole radius.
 
-- **Mirror:** 	  
+- **Mirror** 	  
 Toggle placing a mirror repeater above the primitive.
 
-- **...:** 		  
+- **...** 		  
 Displays the primitive menu.
 
 Different primitives will have extra options on the toolbar:
