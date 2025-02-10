@@ -64,17 +64,11 @@ Nomad's tools are accessible from this scrollable region.
 
 #### Top 3 icons
 
-**Undo**
+**Undo** - revert the last operation
 
-revert the last operation
+**Redo** - restore the last undo operation
 
-**Redo**
-  
-restore the last undo operation
-
-**History**
-  
-acccess history options, explained in the History menu
+**History** - acccess history options, explained in the History menu
 
 ## Tools
 
