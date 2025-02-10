@@ -1,6 +1,6 @@
 # Project 01: Create Your Moai
 
-![p0-01.png](images/P0-01.jpg)
+![p01-01.png](images/P01-01.jpg)
 
 ## Preparation
 
@@ -8,7 +8,7 @@
 
 ## Import a Moai
 
-![p0-02.png](images/P0-02.jpg)
+![p01-02.png](images/P01-02.jpg)
 
 1. Click "File" on the top menu
 
@@ -18,12 +18,12 @@
 
 4. Click on "New (Project)"
 
-![p0-03.png](images/P0-03.jpg)
-![p0-04.png](images/P0-04.jpg)
+![p01-03.png](images/P01-03.jpg)
+![p01-04.png](images/P01-04.jpg)
 
 ## Save Your Moai
 
-![p0-05.png](images/P0-05.jpg)
+![p01-05.png](images/P01-05.jpg)
 
 1. Select "Gizmo" on the toolbox to rotate the moai 
 
@@ -31,5 +31,5 @@
 
 3. Save your moai as a 3D file project
 
-![p0-06.png](images/P0-06.jpg)
-![p0-07.png](images/P0-07.jpg)
+![p01-06.png](images/P01-06.jpg)
+![p01-07.png](images/P01-07.jpg)
