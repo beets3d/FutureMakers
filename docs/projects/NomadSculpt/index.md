@@ -64,13 +64,11 @@ Nomad's tools are accessible from this scrollable region.
 
 #### Top 3 icons
 
-- **Undo** 
+- **Undo:** 
 revert the last operation
-
-- **Redo** 
+- **Redo:**
 restore the last undo operation
-
-- **History** 
+- **History:**
 acccess history options, explained in the History menu
 
 ## Tools
@@ -104,15 +102,15 @@ A right click or long press on a tool will bring up a context menu.
 
 This menu has the following options:
 
-- **Save**
+#### Save
 save any changes you made to the tool 
-- **Clone**
+#### Clone
 duplicate the tool into a new tool shortcut
-- **Last save**
+#### Last save
 revert to the previously saved version of the tool
-- **Icon**
+#### Icon
 change the icon for the tool 
-- **Reset**
+#### Reset
 reset the tool to its defaults
 
 ## Common Sculpting Tools
@@ -205,26 +203,26 @@ This tool lets you mask points. Masked vertices can't be sculpted or painted aft
 
 A toolbar will appear at the top of the viewport with extra controls:
 
-- **Clear**
+- **Clear:**
 Clear the mask					
-- **Invert**
+- **Invert:**
 Invert the mask
-- **Blur**
+- **Blur:**
 Blur the mask edge				
-- **Sharpen**
+- **Sharpen:**
 Sharpen the mask edge
 
 ##### Quick gesture
 
 4 gestures while holding the quick masking button:
 
-- **Clear**
+- **Clear:**
 Drag on the background
-- **Invert**
+- **Invert:**
 Tap on the background			
-- **Blur**
+- **Blur:**
 Tap on masked area				
-- **Sharpen**
+- **Sharpen:**
 Tap on unmasked area
 
 Masks can also be used to extract geometry. The **Carve**, **Extract** and **Split** buttons will create new shapes from the masked region. The following settings offer more control:
@@ -301,28 +299,26 @@ This tool lets you move, rotate and scale your mesh with a single tool. It also 
 
 The viewport handle has the following features:
 
-- **Move**
-  Drag on the line+arrow to move on X/Y/Z. Drag on the peach dot in the middle of the gizmo to translate freely in screen-space.
-  Click on the red, green, blue squares to translate on the X/Y/Z planes.
+#### Move
+- Drag on the line+arrow to move on X/Y/Z. Drag on the peach dot in the middle of the gizmo to translate freely in screen-space. Click on the red, green, blue squares to translate on the X/Y/Z planes.
   
-- **Rotate**
-  Drag on the red/green/blue circles to rotate on X/Y/Z. Drag the sphere within the circles to free rotate.
+#### Rotate
+- Drag on the red/green/blue circles to rotate on X/Y/Z. Drag the sphere within the circles to free rotate.
   
-- **Scale**
-  Drag on the outer red/green/blue dots to scale on X/Y/Z. Drag on the outer red/green/blue cones to scale on the X/Y/Z planes.
-  Drag on the outer peach circle to uniform scale.
+#### Scale
+- Drag on the outer red/green/blue dots to scale on X/Y/Z. Drag on the outer red/green/blue cones to scale on the X/Y/Z planes. Drag on the outer peach circle to uniform scale.
 
 ![p0-34.png](images/P0-34.jpg)
 
-#### Nodes and vertices
+##### Nodes and vertices
 
 Every object in Nomad is made of a node and vertices:
 
-- **Node**
-The 'handle' of the object, which stores its translation, rotation, scale, called its transformation matrix.
+**Node**:
+- The 'handle' of the object, which stores its translation, rotation, scale, called its transformation matrix.
 
-- **Vertices**
-The points that define the surface of an object, they store position and paint information.
+**Vertices**:
+- The points that define the surface of an object, they store position and paint information.
 
 ## Top meun
 
@@ -336,20 +332,26 @@ The files menu allows you to save and load nomad projects, import and export 3d 
 
 A thumbnail is shown of the last save at the top of this menu. Clicking this thumbnail brings up a mini browser, tap twice on another project to bring up a mini menu to open, add, save, clone, rename, delete that project.
 
-- **Save**
-Save the Nomad project.
-- **Save As**
-Display the project browser to allow you to save the Nomad project with a new name.
-- **Rename**
-Display a text box to rename the current project.
-- **Open**
-Display the project browser to open a project.
-- **Add to scene**
-Display the project browser, when a project is selected it's contents will be merged with the current scene.
-- **Delete**
-Display the project browser, any selected projects will be deleted from the file system.
-- **New**
-Start a new project, if there are unsaved changes you will be asked if you want to save.
+**Save**
+- Save the Nomad project.
+  
+**Save As**
+- Display the project browser to allow you to save the Nomad project with a new name.
+  
+**Rename**
+- Display a text box to rename the current project.
+  
+**Open**
+- Display the project browser to open a project.
+  
+**Add to scene**
+- Display the project browser, when a project is selected it's contents will be merged with the current scene.
+  
+**Delete**
+- Display the project browser, any selected projects will be deleted from the file system.
+  
+**New**
+- Start a new project, if there are unsaved changes you will be asked if you want to save.
 
 #### Import
 
@@ -433,35 +435,35 @@ this is a subdivided box as well. However the base mesh in Nomad doesn't use **P
 
 Once a primitive is created, a toolbar will appear to control it's parameters.
 
-- **Validate** 	
+- **Validate:** 	
 Bake the primitive into a standard object so it can be sculpted and painted.
 
-- **Edit** 		  
+- **Edit:** 		  
 Toggle displaying the primitive gizmo. This is shown directly on the primitive to control its parameters, 
 eg the cube width, or a cylinder hole radius.
 
-- **Mirror** 	  
+- **Mirror:** 	  
 Toggle placing a mirror repeater above the primitive.
 
-- **...** 		  
+- **...:** 		  
 Displays the primitive menu.
 
 Different primitives will have extra options on the toolbar:
 
-- **Project** 
-The sphere is constructed as a subdivided cube, as this is better for sculpting, but this means it is not perfectly round. This option option will force the shape closer to a perfect sphere. The icosahedron shares this option.
+**Project** 
+- The sphere is constructed as a subdivided cube, as this is better for sculpting, but this means it is not perfectly round. This option option will force the shape closer to a perfect sphere. The icosahedron shares this option.
 
-- **Cap** 
-Toggle end caps on a shape, eg a cylinder can have caps on top, or bottom, or both, or none.
+**Cap** 
+- Toggle end caps on a shape, eg a cylinder can have caps on top, or bottom, or both, or none.
 
-- **Hole** 
-Toggle a hole to be created through the center of a shape. This will cycle through no holes, hole with a single radius, or hole with different radius at top and bottom.
+**Hole** 
+- Toggle a hole to be created through the center of a shape. This will cycle through no holes, hole with a single radius, or hole with different radius at top and bottom.
 
-- **Radius** 
-Toggle if a cylinder should have a single radius, or a different radius at its top and bottom.
+**Radius** 
+- Toggle if a cylinder should have a single radius, or a different radius at its top and bottom.
 
-- **Disk** 
-Toggle if a plane should be a 4 sided shape, or a circle shape.
+**Disk** 
+- Toggle if a plane should be a 4 sided shape, or a circle shape.
 
 The small toolbar below the main toolbar will let you toggle between the primitive gizmo and the transform gizmo.
 
