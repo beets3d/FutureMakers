@@ -451,34 +451,43 @@ this is a subdivided box as well. However the base mesh in Nomad doesn't use **P
 
 Once a primitive is created, a toolbar will appear to control it's parameters.
 
-**Validate** 		  
+**Validate** 		 
+
 Bake the primitive into a standard object so it can be sculpted and painted.
 
-**Edit** 		  
+**Edit** 		 
+
 Toggle displaying the primitive gizmo. This is shown directly on the primitive to control its parameters, 
 eg the cube width, or a cylinder hole radius.
 
 **Mirror** 	  
+
 Toggle placing a mirror repeater above the primitive.
 
-- **...** 		  
+**...** 		  
+
 Displays the primitive menu.
 
 Different primitives will have extra options on the toolbar:
 
 **Project** 
+
 The sphere is constructed as a subdivided cube, as this is better for sculpting, but this means it is not perfectly round. This option option will force the shape closer to a perfect sphere. The icosahedron shares this option.
 
 **Cap** 
+
 Toggle end caps on a shape, eg a cylinder can have caps on top, or bottom, or both, or none.
 
 **Hole** 
+
 Toggle a hole to be created through the center of a shape. This will cycle through no holes, hole with a single radius, or hole with different radius at top and bottom.
 
 **Radius** 
+
 Toggle if a cylinder should have a single radius, or a different radius at its top and bottom.
 
 **Disk** 
+
 Toggle if a plane should be a 4 sided shape, or a circle shape.
 
 The small toolbar below the main toolbar will let you toggle between the primitive gizmo and the transform gizmo.
