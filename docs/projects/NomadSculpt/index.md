@@ -64,9 +64,9 @@ Nomad's tools are accessible from this scrollable region.
 
 #### Top 3 icons
 
-- Undo:     revert the last operation
-- Redo:     restore the last undo operation
-- History:  acccess history options, explained in the History menu
+- **Undo**:     revert the last operation
+- **Redo**:     restore the last undo operation
+- **History**:  acccess history options, explained in the History menu
 
 ## Tools
 
@@ -99,11 +99,11 @@ A right click or long press on a tool will bring up a context menu.
 
 This menu has the following options:
 
-- Save:       save any changes you made to the tool 
-- Clone:      duplicate the tool into a new tool shortcut
-- Last save:  revert to the previously saved version of the tool
-- Icon:       change the icon for the tool 
-- Reset:      reset the tool to its defaults
+- **Save**:       save any changes you made to the tool 
+- **Clone**:      duplicate the tool into a new tool shortcut
+- **Last save**:  revert to the previously saved version of the tool
+- **Icon**:       change the icon for the tool 
+- **Reset**:      reset the tool to its defaults
 
 ## Common Sculpting Tools
 
@@ -195,19 +195,19 @@ This tool lets you mask points. Masked vertices can't be sculpted or painted aft
 
 A toolbar will appear at the top of the viewport with extra controls:
 
-- Clear：   Clear the mask					
-- Invert：  Invert the mask
-- Blur：    Blur the mask edge				
-- Sharpen： Sharpen the mask edge
+- **Clear**：   Clear the mask					
+- **Invert**：  Invert the mask
+- **Blur**：    Blur the mask edge				
+- **Sharpen**： Sharpen the mask edge
 
 ##### Quick gesture
 
 4 gestures while holding the quick masking button:
 
-- Clear：   Drag on the background
-- Invert：  Tap on the background			
-- Blur：    Tap on masked area				
-- Sharpen： Tap on unmasked area
+- **Clear**：   Drag on the background
+- **Invert**：  Tap on the background			
+- **Blur**：    Tap on masked area				
+- **Sharpen**： Tap on unmasked area
 
 Masks can also be used to extract geometry. The **Carve**, **Extract** and **Split** buttons will create new shapes from the masked region. The following settings offer more control:
 
@@ -291,7 +291,8 @@ The viewport handle has the following features:
   Drag on the red/green/blue circles to rotate on X/Y/Z. Drag the sphere within the circles to free rotate.
   
 - **Scale**
-  Drag on the outer red/green/blue dots to scale on X/Y/Z. Drag on the outer red/green/blue cones to scale on the X/Y/Z planes. Drag on the outer peach circle to uniform scale.
+  Drag on the outer red/green/blue dots to scale on X/Y/Z. Drag on the outer red/green/blue cones to scale on the X/Y/Z planes.
+  Drag on the outer peach circle to uniform scale.
 
 ![p0-34.png](images/P0-34.jpg)
 
@@ -300,7 +301,6 @@ The viewport handle has the following features:
 Every object in Nomad is made of a node and vertices:
 
 - **Node**		    The 'handle' of the object, which stores its translation, rotation, scale, called its transformation matrix.
-  
 - **Vertices**		The points that define the surface of an object, they store position and paint information.
 
 ## Top meun
@@ -331,12 +331,12 @@ When you import an external scene file to Nomad, you can either import or add it
 
 Nomad can import these formats:
 
-Nomad   (.nom)	
-glTF    (.glb, .gltf)	
-OBJ     (.obj)	
-STL     (.stl)		
-PLY     (.ply)	
-FBX     (.fbx, experimental)
+- **Nomad**   (.nom)	
+- **glTF**    (.glb, .gltf)	
+- **OBJ**     (.obj)	
+- **STL**     (.stl)		
+- **PLY**     (.ply)	
+- **FBX**     (.fbx, experimental)
 
 ##### Advanced
 
@@ -403,7 +403,8 @@ Once a primitive is created, a toolbar will appear to control it's parameters.
 
 **Validate** 	Bake the primitive into a standard object so it can be sculpted and painted.
 
-**Edit** 		  Toggle displaying the primitive gizmo. This is shown directly on the primitive to control its parameters, eg the cube width, or a cylinder hole radius.
+**Edit** 		  Toggle displaying the primitive gizmo. This is shown directly on the primitive to control its parameters, 
+              eg the cube width, or a cylinder hole radius.
 
 **Mirror** 	  Toggle placing a mirror repeater above the primitive.
 
