@@ -8,20 +8,19 @@ comments: true
 
 ## What is this?
 
+The name B3D1 may evoke memories of R2D2, but it actually stands for "Beets 3D1mension," a tribute to Beets3D, the innovative company and team behind this exciting project. 
+
   ![Robot-Side-1](images/Robot-Side-1.png){ width=30% }
   ![Robot-Front](images/Robot-Front.png){ width=30% }
   ![Robot-Side-2](images/Robot-Side-2.png){ width=30% }
 
-
-
-A walking crank robot that demonstrates fundamental walking mechanism concepts through hands-on experimentation. This educational platform allows students and teachers to explore how different physical attributes affect robot locomotion. By modifying key components like leg length and foot design using LEGO blocks, students can investigate:
+This walking crank robot serves as a practical demonstration of fundamental walking mechanism concepts through engaging hands-on experimentation. It provides an educational platform for students and teachers to investigate how various physical attributes influence robot locomotion. By altering essential components such as leg length and foot design with LEGO blocks, students can explore:
 
 - Walking speed and efficiency
-- Robot stability and balance
-- Different walking gaits and patterns
+- Stability and balance of the robot
+- Various walking gaits and patterns
 
-
-Understanding the concepts of walking mechanisms, balance, and motion dynamics is crucial for developing a deeper understanding of robotics. For details, please refer to the [Concepts of Walking](concept-of-walking.md) page.
+Grasping the principles of walking mechanisms, balance, and motion dynamics is essential for fostering a deeper understanding of robotics. For more information, please refer to the [Concepts of Walking](concept-of-walking.md) page.
 
 Key Features:
 
@@ -91,7 +90,9 @@ It is designed using Autodesk Fusion 360, the STEP file is available in [Design 
    - **Main Board** - Serves as the central hub for the robot, featuring a dedicated slot for the micro:bit unit, which acts as the brain. It integrates the motor driver and facilitates seamless connectivity to both the motors and the battery pack, ensuring efficient power distribution and control.
 
   - **Micro:bit** - The Micro:bit is a compact, versatile microcontroller designed for educational purposes. It features a range of sensors, buttons, and LED lights, making it an ideal choice for programming and robotics projects. In this robot, the Micro:bit acts as the brain, controlling the motors and processing inputs from the user. 
+
       ![Microbit 1](images/microbit-1.png){: style="width: 30%; display: inline-block; margin-left: auto; margin-right: auto;"} ![Microbit 2](images/microbit-2.png){: style="width: 30%; display: inline-block;margin-left: auto; margin-right: auto;"} 
+      
    - **Battery Cases** - The battery cases are designed to securely hold the power source for the robot, ensuring that the batteries are protected and easily accessible for replacement. A well-designed battery case contributes to the overall stability of the robot by maintaining a low center of gravity, which is crucial for effective walking. Proper weight distribution helps prevent tipping and enhances the robot's balance during movement.
 
 #### Outter Shell
