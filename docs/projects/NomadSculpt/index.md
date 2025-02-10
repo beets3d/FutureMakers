@@ -3,7 +3,7 @@ title: NomadSculpt
 lang_name: en 
 comments: true
 ---
-# Getting to Know Nomad Sculpt
+# Project 00: Getting to Know Nomad Sculpt
 
 ![p0-01.png](images/P0-01.png)
 
