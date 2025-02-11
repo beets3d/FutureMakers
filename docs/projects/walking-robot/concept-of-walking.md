@@ -9,6 +9,9 @@ comments: true
 
 # Concepts of Walking
 
+[Back to Walking Robot Project Overview](index.md)
+
+
 ## Basic Principles
 ![Basic Principles of Walking](images/concept-walking-principle.png)
 
@@ -72,3 +75,6 @@ The attributes mentioned above directly influence the robot's walking output in 
 
 
 The walking movement of a bipedal robot is a complex interplay of mechanical design, energy management, and control strategies, all of which must be finely tuned to achieve effective locomotion.
+
+
+[Back to Walking Robot Project Overview](index.md)

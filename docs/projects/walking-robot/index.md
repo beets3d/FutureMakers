@@ -113,6 +113,7 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
       ![LEGO Attachment](images/lego-attachment-2.png){: style="width: 30%; display: inline-block; margin-left: auto; margin-right: auto;"} 
       ![LEGO Foot](images/lego-attachment.png){: style="width: 30%; display: inline-block;margin-left: auto; margin-right: auto;"} 
 
+
    - **Adjustable leg lengths** - With the LEGO attachment, you can adjust the length of the legs by adding LEGO blocks, which will change the range of motion for each steps.
    - **Adjustable foot shape** - You can also design the any shapes to test out the different effect to walking behavior, taking consideration of balance.
 
@@ -123,15 +124,32 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
 1. Mechanical Assembly
 1.1 Motor and gear installation
 
+Parts involve:
+
+   - Motor (N20 DC Motor) x 2
+   - Motor case
+
+
+
+
 1.2 Left and right legs assembly
+
 1.3 Main board installation
+
 1.4 Install Micro:bit to main board
+
 1.5 Battery Cases
+
 1.6 Body and Outter Shell
 
+
+
 2. Programming
+
 2.1 Basic Micro:bit programming using MakeCode
+
 2.2 Remote control setup
+
 2.3 Testing and calibration
 
 
