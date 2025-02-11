@@ -1,5 +1,7 @@
 # Project 01: Create Your Moai
 
+This project guides you through the process of creating and modifying a 3D Moai model using our software. Follow the steps below to import, modify, and save your Moai.
+
 ![p01-01.png](images/P01-01.jpg)
 
 ## Preparation
@@ -115,3 +117,7 @@
 4. Use "Gizmo" on the toobar for moving
 
 5. Use "Gizmo" on the toobar for scaling
+
+## Conclusion
+
+Congratulations on creating your Moai! You can now explore more advanced features or start a new project. Happy modeling!

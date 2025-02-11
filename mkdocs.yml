@@ -147,6 +147,10 @@ nav:
   - Projects:
     - NomadSculpt:
       - Overview: projects/NomadSculpt/index.md
+
+    - Moai:
+      - Overview: projects/project-moai/index.md
+
     - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:
