@@ -42,30 +42,35 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 - **Teamwork**: Collaborative experimentation, sharing findings
 - **STEM Integration**: Connecting physics concepts with real-world robotics applications
 
-## What you need
+### What you need
 
-### Hardware
+#### Hardware
 
 - 2x BBC micro:bit
 - USB cable for programming (please note V2 is used to developed this project)
-    - 1x Main control board for connecting to Micro:bit including motor driver and Battery pack (developed by Beets3D)
-    - 4 X AA Batteries
-    - 2x Geared motors (N20 DC motor)
-    - 3D printed parts (chassis and mechanical components)
-    - Outer shell components (External casing)
-    - LEGO blocks (for modifications)
+- 1x Main control board for connecting to Micro:bit including motor driver and Battery pack (developed by Beets3D)
+- 4 X AA Batteries
+- 2x Geared motors (N20 DC motor)
+- 3D printed parts (chassis and mechanical components, links to STLs)
+- Outer shell components (External casing)
+- 8x Screw M4X10
+- 4x Screw M4X5
+- 2 x Screw M2
+- LEGO blocks (for modifications)
 
 
-### Software
+#### Software
 - MakeCode for micro:bit (web-based programming platform Or using iPad app)
+- Code for main Walking Robot (links to code)
+- Code for remote control (links to code)
 - 3D printing software (for customizing parts, recommended using Fusion 360)
 
-### Tools
+#### Tools
 - Screwdriver
 - Wire cutters/strippers (for jumper wires)
-- 3D printer access (for parts)
+- 3D printer access (for printing 3D models, e.g. [Beets3D 3D Printers](https://www.beets3d.com/3d-printers))
 
-### Age
+#### Age
 Suitable for ages 11-17 
 
 ## How it works
@@ -175,7 +180,7 @@ Parts involve:
    - Performance optimization
    - Documentation of results
 
-## Exercise
+### Exercise
 1. Basic Walking Test
    - Forward/backward movement
    - Speed measurement
@@ -191,15 +196,15 @@ Parts involve:
    - Compare different configurations
    - Present findings
 
-## Student / Teacher Materials
-### Student Resources
+### Student / Teacher Materials
+#### Student Resources
 ![Assembly Guide Example](images/assembly-guide.jpg)
 - Assembly guide with pictures
 - Programming tutorial
 - Experiment worksheet
 - Design challenge tasks
 
-### Teacher Resources
+#### Teacher Resources
 - Detailed lesson plans
 - Assessment rubrics
 - Troubleshooting guide

@@ -52,6 +52,7 @@ theme:
         name: Switch to light mode
   extra:
     homepage: https://futuremakers.beets3d.com/
+    author: true
   icon:
     admonition:
       note: fontawesome/solid/note-sticky
