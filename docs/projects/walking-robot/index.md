@@ -60,9 +60,9 @@ The robot serves as an excellent teaching tool for understanding mechanical prin
 
 
 #### Software
-- MakeCode for micro:bit (web-based programming platform Or using iPad app)
-- Code for main Walking Robot (links to code)
-- Code for remote control (links to code)
+- [MakeCode for micro:bit](https://makecode.microbit.org/) (web-based programming platform or using iPad app)
+- Code for main Walking Robot [here](coding/microbit-walking-bot-main.hex)
+- Code for remote controller [here](coding/microbit-walking-bot-controller.hex)
 - 3D printing software (for customizing parts, recommended using Fusion 360)
 
 #### Tools
