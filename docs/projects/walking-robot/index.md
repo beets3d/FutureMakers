@@ -24,12 +24,12 @@ Grasping the principles of walking mechanisms, balance, and motion dynamics is e
 
 Key Features:
 
-- Modular design for easy modification
-- Basic walking functions (forward movement and potential turn left/right)
-- Customizable foot attachments for experimenting with different concepts by changing leg length and foot design by using LEGO blocks
-- Remote control capability to test different walking patterns
+- Designed to be easily modified with interchangeable parts
+- Can walk forward and has the ability to turn left or right
+- Foot attachments can be customized using LEGO blocks, allowing for experiments with different leg lengths and foot designs
+- Equipped with remote control functionality to try out various walking patterns
 
-The robot serves as an excellent teaching tool for understanding mechanical principles, robotics fundamentals, and the relationship between design choices and movement outcomes.
+The robot acts as a powerful educational resource, enabling learners to grasp essential mechanical principles, foundational concepts in robotics, and the intricate connections between design decisions and their impact on movement performance.
 
 ## What you will learn
 - **Mechanical Principles**: Walking mechanisms, balance, motion dynamics
@@ -131,9 +131,10 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
 
 Parts involve:
 
-   - Motor (N20 DC Motor) x 2
-   - Motor case
-
+   | Item               | Description                | Quantity | Image                | Link          |
+   |--------------------|----------------------------|----------|----------------------|----------------------|
+   | Motor (N20 DC Motor) | Small DC motor for driving | 2        | ![Motor](images/motor.png) | [Source](link_to_source) |
+   | Motor case         | Enclosure for the motor    | 1        | ![Motor Case](images/motor-case.png) | [Source](link_to_source) |
 
 
 
