@@ -46,29 +46,35 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 
 #### Hardware
 
-- 2x BBC micro:bit
-- USB cable for programming (please note V2 is used to developed this project)
-- 1x Main control board for connecting to Micro:bit including motor driver and Battery pack (developed by Beets3D)
-- 4 X AA Batteries
-- 2x Geared motors (N20 DC motor)
-- 3D printed parts (chassis and mechanical components, links to STLs)
-- Outer shell components (External casing)
-- 8x Screw M4X10
-- 4x Screw M4X5
-- 2 x Screw M2
-- LEGO blocks (for modifications)
+| Item                                         | Description                                                                 | Quantity | Required/Optional |
+|----------------------------------------------|-----------------------------------------------------------------------------|----------|----------|
+| BBC micro:bit                               | Compact microcontroller for controlling the robot                          | 2        | Y        |
+| USB cable for programming                    | Cable used for programming the micro:bit (V2 is used for this project)    | 1        | Y        |
+| Main control board                           | Board for connecting to micro:bit, including motor driver and battery pack | 1        | Y        |
+| AAA Batteries                                 | Power source for the robot                                                 | 4        | Y        |
+| Geared motors (N20 DC motor)                | Motors providing torque and speed for movement                              | 2        | Y        |
+| 3D printed parts                             | Chassis and mechanical components (links to STLs)                          | Various  | Y        |
+| Outer shell components                       | External casing for the robot                                             | Various  | Y        |
+| Screw M4X10                                  | Screws for assembly                                                        | 8        | Y        |
+| Screw M4X5                                   | Screws for assembly                                                        | 4        | Y        |
+| Screw M2                                     | Screws for assembly                                                        | 2        | Y        |
+| LEGO blocks                                  | For modifications and customization                                        | Various  | N        |
 
 
 #### Software
-- [MakeCode for micro:bit](https://makecode.microbit.org/) (web-based programming platform or using iPad app)
-- Code for main Walking Robot [here](coding/microbit-walking-bot-main.hex)
-- Code for remote controller [here](coding/microbit-walking-bot-controller.hex)
-- 3D printing software (for customizing parts, recommended using Fusion 360)
+| Item                                         | Description                                                                 | Required/Optional |
+|----------------------------------------------|-----------------------------------------------------------------------------|----------|
+| MakeCode for micro:bit                      | Web-based programming platform or using iPad app                           | Y        |
+| Code for main Walking Robot                  | [Link to code](https://beets3d.github.io/b3d1-walking-bot-main/)         | Y        |
+| Code for remote controller                   | [Link to code](https://beets3d.github.io/b3d1-walking-bot-controller/)   | Y        |
+| 3D printing software                         | For customizing parts, recommended using Fusion 360                        | N        |
 
 #### Tools
-- Screwdriver
-- Wire cutters/strippers (for jumper wires)
-- 3D printer access (for printing 3D models, e.g. [Beets3D 3D Printers](https://www.beets3d.com/3d-printers))
+| Item                        | Description                                         | Required/Optional |
+|-----------------------------|-----------------------------------------------------|----------|
+| Screwdriver                 | Tool for assembling and disassembling components    | Y        |
+| Wire cutters/strippers      | Tool for cutting and stripping jumper wires         | Y        |
+| 3D printer access           | Access to a 3D printer for printing 3D models      | N        | 
 
 #### Age
 Suitable for ages 11-17 
@@ -129,13 +135,14 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
 1. Mechanical Assembly
 1.1 Motor and gear installation
 
-Parts involve:
+**Parts involve:**
 
    | Item               | Description                | Quantity | Image                | Link          |
    |--------------------|----------------------------|----------|----------------------|----------------------|
    | Motor (N20 DC Motor) | Small DC motor for driving | 2        | ![Motor](images/motor.png) | [Source](link_to_source) |
    | Motor case         | Enclosure for the motor    | 1        | ![Motor Case](images/motor-case.png) | [Source](link_to_source) |
 
+**Video**
 
 
 1.2 Left and right legs assembly
