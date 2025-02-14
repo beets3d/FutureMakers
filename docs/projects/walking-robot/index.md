@@ -84,7 +84,6 @@ Suitable for ages 11-17
 
 ### The Design
 
-It is designed using Autodesk Fusion 360, the STEP file is available in [Design File](cad/Walking-Crank-Robot-v91.step).
 
 #### Core Walking Mechanism
    - **Motor Unit** - consists of 2 geared motors that provide the necessary torque and speed for the robot's movement. These motors are strategically positioned to optimize the walking mechanism, allowing for smooth and coordinated leg movements. The geared design enhances the efficiency of power transfer, ensuring that the robot can navigate various terrains effectively. 
@@ -139,7 +138,7 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
 
    | Item               | Description                | Quantity | Image                | Link          |
    |--------------------|----------------------------|----------|----------------------|----------------------|
-   | Motor (N20 DC Motor) | Small DC motor for driving | 2        | ![Motor](images/motor.png) | [Source](link_to_source) |
+   | Motor (N20 DC Motor) | Small DC motor for driving | 2        | ![Motor](https://robu.in/wp-content/uploads/2017/12/DC12V-200RPM-Gear-Motor-N20-Micro-Speed-Reduction-Gear-DC-Motor-with-Metal-Gearbox-Wheel.jpg_640x640.jpg) | [Source](link_to_source) |
    | Motor case         | Enclosure for the motor    | 1        | ![Motor Case](images/motor-case.png) | [Source](link_to_source) |
 
 **Video**
