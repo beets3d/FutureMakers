@@ -155,6 +155,8 @@ nav:
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:
         - Concepts of Walking: projects/walking-robot/concept-of-walking.md
+        - Gait Diagramming: projects/walking-robot/exercise-gait-diagramming.md
+        - Teeter-Totter Test: projects/walking-robot/exercise-teeter-totter-test.md
 
   - Resources:
     - Assessment: resources/assessment/index.md
