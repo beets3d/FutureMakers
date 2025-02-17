@@ -6,6 +6,8 @@ comments: true
 
 # Walking Robot  (B3D1) Project 
 
+---
+
 ## What is this?
 
 The name B3D1 may evoke memories of R2D2, but it actually stands for "Beets 3D1mension," a tribute to Beets3D, the innovative company and team behind this exciting project. 
@@ -30,6 +32,8 @@ Key Features:
 - Equipped with remote control functionality to try out various walking patterns
 
 The robot acts as a powerful educational resource, enabling learners to grasp essential mechanical principles, foundational concepts in robotics, and the intricate connections between design decisions and their impact on movement performance.
+
+---
 
 ## What you will learn
 - **Mechanical Principles**: Walking mechanisms, balance, motion dynamics
@@ -78,6 +82,8 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 
 #### Age
 Suitable for ages 11-17 
+
+---
 
 ## How it works
 ![Walking Robot Overview](images/Walking-Robot-Drawing.jpg){ width=80% }
@@ -146,14 +152,61 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
 
 1.2 Left and right legs assembly
 
+**Parts involve:**
+
+   | Item                                             | Description                       | Quantity | Image | Link |
+   |--------------------------------------------------|-----------------------------------|----------|-------|------|
+   | Left_Walking-Crank-Robot v103_Body1.stl         | Main body component                | 2        |       |      |
+   | Left_Walking-Crank-Robot v103_control-bar-bottom_1_Body1.stl | Control bar bottom component       | 2        |       |      |
+   | Left_Walking-Crank-Robot v103_control-bar-upper_1_Body1.stl | Control bar upper component        | 2        |       |      |
+   | Left_Walking-Crank-Robot v103_foot_1_Body4.stl  | Foot component                     | 2        |       |      |
+   | Left_Walking-Crank-Robot v103_foot_1_foot-palm-L_1_Body1.stl | Foot palm component                | 2        |       |      |
+   | Left_Walking-Crank-Robot v103_gear_1_Body1.stl  | Gear component                     | 2        |       |      |
+   | Left_Walking-Crank-Robot v103_things_1_Body1.stl | Additional component 1            | 2        |       |      |
+   | Left_Walking-Crank-Robot v103_things_1_Body2.stl | Additional component 2            | 2        |       |      |
+   | Screw M4X5                                       | Screw for assembly                 | 4        |       |      |
+   | Screw M4X10                                      | Longer screw for assembly          | 8        |       |      |
+   | Screw M2                                         | Small screw for assembly           | 2      |       |      |
+
+**Video**
+
 1.3 Main board installation
+
+**Part involves:**
+
+**Video**
 
 1.4 Install Micro:bit to main board
 
+**Part involves:**
+- 1 x
+**Video**
+
 1.5 Battery Cases
+
+**Part involves:**
+
+**Video**
+
+**Part involves:**
+
+| Item                     | Description                          | Quantity | Dimensions (mm)         | Image                | Link          |
+|--------------------------|--------------------------------------|----------|--------------------------|----------------------|----------------|
+| Battery Case for AAA     | Holds 2 AAA batteries                | 2        | 30 x 21.5 x 68           | ![Battery Case](https://example.com/battery-case-image.jpg) | [Source](link_to_source) |
+
+**Video**
 
 1.6 Body and Outter Shell
 
+**Part involves:**
+
+**Video**
+
+1.7 Remote Control
+
+**Part involves:**
+
+**Video**
 
 
 2. Programming
@@ -165,54 +218,85 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
 2.3 Testing and calibration
 
 
-
+---
 ## Lesson Plan
-1. **Day 1: Introduction and Design** (45 min)
-   - Walking mechanism principles
-   - Robot components overview
-   - Safety guidelines
-   
-2. **Day 2: Assembly** (45 min)
-   - Mechanical assembly
-   - Electronics connection
-   - Initial testing
-   
-3. **Day 3: Programming** (45 min)
-   - MakeCode basics
-   - Movement programming
-   - Remote control setup
-   
-4. **Day 4: Experimentation** (45 min)
-   - Foot design testing
-   - Performance optimization
-   - Documentation of results
 
-### Exercise
-1. Basic Walking Test
-   - Forward/backward movement
-   - Speed measurement
-   - Stability assessment
+###Course Objectives:
 
-2. Design Challenges
-   - Create different foot designs
-   - Test various leg lengths
-   - Compare walking efficiency
+- Understand walking mechanics (balance, torque, gait patterns).
+- Design and build a functional walking robot using the B3D1 kit. (optional)
+- Integrate coding (micro:bit) for motor control and remote operation. (optional)
+- Experiment with modifications to optimize performance.
+- Foster problem-solving through iterative testing and documentation.
 
-3. Documentation
-   - Record observations
-   - Compare different configurations
-   - Present findings
+### Course Structure
 
-### Student / Teacher Materials
-#### Student Resources
-![Assembly Guide Example](images/assembly-guide.jpg)
-- Assembly guide with pictures
-- Programming tutorial
-- Experiment worksheet
-- Design challenge tasks
+Total Sessions: 10 core + 4 optional
+Session Duration: 40–60 minutes
 
-#### Teacher Resources
-- Detailed lesson plans
-- Assessment rubrics
-- Troubleshooting guide
-- Extension activities
+##### Objective 1: Understand Walking Mechanics (Balance, Torque, Gait Patterns)
+
+- **Session 1: Biomechanics Basics**  
+  - **Exercise:** Gait Diagramming – Compare human/insect gaits using stick-figure animations.  
+  - **Duration:** 50 min  
+  - **Aligns with:** Balance, gait patterns.  
+
+  For details, please go to [Exercise: Gait Diagramming](exercise-gait-diagramming.md)
+
+- **Session 2: Torque & Balance**  
+  - **Exercise:** Teeter-Totter Test – Use LEGO weights to adjust robot balance on a fulcrum.  
+  - **Duration:** 50 min  
+  - **Aligns with:** Torque, balance.  
+
+For details, please go to [Exercise: Teeter-Totter Test](exercise-teeter-totter-test.md)
+
+##### Objective 2: Design & Build the B3D1 Robot (Optional 🔧)  
+
+- **Session 3: Mechanical Assembly**  
+  - **Exercise:** Gearbox Relay – Assemble gear systems in teams, focusing on torque transfer.  
+  - **Duration:** 60 min  
+
+- **Session 4: Electronics Setup**  
+  - **Exercise:** Circuit Detective – Diagnose wiring errors (e.g., loose motor connections).  
+  - **Duration:** 50 min  
+
+##### Objective 3: Integrate Coding (Optional 🔧)  
+
+- **Session 5: Motor Control Basics**  
+  - **Exercise:** Step Counter – Program the robot to walk 10 steps forward/backward.  
+  - **Duration:** 60 min  
+
+- **Session 6: Remote Control**  
+  - **Exercise:** Maze Navigator – Code a remote to steer the robot through a simple course.  
+  - **Duration:** 50 min  
+
+##### Objective 4: Experiment with Modifications  
+
+- **Session 7: Optimization Lab**  
+  - **Exercise:** Foot Swap Challenge – Test LEGO feet on different surfaces.  
+  - **Duration:** 50 min  
+  - **Aligns with:** Modifications, performance.  
+
+- **Session 8: Weight & Speed Trade-offs**  (optional 🔧)
+  - **Exercise:** Payload Test – Add weights to the robot and measure speed reduction.  
+  - **Duration:** 50 min  
+
+##### Objective 5: Foster Problem-Solving  
+
+- **Session 9: Debugging Workshop**  (optional 🔧)
+  - **Exercise:** Sabotage & Fix – Introduce a design flaw (e.g., misaligned legs) for teams to troubleshoot.  
+  - **Duration:** 60 min  
+
+- **Session 10: Final Project**  
+  - **Exercise:** Robot Olympics – Optimize the robot for a custom task (e.g., uphill climb).  
+  - **Duration:** 60 min  
+
+**Optional Pathways**  
+- **Build & Code Track (Sessions 3–6):** For students building the full kit.  
+- **Experiment-Only Track (Sessions 7–10):** Use pre-built robots to focus on testing/documentation.  
+
+**Flexibility Notes:**  
+- **No-Kit Option:** Replace B3D1 assembly with virtual simulations (e.g., Tinkercad).  
+- **Assessment:** Use lab journals (Objective 5) to evaluate iterative problem-solving.  
+
+This structure ensures core focus on mechanics, experimentation, and problem-solving, while optional sessions let you tailor depth for different groups.  
