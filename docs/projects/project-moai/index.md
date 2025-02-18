@@ -1,6 +1,8 @@
 # Project 01: Create Your Moai
 
-This project guides you through the process of creating and modifying a 3D Moai model using our software. Follow the steps below to import, modify, and save your Moai.
+This project guides you through the process of creating and modifying a 3D Moai model using our software. Follow the steps below to import, modify, and save your Moai. 
+
+If you need a basic Nomad Sculpt tutorial, please refer to [Nomad Sculpt Guide](../resources/NomadSculpt/index.md).
 
 ![p01-01.png](images/P01-01.jpg)
 

@@ -1,5 +1,12 @@
+---
+title: Exercise: Teeter-Totter Test
+lang: en
+lang_name: English
+comments: true
+---
+
 ### **Exercise: Teeter-Totter Test**  
-**Objective:** Demonstrate how weight distribution and torque affect a robot’s stability.  
+**Objective:** Demonstrate how weight distribution and torque affect a robot's stability.  
 
 ---
 
@@ -24,7 +31,7 @@
 3. **Weight Adjustment Experiment (20 min)**  
    - Attach LEGO weights to different robot parts (front/back/sides).  
    - Test how each modification shifts the CoG:  
-     - Example: *"Add 50g to the robot’s head – does it tip forward?"*  
+     - Example: *"Add 50g to the robot's head – does it tip forward?"*  
 
 4. **Torque Calculation (Advanced, 10 min)**  
    - Use formula: **Torque = Weight × Distance from Fulcrum**.  

@@ -1,3 +1,10 @@
+---
+title: Assembly Guide
+lang: en
+lang_name: English
+comments: true
+---
+
 # Assembly Guide
 
 ## Mechanical Assembly

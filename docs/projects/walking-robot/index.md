@@ -66,6 +66,7 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 
 
 **Software**
+
 | Item                                         | Description                                                                 | Required/Optional |
 |----------------------------------------------|-----------------------------------------------------------------------------|----------|
 | MakeCode for micro:bit                      | Web-based programming platform or using iPad app                           | Y        |
@@ -74,6 +75,7 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 | 3D printing software                         | For customizing parts, recommended using Fusion 360                        | N        |
 
 **Tools**
+
 | Item                        | Description                                         | Required/Optional |
 |-----------------------------|-----------------------------------------------------|----------|
 | Screwdriver                 | Tool for assembling and disassembling components    | Y        |

@@ -165,12 +165,9 @@ nav:
   - Home: index.md
   - Setup: setup.md
   - Projects:
-    - NomadSculpt:
-      - Overview: projects/NomadSculpt/index.md
 
-    - Moai:
+    - Moai (Your first Nomad Sculpt Project):
       - Overview: projects/project-moai/index.md
-
     - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:
@@ -183,6 +180,7 @@ nav:
     - Assessment: resources/assessment/index.md
     - Teaching Tips: resources/teaching-tips/index.md
     - Materials: resources/materials/index.md
+    - NomadSculpt: resources/NomadSculpt/index.md
   - Reference:
     - Glossary: reference/glossary.md
     - FAQ: reference/faq.md

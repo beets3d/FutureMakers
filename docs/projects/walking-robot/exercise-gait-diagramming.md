@@ -1,3 +1,10 @@
+---
+title: Exercise: Gait Diagramming
+lang: en
+lang_name: English
+comments: true
+---
+
 ### **Exercise: Gait Diagramming**  
 **Objective:** Compare bipedal (human) and hexapod (insect) gait patterns to understand how limb coordination affects stability and energy efficiency.  
 
@@ -25,8 +32,8 @@
      - Role of arm swings in balance.  
 
 3. **Insect Gait Analysis (15 min)**  
-   - Diagram an insect’s tripod gait (three legs touch the ground at once).  
-   - Compare stability: *"Why don’t insects tip over?"*  
+   - Diagram an insect's tripod gait (three legs touch the ground at once).  
+   - Compare stability: *"Why don't insects tip over?"*  
 
 4. **Group Discussion (10 min)**  
    - Compare diagrams: How do gait patterns relate to body structure?  
