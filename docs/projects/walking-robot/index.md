@@ -48,7 +48,7 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 
 ### What you need
 
-#### Hardware
+**Hardware**
 
 | Item                                         | Description                                                                 | Quantity | Required/Optional |
 |----------------------------------------------|-----------------------------------------------------------------------------|----------|----------|
@@ -65,7 +65,7 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 | LEGO blocks                                  | For modifications and customization                                        | Various  | N        |
 
 
-#### Software
+**Software**
 | Item                                         | Description                                                                 | Required/Optional |
 |----------------------------------------------|-----------------------------------------------------------------------------|----------|
 | MakeCode for micro:bit                      | Web-based programming platform or using iPad app                           | Y        |
@@ -73,15 +73,14 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 | Code for remote controller                   | [Link to code](https://beets3d.github.io/b3d1-walking-bot-controller/)   | Y        |
 | 3D printing software                         | For customizing parts, recommended using Fusion 360                        | N        |
 
-#### Tools
+**Tools**
 | Item                        | Description                                         | Required/Optional |
 |-----------------------------|-----------------------------------------------------|----------|
 | Screwdriver                 | Tool for assembling and disassembling components    | Y        |
 | Wire cutters/strippers      | Tool for cutting and stripping jumper wires         | Y        |
 | 3D printer access           | Access to a 3D printer for printing 3D models      | N        | 
 
-#### Age
-Suitable for ages 11-17 
+
 
 ---
 
@@ -91,7 +90,7 @@ Suitable for ages 11-17
 ### The Design
 
 
-#### Core Walking Mechanism
+**Core Walking Mechanism**
    - **Motor Unit** - consists of 2 geared motors that provide the necessary torque and speed for the robot's movement. These motors are strategically positioned to optimize the walking mechanism, allowing for smooth and coordinated leg movements. The geared design enhances the efficiency of power transfer, ensuring that the robot can navigate various terrains effectively. 
    ![Motor Unit](images/Motor-Unit.png){: style="width: 50%; display: block; margin-left: auto; margin-right: auto;"}
 
@@ -102,7 +101,7 @@ Suitable for ages 11-17
       
    ![LEGO Attachment](images/leg-lego-attachment.png){: style="width: 30%; display: inline-block; margin-right: 10px;"} ![Foot](images/leg-foot.png){: style="width: 30%; display: inline-block;"}
 
-#### Electronics
+**Electronics**
    - **Main Board** - Serves as the central hub for the robot, featuring a dedicated slot for the micro:bit unit, which acts as the brain. It integrates the motor driver and facilitates seamless connectivity to both the motors and the battery pack, ensuring efficient power distribution and control.
 
   - **Micro:bit** - The Micro:bit is a compact, versatile microcontroller designed for educational purposes. It features a range of sensors, buttons, and LED lights, making it an ideal choice for programming and robotics projects. In this robot, the Micro:bit acts as the brain, controlling the motors and processing inputs from the user. 
@@ -111,7 +110,7 @@ Suitable for ages 11-17
 
    - **Battery Cases** - The battery cases are designed to securely hold the power source for the robot, ensuring that the batteries are protected and easily accessible for replacement. A well-designed battery case contributes to the overall stability of the robot by maintaining a low center of gravity, which is crucial for effective walking. Proper weight distribution helps prevent tipping and enhances the robot's balance during movement.
 
-#### Outter Shell
+**Outter Shell**
    - **Body**- This is the main body of the walking robot, designed to house the internal components and provide structural support for the legs and head.
       ![Body](images/body.png){: style="width: 50%; display: block; margin-left: auto; margin-right: auto;"}
 
@@ -120,11 +119,11 @@ Suitable for ages 11-17
    - **Outer Shell** - This component provides the external casing for the robot, giving a nice outlook and customise base any requirements.  
       ![Shell](images/body-outter-shell.png){: style="width: 50%; display: block; margin-left: auto; margin-right: auto;"}
 
-#### Remote Control
+**Remote Control**
 You can use another Micro:bit to control the walking pattern by pressing the A or B button. Each button corresponds to the movement of one leg; pressing a button will make the associated leg step forward. For example, let's assume the A button controls the left leg and the B button controls the right leg. When you press the A button, the left leg will step forward, and when you press the B button, the right leg will step forward. This setup allows you to manage the timing and motion of both legs, providing an opportunity to explore how "control timing" affects balance, speed, and direction during walking.
 
 
-#### Customization Options
+**Customization Options**
    - **LEGO attachment** - Foot is designed to allow any LEGO attachment to be added
       ![LEGO Attachment](images/lego-attachment-2.png){: style="width: 30%; display: inline-block; margin-left: auto; margin-right: auto;"} 
       ![LEGO Foot](images/lego-attachment.png){: style="width: 30%; display: inline-block;margin-left: auto; margin-right: auto;"} 
@@ -135,90 +134,10 @@ You can use another Micro:bit to control the walking pattern by pressing the A o
 
 
 ### Assembly Guide
-
-
-1. Mechanical Assembly
-1.1 Motor and gear installation
-
-**Parts involve:**
-
-   | Item               | Description                | Quantity | Image                | Link          |
-   |--------------------|----------------------------|----------|----------------------|----------------------|
-   | Motor (N20 DC Motor) | Small DC motor for driving | 2        | ![Motor](https://robu.in/wp-content/uploads/2017/12/DC12V-200RPM-Gear-Motor-N20-Micro-Speed-Reduction-Gear-DC-Motor-with-Metal-Gearbox-Wheel.jpg_640x640.jpg) | [Source](link_to_source) |
-   | Motor case         | Enclosure for the motor    | 1        | ![Motor Case](images/motor-case.png) | [Source](link_to_source) |
-
-**Video**
-
-
-1.2 Left and right legs assembly
-
-**Parts involve:**
-
-   | Item                                             | Description                       | Quantity | Image | Link |
-   |--------------------------------------------------|-----------------------------------|----------|-------|------|
-   | Left_Walking-Crank-Robot v103_Body1.stl         | Main body component                | 2        |       |      |
-   | Left_Walking-Crank-Robot v103_control-bar-bottom_1_Body1.stl | Control bar bottom component       | 2        |       |      |
-   | Left_Walking-Crank-Robot v103_control-bar-upper_1_Body1.stl | Control bar upper component        | 2        |       |      |
-   | Left_Walking-Crank-Robot v103_foot_1_Body4.stl  | Foot component                     | 2        |       |      |
-   | Left_Walking-Crank-Robot v103_foot_1_foot-palm-L_1_Body1.stl | Foot palm component                | 2        |       |      |
-   | Left_Walking-Crank-Robot v103_gear_1_Body1.stl  | Gear component                     | 2        |       |      |
-   | Left_Walking-Crank-Robot v103_things_1_Body1.stl | Additional component 1            | 2        |       |      |
-   | Left_Walking-Crank-Robot v103_things_1_Body2.stl | Additional component 2            | 2        |       |      |
-   | Screw M4X5                                       | Screw for assembly                 | 4        |       |      |
-   | Screw M4X10                                      | Longer screw for assembly          | 8        |       |      |
-   | Screw M2                                         | Small screw for assembly           | 2      |       |      |
-
-**Video**
-
-1.3 Main board installation
-
-**Part involves:**
-
-**Video**
-
-1.4 Install Micro:bit to main board
-
-**Part involves:**
-- 1 x
-**Video**
-
-1.5 Battery Cases
-
-**Part involves:**
-
-**Video**
-
-**Part involves:**
-
-| Item                     | Description                          | Quantity | Dimensions (mm)         | Image                | Link          |
-|--------------------------|--------------------------------------|----------|--------------------------|----------------------|----------------|
-| Battery Case for AAA     | Holds 2 AAA batteries                | 2        | 30 x 21.5 x 68           | ![Battery Case](https://example.com/battery-case-image.jpg) | [Source](link_to_source) |
-
-**Video**
-
-1.6 Body and Outter Shell
-
-**Part involves:**
-
-**Video**
-
-1.7 Remote Control
-
-**Part involves:**
-
-**Video**
-
-
-2. Programming
-
-2.1 Basic Micro:bit programming using MakeCode
-
-2.2 Remote control setup
-
-2.3 Testing and calibration
-
+For detailed assembly instructions, please refer to the [Assembly Guide](assembly-guide.md).
 
 ---
+
 ## Lesson Plan
 
 ###Course Objectives:
@@ -252,42 +171,41 @@ For details, please go to [Exercise: Teeter-Totter Test](exercise-teeter-totter-
 
 ##### Objective 2: Design & Build the B3D1 Robot (Optional 🔧)  
 
-- **Session 3: Mechanical Assembly**  
-  - **Exercise:** Gearbox Relay – Assemble gear systems in teams, focusing on torque transfer.  
+- **Session 3: Mechanical Assembly & Electronics Setup**  
+  - **Exercise:** Gearbox Relay & Circuit Detective – Assemble gear systems in teams, focusing on torque transfer, and diagnose wiring errors (e.g., loose motor connections).  
   - **Duration:** 60 min  
 
-- **Session 4: Electronics Setup**  
-  - **Exercise:** Circuit Detective – Diagnose wiring errors (e.g., loose motor connections).  
-  - **Duration:** 50 min  
+For details, please go to [Assembly Guide](assembly-guide.md) 
+
 
 ##### Objective 3: Integrate Coding (Optional 🔧)  
 
-- **Session 5: Motor Control Basics**  
+- **Session 4: Motor Control Basics**  
   - **Exercise:** Step Counter – Program the robot to walk 10 steps forward/backward.  
   - **Duration:** 60 min  
 
-- **Session 6: Remote Control**  
+- **Session 5: Remote Control**  
   - **Exercise:** Maze Navigator – Code a remote to steer the robot through a simple course.  
   - **Duration:** 50 min  
 
 ##### Objective 4: Experiment with Modifications  
 
-- **Session 7: Optimization Lab**  
+- **Session 6: Optimization Lab**  
   - **Exercise:** Foot Swap Challenge – Test LEGO feet on different surfaces.  
   - **Duration:** 50 min  
   - **Aligns with:** Modifications, performance.  
 
-- **Session 8: Weight & Speed Trade-offs**  (optional 🔧)
+- **Session 7: Weight & Speed Trade-offs**  (optional 🔧)
   - **Exercise:** Payload Test – Add weights to the robot and measure speed reduction.  
   - **Duration:** 50 min  
 
 ##### Objective 5: Foster Problem-Solving  
 
-- **Session 9: Debugging Workshop**  (optional 🔧)
+- **Session 8: Debugging Workshop**  (optional 🔧)
   - **Exercise:** Sabotage & Fix – Introduce a design flaw (e.g., misaligned legs) for teams to troubleshoot.  
   - **Duration:** 60 min  
 
-- **Session 10: Final Project**  
+- **Session 9: Final Project**  
   - **Exercise:** Robot Olympics – Optimize the robot for a custom task (e.g., uphill climb).  
   - **Duration:** 60 min  
 

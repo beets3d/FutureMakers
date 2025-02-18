@@ -139,6 +139,26 @@ plugins:
             Exercise Cards: 練習卡
             Teaching Tips: 教學提示
             Materials: 材料
+          nav_translations:
+            Home: 首頁
+            Projects: 專案
+            Resources: 資源
+            Reference: 參考
+            Glossary: 詞彙表
+            Double Side Character: 雙面字
+            Lesson 1: 第一課
+            Overview: 概覽
+            Handbook: 指南
+            Lesson Plan: 教案
+            Exercise Cards: 練習卡
+            Teaching Tips: 教學提示
+            Materials: 材料
+            Additional Concepts: 附加概念
+            Assembly Guide: 組裝指南
+            Gait Diagramming: 步態圖示
+            Teeter-Totter Test: 翹翹板測試
+            Concepts of Walking: 行走概念
+
 
 
 nav:
@@ -155,6 +175,7 @@ nav:
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:
         - Concepts of Walking: projects/walking-robot/concept-of-walking.md
+        - Assembly Guide: projects/walking-robot/assembly-guide.md
         - Gait Diagramming: projects/walking-robot/exercise-gait-diagramming.md
         - Teeter-Totter Test: projects/walking-robot/exercise-teeter-totter-test.md
 
