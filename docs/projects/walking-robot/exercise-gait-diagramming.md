@@ -1,9 +1,10 @@
 ---
-title: Exercise: Gait Diagramming
+title: Gait Diagramming Exercise
 lang: en
 lang_name: English
 comments: true
 ---
+
 
 ### **Exercise: Gait Diagramming**  
 **Objective:** Compare bipedal (human) and hexapod (insect) gait patterns to understand how limb coordination affects stability and energy efficiency.  

@@ -1,5 +1,5 @@
 ---
-title: Exercise: Teeter-Totter Test
+title: Teeter-Totter Test Exercise
 lang: en
 lang_name: English
 comments: true
