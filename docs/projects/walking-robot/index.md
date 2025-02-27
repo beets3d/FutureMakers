@@ -70,8 +70,8 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 | Item                                         | Description                                                                 | Required/Optional |
 |----------------------------------------------|-----------------------------------------------------------------------------|----------|
 | MakeCode for micro:bit                      | Web-based programming platform or using iPad app                           | Y        |
-| Code for main Walking Robot                  | [Link to code](https://beets3d.github.io/b3d1-walking-bot-main/)         | Y        |
-| Code for remote controller                   | [Link to code](https://beets3d.github.io/b3d1-walking-bot-controller/)   | Y        |
+| Code for main Walking Robot                  | Basic code to control the bot [Link to code](https://beets3d.github.io/b3d1-walking-bot-main/)         | Y        |
+| Code for remote controller                   | Basic code for remote control [Link to code](https://beets3d.github.io/b3d1-walking-bot-controller/)   | Y        |
 | 3D printing software                         | For customizing parts, recommended using Fusion 360                        | N        |
 
 **Tools**
