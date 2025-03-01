@@ -66,9 +66,7 @@ comments: true
 
 ### 編號 001
 
-<div class="image-grid">
-    <img src="./images/P01-15.jpg" alt="Moai 示例 15" width="300" height="450" />
-</div>
+![p01-15.png](images/P01-15.jpg)
 
 **解決方案：**
 
