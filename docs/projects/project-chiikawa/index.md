@@ -114,14 +114,16 @@ Switch viewing angles to verify the proportions between ears, tail, and body to 
 
 ## Practice
 
-<div class="image-row">
-    <div class="image-column">
-        <p>1. Basic Chiikawa: Follow the main tutorial steps</p>
-        <img src="./images/chiikawa-06.jpg" alt="Chiikawa Practice Examples" />
+<div class="image-grid">
+    <div class="image-item">
+        <h3>Level 1: Basic Chiikawa</h3>
+        <p>Follow the main tutorial steps</p>
+        <img src="./images/chiikawa-06.jpg" alt="Chiikawa Practice Examples" class="tutorial-image" />
     </div>
-    <div class="image-column">
-        <p>2. Custom: Create your own unique variation</p>
-        <img src="./images/chiikawa-07.jpg" alt="Chiikawa Custom Examples" />
+    <div class="image-item">
+        <h3>Level 2: Custom Creation</h3>
+        <p>Create your own unique variation</p>
+        <img src="./images/chiikawa-07.jpg" alt="Chiikawa Custom Examples" class="tutorial-image" />
     </div>
 </div>
 
