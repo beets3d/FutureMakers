@@ -13,8 +13,6 @@ comments: true
 
 如果你需要基本的 Nomad Sculpt 教學，請參考 [Nomad Sculpt 指南](../resources/NomadSculpt/index.md)。
 
-![Chiikawa 3D 模型](./images/chiikawa-3d-model.jpg)
-
 ## 步驟 1：準備工作
 
 1. 打開 Nomad Sculpt：啟動應用程式，創建一個新的專案。
@@ -83,15 +81,6 @@ comments: true
 1. 使用「軸向變換（Gizmo）」的「移動（Move）」工具，將圓管移到身體後方的位置
 2. 使用「縮放（Scale）」工具，調整整體的粗幼度，增加造型變化
 3. 進階細節：用「黏土（Clay）」或「膨脹（Inflate）」工具塑造尾巴特色
-
-### 快速檢查比例
-
-切換視角確認耳朵與尾巴與身體的比例，避免尺寸失衡。
-
-<div class="image-row">
-    <img src="./images/chiikawa-04.jpg" alt="Chiikawa 尾巴示例 1" />
-    <img src="./images/chiikawa-05.jpg" alt="Chiikawa 尾巴示例 2" />
-</div>
 
 ## 步驟 3：添加細節
 
