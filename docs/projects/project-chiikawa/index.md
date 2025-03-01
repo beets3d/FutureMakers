@@ -4,95 +4,103 @@ This project will guide you through creating a Chiikawa 3D model using Nomad Scu
 
 If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guide](../resources/NomadSculpt/index.md).
 
-![Chiikawa 3D Model](./images/chiikawa-3d-model.png)
-*Final result: A 3D model of Chiikawa character*
-
 ## Step 1: Preparation
 
-[Download a free Moai 3D file](https://www.thingiverse.com/thing:144668) from [Thingiverse](https://www.thingiverse.com/), and save it on the tablet.
+1. Open Nomad Sculpt: Launch the application and create a new project.
+2. Basic Shape: Use the sphere in the scene as the base shape, which will become Chiikawa's head.
+3. Reference Image: Import Chiikawa's front reference image, adjust the sphere transparency (Overlay) and image position.
 
-## Import a Moai
+## Step 2: Basic Modeling
 
-1. Click "File" on the top menu
+![Chiikawa Basic Modeling](./images/chiikawa-02.jpg)
 
-2. Select "Import" from the drop-down menu
+1. Adjust View: Use gestures to move the sphere in the scene to overlap with Chiikawa's head in the reference image for easier modeling.
+   - Note: Don't use the "Gizmo" move function to avoid affecting the symmetry function later.
 
-3. Choose the Moai file
+2. Adjust Head Shape:
+   - Use "Gizmo" transform function to adjust the overall shape of the sphere
+   - Use "Move" tool to fine-tune the sphere shape
+   - Note: Keep Symmetry function enabled to ensure left-right symmetry
 
-4. Click on "New (Project)"
+3. Create Body:
+   - Add a new shape through "Add" to create Chiikawa's body
+   - Use "Gizmo" move function to position the new shape below the head
 
-## Save Your Moai
+4. Adjust Body Shape:
+   - Use "Gizmo" transform function to adjust the overall shape
+   - Click "Validate" then use "Move" tool for detail adjustments
 
-1. Select "Gizmo" on the toolbox to rotate the moai 
+5. Create Ears, Tail, and Limbs:
+   - Add new shapes for each part
+   - Use "Gizmo" move and rotate functions to adjust position and pose
+   - For symmetrical parts, click "Mirror" before "Validate"
 
-2. Select tools on the toolbox to modify your moai
+## Step 2.5: Creating Other Chiikawa Characters
 
-3. Save your moai as a 3D file project
+![Chiikawa Other Characters](./images/chiikawa-03.jpg)
 
-## Exercise
+### Save As New File
 
-### Level 1
+1. Click "File" → "Save As"
+2. Save the current model as a new file (e.g., Chiikawa_hachiware)
 
-### Level 2
+### Reuse Model
 
-## Reference
+Directly use the head and body structure completed in Step 2, no need to recreate.
 
-### No. 001
+### Modify Ear Shape
 
-**Solution:**
+1. Select original ear components and use "Delete" tool to remove old ears
+2. Add sphere or cylinder through "Add"
+3. Use "Gizmo" scale and stretch functions, or "Move" to adjust into different shapes
+4. Symmetry operations:
+   - Turn off "Symmetry" for asymmetric designs
+   - For symmetry, create one side first then use "Mirror" to copy the other side
 
-1. Use "SelMask" on the toolbox
-   
-2. Mask the eyes by using "Rect" selector
-   
-3. Use "Move" to change the mouth
-   
-4. Use "Smooth" to remove the bumpy parts
-   
-5. Clear the mask
+### Add/Adjust Tail
 
-### No. 002
+1. Select original tail component and use "Delete" tool to remove old tail
+2. Add → "Tube" behind the body for the tail
+3. Draw tail movement shape/pattern:
+   - Drag white points to change shape/pattern
+   - Can add white points on segments
+4. Adjust tube parameters:
+   - Enable "Radius" to adjust thickness
 
-**Solution:**
+### Positioning and Deformation
 
-1. Use "SelMask" on the toolbox
-   
-2. Mask the eyes by using "Rect" selector
-   
-3. Use "Move" to change the eyebrows and mouth
-   
-4. Use "Smooth" to remove the bumpy parts
-   
-5. Clear the mask
+1. Use "Gizmo" "Move" tool to position the tube behind the body
+2. Use "Scale" tool to adjust overall thickness for shape variation
+3. Advanced details: Use "Clay" or "Inflate" tools to sculpt tail characteristics
 
-### No. 004
+## Step 3: Adding Details
 
-**Solution:**
+1. Sculpt Facial Details:
+   - Use "Subdivide" to increase mesh density
+   - Sculpt eyes and mouth positions and details
+   - Can add spheres for eyeballs, adjust size and position
+   - Use "Smooth" to remove sharp edges
+   - Use "Inflate" to enhance cheek roundness
 
-1. Click "Scene" on the top menu
-   
-2. Click "Add..."
-   
-3. Select a shape from "Primitive"
-   
-4. Use "Gizmo" on the toobar for moving
-   
-5. Click "Mirror" on the primitive toolbar to toggle placing a mirror repeater above the primitive
+## Step 4: Adding Color and Visual Post-processing
 
-### No. 005
+1. Color Your Chiikawa:
+   - Use "Paint" tool
+   - Adjust roughness and metallic properties for different textures
 
-**Solution:**
+2. Post-processing:
+   - Adjust overall visual effects (like Color Grading)
+   - Enable "Ambient Occlusion" to enhance shadows and depth
 
-1. Click "Scene" on the top menu 
+## Step 5: Completion and Export
 
-2. Click "Add..."
+1. Check Model: Carefully inspect every detail of the model
 
-3. Select a shape from "Primitive"
-
-4. Use "Gizmo" on the toobar for moving
-
-5. Use "Gizmo" on the toobar for scaling
+2. Export Model:
+   - For 3D printing, select all components
+   - Use "Boolean" to merge them into one piece
+   - Export the completed Chiikawa model in required format (.stl/.obj)
 
 ## Conclusion
 
-Congratulations on creating your Moai! You can now explore more advanced features or start a new project. Happy modeling!
+Congratulations on creating your Chiikawa! You can now explore more advanced features or start creating different characters. Happy modeling!
