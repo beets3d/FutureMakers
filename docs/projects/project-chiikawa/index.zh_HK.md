@@ -123,11 +123,16 @@ comments: true
 
 ## 練習
 
-1. 基礎 Chiikawa：按照主要教程步驟製作
-![Chiikawa 練習示例](./images/chiikawa-06.jpg)
-
-2. 自創：創作你自己獨特的變體
-![Chiikawa 自創示例](./images/chiikawa-07.jpg)
+<div class="image-row">
+    <div class="image-column">
+        <p>1. 基礎 Chiikawa：按照主要教程步驟製作</p>
+        <img src="./images/chiikawa-06.jpg" alt="Chiikawa 練習示例" />
+    </div>
+    <div class="image-column">
+        <p>2. 自創：創作你自己獨特的變體</p>
+        <img src="./images/chiikawa-07.jpg" alt="Chiikawa 自創示例" />
+    </div>
+</div>
 
 ## 結論
 
