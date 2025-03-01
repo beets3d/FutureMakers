@@ -13,6 +13,8 @@ comments: true
 
 如果你需要基本的 Nomad Sculpt 教學，請參考 [Nomad Sculpt 指南](../resources/NomadSculpt/index.md)。
 
+![Chiikawa 基本造型](./images/chiikawa-01.jpg)
+
 ## 步驟 1：準備工作
 
 1. 打開 Nomad Sculpt：啟動應用程式，創建一個新的專案。
