@@ -4,6 +4,8 @@ This project will guide you through creating a Chiikawa 3D model using Nomad Scu
 
 If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guide](../resources/NomadSculpt/index.md).
 
+![Chiikawa Basic Shape](./images/chiikawa-01.jpg)
+
 ## Step 1: Preparation
 
 1. Open Nomad Sculpt: Launch the application and create a new project.
@@ -110,16 +112,12 @@ Switch viewing angles to verify the proportions between ears, tail, and body to 
    - Use "Boolean" to merge them into one piece
    - Export the completed Chiikawa model in required format (.stl/.obj)
 
-## Practice Exercises
-
-Try to create these variations to improve your skills:
-
-![Chiikawa Practice Examples](./images/chiikawa-06.jpg)
+## Practice
 
 1. Basic Chiikawa: Follow the main tutorial steps
-2. Hachiware: Try creating the black and white version
-3. Usagi: Experiment with different ear shapes
-4. Custom: Create your own unique variation
+![Chiikawa Practice Examples](./images/chiikawa-06.jpg)
+
+2. Custom: Create your own unique variation
 ![Chiikawa Custom Examples](./images/chiikawa-07.jpg)
 
 ## Conclusion
