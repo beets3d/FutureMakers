@@ -82,6 +82,15 @@ comments: true
 2. 使用「縮放（Scale）」工具，調整整體的粗幼度，增加造型變化
 3. 進階細節：用「黏土（Clay）」或「膨脹（Inflate）」工具塑造尾巴特色
 
+### 快速檢查比例
+
+切換視角確認耳朵與尾巴與身體的比例，避免尺寸失衡。
+
+<div class="image-row">
+    <img src="./images/chiikawa-04.jpg" alt="Chiikawa 尾巴示例 1" />
+    <img src="./images/chiikawa-05.jpg" alt="Chiikawa 尾巴示例 2" />
+</div>
+
 ## 步驟 3：添加細節
 
 1. 雕刻面部細節：
@@ -109,6 +118,14 @@ comments: true
    - 如需要 3D 打印，先揀選所有部件
    - 使用"布林（Boolean）"使其合成一件
    - 將完成的 Chiikawa 模型導出為打印所需的格式（.stl/.obj）
+
+## 練習
+
+1. 基礎 Chiikawa：按照主要教程步驟製作
+![Chiikawa 練習示例](./images/chiikawa-06.jpg)
+
+2. 自創：創作你自己獨特的變體
+![Chiikawa 自創示例](./images/chiikawa-07.jpg)
 
 ## 結論
 

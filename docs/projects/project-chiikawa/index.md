@@ -73,6 +73,15 @@ Directly use the head and body structure completed in Step 2, no need to recreat
 2. Use "Scale" tool to adjust overall thickness for shape variation
 3. Advanced details: Use "Clay" or "Inflate" tools to sculpt tail characteristics
 
+### Quick Proportion Check
+
+Switch viewing angles to verify the proportions between ears, tail, and body to avoid size imbalance.
+
+<div class="image-row">
+    <img src="./images/chiikawa-04.jpg" alt="Chiikawa tail example 1" />
+    <img src="./images/chiikawa-05.jpg" alt="Chiikawa tail example 2" />
+</div>
+
 ## Step 3: Adding Details
 
 1. Sculpt Facial Details:
@@ -100,6 +109,18 @@ Directly use the head and body structure completed in Step 2, no need to recreat
    - For 3D printing, select all components
    - Use "Boolean" to merge them into one piece
    - Export the completed Chiikawa model in required format (.stl/.obj)
+
+## Practice Exercises
+
+Try to create these variations to improve your skills:
+
+![Chiikawa Practice Examples](./images/chiikawa-06.jpg)
+
+1. Basic Chiikawa: Follow the main tutorial steps
+2. Hachiware: Try creating the black and white version
+3. Usagi: Experiment with different ear shapes
+4. Custom: Create your own unique variation
+![Chiikawa Custom Examples](./images/chiikawa-07.jpg)
 
 ## Conclusion
 
