@@ -49,17 +49,17 @@ comments: true
 ### 等級 1
 
 <div class="image-grid">
-    <img src="./images/P01-09.jpg" alt="Moai 示例 9" width="200" />
-    <img src="./images/P01-10.jpg" alt="Moai 示例 10" width="200" />
-    <img src="./images/P01-11.jpg" alt="Moai 示例 11" width="200" />
+    <img src="./images/P01-09.jpg" alt="Moai 示例 9" width="300" height="450" />
+    <img src="./images/P01-10.jpg" alt="Moai 示例 10" width="300" height="450" />
+    <img src="./images/P01-11.jpg" alt="Moai 示例 11" width="300" height="450" />
 </div>
 
 ### 等級 2
 
 <div class="image-grid">
-    <img src="./images/P01-12.jpg" alt="Moai 示例 12" width="200" />
-    <img src="./images/P01-13.jpg" alt="Moai 示例 13" width="200" />
-    <img src="./images/P01-14.jpg" alt="Moai 示例 14" width="200" />
+    <img src="./images/P01-12.jpg" alt="Moai 示例 12" width="300" height="450" />
+    <img src="./images/P01-13.jpg" alt="Moai 示例 13" width="300" height="450" />
+    <img src="./images/P01-14.jpg" alt="Moai 示例 14" width="300" height="450" />
 </div>
 
 ## 參考
@@ -67,7 +67,7 @@ comments: true
 ### 編號 001
 
 <div class="image-grid">
-    <img src="./images/P01-15.jpg" alt="Moai 示例 15" width="200" />
+    <img src="./images/P01-15.jpg" alt="Moai 示例 15" width="300" height="450" />
 </div>
 
 **解決方案：**
