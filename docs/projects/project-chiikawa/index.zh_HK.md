@@ -131,7 +131,7 @@ comments: true
     </div>
     <div class="image-item">
         <h3>等級 2：自創角色</h3>
-        <p>創作你自己獨特的變體</p>
+        <p>創作你自己獨特的角色</p>
         <img src="./images/chiikawa-07.jpg" alt="Chiikawa 自創示例" class="tutorial-image" />
     </div>
 </div>
