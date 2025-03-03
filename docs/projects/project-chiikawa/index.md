@@ -122,7 +122,7 @@ Switch viewing angles to verify the proportions between ears, tail, and body to 
     </div>
     <div class="image-item">
         <h3>Level 2: Custom Creation</h3>
-        <p>Create your own unique variation</p>
+        <p>Create your own unique character</p>
         <img src="./images/chiikawa-07.jpg" alt="Chiikawa Custom Examples" class="tutorial-image" />
     </div>
 </div>
