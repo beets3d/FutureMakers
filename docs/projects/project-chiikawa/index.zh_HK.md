@@ -88,10 +88,8 @@ comments: true
 
 切換視角確認耳朵與尾巴與身體的比例，避免尺寸失衡。
 
-<div class="image-row">
-    <img src="./images/chiikawa-04.jpg" alt="Chiikawa 尾巴示例 1" />
-    <img src="./images/chiikawa-05.jpg" alt="Chiikawa 尾巴示例 2" />
-</div>
+![Chiikawa 尾巴示例 1](./images/chiikawa-04.jpg)
+![Chiikawa 尾巴示例 2](./images/chiikawa-05.jpg)
 
 ## 步驟 3：添加細節
 
@@ -123,18 +121,13 @@ comments: true
 
 ## 練習
 
-<div class="image-grid">
-    <div class="image-item">
-        <h3>等級 1：基礎 Chiikawa</h3>
-        <p>按照主要教程步驟製作</p>
-        <img src="./images/chiikawa-06.jpg" alt="Chiikawa 練習示例" class="tutorial-image" />
-    </div>
-    <div class="image-item">
-        <h3>等級 2：自創角色</h3>
-        <p>創作你自己獨特的角色</p>
-        <img src="./images/chiikawa-07.jpg" alt="Chiikawa 自創示例" class="tutorial-image" />
-    </div>
-</div>
+## 等級 1：基礎 Chiikawa
+按照主要教程步驟製作  
+![Chiikawa 練習示例](./images/chiikawa-06.jpg)
+
+## 等級 2：自創角色
+創作你自己獨特的角色  
+![Chiikawa 自創示例](./images/chiikawa-07.jpg)
 
 ## 結論
 
