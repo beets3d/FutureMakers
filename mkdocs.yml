@@ -170,6 +170,8 @@ nav:
       - Overview: projects/3d-sculpt-ai/index.md
     - Moai (Your first Nomad Sculpt Project):
       - Overview: projects/project-moai/index.md
+    - Chiikawa (A Nomad Sculpt Project):
+      - Overview: projects/project-chiikawa/index.md
     - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:

@@ -1,0 +1,51 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-header{position:initial}
+    .md-main__inner{margin:0}
+    .md-main nav{display:none}
+    .md-main .md-banner{display:none}
+    .md-main footer{display:none}
+    .mdx-hero{
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+    @media screen and (min-width: 60em) {
+        .md-sidebar--primary{display:none}
+        .md-sidebar--secondary{display:none}
+        .md-sidebar--secondary:not([hidden]){display:none}
+    }
+    @media screen and (min-width:76.25em){
+        .md-sidebar--primary{display:none}
+        .md-sidebar--secondary{display:none}
+        .md-sidebar--secondary:not([hidden]){display:none}
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+  <header>
+      <h1>歡迎來到未來創客</h1>
+      <p>為教育工作者提供的開源STEAM教學資源</p>
+  </header>
+
+  <section id="introduction">
+      <h2>關於未來創客</h2>
+      <p>未來創客致力於展示突破性的項目和計劃，旨在創造更美好的明天。加入我們，探索轉變世界的最新進展和理念。</p>
+  </section>
+
+  <section id="latest-projects">
+      <h2>最新項目</h2>
+      <ul>
+        <li><a href="projects/nomadsculpt/">NomadSculpt</a> - 一個創新的數位雕刻工具，使用者可以輕鬆創作驚人的3D藝術，具備直觀的控制和獨特的自我優化功能，提升創作過程。</li>
+        <li><a href="projects/walking-robot/">行走機器人 (B3D1)</a> - 一個教育平台，提供動手實驗行走機制的機會，讓學生透過可自訂的設計探索機器人的運動。</li>
+          <!-- 如有需要可添加更多項目 -->
+      </ul>
+  </section>
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}
+
