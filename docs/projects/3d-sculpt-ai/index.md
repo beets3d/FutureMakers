@@ -88,7 +88,7 @@ The 3D Sculpt AI project acts as a powerful educational resource, enabling learn
 
 ## How it works
 
-```plantuml
+```puml
 @startuml
 !pragma layout smetana
 

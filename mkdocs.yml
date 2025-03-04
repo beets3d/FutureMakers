@@ -106,6 +106,9 @@ markdown_extensions:
 
 plugins:
   - glightbox
+  - plantuml:
+        puml_url: https://www.plantuml.com/plantuml/
+        num_workers: 2
   - search:
       lang:
         - en
