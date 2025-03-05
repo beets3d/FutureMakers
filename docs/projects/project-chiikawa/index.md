@@ -17,7 +17,7 @@ If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guid
 ![Chiikawa Basic Modeling](./images/chiikawa-02.jpg)
 
 1. Adjust View: Use gestures to move the sphere in the scene to overlap with Chiikawa's head in the reference image for easier modeling.
-   - Note: Don't use the "Gizmo" move function to avoid affecting the symmetry function later.
+   > Note: Don't use the "Gizmo" move function to avoid affecting the symmetry function later.
 
 2. Adjust Head Shape:
    - Use "Gizmo" transform function to adjust the overall shape of the sphere
