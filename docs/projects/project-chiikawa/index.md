@@ -17,12 +17,12 @@ If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guid
 ![Chiikawa Basic Modeling](./images/chiikawa-02.jpg)
 
 1. Adjust View: Use gestures to move the sphere in the scene to overlap with Chiikawa's head in the reference image for easier modeling.
-   - Note: Don't use the "Gizmo" move function to avoid affecting the symmetry function later.
+   > Note: Don't use the "Gizmo" move function to avoid affecting the symmetry function later.
 
 2. Adjust Head Shape:
    * Use "Gizmo" transform function to adjust the overall shape of the sphere
    * Use "Move" tool to fine-tune the sphere shape
-   - Note: Keep Symmetry function enabled to ensure left-right symmetry
+   > Note: Keep Symmetry function enabled to ensure left-right symmetry
 
 3. Create Body:
    * Add a new shape through "Add" to create Chiikawa's body
@@ -87,21 +87,21 @@ Switch viewing angles to verify the proportions between ears, tail, and body to 
 ## Step 3: Adding Details
 
 1. Sculpt Facial Details:
-   - Use "Subdivide" to increase mesh density
-   - Sculpt eyes and mouth positions and details
-   - Can add spheres for eyeballs, adjust size and position
-   - Use "Smooth" to remove sharp edges
-   - Use "Inflate" to enhance cheek roundness
+   * Use "Subdivide" to increase mesh density
+   * Sculpt eyes and mouth positions and details
+   * Add spheres for eyeballs, adjust size and position
+   * Use "Smooth" to remove sharp edges
+   * Use "Inflate" to enhance cheek roundness
 
 ## Step 4: Adding Color and Visual Post-processing
 
 1. Color Your Chiikawa:
-   - Use "Paint" tool
-   - Adjust roughness and metallic properties for different textures
+   * Use "Paint" tool
+   * Adjust roughness and metallic properties for different textures
 
 2. Post-processing:
-   - Adjust overall visual effects (like Color Grading)
-   - Enable "Ambient Occlusion" to enhance shadows and depth
+   * Adjust overall visual effects (like Color Grading)
+   * Enable "Ambient Occlusion" to enhance shadows and depth
 
 ## Step 5: Completion and Export
 
