@@ -122,11 +122,15 @@ comments: true
 ## 練習
 
 ## 等級 1：基礎 Chiikawa
+
 按照主要教程步驟製作  
+
 ![Chiikawa 練習示例](./images/chiikawa-06.jpg)
 
 ## 等級 2：自創角色
+
 創作你自己獨特的角色  
+
 ![Chiikawa 自創示例](./images/chiikawa-07.jpg)
 
 ## 結論
