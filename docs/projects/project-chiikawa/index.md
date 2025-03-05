@@ -20,8 +20,9 @@ If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guid
    > Note: Don't use the "Gizmo" move function to avoid affecting the symmetry function later.
 
 2. Adjust Head Shape:
-   * Use "Gizmo" transform function to adjust the overall shape of the sphere
-   * Use "Move" tool to fine-tune the sphere shape
+
+   Use "Gizmo" transform function to adjust the overall shape of the sphere
+   Use "Move" tool to fine-tune the sphere shape
    > Note: Keep Symmetry function enabled to ensure left-right symmetry
 
 3. Create Body:
@@ -108,9 +109,9 @@ Switch viewing angles to verify the proportions between ears, tail, and body to 
 1. Check Model: Carefully inspect every detail of the model
 
 2. Export Model:
-   - For 3D printing, select all components
-   - Use "Boolean" to merge them into one piece
-   - Export the completed Chiikawa model in required format (.stl/.obj)
+   * For 3D printing, select all components
+   * Use "Boolean" to merge them into one piece
+   * Export the completed Chiikawa model in required format (.stl/.obj)
 
 ## Practice
 
