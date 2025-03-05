@@ -17,25 +17,36 @@ If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guid
 ![Chiikawa Basic Modeling](./images/chiikawa-02.jpg)
 
 1. Adjust View: Use gestures to move the sphere in the scene to overlap with Chiikawa's head in the reference image for easier modeling.
+
    > Note: Don't use the "Gizmo" move function to avoid affecting the symmetry function later.
 
 2. Adjust Head Shape:
-   - Use "Gizmo" transform function to adjust the overall shape of the sphere
-   - Use "Move" tool to fine-tune the sphere shape
-   - Note: Keep Symmetry function enabled to ensure left-right symmetry
+    
+    Use "Gizmo" transform function to adjust the overall shape of the sphere
+    
+    Use "Move" tool to fine-tune the sphere shape
+
+   > Note: Keep Symmetry function enabled to ensure left-right symmetry
 
 3. Create Body:
-   - Add a new shape through "Add" to create Chiikawa's body
-   - Use "Gizmo" move function to position the new shape below the head
+    
+    Add a new shape through "Add" to create Chiikawa's body
+    
+    Use "Gizmo" move function to position the new shape below the head
 
 4. Adjust Body Shape:
-   - Use "Gizmo" transform function to adjust the overall shape
-   - Click "Validate" then use "Move" tool for detail adjustments
+    
+    Use "Gizmo" transform function to adjust the overall shape
+    
+    Click "Validate" then use "Move" tool for detail adjustments
 
 5. Create Ears, Tail, and Limbs:
-   - Add new shapes for each part
-   - Use "Gizmo" move and rotate functions to adjust position and pose
-   - For symmetrical parts, click "Mirror" before "Validate"
+    
+    Add new shapes for each part
+    
+    Use "Gizmo" move and rotate functions to adjust position and pose
+    
+    For symmetrical parts, click "Mirror" before "Validate"
 
 ## Step 2.5: Creating Other Chiikawa Characters
 
