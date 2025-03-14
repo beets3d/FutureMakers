@@ -54,7 +54,6 @@ comments: true
 
         > 留意：按下"儲存（Save）"亦保存製作進度
         
-
 ## 步驟 2.5：製作 Chiikawa 其他角色
 
 ![Chiikawa 其他角色造型](./images/chiikawa-03.jpg)
