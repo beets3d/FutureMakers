@@ -52,6 +52,9 @@ comments: true
     * 使用"軸向變換（Gizmo）"的移動和旋轉功能調整位置與姿勢
     * 製作對稱部位時，在按下"轉換（Validate）"前按下"映像（Mirror）"
 
+        > 留意：按下"儲存（Save）"亦保存製作進度
+        
+
 ## 步驟 2.5：製作 Chiikawa 其他角色
 
 ![Chiikawa 其他角色造型](./images/chiikawa-03.jpg)

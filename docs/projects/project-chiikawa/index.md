@@ -51,6 +51,8 @@ If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guid
     * Use "Gizmo" move and rotate functions to adjust position and pose
     * For symmetrical parts, click "Mirror" before "Validate"
 
+        > Note: Click "Save" for saving your working
+
 ## Step 2.5: Creating Other Chiikawa Characters
 
 ![Chiikawa Other Characters](./images/chiikawa-03.jpg)
