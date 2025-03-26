@@ -75,12 +75,12 @@ Students will:
 **Objective**: Customize and improve 3D models based on age-appropriate focus areas.
 
 **Content**:
-- Younger students:
+- Younger students(12-15 years old):
   - Modify models with a focus on aesthetic appeal using Nomad
   - Techniques include Drag and Move tools
-- Older students:
+- Older students(16-18 years old):
   - Explore basic aerodynamics
-  - Refine the car chassis for better airflow
+  - Refine the car body shape for better airflow
 
 ### Chapter 3: Preparing for 3D Printing
 
@@ -104,15 +104,6 @@ Students will:
 - Iterate the design process:
   - Modify and print a new prototype
 
-### Chapter 5: Final Showcase and Presentation
-
-**Objective**: Conclude the project with a comparative analysis and reflective presentation.
-
-**Content**:
-- Activity: Organize a race with the final vehicle designs
-- Present the design process and wind tunnel test results
-- Compare aerodynamic performance across designs
-- Discuss modern vehicle design techniques (e.g., Computational Fluid Dynamics - CFD) and inspire interest in engineering
 
 ## Project Steps
 
@@ -127,7 +118,9 @@ Students will:
    - Adjust generation parameters as needed
    - Download the generated 3D model
 
-![Generate 3D model using Tripo AI](./images/tripo-generation.png)
+![Generate 3D model using Tripo AI](./images/tripo-generation.png){width=500 height=500}
+![Generate 3D model using Tripo AI](./images/tripo-generation2.png)
+![Generate 3D model using Tripo AI](./images/tripo-generation3.png)
 
 ### Chapter 2: Model Modification
 
