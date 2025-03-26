@@ -119,8 +119,8 @@ Students will:
    - Download the generated 3D model
 
 ![Generate 3D model using Tripo AI](./images/tripo-generation.png){width=500 height=500}
-![Generate 3D model using Tripo AI](./images/tripo-generation2.png)
-![Generate 3D model using Tripo AI](./images/tripo-generation3.png)
+![Generate 3D model using Tripo AI2](./images/tripo-generation2.png)
+![Generate 3D model using Tripo AI3](./images/tripo-generation3.png)
 
 ### Chapter 2: Model Modification
 
