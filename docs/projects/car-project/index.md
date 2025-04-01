@@ -118,10 +118,9 @@ Students will:
    - Adjust generation parameters as needed
    - Download the generated 3D model
 
-![Generate 3D model using Tripo AI](./images/tripo-generation.png){width=500 height=500}
-![Generate 3D model using Tripo AI2](./images/tripo-generation2.png)
-![Generate 3D model using Tripo AI3](./images/tripo-generation3.png)
-
+![Generate 3D model using Tripo AI](./images/tripo-generation.png){ width=80% }
+![Generate 3D model using Tripo AI2](./images/tripo-generation2.png) { width=80% }
+![Generate 3D model using Tripo AI3](./images/tripo-generation3.png) { width=80% }
 ### Chapter 2: Model Modification
 
 **Objective**: Customize the car model's appearance.
