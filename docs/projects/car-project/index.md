@@ -40,22 +40,22 @@ Students will:
 
 ## What You Will Need
 
-| Category | Equipment | Description |
-|----------|-----------|-------------|
-| **3D Scanning and Modeling** | 3D Scanner | For scanning real-life car models |
-| | PC or Laptop | For running 3D modeling and scanning software (ensure it has sufficient processing power for smooth operation) |
-| | Graphics Tablet | For precise modifications in 3D modeling software like Nomad |
-| **3D Printing** | 3D Printer | Preferably a desktop FDM (Fused Deposition Modeling) printer (Bambu Printer) |
-| | 3D Printing Filament | PLA or PETG filament for prototyping |
-| | Slicing Software | Free or paid slicing programs (e.g. Bambu Studio) |
-| **Wind Tunnel Testing** | Wind Tunnel | A small-scale wind tunnel for educational use. Consider models designed for classroom purposes or build a DIY wind tunnel |
-| | Smoke Generator or Fog Machine | For airflow visualization during testing |
-| | Anemometer | For measuring airflow velocity in the wind tunnel (optional) |
-| **Post-processing Tools** | Sandpaper | For post-print finishing |
-| | Acrylic and Painting Tools | Decorate the printed car |
-| **Miscellaneous** | Power Supply | Ensure an appropriate power source for all devices |
-| | Safety Equipment | Gloves, safety glasses, and a well-ventilated workspace for using 3D printing and wind tunnel equipment |
-| | Workstation and Storage | A sturdy table and storage boxes for keeping hardware and prototypes organized |
+| Category | Equipment | Description | Required/Optional |
+|----------|-----------|-------------|------------------|
+| **3D Scanning and Modeling** | 3D Scanner | For scanning real-life car models | Optional |
+| | PC or Laptop | For running 3D modeling and scanning software (ensure it has sufficient processing power for smooth operation) | Required |
+| | Graphics Tablet | For precise modifications in 3D modeling software like Nomad | Required |
+| **3D Printing** | 3D Printer | Preferably a desktop FDM (Fused Deposition Modeling) printer (e.g. Bambu Lab Printer) | Required |
+| | 3D Printing Filament | PLA or PETG filament for prototyping | Required |
+| | Slicing Software | Free or paid slicing programs (e.g. Bambu Studio) | Required |
+| **Wind Tunnel Testing** | Wind Tunnel | A small-scale wind tunnel for educational use. Consider models designed for classroom purposes or build a DIY wind tunnel | Required |
+| | Smoke Generator or Fog Machine | For airflow visualization during testing | Required |
+| | Anemometer | For measuring airflow velocity in the wind tunnel | Optional |
+| **Post-processing Tools** | Sandpaper | For post-print finishing | Optional |
+| | Acrylic and Painting Tools | Decorate the printed car | Optional |
+| **Miscellaneous** | Power Supply | Ensure an appropriate power source for all devices | Required |
+| | Safety Equipment | Gloves, safety glasses, and a well-ventilated workspace for using 3D printing and wind tunnel equipment | Required |
+| | Workstation and Storage | A sturdy table and storage boxes for keeping hardware and prototypes organized | Required |
 
 
 ## Course Outline
@@ -68,7 +68,7 @@ Students will:
 - Use AI-based tools to generate 3D models
 - Learn how to use a 3D scanner to scan real-life car models
 - Clean up scanned models using Nomad, addressing noise and remeshing for better modification
-  - Optional: Quad Remesher addon for enhanced remeshing
+  - Optional: Quad Remesher addon in Nomad Scult for enhanced remeshing
 
 ### Chapter 2: 3D Model Modification
 
