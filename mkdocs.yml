@@ -184,6 +184,8 @@ nav:
         - Assembly Guide: projects/walking-robot/assembly-guide.md
         - Gait Diagramming: projects/walking-robot/exercise-gait-diagramming.md
         - Teeter-Totter Test: projects/walking-robot/exercise-teeter-totter-test.md
+    - Car Project:
+        - Overview: projects/car-project/index.md
 
   - Resources:
     - Assessment: resources/assessment/index.md
