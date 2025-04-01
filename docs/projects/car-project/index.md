@@ -67,7 +67,7 @@ Students will:
 **Content**:
 - Use AI-based tools to generate 3D models
 - Learn how to use a 3D scanner to scan real-life car models
-- Clean up scanned models using Nomad, addressing noise and remeshing for better modification
+- Clean up scanned or generated models using Nomad, addressing noise and remeshing for better modification
   - Optional: Quad Remesher addon in Nomad Scult for enhanced remeshing
 
 ### Chapter 2: 3D Model Modification
@@ -138,13 +138,13 @@ Students will:
 
 ### Chapter 3: Preparing for 3D Printing
 
-**Objective**: Convert the 3D model for printing.
+**Objective**: Export the 3D model for printing.
 
 **Content**:
 1. Export model from Nomad in STL format
 2. Import into slicer software:
    - Adjust model orientation for optimal printing
-   - Add support structures where needed
+   - Add support structures
    - Configure print settings (layer height, infill, etc.)
 3. Generate G-code and print
 
@@ -167,7 +167,6 @@ Students will:
    - Print revised version
    - Test again to verify improvements
 
-![Wind tunnel testing](./images/wind-tunnel.jpg)
 
 > Note: Images shown are placeholders. Replace with actual project photos.
 
