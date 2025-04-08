@@ -11,7 +11,7 @@ comments: true
 
 這個專案將指導你如何使用 Nomad Sculpt 創建 Chiikawa 3D 模型。請按照以下步驟進行創作。
 
-如果你需要基本的 Nomad Sculpt 教學，請參考 [Nomad Sculpt 指南](../resources/NomadSculpt/index.md)。
+如果你需要基本的 Nomad Sculpt 教學，請參考 [Nomad Sculpt 指南](/zh_HK/resources/NomadSculpt/)。
 
 ![Chiikawa 基本造型](./images/chiikawa-01.jpg)
 

@@ -2,7 +2,7 @@
 
 This project will guide you through creating a Chiikawa 3D model using Nomad Sculpt. Follow these steps to create your own.
 
-If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guide](../resources/NomadSculpt/index.md).
+If you need basic Nomad Sculpt tutorials, please refer to the [Nomad Sculpt Guide](/resources/NomadSculpt/).
 
 ![Chiikawa Basic Shape](./images/chiikawa-01.jpg)
 
