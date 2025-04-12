@@ -44,19 +44,15 @@ If you need a basic Nomad Sculpt tutorial, please refer to [Nomad Sculpt Guide](
 
 ### Level 1
 
-<div class="image-grid">
-    <img src="images/P01-09.jpg" alt="Moai Example 9" width="300" height="450" />
-    <img src="images/P01-10.jpg" alt="Moai Example 10" width="300" height="450" />
-    <img src="images/P01-11.jpg" alt="Moai Example 11" width="300" height="450" />
-</div>
+![p01-09.png](images/P01-09.jpg)
+![p01-10.png](images/P01-10.jpg)
+![p01-11.png](images/P01-11.jpg)
 
 ### Level 2
 
-<div class="image-grid">
-    <img src="images/P01-12.jpg" alt="Moai Example 12" width="300" height="450" />
-    <img src="images/P01-13.jpg" alt="Moai Example 13" width="300" height="450" />
-    <img src="images/P01-14.jpg" alt="Moai Example 14" width="300" height="450" />
-</div>
+![p01-12.png](images/P01-12.jpg)
+![p01-13.png](images/P01-13.jpg)
+![p01-14.png](images/P01-14.jpg)
 
 ## Reference
 
