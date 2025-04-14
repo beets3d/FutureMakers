@@ -11,7 +11,7 @@ comments: true
 
 這個專案指導你如何使用我們的軟件創建和修改 3D Moai 模型。請按照以下步驟導入、修改和保存你的 Moai。
 
-如果你需要基本的 Nomad Sculpt 教學，請參考 [Nomad Sculpt 指南](../resources/NomadSculpt/index.md)。
+如果你需要基本的 Nomad Sculpt 教學，請參考 [Nomad Sculpt 指南](/zh_HK/resources/getting-to-know-nomad-sculpt/)。
 
 ![p01-01.png](images/P01-01.jpg)
 
