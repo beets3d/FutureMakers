@@ -173,10 +173,8 @@ nav:
 
     - 3D Sculpt AI: 
       - Overview: projects/3d-sculpt-ai/index.md
-    - Moai (Your first Nomad Sculpt Project):
-      - Overview: projects/project-moai/index.md
-    - Chiikawa (Your 2nd Nomad Sculpt Project):
-      - Overview: projects/project-chiikawa/index.md
+    - Singing Chiikawa:
+      - Overview: projects/singing-chiikawa/index.md
     - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:
@@ -191,7 +189,10 @@ nav:
     - Assessment: resources/assessment/index.md
     - Teaching Tips: resources/teaching-tips/index.md
     - Materials: resources/materials/index.md
-    - NomadSculpt: resources/NomadSculpt/index.md
+    - Getting to Know Nomad Sculpt: resources/NomadSculpt/index.md
+    - project-moai: resources/project-moai/index.md
+    - project-chiikawa: resources/project-chiikawa/index.md
+
   - Reference:
     - Glossary: reference/glossary.md
     - FAQ: reference/faq.md
