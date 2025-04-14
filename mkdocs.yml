@@ -189,9 +189,9 @@ nav:
     - Assessment: resources/assessment/index.md
     - Teaching Tips: resources/teaching-tips/index.md
     - Materials: resources/materials/index.md
-    - Getting to Know Nomad Sculpt: resources/getting-to-know-nomad-sculpt/index.md
-    - project-moai: resources/project-moai/index.md
-    - project-chiikawa: resources/project-chiikawa/index.md
+    - Project 00 Getting to Know Nomad Sculpt: resources/getting-to-know-nomad-sculpt/index.md
+    - Project 01 Moai: resources/project-moai/index.md
+    - Project 02 Chiikawa: resources/project-chiikawa/index.md
 
   - Reference:
     - Glossary: reference/glossary.md
