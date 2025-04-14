@@ -173,8 +173,6 @@ nav:
 
     - 3D Sculpt AI: 
       - Overview: projects/3d-sculpt-ai/index.md
-    - Singing Chiikawa:
-      - Overview: projects/singing-chiikawa/index.md
     - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:
@@ -184,6 +182,8 @@ nav:
         - Teeter-Totter Test: projects/walking-robot/exercise-teeter-totter-test.md
     - Car Project:
         - Overview: projects/car-project/index.md
+    - Singing Chiikawa:
+        - Overview: projects/singing-chiikawa/index.md
 
   - Resources:
     - Assessment: resources/assessment/index.md
