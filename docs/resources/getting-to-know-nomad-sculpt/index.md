@@ -1,5 +1,5 @@
 ---
-title: NomadSculpt
+title: getting-to-know-nomad-sculpt
 lang_name: en 
 comments: true
 ---
