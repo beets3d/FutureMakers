@@ -1,13 +1,10 @@
 ---
-title: 3D Sculpt AI
+title: 3D AI Sculpture
 lang_name: en 
 comments: true
 
 ---
-
-
-# 3D Sculpt AI Project 
-
+# 3D AI Sculpture
 ---
 
 ## What is this?
