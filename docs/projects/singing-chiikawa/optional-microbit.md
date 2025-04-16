@@ -1,5 +1,5 @@
 ---
-title: Micro:bit integration
+title: Micro:bit Integration
 lang_name: en 
 comments: true
 ---
