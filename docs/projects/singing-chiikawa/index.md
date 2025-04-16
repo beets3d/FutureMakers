@@ -1,4 +1,14 @@
-# What is this?
+---
+title: Singing Chiikawa
+lang_name: en 
+comments: true
+---
+
+# Singing Chiikawa
+
+---
+
+## What is this?
 
 The "Chiikawa Project" is an introductory 3D modeling teaching plan launched by Future Makers, aimed at guiding students to create adorable Chiikawa character models using the Nomad Sculpt application. Through simple and easy-to-understand steps, even beginners can easily master digital sculpting techniques and 3D print their created characters.
 
