@@ -174,8 +174,12 @@ nav:
   - Setup: setup.md
   - Projects:
 
-    - 3D Sculpt AI: 
-      - Overview: projects/3d-sculpt-ai/index.md
+    - 3D AI Sculpture: 
+      - Overview: projects/3d-ai-sculpture/index.md
+    - Moai (Your first Nomad Sculpt Project):
+      - Overview: projects/project-moai/index.md
+    - Chiikawa (Your 2nd Nomad Sculpt Project):
+      - Overview: projects/project-chiikawa/index.md
     - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:

@@ -21,8 +21,8 @@ Nomad 是一款 3D 雕刻應用程式，最適合在配備壓力感應筆的平�
 
 當您第一次啟動 Nomad 時，您會看到螢幕上有一個球體。只需在球體上拖動您的觸控筆即可開始雕刻。對稱功能預設為啟用，以便於雕刻。
 
-<img src="images/P0-02.png" alt="Sculpting Example 1" height="300"/>
-<img src="images/P0-03.png" alt="Sculpting Example 2" height="300"/>
+<img src="/resources/getting-to-know-nomad-sculpt/images/P0-02.png" alt="Sculpting Example 1" height="300"/>
+<img src="/resources/getting-to-know-nomad-sculpt/images/P0-03.png" alt="Sculpting Example 2" height="300"/>
 
 # 界面
 
@@ -34,9 +34,9 @@ Nomad 是一款 3D 雕刻應用程式，最適合在配備壓力感應筆的平�
 
 ### 三種手勢控制螢幕視圖
 
-<img src="images/P0-06.png" alt="My Image" height="200"/>拖動以旋轉
-<img src="images/P0-07.png" alt="My Image" height="200"/>滑動以平移
-<img src="images/P0-08.png" alt="My Image" height="200"/>捏合以縮放
+<img src="/resources/getting-to-know-nomad-sculpt/images/P0-06.png" alt="拖動以旋轉" height="200"/>拖動以旋轉
+<img src="/resources/getting-to-know-nomad-sculpt/images/P0-07.png" alt="滑動以平移" height="200"/>滑動以平移
+<img src="/resources/getting-to-know-nomad-sculpt/images/P0-08.png" alt="捏合以縮放" height="200"/>捏合以縮放
 
 ## 上方菜單
 
