@@ -188,7 +188,7 @@ nav:
     - Singing Chiikawa:
         - Overview: projects/singing-chiikawa/index.md
         - Additional Concepts:
-          - Microbit Integration: projects/singing-chiikawa/optional-microbit.md
+          - Microbit Integration: projects\singing-chiikawa\optional-microbit.md
 
   - Resources:
     - Assessment: resources/assessment/index.md
