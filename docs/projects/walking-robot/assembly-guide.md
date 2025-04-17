@@ -12,10 +12,11 @@ comments: true
 
 **Parts involve:**
 
-| Item               | Description                | Quantity | Image                | Link          |
-|--------------------|----------------------------|----------|----------------------|----------------------|
-| Motor (N20 DC Motor) | Small DC motor for driving | 2        | ![Motor](https://robu.in/wp-content/uploads/2017/12/DC12V-200RPM-Gear-Motor-N20-Micro-Speed-Reduction-Gear-DC-Motor-with-Metal-Gearbox-Wheel.jpg_640x640.jpg) | [Source](link_to_source) |
-| Motor case         | Enclosure for the motor    | 1        | ![Motor Case](images/motor-case.png) | [Source](link_to_source) |
+| Item               | Description                | Quantity | Image                |
+|--------------------|----------------------------|----------|----------------------|
+| Motor (N20 DC Motor 6V 60rpm) | Small DC motor for driving | 2        | ![Motor](images/part-motor.png)  |
+| Motor case         | Enclosure for the motor    | 1        | ![Motor Case](images/part-motor-case.png) |
+
 
 **Video**
 
@@ -23,19 +24,19 @@ comments: true
 
 **Parts involve:**
 
-| Item                                             | Description                       | Quantity | Image | Link |
-|--------------------------------------------------|-----------------------------------|----------|-------|------|
-| Left_Walking-Crank-Robot v103_Body1.stl         | Main body component                | 2        |       |      |
-| Left_Walking-Crank-Robot v103_control-bar-bottom_1_Body1.stl | Control bar bottom component       | 2        |       |      |
-| Left_Walking-Crank-Robot v103_control-bar-upper_1_Body1.stl | Control bar upper component        | 2        |       |      |
-| Left_Walking-Crank-Robot v103_foot_1_Body4.stl  | Foot component                     | 2        |       |      |
-| Left_Walking-Crank-Robot v103_foot_1_foot-palm-L_1_Body1.stl | Foot palm component                | 2        |       |      |
-| Left_Walking-Crank-Robot v103_gear_1_Body1.stl  | Gear component                     | 2        |       |      |
-| Left_Walking-Crank-Robot v103_things_1_Body1.stl | Additional component 1            | 2        |       |      |
-| Left_Walking-Crank-Robot v103_things_1_Body2.stl | Additional component 2            | 2        |       |      |
-| Screw M4X5                                       | Screw for assembly                 | 4        |       |      |
-| Screw M4X10                                      | Longer screw for assembly          | 8        |       |      |
-| Screw M2                                         | Small screw for assembly           | 2      |       |      |
+| Item                                             | Description                       | Quantity | Image |
+|--------------------------------------------------|-----------------------------------|----------|-------|
+| part-frame.stl        | Main body component                | 2        | ![frame](images/part-frame.png)      |
+| part-control-bar-bottom.stl | Control bar (bottom) component       | 2        | ![control-bar-bottom](images/part-control-bar-bottom.png)      |
+| part-control-bar-top.stl | Control bar (top) component       | 2        | ![control-bar-top](images/part-control-bar-top.png)      |
+| part-foot.stl  | Foot component                     | 2        |  ![foot](images/part-foot.png)       |
+| Left_Walking-Crank-Robot v103_foot_1_foot-palm-L_1_Body1.stl | Foot palm component                | 2        |       |
+| Left_Walking-Crank-Robot v103_gear_1_Body1.stl  | Gear component                     | 2        |       |
+| Left_Walking-Crank-Robot v103_things_1_Body1.stl | Additional component 1            | 2        |       |
+| Left_Walking-Crank-Robot v103_things_1_Body2.stl | Additional component 2            | 2        |       |
+| Screw M4X5                                       | Screw for assembly                 | 4        |       |
+| Screw M4X10                                      | Longer screw for assembly          | 8        |       |
+| Screw M2                                         | Small screw for assembly           | 2      |       |
 
 **Video**
 
@@ -59,9 +60,9 @@ comments: true
 
 **Part involves:**
 
-| Item                     | Description                          | Quantity | Dimensions (mm)         | Image                | Link          |
-|--------------------------|--------------------------------------|----------|--------------------------|----------------------|----------------|
-| Battery Case for AAA     | Holds 2 AAA batteries                | 2        | 30 x 21.5 x 68           | ![Battery Case](https://example.com/battery-case-image.jpg) | [Source](link_to_source) |
+| Item                     | Description                          | Quantity | Dimensions (mm)         | Image                |
+|--------------------------|--------------------------------------|----------|--------------------------|----------------------|
+| Battery Case for AAA     | Holds 2 AAA batteries                | 2        | 30 x 21.5 x 68           | ![Battery Case](https://example.com/battery-case-image.jpg) |
 
 **Video**
 

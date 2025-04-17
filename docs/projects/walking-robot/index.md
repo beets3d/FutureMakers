@@ -52,12 +52,13 @@ The robot acts as a powerful educational resource, enabling learners to grasp es
 
 | Item                                         | Description                                                                 | Quantity | Required/Optional |
 |----------------------------------------------|-----------------------------------------------------------------------------|----------|----------|
-| BBC micro:bit                               | Compact microcontroller for controlling the robot                          | 2        | Y        |
+| BBC micro:bit v2                              | Compact microcontroller for controlling the robot                          | 2        | Y        |
 | USB cable for programming                    | Cable used for programming the micro:bit (V2 is used for this project)    | 1        | Y        |
-| Main control board                           | Board for connecting to micro:bit, including motor driver and battery pack | 1        | Y        |
-| AAA Batteries                                 | Power source for the robot                                                 | 4        | Y        |
-| Geared motors (N20 DC motor)                | Motors providing torque and speed for movement                              | 2        | Y        |
-| 3D printed parts                             | Chassis and mechanical components (links to STLs)                          | Various  | Y        |
+| Main control board (by Beets)                          | Board for connecting to micro:bit, including motor driver and battery pack | 1        | Y        |
+| 4 X AAA Batteries                                 | Power source for the robot                                                 | 4        | Y        |
+| 2 X AAA Battery Cases                           | Power source for the robot                                                 | 2        | Y        |
+| 2 X Geared motors (N20 DC motor - 6V 60rpm)                | Motors providing torque and speed for movement                              | 2        | Y        |
+| 3D printed parts                             | Chassis and mechanical components (refer to [Assembly Guide](assembly-guide.md))                          | Various  | Y        |
 | Outer shell components                       | External casing for the robot                                             | Various  | Y        |
 | Screw M4X10                                  | Screws for assembly                                                        | 8        | Y        |
 | Screw M4X5                                   | Screws for assembly                                                        | 4        | Y        |
