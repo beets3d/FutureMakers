@@ -138,6 +138,7 @@ plugins:
             Glossary: 詞彙表
             Double Side Character: 雙面字
             Lesson 1: 第一課
+            Overview: 概覽
             Handbook: 指南
             Lesson Plan: 教案
             Exercise Cards: 練習卡
@@ -151,6 +152,7 @@ plugins:
             Glossary: 詞彙表
             Double Side Character: 雙面字
             Lesson 1: 第一課
+            Overview: 概覽
             Handbook: 指南
             Lesson Plan: 教案
             Exercise Cards: 練習卡
@@ -161,11 +163,6 @@ plugins:
             Gait Diagramming: 步態圖示
             Teeter-Totter Test: 翹翹板測試
             Concepts of Walking: 行走概念
-            Project 00 Getting to Know Nomad Sculpt: Nomad Sculpt 指南
-            Project 01 Moai: 摩艾石像 練習 1
-            Project 02 Chiikawa: Chiikawa 練習 2
-            Microbit Guide: Micro:bit 指南
-
 
 
 
@@ -176,6 +173,10 @@ nav:
 
     - 3D AI Sculpture: 
       - Overview: projects/3d-ai-sculpture/index.md
+    - Moai (Your first Nomad Sculpt Project):
+      - Overview: projects/project-moai/index.md
+    - Chiikawa (Your 2nd Nomad Sculpt Project):
+      - Overview: projects/project-chiikawa/index.md
     - Walking Robot (B3D1):
       - Overview: projects/walking-robot/index.md
       - Additional Concepts:
@@ -185,21 +186,12 @@ nav:
         - Teeter-Totter Test: projects/walking-robot/exercise-teeter-totter-test.md
     - Car Project:
         - Overview: projects/car-project/index.md
-    - Singing Chiikawa:
-        - Overview: projects/singing-chiikawa/index.md
-        - Additional Concepts:
-          - Microbit Guide: projects\singing-chiikawa\optional-microbit.md
-          - Colouring Guide: projects\singing-chiikawa\colouring-guide.md
-          - Assembly Guide: projects\singing-chiikawa\assembly-guide.md
 
   - Resources:
     - Assessment: resources/assessment/index.md
     - Teaching Tips: resources/teaching-tips/index.md
     - Materials: resources/materials/index.md
-    - Project 00 Getting to Know Nomad Sculpt: resources/getting-to-know-nomad-sculpt/index.md
-    - Project 01 Moai: resources/project-moai/index.md
-    - Project 02 Chiikawa: resources/project-chiikawa/index.md
-
+    - NomadSculpt: resources/NomadSculpt/index.md
   - Reference:
     - Glossary: reference/glossary.md
     - FAQ: reference/faq.md
