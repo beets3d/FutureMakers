@@ -1,8 +1,4 @@
 ---
-title: Micro:bit Integration
-lang_name: en 
-comments: true
----
 
 # Micro:bit Integration
 
