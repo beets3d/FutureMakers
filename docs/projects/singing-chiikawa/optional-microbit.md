@@ -1,6 +1,6 @@
 ---
 
-# Micro:bit Integration
+# Micro:bit Guide
 
 ---
 
@@ -20,29 +20,29 @@ The goal of this program is to:
 
 - Activate the built-in speaker
 
-Use set built-in speaker to on to ensure the micro:bit can produce sound.
+ - Use set built-in speaker to on to ensure the micro:bit can produce sound.
 
 - Adjust the volume
 
-set volume to 255 to make sure the audio is loud and clear.
+  - set volume to 255 to make sure the audio is loud and clear.
 
 **Step 2: Detect Sound**
 
 - Use the “On Loud Sound” Event
 
-When the micro:bit detects a loud noise (such as a clap or knock), the program initiates.
+ - When the micro:bit detects a loud noise (such as a clap or knock), the program initiates.
 
-This is managed using on loud sound detected.
+ - This is managed using on loud sound detected.
 
 **Step 3: Play the Melody Twice**
 
 - Use a Loop for Repetition
 
-A repeat 2 times block ensures the melody plays twice before stopping.
+ - A repeat 2 times block ensures the melody plays twice before stopping.
 
 - Define the Melody
 
-Example note sequence:
+ - Example note sequence:
 
 play note G for 1 beat
 
