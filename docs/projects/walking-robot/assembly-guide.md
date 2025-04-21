@@ -38,8 +38,11 @@ comments: true
 | part-screw-M4x10  | Screw M4X10                     | 8        |  ![M4X10](images/part-screw-M4x10.png){ width=50px }       |
 | part-gear.stl  | Screw small                      | 2        |  ![Small Screw](images/part-screw-small.png){ width=50px }       |
 
-**Video**
+**Video Instruction**
 
+[Watch the assembly video](https://youtu.be/bTmAOl0an0w)
+
+[![Video Thumbnail](https://i9.ytimg.com/vi/bTmAOl0an0w/mqdefault.jpg?sqp=CNyXmcAG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYAC0AWKAgwIABABGCAgNih_MA8=&rs=AOn4CLCkr9Upm-8JcMEsIGRzspzPsznONw)](https://youtu.be/bTmAOl0an0w)
 
 ### 1.3 Main board installation
 
@@ -56,7 +59,7 @@ comments: true
 
 **Part involves:**
 
-**Video**
+**Video Instruction**
 
 **Part involves:**
 
