@@ -81,6 +81,14 @@ Let's get started with the mechanical assembly first.
 
 **Part involves:**
 
+| Item                                             | Description                       | Quantity | Image |
+|--------------------------------------------------|-----------------------------------|----------|-------|
+| part-body.stl        | Main body component                | 1        | ![](images/part-body.png){ width=50px }      |
+| part-head.stl | Head component       | 1        | ![](images/part-head.png){ width=50px }      |
+| part-shell-front.stl | Front Shell component       | 1       | ![](images/part-shell-front.png){ width=50px }      |
+| part-shell-back.stl | Back Shell component       | 1      | ![](images/part-shell-back.png){ width=50px }      |
+
+
 **Video**
 
 ### 1.7 Remote Control
