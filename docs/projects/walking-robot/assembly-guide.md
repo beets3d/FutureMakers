@@ -7,7 +7,15 @@ comments: true
 
 # Assembly Guide
 
-## Mechanical Assembly
+This guide will walk you through the assembly process of the walking robot. The assembly consists of three main parts:
+
+1. **Mechanical Assembly**: This includes all the physical components like motors, legs, main board, and the remote control.
+2. **Programming**: This covers the software setup for both the robot and remote control using Micro:bit.
+3. **Testing and Calibration**: This section guides you through testing the assembled robot and calibrating its movements for optimal performance.
+
+Let's get started with the mechanical assembly first.
+
+## 1. Mechanical Assembly
 ### 1.1 Motor Module installation
 
 ![Motor Module](images/component-motor-module.png){ width=200px }  
@@ -57,32 +65,19 @@ comments: true
 
 | Item                                             | Description                       | Quantity | Image |
 |--------------------------------------------------|-----------------------------------|----------|-------|
-| part-main-frame.stl        | Main body component                | 1       | ![frame](images/part-main-frame.png){ width=50px }      |
-
-
-**Video**
-
-### 1.4 Install Micro:bit to main board
-
-**Part involves:**
-- 1 x
-**Video**
-
-### 1.5 Battery Cases
-
-**Part involves:**
+| part-main-frame.stl        | Main body component                | 1       | ![](images/part-main-frame.png){ width=50px }      |
+| part-battery-case| Battery Case       | 2        | ![](images/part-battery-case.png){ width=50px }      |
+| micro:bit        | Micro:bit               | 1       | ![](images/part-microbit.png){ width=50px }      |
+| Beets Control Board    | Control Board to integrate all electronic components                | 1       | ![](images/part-beets-control-board.png){ width=50px }  ![](images/part-beets-control-board-back.png){ width=50px }      |
+| Legs Component       | Legs assembly from section 1.2           | 1       | ![](images/component-left-right-legs.png){ width=50px }      |
+| Motor Module       | Motor module assembly from section 1.1           | 1       | ![](images/component-motor-module.png){ width=50px }      |
 
 **Video Instruction**
 
-**Part involves:**
+[Watch the assembly video]()
 
-| Item                     | Description                          | Quantity | Dimensions (mm)         | Image                |
-|--------------------------|--------------------------------------|----------|--------------------------|----------------------|
-| Battery Case for AAA     | Holds 2 AAA batteries                | 2        | 30 x 21.5 x 68           | ![Battery Case](https://example.com/battery-case-image.jpg){ width=50px } |
 
-**Video**
-
-### 1.6 Body and Outter Shell
+### 1.5 Body and Outter Shell
 
 **Part involves:**
 
@@ -109,10 +104,10 @@ You can download the stl files from this link
 [Watch the assembly video](https://youtube.com/shorts/qm5MiA7BIWI)
 
 
-### 2. Programming
+## 2. Programming
 
 ### 2.1 Basic Micro:bit programming using MakeCode
 
 ### 2.2 Remote control setup
 
-### 2.3 Testing and calibration 
+## 3. Testing and calibration 
