@@ -8,19 +8,26 @@ comments: true
 # Assembly Guide
 
 ## Mechanical Assembly
-### 1.1 Motor and gear installation
+### 1.1 Motor Module installation
+
+![Motor Module](images/component-motor-module.png){ width=200px }  
 
 **Parts involve:**
 
 | Item               | Description                | Quantity | Image                |
 |--------------------|----------------------------|----------|----------------------|
 | Motor (N20 DC Motor 6V 60rpm) | Small DC motor for driving | 2        | ![Motor](images/part-motor.png){ width=50px }  |
-| Motor case         | Enclosure for the motor    | 1        | ![Motor Case](images/part-motor-case.png){ width=50px } |
+| part-motor-case.stl         | Enclosure for the motor    | 1        | ![Motor Case](images/part-motor-case.png){ width=50px } |
 
 
-**Video**
+**Video Instruction**
+
+[Watch the assembly video](https://youtube.com/shorts/HkKQfT87Ntc?feature=share)
+
 
 ### 1.2 Left and right legs assembly
+
+![Left and Right Legs](images/component-left-right-legs.png){ width=200px }  
 
 **Parts involve:**
 
@@ -42,11 +49,17 @@ comments: true
 
 [Watch the assembly video](https://youtu.be/bTmAOl0an0w)
 
-[![Video Thumbnail](https://i9.ytimg.com/vi/bTmAOl0an0w/mqdefault.jpg?sqp=CNyXmcAG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYAC0AWKAgwIABABGCAgNih_MA8=&rs=AOn4CLCkr9Upm-8JcMEsIGRzspzPsznONw)](https://youtu.be/bTmAOl0an0w)
+* Please repeat and assemble 2 of this.
 
 ### 1.3 Main board installation
 
 **Part involves:**
+
+| Item                                             | Description                       | Quantity | Image |
+|--------------------------------------------------|-----------------------------------|----------|-------|
+| part-main-frame.stl        | Main body component                | 1       | ![frame](images/part-main-frame.png){ width=50px }      |
+
+
 **Video**
 
 ### 1.4 Install Micro:bit to main board
@@ -77,9 +90,24 @@ comments: true
 
 ### 1.7 Remote Control
 
-**Part involves:**
+![Remote Control](images/component-remote-controller.png){ width=200px }  
 
-**Video**
+**Parts involve:**
+
+| Item                                             | Description                       | Quantity | Image |
+|--------------------------------------------------|-----------------------------------|----------|-------|
+| part-controller-main.stl        | Main body component                | 1        | ![](images/part-controller-main.png){ width=50px }      |
+| part-controllor-battery.stl | Battery case holder       | 1        | ![](images/part-controller-battery.png){ width=50px }      |
+| part-battery-case| Battery Case       | 1        | ![](images/part-battery-case.png){ width=50px }      |
+| part-microbit | microbit                   | 1        |  ![](images/part-microbit.png){ width=50px }       |
+
+You can download the stl files from this link
+[Download the stl files here](https://www.printables.com/model/248633-bbc-microbit-controller-case-with-detachable-batte/files)
+
+**Video Instruction**
+
+[Watch the assembly video](https://youtube.com/shorts/qm5MiA7BIWI)
+
 
 ### 2. Programming
 
