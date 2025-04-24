@@ -114,8 +114,28 @@ You can download the stl files from this link
 
 ## 2. Programming
 
+You will be using Microsoft MakeCode in this section. 
+1. It can be access via https://makecode.microbit.org/#
+2. You will need to sign up for an account
+
+Once you have got an account, please go to the next steps.
+
+![](images/screen-makecode-import.png){ width=500px }  
+
 ### 2.1 Basic Micro:bit programming using MakeCode
+
+1. Click on "Import" button
+2. Choose "Import URL" 
+
+![](images/screen-makecode-import-2.png){ width=500px }  
+3. Open project URL, enter: https://github.com/beets3d/b3d1-walking-bot-main
+![](images/screen-makecode-projecturl.png){ width=500px }  
+4. Plug in your micro:bit using a USB cable, and Click "Download
 
 ### 2.2 Remote control setup
 
+Repeat the above, using this project URL: https://github.com/beets3d/b3d1-walking-bot-controller
+
 ## 3. Testing and calibration 
+
+**Video Instruction**
