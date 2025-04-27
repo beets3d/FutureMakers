@@ -122,6 +122,7 @@ You can download the stl files from this link
 ## 2. Programming
 
 You will be using Microsoft MakeCode in this section. 
+
 1. It can be access via https://makecode.microbit.org/#
 2. You will need to sign up for an account
 
