@@ -136,7 +136,7 @@ comments: true
 3. 打開項目 URL，輸入：https://github.com/beets3d/b3d1-walking-bot-main
 ![](images/screen-makecode-projecturl.png){ width=500px }  
 
-**請注意：** 如果您使用多個步行機器人，您應該為"無線電設置組"分配唯一的編號。請記住在下一個部分的遙控器中也要更改此設置。
+**請注意：** 如果您使用多於一個步行機器人，您應該為“無線電設置組”分配唯一的編號。組號可以是從 0 到 255。請記得在下一節的遙控器中也更改這個設置。
 
 ![](images/screen-radio-group.png){ width=200px } 
 

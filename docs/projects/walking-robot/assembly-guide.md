@@ -139,7 +139,7 @@ Once you have got an account, please go to the next steps.
 3. Open project URL, enter: https://github.com/beets3d/b3d1-walking-bot-main
 ![](images/screen-makecode-projecturl.png){ width=500px }  
 
-** Please note: **  if you are using more than one walking robot. You should assign unique number to "radio set group". Remember to change that in remote control in the next section as well.
+** Please note: **  if you are using more than one walking robot. You should assign unique number to "radio set group". The group number can be any value from 0 to 255. Remember to change that in remote control in the next section as well.
 
 ![](images/screen-radio-group.png){ width=200px } 
 
