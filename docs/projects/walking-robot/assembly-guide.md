@@ -138,6 +138,11 @@ Once you have got an account, please go to the next steps.
 ![](images/screen-makecode-import-2.png){ width=500px }  
 3. Open project URL, enter: https://github.com/beets3d/b3d1-walking-bot-main
 ![](images/screen-makecode-projecturl.png){ width=500px }  
+
+** Please note: **  if you are using more than one walking robot. You should assign unique number to "radio set group". Remember to change that in remote control in the next section as well.
+
+![](images/screen-radio-group.png){ width=200px } 
+
 4. Plug in your micro:bit using a USB cable, and Click "Download
 
 ### 2.2 Remote control setup
@@ -146,4 +151,7 @@ Repeat the above, using this project URL: https://github.com/beets3d/b3d1-walkin
 
 ## 3. Testing and calibration 
 
+
 **Video Instruction**
+
+[Watch the video](https://youtu.be/MfOPkmcqLCs) 
