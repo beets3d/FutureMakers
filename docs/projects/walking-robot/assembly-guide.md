@@ -154,4 +154,4 @@ Repeat the above, using this project URL: https://github.com/beets3d/b3d1-walkin
 
 **Video Instruction**
 
-[Watch the video](https://youtu.be/MfOPkmcqLCs) 
+[Watch the video for Testing & Calibration](https://youtu.be/MfOPkmcqLCs) 
