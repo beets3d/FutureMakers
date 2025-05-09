@@ -2,7 +2,6 @@
 title: 3D AI Sculpture
 lang_name: en 
 comments: true
-
 ---
 # 3D AI Sculpture
 ---

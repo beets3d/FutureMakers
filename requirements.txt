@@ -1,4 +1,6 @@
 mkdocs-material
 mkdocs-static-i18n
 mkdocs-glightbox
+mkdocs-awesome-nav
 mkdocs_puml
+mkdocs-ultralytics-plugin

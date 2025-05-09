@@ -1,0 +1,16 @@
+title: Projects
+nav:
+    - index.md
+    - Singing Chiikawa:
+      - singing-chiikawa/index.md
+      - singing-chiikawa/optional-microbit.md
+    - Car Project: car-project/index.md   
+    - Walking Robot:
+        - walking-robot/index.md
+        - walking-robot/concepts-of-walking.md
+        - walking-robot/assembly-guide.md
+        - walking-robot/exercise-gait-diagramming.md
+        - walking-robot/exercise-teeter-totter-test.md
+    - 3D AI Sculpture:
+        - 3d-ai-sculpture/index.md
+        - 3d-ai-sculpture/setup-guide.md
