@@ -44,21 +44,21 @@ The goal of this program is to:
 
  - Example note sequence:
 
-play note G for 1 beat
+    play note G for 1 beat
 
-pause 500 milliseconds
+    pause 500 milliseconds
 
-play note E for 1 beat
+    play note E for 1 beat
 
-play note A for 1/2 beat
+    play note A for 1/2 beat
 
-play note G for 1/2 beat
+    play note G for 1/2 beat
 
-pause 500 milliseconds
+    pause 500 milliseconds
 
-play note F for 1/2 beat
+    play note F for 1/2 beat
 
-play note F for 1/2 beat
+    play note F for 1/2 beat
 
 ## Principles and Logic Behind the Code
 
