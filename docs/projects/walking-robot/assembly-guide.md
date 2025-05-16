@@ -59,7 +59,9 @@ Let's get started with the mechanical assembly first.
 
 * Please repeat and assemble 2 of this.
 
-### 1.3 Main board installation
+### 1.3 Main Frame and board installation
+
+![Main Frame and board installation](images/component-main-frame.png){ width=200px }  
 
 **Part involves:**
 
@@ -74,10 +76,12 @@ Let's get started with the mechanical assembly first.
 
 **Video Instruction**
 
-[Watch the assembly video]()
+[Watch the assembly video](https://youtu.be/52bUlyzyBPc)
 
 
 ### 1.5 Body and Outter Shell
+
+![Body and Outter Shell](images/component-body-complete.png){ width=200px }  
 
 **Part involves:**
 
@@ -87,9 +91,12 @@ Let's get started with the mechanical assembly first.
 | part-head.stl | Head component       | 1        | ![](images/part-head.png){ width=50px }      |
 | part-shell-front.stl | Front Shell component       | 1       | ![](images/part-shell-front.png){ width=50px }      |
 | part-shell-back.stl | Back Shell component       | 1      | ![](images/part-shell-back.png){ width=50px }      |
+| component-main-frame | Main Frame Component assembled in the last section      | 1      | ![](images/component-main-frame.png){ width=50px }      |
 
 
-**Video**
+**Video Instruction**
+
+[Watch the assembly video](https://youtube.com/shorts/O2Bp6h6s_oI)
 
 ### 1.7 Remote Control
 
@@ -114,8 +121,37 @@ You can download the stl files from this link
 
 ## 2. Programming
 
+You will be using Microsoft MakeCode in this section. 
+
+1. It can be access via https://makecode.microbit.org/#
+2. You will need to sign up for an account
+
+Once you have got an account, please go to the next steps.
+
+![](images/screen-makecode-import.png){ width=500px }  
+
 ### 2.1 Basic Micro:bit programming using MakeCode
+
+1. Click on "Import" button
+2. Choose "Import URL" 
+
+![](images/screen-makecode-import-2.png){ width=500px }  
+3. Open project URL, enter: https://github.com/beets3d/b3d1-walking-bot-main
+![](images/screen-makecode-projecturl.png){ width=500px }  
+
+** Please note: **  if you are using more than one walking robot. You should assign unique number to "radio set group". The group number can be any value from 0 to 255. Remember to change that in remote control in the next section as well.
+
+![](images/screen-radio-group.png){ width=200px } 
+
+4. Plug in your micro:bit using a USB cable, and Click "Download
 
 ### 2.2 Remote control setup
 
+Repeat the above, using this project URL: https://github.com/beets3d/b3d1-walking-bot-controller
+
 ## 3. Testing and calibration 
+
+
+**Video Instruction**
+
+[Watch the video for Testing & Calibration](https://youtu.be/MfOPkmcqLCs) 
