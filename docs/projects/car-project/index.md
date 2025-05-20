@@ -103,7 +103,9 @@ This is a hands-on, project-based course that guides you through the process of 
    - Adjust generation parameters as needed
    - Download the generated 3D model
 
-![Generate car image using ChatGPT](./images/ai-car-image.png){width=500 height=500}
+Generate car image using ChatGPT
+![Generate car image using ChatGPT](./images/ai-car-image.png)
+Use the image to generate a car 3D model using Tripo AI
 ![Generate 3D model using Tripo AI](./images/tripo-model.png)
 
 ### 2. Model Modification
@@ -122,8 +124,12 @@ This is a hands-on, project-based course that guides you through the process of 
    - Use Primitives and trim tool for spoilers
    - Smooth tool for evening out rough spots
 
+Car model in Nomad before directly imported from Tripo AI
 ![Before modification](./images/raw-car-import.png)
+Reference for what car parts can be customised
 ![car customisation reference](./images/custom-options.png)
+
+Example of car model after modification
 ![After modification](./images/after-mod.png)
 ![After modification2](./images/after-mod-rear.png)
 ![After modification spoiler](./images/spoiler.png)
@@ -140,7 +146,10 @@ This is a hands-on, project-based course that guides you through the process of 
    - Configure print settings (layer height, infill, etc.)
 3. Generate G-code and print
 
+Slicer Setup (Bambu Studio)
 ![Slicer setup](./images/slicer-1.png)
+
+3D print preview
 ![Slicer setup2](./images/slicer-preview.png)
 
 ### 4. Post-processing, assembly and test running
@@ -152,7 +161,8 @@ This is a hands-on, project-based course that guides you through the process of 
 
 ### 3D scanning
    - 3D scanning can be used instead of AI model generation. Students can experience the process of scanning real life toy cars and import them into Nomad.
-   - Scanned models takes more time and proficiency to fix so this is not recommended for first timers. 
+   - Scanned models takes more time and proficiency to fix so this is not recommended for first timers.
+   - 3D scanner is required 
 
 ### Wind Tunnel Testing 
    - Learn about the basic aerodynamic principles and the usage of a wind tunnel
@@ -160,6 +170,7 @@ This is a hands-on, project-based course that guides you through the process of 
    - Observe the behaviour of Streamlines and compare them for different student designs
    - Document results and make design improvements
    - This is mainly aimed towards Physics/Engineering related students
+   - Desktop wind tunnel is required
 
 ![Wind tunnel testing](./images/windtunnel.png)
 
