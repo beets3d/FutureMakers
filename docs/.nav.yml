@@ -1,0 +1,7 @@
+flatten_single_child_sections: true
+nav:
+    - Home: index.md
+    - Projects: projects
+    - Resource: resources
+    - Reference: reference
+    - About: about.md

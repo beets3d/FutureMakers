@@ -16,13 +16,15 @@ theme:
   custom_dir: docs/overrides
   language: en
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
     - navigation.top
     - navigation.footer
     - navigation.indexes
     - navigation.tracking
+    - navigation.expand
     - search.suggest
     - search.highlight
     - content.tabs
@@ -106,6 +108,7 @@ markdown_extensions:
 
 plugins:
   - glightbox
+  - awesome-nav
   - plantuml:
         puml_url: https://www.plantuml.com/plantuml/
         num_workers: 2
@@ -115,6 +118,17 @@ plugins:
         - zh_HK
   - tags:
       tags_file: tags.md
+  - ultralytics:  # to enhance SEO by adding metadata
+      verbose: True
+      enabled: True
+      default_author: "Beets Limited"
+      add_desc: True
+      add_image: True
+      add_keywords: True
+      add_share_buttons: False
+      add_authors: False
+      add_json_ld: False
+      add_css: True
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -136,7 +150,6 @@ plugins:
             Resources: 資源
             Reference: 參考
             Glossary: 詞彙表
-            Double Side Character: 雙面字
             Lesson 1: 第一課
             Overview: 概覽
             Handbook: 指南
@@ -150,7 +163,6 @@ plugins:
             Resources: 資源
             Reference: 參考
             Glossary: 詞彙表
-            Double Side Character: 雙面字
             Lesson 1: 第一課
             Overview: 概覽
             Handbook: 指南
@@ -163,37 +175,7 @@ plugins:
             Gait Diagramming: 步態圖示
             Teeter-Totter Test: 翹翹板測試
             Concepts of Walking: 行走概念
-
-
-
-nav:
-  - Home: index.md
-  - Setup: setup.md
-  - Projects:
-
-    - 3D Sculpt AI: 
-      - Overview: projects/3d-sculpt-ai/index.md
-    - Moai (Your first Nomad Sculpt Project):
-      - Overview: projects/project-moai/index.md
-    - Chiikawa (Your 2nd Nomad Sculpt Project):
-      - Overview: projects/project-chiikawa/index.md
-    - Walking Robot (B3D1):
-      - Overview: projects/walking-robot/index.md
-      - Additional Concepts:
-        - Concepts of Walking: projects/walking-robot/concept-of-walking.md
-        - Assembly Guide: projects/walking-robot/assembly-guide.md
-        - Gait Diagramming: projects/walking-robot/exercise-gait-diagramming.md
-        - Teeter-Totter Test: projects/walking-robot/exercise-teeter-totter-test.md
-
-  - Resources:
-    - Assessment: resources/assessment/index.md
-    - Teaching Tips: resources/teaching-tips/index.md
-    - Materials: resources/materials/index.md
-    - NomadSculpt: resources/NomadSculpt/index.md
-  - Reference:
-    - Glossary: reference/glossary.md
-    - FAQ: reference/faq.md
-    - Troubleshooting: reference/troubleshooting.md
+            Optional Microbit: 附加:Microbit
 
 extra_css:
   - assets/stylesheets/extra.css
