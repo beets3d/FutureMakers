@@ -34,19 +34,22 @@ This is a hands-on, project-based course that guides you through the process of 
 
 ## What You Will Need
 
-| Category | Item | Notes |
-|----------|------|-------|
-| Hardware | Smartphone/Tablet | With stylus support recommended |
-| | Laptop/Desktop | For slicing and 3D printing |
-| | FDM or resin 3D Printer | e.g. Phrozen, BambuLab |
-| | RC Car 4WD Chassis Kit | |
-| Software | AI Model Generation | ChatGPT, Tripo AI |
-| | Nomad Sculpt | iOS/Android – paid |
-| | Slicing Software | Chitubox, Bambu Studio |
-| Tools & Materials | 3D Printer Filament | PLA or PETG recommended |
-| | Finishing Tools | Sandpaper or rotary tool |
-| | RC Control System | Beets motor unit |
-| | Assembly Hardware | Screws, brackets, and mounting accessories |
+| Category | Item | Notes | Required/Optional |
+|----------|------|-------|------------------|
+| Hardware | Smartphone/Tablet | With stylus support recommended | Required |
+| | Laptop/Desktop | For slicing and 3D printing | Required |
+| | FDM 3D Printer | e.g. BambuLab | Required |
+| | Resin 3D Printer | for better finishing e.g. Phrozen | Optional |
+| | RC Car 4WD Chassis Kit | Chassis for the car model | Required |
+| Software | AI Model Generation | ChatGPT, Tripo AI | Required |
+| | Nomad Sculpt | iOS/Android – paid | Required |
+| | Nomad Sculpt Quad Remesh extention | iOS/Android – paid | Optional |
+| | Slicing Software | Chitubox, Bambu Studio | Required |
+| Tools & Materials | 3D Printer Filament | PLA or PETG recommended | Required |
+| | Finishing Tools | Sandpaper or rotary tool | Optional |
+| | Painting tools | Brushes, acrylic, Airbrush or spray paint| Optional |
+| | RC Control System | Beets motor unit | Required |
+| | Assembly Hardware | Screws, brackets, and mounting accessories | Required |
 
 
 ## Course Outline
