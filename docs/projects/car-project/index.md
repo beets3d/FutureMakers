@@ -145,5 +145,16 @@ This is a hands-on, project-based course that guides you through the process of 
 2. sand the surfaces and support structure marks
 3. Assemble the car cover onto the Chassis and Beets motor unit
 
+## Optional Projects 
+
+###Wind Tunnel Testing 
+   - Learn about the basic aerodynamic principles and the usage of a wind tunnel
+   - Test different car designs for aerodynamic efficiency
+   - Observe the behaviour of Streamlines and compare them for different student designs
+   - Document results and make design improvements
+
+![Wind tunnel testing](./images/windtunnel.png)
+
+
 > Note: Images shown are placeholders. Replace with actual project photos.
 
