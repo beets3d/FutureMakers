@@ -150,11 +150,16 @@ This is a hands-on, project-based course that guides you through the process of 
 
 ## Optional Projects 
 
-###Wind Tunnel Testing 
+### 3D scanning
+   - 3D scanning can be used instead of AI model generation. Students can experience the process of scanning real life toy cars and import them into Nomad.
+   - Scanned models takes more time and proficiency to fix so this is not recommended for first timers. 
+
+### Wind Tunnel Testing 
    - Learn about the basic aerodynamic principles and the usage of a wind tunnel
    - Test different car designs for aerodynamic efficiency
    - Observe the behaviour of Streamlines and compare them for different student designs
    - Document results and make design improvements
+   - This is mainly aimed towards Physics/Engineering related students
 
 ![Wind tunnel testing](./images/windtunnel.png)
 
