@@ -11,132 +11,121 @@ comments: true
 
 ## Abstract
 
-This course explores the exciting intersection of technology, design, and aerodynamics, offering students a hands-on learning experience that spans 3D scanning, model modification, 3D printing, and wind tunnel testing. Through structured lessons, students will engage in the research and development process of vehicle design, from conceptualization to testing and iteration.
-
-Younger students will focus on aesthetics, while older students delve deeper into aerodynamics principles, fostering age-appropriate learning. The program emphasizes critical skills such as design thinking, problem-solving, and iterative development, empowering students to refine their prototypes based on performance data.
-
-By the end of the course, students will present their design process, analyze wind tunnel results, and race their vehicles in a friendly competition. The course aims to inspire creativity and spark interest in engineering through real-world applications, culminating in a deeper understanding of modern vehicle design and aerodynamics principles.
+This is a hands-on, project-based course that guides you through the process of creating a customized 3D car model using AI tools, refining it in Nomad Sculpt, 3D printing it, and transforming it into a fully functional 4WD remote-controlled (RC) vehicle. The course combines creative design, digital modeling, physical prototyping, and basic electronics.
 
 ---
 
 ## What You Will Learn
 
-Students will:
+- How to use AI tools to generate 3D models of vehicles
 
-- Gain hands-on experience with 3D scanning and model creation using AI tools and 3D scanners.
+- Techniques to import, clean, and refine models using Nomad Sculpt
 
-- Develop proficiency in 3D model modification using software like Nomad, tailored for aesthetic and aerodynamic improvements.
+- Customization of car components like bumpers, skirts, spoilers, etc.
 
-- Understand key concepts of aerodynamics and design optimization.
+- Preparing and slicing models for 3D printing
 
-- Learn the fundamentals of 3D printing, including slicing techniques, support structures, and print orientation.
+- Basics of 3D printing and post-processing techniques
 
-- Apply iterative design processes to refine prototypes based on wind tunnel testing results.
+- How to assemble and wire an RC 4WD chassis
 
-- Analyze airflow patterns and aerodynamic performance in vehicle designs.
-
-- Build teamwork and presentation skills through collaborative activities and final showcases.
+- Presenting and testing your final product
 
 
 ## What You Will Need
 
-| Category | Equipment | Description | Required/Optional |
-|----------|-----------|-------------|------------------|
-| **3D Scanning and Modeling** | 3D Scanner | For scanning real-life car models | Optional |
-| | PC or Laptop | For running 3D modeling and scanning software (ensure it has sufficient processing power for smooth operation) | Required |
-| | Graphics Tablet | For precise modifications in 3D modeling software like Nomad | Required |
-| **3D Printing** | 3D Printer | Preferably a desktop FDM (Fused Deposition Modeling) printer (e.g. Bambu Lab Printer) | Required |
-| | 3D Printing Filament | PLA or PETG filament for prototyping | Required |
-| | Slicing Software | Free or paid slicing programs (e.g. Bambu Studio) | Required |
-| **Wind Tunnel Testing** | Wind Tunnel | A small-scale wind tunnel for educational use. Consider models designed for classroom purposes or build a DIY wind tunnel | Required |
-| | Smoke Generator or Fog Machine | For airflow visualization during testing | Required |
-| | Anemometer | For measuring airflow velocity in the wind tunnel | Optional |
-| **Post-processing Tools** | Sandpaper | For post-print finishing | Optional |
-| | Acrylic and Painting Tools | Decorate the printed car | Optional |
-| **Miscellaneous** | Power Supply | Ensure an appropriate power source for all devices | Required |
-| | Safety Equipment | Gloves, safety glasses, and a well-ventilated workspace for using 3D printing and wind tunnel equipment | Required |
-| | Workstation and Storage | A sturdy table and storage boxes for keeping hardware and prototypes organized | Required |
+| Category | Item | Notes |
+|----------|------|-------|
+| Hardware | Smartphone/Tablet | With stylus support recommended |
+| | Laptop/Desktop | For slicing and 3D printing |
+| | FDM or resin 3D Printer | e.g. Phrozen, BambuLab |
+| | RC Car 4WD Chassis Kit | |
+| Software | AI Model Generation | ChatGPT, Tripo AI |
+| | Nomad Sculpt | iOS/Android – paid |
+| | Slicing Software | Chitubox, Bambu Studio |
+| Tools & Materials | 3D Printer Filament | PLA or PETG recommended |
+| | Finishing Tools | Sandpaper or rotary tool |
+| | RC Control System | Beets motor unit |
+| | Assembly Hardware | Screws, brackets, and mounting accessories |
 
 
 ## Course Outline
 
-### Chapter 1: 3D Model Generation
+### Chapter 1: Introduction to AI-Driven Design
+- Overview of AI 3D generation tools
+- Limitations of AI generated 3D models
+- Exploring car design prompts and outputs
+- Generate a car model image using ChatGPT
+- Use the images to generate 3D models using Tripo AI
 
-**Objective**: Teach students to create a 3D model using various methods.
+### Chapter 2: Sculpting Foundations in Nomad Sculpt
+- Introduction to sculpting interface
+- Importing and repairing AI-generated models
+- Cleaning geometry and optimizing meshes
+- Refining car body shape and proportions
 
-**Content**:
-- Use AI-based tools to generate 3D models
-- Learn how to use a 3D scanner to scan real-life car models
-- Clean up scanned or generated models using Nomad, addressing noise and remeshing for better modification
-  - Optional: Quad Remesher addon in Nomad Scult for enhanced remeshing
+### Chapter 3: Customizing the Car
+- Adding car skirts, bumpers, fenders, spoilers, etc.
+- Feedback sessions on design choices
+- Exporting final car body for print
 
-### Chapter 2: 3D Model Modification
+### Chapter 4: 3D Printing
+- Introduction of different 3D printing methods
+- Exporting STL files and configuring printer settings
+- Model slicing basics: orientation, supports, infill
+- Slice and preview print in Bambu Studio
+- Operate a 3D printer and print
 
-**Objective**: Customize and improve 3D models based on age-appropriate focus areas.
+### Chapter 5: Post-Processing and assembly
+- Sanding the printed model
+- painting the car body
+- Various post-processing techniques
 
-**Content**:
-- Younger students(12-15 years old):
-  - Modify models with a focus on aesthetic appeal using Nomad
-  - Techniques include Drag and Move tools
-- Older students(16-18 years old):
-  - Explore basic aerodynamics
-  - Refine the car body shape for better airflow
-
-### Chapter 3: Preparing for 3D Printing
-
-**Objective**: Prepare the 3D model for successful 3D printing.
-
-**Content**:
-- Export the 3D model to a slicing software
-- Learn design considerations:
-  - Print orientation
-  - Support structures
-  - Overhangs
-- Adjust designs and print prototypes
-
-### Chapter 4: Testing in a Wind Tunnel
-
-**Objective**: Analyze the aerodynamic performance of the designs.
-
-**Content**:
-- Test car models in a wind tunnel
-- Observe airflow patterns and identify areas for improvement in both aesthetics and aerodynamics
-- Iterate the design process:
-  - Modify and print a new prototype
+### Chapter 6: testing
+- Understanding and installing key RC components (Motor, servo, wheels)
+- Mounting the body securely on the chassis
+- Testing and calibrating your RC car for performance
 
 
 ## Project Steps
 
-### Chapter 1: Generating the 3D Model
+### 1. Generating the 3D Model
 
 **Objective**: Create an initial 3D car model using AI tools.
 
 **Content**:
-1. Source a reference car image
+1. Learn and practice AI prompts and generate a blank car model using ChatGPT
 2. Use Tripo AI to generate a 3D model:
    - Upload your reference image
    - Adjust generation parameters as needed
    - Download the generated 3D model
 
-![Generate 3D model using Tripo AI](./images/tripo-generation.png){width=500 height=500}
-![Generate 3D model using Tripo AI2](./images/tripo-generation2.png)
-![Generate 3D model using Tripo AI3](./images/tripo-generation3.png)
+![Generate car image using ChatGPT](./images/ai-car-image.png){width=500 height=500}
+![Generate 3D model using Tripo AI](./images/tripo-model.png)
 
-### Chapter 2: Model Modification
+### 2. Model Modification
 
 **Objective**: Customize the car model's appearance.
 
 **Content**:
 1. Import the generated model into Nomad Sculpt
-2. Use basic modification tools:
-   - Drag tool for reshaping surfaces
-   - Move tool for adjusting specific areas
+2. Remesh the model(Preferrably Quad Remesh Tool)
+3. Learn about basic car customisation options
+4. Use basic modification tools:
+   - Masking tool for maintaining certain parts
+   - Move and Drag tool for reshaping windshield and overall shape
+   - Clay for skirts, fender and smooth it
+   - Clay, move and smooth for front bumper and rear bumper
+   - Use Primitives and trim tool for spoilers
    - Smooth tool for evening out rough spots
 
-![Before modification](./images/car-before.png)
-![After modification](./images/car-after.png)
+![Before modification](./images/raw-car-import.png)
+![car customisation reference](./images/custom-options.png)
+![After modification](./images/after-mod.png)
+![After modification2](./images/after-mod-rear.png)
+![After modification spoiler](./images/spoiler.png)
 
-### Chapter 3: Preparing for 3D Printing
+### 3. Preparing for 3D Printing
 
 **Objective**: Export the 3D model for printing.
 
@@ -148,25 +137,13 @@ Students will:
    - Configure print settings (layer height, infill, etc.)
 3. Generate G-code and print
 
-![Slicer setup](./images/slicer-setup.png)
-![Slicer setup2](./images/slicer-setup2.png)
-![Printed model](./images/printed-car.jpg)
+![Slicer setup](./images/slicer-1.png)
+![Slicer setup2](./images/slicer-preview.png)
 
-### Chapter 4: Wind Tunnel Testing
-
-**Objective**: Test and improve aerodynamics.
-
-**Content**:
-1. Place printed model in wind tunnel
-2. Observe airflow patterns:
-   - Look for turbulence areas
-   - Identify high-resistance zones
-3. Document findings
-4. Make design improvements:
-   - Modify problem areas in Nomad
-   - Print revised version
-   - Test again to verify improvements
-
+### 4. Post-processing, assembly and test running
+1. Remove support structures
+2. sand the surfaces and support structure marks
+3. Assemble the car cover onto the Chassis and Beets motor unit
 
 > Note: Images shown are placeholders. Replace with actual project photos.
 
