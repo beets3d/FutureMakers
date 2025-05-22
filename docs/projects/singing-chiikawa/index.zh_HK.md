@@ -10,6 +10,10 @@ comments: true
 # 唱歌的 Chiikawa
 
 ---
+
+![SingingChiikawaCompleted01](./images/IMG_9032.jpg)
+![SingingChiikawaCompleted02](./images/IMG_9033.jpg)
+
 ## 這是什麼？
 
 「Chiikawa 專案」是一個結合數位雕刻與角色製作的實作型學習活動。學生將使用專業 3D 建模應用程式 Nomad Sculpt，從基礎形狀出發，​透過簡單易懂的步驟，即使是初學者也能輕鬆掌握數位雕刻技巧，並一步步製作出人氣角色「Chiikawa」的 3D 模型，最終完成導出 3D 檔案、完成 3D 打印及上色的流程。
