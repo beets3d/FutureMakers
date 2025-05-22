@@ -14,6 +14,9 @@ The goal of this program is to:
 
 - **Loop twice** → The melody repeats twice before stopping.
 
+![SingingChiikawaCompleted11](./images/image-20250416-084849.jpeg)
+![SingingChiikawaCompleted12](./images/image-20250416-084747.jpeg)
+
 ## Step-by-Step Guide
 
 **Step 1: Initialise the Music System**
@@ -28,7 +31,7 @@ The goal of this program is to:
 
 **Step 2: Detect Sound**
 
-- Use the “On Loud Sound” Event
+- Use the "On Loud Sound" Event
 
  - When the micro:bit detects a loud noise (such as a clap or knock), the program initiates.
 

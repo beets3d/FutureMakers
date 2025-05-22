@@ -14,6 +14,9 @@
 
 - **循環兩次** → 確保完整旋律播放兩次後才停止。
 
+![SingingChiikawaCompleted11](./images/image-20250416-084849.jpeg)
+![SingingChiikawaCompleted12](./images/image-20250416-084747.jpeg)
+
 ## 完整步驟
 
 **步驟 1：初始化音樂系統**
