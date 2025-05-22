@@ -201,7 +201,7 @@ comments: true
 
 ![SingingChiikawaCompleted05](./images/WhatsAppImage8810.jpeg)
 ![SingingChiikawaCompleted06](./images/WhatsAppImage8816.jpeg)
-![SingingChiikawaCompleted08](./images/WhatsAppImage9021.jpeg)
+![SingingChiikawaCompleted07](./images/WhatsAppImage9021.jpeg)
 
 **可選延伸課程（延伸學習）**
 
@@ -210,9 +210,9 @@ comments: true
  - **時長：**60 分鐘
  - **對應：**跨媒材整合、基礎電子與邏輯設計。
 
- ![SingingChiikawaCompleted07](./images/WhatsAppImage9032.jpeg)
- ![SingingChiikawaCompleted07](./images/WhatsAppImage9033.jpeg)
- ![SingingChiikawaCompleted07](./images/WhatsAppImage9034.jpeg)
+ ![SingingChiikawaCompleted08](./images/WhatsAppImage9032.jpeg)
+ ![SingingChiikawaCompleted09](./images/WhatsAppImage9033.jpeg)
+ ![SingingChiikawaCompleted10](./images/WhatsAppImage9034.jpeg)
 
 **靈活性說明：**
 
