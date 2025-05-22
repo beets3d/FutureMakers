@@ -118,8 +118,8 @@ comments: true
 
 由於本專案主要集中在數位建模部分，實體組裝僅涉及到 3D 打印後的模型處理。​建議使用者在完成建模後，將模型導出為 STL 或 OBJ 格式，並使用 3D 打印機進行打印。​打印完成後，可進行（選用）Micro:bit 編程、實體模型打磨、上色等後處理步驟，以提升模型的質感、外觀與互動性。​
 
-![SingingChiikawaCompleted03](./images/WhatsAppImage8811.jpeg)
-![SingingChiikawaCompleted04](./images/WhatsAppImage8812.jpeg)
+![SingingChiikawaCompleted03](./images/IMG_8811.jpeg)
+![SingingChiikawaCompleted04](./images/IMG_8812.jpeg)
 
 ## 課程計劃
 
@@ -199,9 +199,9 @@ comments: true
  - **時長：**50 分鐘
  - **對應：**簡報、反思與創作分享。
 
-![SingingChiikawaCompleted05](./images/WhatsAppImage8810.jpeg)
-![SingingChiikawaCompleted06](./images/WhatsAppImage8816.jpeg)
-![SingingChiikawaCompleted07](./images/WhatsAppImage9021.jpeg)
+![SingingChiikawaCompleted05](./images/IMG_8810.jpeg)
+![SingingChiikawaCompleted06](./images/IMG_8816.jpeg)
+![SingingChiikawaCompleted07](./images/IMG_9021.jpeg)
 
 **可選延伸課程（延伸學習）**
 
@@ -210,9 +210,9 @@ comments: true
  - **時長：**60 分鐘
  - **對應：**跨媒材整合、基礎電子與邏輯設計。
 
- ![SingingChiikawaCompleted08](./images/WhatsAppImage9032.jpeg)
- ![SingingChiikawaCompleted09](./images/WhatsAppImage9033.jpeg)
- ![SingingChiikawaCompleted10](./images/WhatsAppImage9034.jpeg)
+ ![SingingChiikawaCompleted08](./images/IMG_9032.jpeg)
+ ![SingingChiikawaCompleted09](./images/IMG_9033.jpeg)
+ ![SingingChiikawaCompleted10](./images/IMG_9034.jpeg)
 
 **靈活性說明：**
 
