@@ -9,6 +9,9 @@ comments: true
 
 # 唱歌的 Chiikawa
 
+![SingingChiikawaCompleted01](./images/WhatsAppImage52.jpeg)
+![SingingChiikawaCompleted02](./images/WhatsAppImage53.jpeg)
+
 ---
 ## 這是什麼？
 
@@ -111,13 +114,12 @@ comments: true
 
 7. **實體上色**：打印完成後進行打磨與上色，完成專屬風格的 Chiikawa 公仔。
 
-## 設計
-
-本專案以 Chiikawa 角色為主題，結合流行文化與數位建模，提升學生的學習動機。​透過模仿與創作，學生不僅能學習建模技巧，還能培養創意思維與設計能力。​
-
 ## 組裝指南
 
 由於本專案主要集中在數位建模部分，實體組裝僅涉及到 3D 打印後的模型處理。​建議使用者在完成建模後，將模型導出為 STL 或 OBJ 格式，並使用 3D 打印機進行打印。​打印完成後，可進行（選用）Micro:bit 編程、實體模型打磨、上色等後處理步驟，以提升模型的質感、外觀與互動性。​
+
+![SingingChiikawaCompleted03](./images/WhatsAppImage8811.jpeg)
+![SingingChiikawaCompleted04](./images/WhatsAppImage8812.jpeg)
 
 ## 課程計劃
 
@@ -197,6 +199,9 @@ comments: true
  - **時長：**50 分鐘
  - **對應：**簡報、反思與創作分享。
 
+![SingingChiikawaCompleted05](./images/WhatsAppImage8810.jpeg)
+![SingingChiikawaCompleted06](./images/WhatsAppImage8816.jpeg)
+![SingingChiikawaCompleted08](./images/WhatsAppImage9021.jpeg)
 
 **可選延伸課程（延伸學習）**
 
@@ -204,6 +209,10 @@ comments: true
  - **練習：**加入簡單燈光或聲音互動模組。
  - **時長：**60 分鐘
  - **對應：**跨媒材整合、基礎電子與邏輯設計。
+
+ ![SingingChiikawaCompleted07](./images/WhatsAppImage9032.jpeg)
+ ![SingingChiikawaCompleted07](./images/WhatsAppImage9033.jpeg)
+ ![SingingChiikawaCompleted07](./images/WhatsAppImage9034.jpeg)
 
 **靈活性說明：**
 

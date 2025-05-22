@@ -11,8 +11,8 @@ comments: true
 
 ---
 
-![SingingChiikawaCompleted01](./images/IMG_9032.jpg)
-![SingingChiikawaCompleted02](./images/IMG_9033.jpg)
+![SingingChiikawaCompleted01](./images/WhatsApp Image 2024-03-17 at 17.52.00.jpeg)
+![SingingChiikawaCompleted02](./images/WhatsApp Image 2024-03-17 at 17.53.00.jpeg)
 
 ## What is this?
 
@@ -123,6 +123,9 @@ This project uses the Chiikawa character as its theme, combining popular culture
 
 As this project focuses primarily on digital modeling, physical assembly only involves post-3D printing model processing. Users are recommended to export the model in STL or OBJ format after modeling and print using a 3D printer. After printing, optional steps include Micro:bit programming, physical model sanding, and coloring to enhance the model's quality, appearance, and interactivity.
 
+![SingingChiikawaCompleted03](./images/WhatsAppImage8811.jpeg)
+![SingingChiikawaCompleted04](./images/WhatsAppImage8812.jpeg)
+
 ## Course Plan
 
 ### Course Objectives
@@ -195,4 +198,19 @@ Session Duration: 40-60 minutes each
  - **Duration:** 50 minutes
  - **Focus:** Presentation, reflection, and creative sharing.
 
+![SingingChiikawaCompleted05](./images/WhatsAppImage8810.jpeg)
+![SingingChiikawaCompleted06](./images/WhatsAppImage8816.jpeg)
+![SingingChiikawaCompleted08](./images/WhatsAppImage9021.jpeg)
+
 **Optional Extension Session (Extended Learning)**
+
+- **Session 9 (Optional): Micro:bit Interactive Design (Advanced)**
+ - **Exercise:** Add simple lighting or sound interaction modules.
+ - **Duration:** 60 minutes
+ - **Focus:** Cross-media integration, basic electronics and logic design.
+
+![SingingChiikawaCompleted07](./images/WhatsAppImage9032.jpeg)
+![SingingChiikawaCompleted07](./images/WhatsAppImage9033.jpeg)
+![SingingChiikawaCompleted07](./images/WhatsAppImage9034.jpeg)
+
+**Flexibility Notes:**
