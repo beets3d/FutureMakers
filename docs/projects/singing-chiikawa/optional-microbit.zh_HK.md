@@ -14,8 +14,8 @@
 
 - **循環兩次** → 確保完整旋律播放兩次後才停止。
 
-![SingingChiikawaCompleted11](./images/image-20250416-084849.jpeg)
-![SingingChiikawaCompleted12](./images/image-20250416-084747.jpeg)
+![SingingChiikawaCompleted11](./images/image-20250416-084747.png)
+![SingingChiikawaCompleted12](./images/image-20250416-084849(1).png)
 
 ## 完整步驟
 
