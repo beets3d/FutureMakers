@@ -14,8 +14,8 @@ The goal of this program is to:
 
 - **Loop twice** → The melody repeats twice before stopping.
 
-![SingingChiikawaCompleted11](./images/image-20250416-084849.jpeg)
-![SingingChiikawaCompleted12](./images/image-20250416-084747.jpeg)
+![SingingChiikawaCompleted11](./images/image-20250416-084747.png)
+![SingingChiikawaCompleted12](./images/image-20250416-084849(1).png)
 
 ## Step-by-Step Guide
 
