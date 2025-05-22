@@ -11,8 +11,8 @@ comments: true
 
 ---
 
-![SingingChiikawaCompleted01](./images/WhatsApp Image 2024-03-17 at 17.52.00.jpeg)
-![SingingChiikawaCompleted02](./images/WhatsApp Image 2024-03-17 at 17.53.00.jpeg)
+![SingingChiikawaCompleted01](./images/WhatsAppImage_52.jpeg)
+![SingingChiikawaCompleted02](./images/WhatsAppImage_53.jpeg)
 
 ## What is this?
 
@@ -123,8 +123,8 @@ This project uses the Chiikawa character as its theme, combining popular culture
 
 As this project focuses primarily on digital modeling, physical assembly only involves post-3D printing model processing. Users are recommended to export the model in STL or OBJ format after modeling and print using a 3D printer. After printing, optional steps include Micro:bit programming, physical model sanding, and coloring to enhance the model's quality, appearance, and interactivity.
 
-![SingingChiikawaCompleted03](./images/WhatsAppImage8811.jpeg)
-![SingingChiikawaCompleted04](./images/WhatsAppImage8812.jpeg)
+![SingingChiikawaCompleted03](./images/IMG_8811.jpeg)
+![SingingChiikawaCompleted04](./images/IMG_8812.jpeg)
 
 ## Course Plan
 
@@ -198,9 +198,9 @@ Session Duration: 40-60 minutes each
  - **Duration:** 50 minutes
  - **Focus:** Presentation, reflection, and creative sharing.
 
-![SingingChiikawaCompleted05](./images/WhatsAppImage8810.jpeg)
-![SingingChiikawaCompleted06](./images/WhatsAppImage8816.jpeg)
-![SingingChiikawaCompleted08](./images/WhatsAppImage9021.jpeg)
+![SingingChiikawaCompleted05](./images/IMG_8810.jpeg)
+![SingingChiikawaCompleted06](./images/IMG_8816.jpeg)
+![SingingChiikawaCompleted08](./images/IMG_9021.jpeg)
 
 **Optional Extension Session (Extended Learning)**
 
@@ -209,8 +209,20 @@ Session Duration: 40-60 minutes each
  - **Duration:** 60 minutes
  - **Focus:** Cross-media integration, basic electronics and logic design.
 
-![SingingChiikawaCompleted07](./images/WhatsAppImage9032.jpeg)
-![SingingChiikawaCompleted07](./images/WhatsAppImage9033.jpeg)
-![SingingChiikawaCompleted07](./images/WhatsAppImage9034.jpeg)
+ ![SingingChiikawaCompleted08](./images/IMG_9032.jpeg)
+ ![SingingChiikawaCompleted09](./images/IMG_9033.jpeg)
+ ![SingingChiikawaCompleted10](./images/IMG_9034.jpeg)
 
 **Flexibility Notes:**
+
+**No 3D printing equipment**
+
+ - Models can be exported for display or simulated using virtual printing tools (such as Tinkercad or slicer software).
+
+**Cross-age adaptability**
+
+ - Younger students can focus on basic modeling and creative shaping, while older or secondary students can explore component design and programming challenges.
+
+**Evaluation methods**
+
+ - Assessment can be conducted through project presentations, documentation of the modeling process, and learning feedback forms.

@@ -9,8 +9,8 @@ comments: true
 
 # 唱歌的 Chiikawa
 
-![SingingChiikawaCompleted01](./images/WhatsAppImage52.jpeg)
-![SingingChiikawaCompleted02](./images/WhatsAppImage53.jpeg)
+![SingingChiikawaCompleted01](./images/WhatsAppImage_52.jpeg)
+![SingingChiikawaCompleted02](./images/WhatsAppImage_53.jpeg)
 
 ---
 ## 這是什麼？
