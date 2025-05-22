@@ -200,7 +200,7 @@ Session Duration: 40-60 minutes each
 
 ![SingingChiikawaCompleted05](./images/IMG_8810.jpeg)
 ![SingingChiikawaCompleted06](./images/IMG_8816.jpeg)
-![SingingChiikawaCompleted08](./images/IMG_9021.jpeg)
+![SingingChiikawaCompleted07](./images/IMG_9021.jpeg)
 
 **Optional Extension Session (Extended Learning)**
 
