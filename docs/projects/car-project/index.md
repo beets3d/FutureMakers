@@ -193,7 +193,7 @@ Printed model with support
 ![printedmodel2](./images/printedwithsupport2.jpg)
 
 Assemble with the Tamiya 4WD Chassis
-![assembly](./images/assembled.jpg)
+![assembly](./images/assembled.png)
 
 If it doesn't fit then adjust the model again.
 
