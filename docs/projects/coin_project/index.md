@@ -1,70 +1,70 @@
 ---
-title: Coin
+title: Create Your Own Zodics Coin
 lang_name: en 
 comments: true
 ---
 
-# Coin Design Project
+# Zodics Coin Design Project
 
 ---
 
 ## Abstract
 
-This is a hands-on, project-based course that guides you through the process of designing your own original coin using AI tools, refining the design in a 3D sculpting app, and preparing it for 3D printing or minting. The course combines creative design, digital modeling, and physical prototyping, allowing you to create a unique commemorative or fantasy coin.
-
+This hands-on project guides you through the process of designing and creating your own custom Zodics Coin using AI tools, digital sculpting, and 3D printing. You'll learn how to generate unique coin designs based on zodiac signs, refine them in Nomad Sculpt, and produce a physical coin using a 3D printer. This project blends creativity, digital modeling, and practical prototyping.
 
 ---
 
-
 ## What You Will Learn
 
-- How to use AI tools to generate coin designs and motifs
-- Techniques to import, clean, and refine models using Nomad Sculpt (or similar)
-- Customization of coin features such as relief, edge, and text
-- Preparing and slicing models for 3D printing or minting
-- Basics of 3D printing and post-processing techniques
-- Presenting and photographing your final product
+- How to use AI tools to generate 2D and 3D coin designs based on zodiac themes
+- Techniques for importing, cleaning, and refining models in Nomad Sculpt
+- Customizing coin features such as relief, text, and edge patterns
+- Preparing and slicing models for 3D printing
+- Basics of 3D printing and post-processing
+- Presenting and photographing your finished coin
 
 ## What You Will Need
 
-| Category         | Item                                   | Notes                                      | Required/Optional |
-|------------------|----------------------------------------|--------------------------------------------|------------------|
-| Hardware         | Smartphone/Tablet                      | With stylus support recommended            | Required         |
-|                  | Laptop/Desktop                         | For slicing and 3D printing                | Required         |
-|                  | FDM/Resin 3D Printer                   | For prototyping the coin                   | Optional         |
-| Software         | AI Image Generation (e.g. ChatGPT, DALL·E, Midjourney) | For generating coin motifs and ideas       | Required         |
-|                  | Nomad Sculpt or similar 3D sculpting app| For modeling the coin                      | Required         |
-|                  | Slicing Software (e.g. Chitubox, Bambu Studio) | For 3D printing                            | Optional         |
-| Tools & Materials| 3D Printer Filament or Resin           | For printing the coin                      | Optional         |
-|                  | Finishing Tools (sandpaper, files)     | For post-processing                        | Optional         |
-|                  | Metallic Paint or Plating Kit          | For realistic coin finish                  | Optional         |
+| Category         | Item                                   | Notes                                 | Required/Optional |
+|------------------|----------------------------------------|---------------------------------------|------------------|
+| Hardware         | Smartphone/Tablet                      | Stylus support recommended            | Required         |
+|                  | Laptop/Desktop                         | For slicing and 3D printing           | Required         |
+|                  | FDM 3D Printer                        | e.g. BambuLab                         | Required         |
+|                  | Resin 3D Printer                      | For higher detail, e.g. Phrozen       | Optional         |
+| Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Required         |
+|                  | Nomad Sculpt                          | iOS/Android – paid                    | Required         |
+|                  | Slicing Software                      | Chitubox, Bambu Studio                | Required         |
+| Tools & Materials| 3D Printer Filament/Resin              | PLA, PETG, or resin                   | Required         |
+|                  | Finishing Tools                       | Sandpaper, files, rotary tool         | Optional         |
+|                  | Painting Tools                        | Brushes, acrylics, metallic paints    | Optional         |
 
 ---
 
 ## Course Outline
 
-### Chapter 1: Introduction to Coin Design
-- Overview of coin history and design elements
-- Exploring AI tools for generating coin motifs and reliefs
-- Generating reference images using AI
+### Chapter 1: Introduction to AI-Driven Coin Design
+- Overview of AI image generation tools
+- Exploring zodiac symbolism and coin design prompts
+- Generate a coin face image using ChatGPT or DALL-E
+- Use the image to generate a 3D relief model
 
-### Chapter 2: Sculpting the Coin in 3D
-- Importing AI-generated motifs into Nomad Sculpt
-- Creating the coin base (circular, with defined thickness)
+### Chapter 2: Sculpting and Refinement in Nomad Sculpt
+- Importing AI-generated models into Nomad Sculpt
+- Cleaning geometry and optimizing mesh for coins
 - Adding relief, text, and edge details
-- Techniques for high and low relief sculpting
+- Adjusting coin thickness and diameter
 
-### Chapter 3: Preparing for 3D Printing or Minting
-- Exporting the coin model in STL format
+### Chapter 3: Preparing for 3D Printing
+- Exporting STL files from Nomad Sculpt
 - Importing into slicer software
-- Adjusting orientation and print settings
-- Generating G-code and printing a prototype
+- Configuring print settings for coins (layer height, infill, supports)
+- Previewing and slicing the model
 
 ### Chapter 4: Post-Processing and Finishing
 - Removing supports and cleaning the print
-- Sanding and polishing the coin
-- Painting or plating for a metallic finish
-- Photographing and presenting your coin
+- Sanding and smoothing surfaces
+- Painting and finishing techniques for metallic effects
+- Photographing and presenting your finished coin
 
 ---
 
@@ -72,78 +72,79 @@ This is a hands-on, project-based course that guides you through the process of 
 
 ### 1. Generating the Coin Design
 
-**Objective**: Create an initial coin motif and design using AI tools.
+**Objective**: Create an initial coin face design using AI tools.
 
 **Content**:
-1. Learn and practice AI prompts to generate coin motifs (e.g., animals, symbols, portraits)
-2. Use AI image generation tools to create reference images for the coin's obverse and reverse
-3. Select your favorite design and prepare it for 3D modeling
+1. Research zodiac symbols and decide on your theme (e.g., your own zodiac sign).
+2. Use ChatGPT or DALL-E to generate a high-contrast image suitable for a coin face.
+   - Example prompt: "Create a circular coin design featuring the Leo zodiac symbol in a classical engraved style."
+3. Download the generated image.
 
-Example AI-generated coin motif:
-![AI-generated coin motif](./images/ai-coin-motif.png)
+Example AI-generated coin face:
+![AI-generated coin face](./images/)
 
-### 2. Modeling the Coin
+### 2. Creating the 3D Coin Model
 
-**Objective**: Sculpt the coin in 3D based on your chosen motif.
+**Objective**: Transform your 2D design into a 3D coin model.
 
 **Content**:
-1. Create a circular base in Nomad Sculpt (or similar)
-2. Import the AI-generated motif as a reference image
-3. Sculpt the relief onto the coin face using sculpting tools
-4. Add text (e.g., denomination, year, country, or custom message)
-5. Add edge details (reeded, smooth, or custom pattern)
+1. Import the AI-generated image into Nomad Sculpt as a reference.
+2. Use sculpting tools to create a raised relief based on the image.
+3. Add details such as:
+   - Raised or engraved zodiac symbol
+   - Decorative border or edge pattern
+   - Text (e.g., zodiac name, year)
+4. Adjust the coin's thickness and diameter (e.g., 30-40mm diameter, 2-3mm thick).
 
-Coin base in Nomad Sculpt:
-![Coin base](./images/coin-base.png)
-
-Adding relief and text:
-![Coin relief](./images/coin-relief.png)
+Coin model in Nomad Sculpt:
+![Coin model in Nomad](./images/nomad-coin.png)
 
 ### 3. Preparing for 3D Printing
 
-**Objective**: Export and print your coin model.
+**Objective**: Export and slice your coin model for printing.
 
 **Content**:
-1. Export the finished coin as an STL file
-2. Import into slicer software
-   - Adjust orientation for best print quality
-   - Add supports if needed
-   - Configure print settings (layer height, infill, etc.)
-3. Generate G-code and print the coin
+1. Export the finished coin model from Nomad Sculpt in STL format.
+2. Import the STL into your slicer software (e.g., Bambu Studio).
+3. Adjust orientation for best print quality (face up recommended).
+4. Configure print settings:
+   - Layer height: 0.1-0.2mm for detail
+   - Infill: 100% for solid feel
+   - Supports: May not be needed if printing face up
+5. Slice and preview the print.
 
-Slicer setup:
-![Slicer setup](./images/coin-slicer.png)
+Slicer preview:
+![Slicer preview](./images/slicer-coin.png)
 
-3D print preview:
-![3D print preview](./images/coin-print-preview.png)
+### 4. Printing and Post-Processing
 
-### 4. Post-Processing and Finishing
+**Objective**: Print and finish your Zodics Coin.
 
-1. Remove supports and clean up the print
-2. Sand and polish the coin for a smooth finish
-3. Paint or plate the coin for a metallic look (gold, silver, bronze, etc.)
-4. Photograph your finished coin
+**Content**:
+1. Print the coin using your 3D printer.
+2. Remove the print and clean up any rough edges or supports.
+3. Sand the surfaces for a smooth finish.
+4. (Optional) Paint the coin with metallic paints for a realistic look.
 
-Printed and finished coin:
-![Finished coin](./images/finished-coin.png)
+Printed coin before finishing:
+![Printed coin](./images/printed-coin.jpg)
+
+Painted and finished coin:
+![10](./images/coin_front.jpg)
 
 ---
 
 ## Optional Projects
 
-### Double-Sided Coin
-- Design both obverse and reverse sides with different motifs
-- Learn about alignment and registration for two-sided printing
+### Multi-Material Coins
+- Experiment with dual-color or multi-material printing for contrast between the symbol and background.
 
-### Coin Series
-- Create a themed series of coins (e.g., animals, historical figures)
-- Package and present your collection
+### Coin Display Stand
+- Design and print a small stand to display your finished coin.
 
-### Advanced Finishing
-- Experiment with metallic paints, patinas, or electroplating
-- Create a display case or holder for your coin
+### Custom Zodiac Series
+- Create a full set of coins, one for each zodiac sign, and present them as a collection.
 
-> Note: Images shown are placeholders. Replace with your own project photos or renders.
+---
 
-
-
+> Note: Images shown are placeholders. Replace with your own project photos as you complete each step.
