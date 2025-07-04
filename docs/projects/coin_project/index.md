@@ -1,5 +1,5 @@
 ---
-title: #tbc
+title: Coin
 lang_name: en 
 comments: true
 ---
