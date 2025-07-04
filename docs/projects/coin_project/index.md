@@ -10,7 +10,7 @@ comments: true
 
 ## Abstract
 
-This hands-on project guides you through the process of designing and creating your own custom Zodiac Coin using AI tools, digital sculpting, and 3D printing. You'll learn how to generate unique coin designs based on zodiac signs, refine them in Nomad Sculpt, and produce a physical coin using a 3D printer. This project blends creativity, digital modeling, and practical prototyping.
+This hands-on project guides you through the process of designing and creating your own custom Zodiac Coin using tools, digital sculpting, and 3D printing. You'll learn how to generate unique coin designs based on zodiac signs, refine them in Nomad Sculpt, and produce a physical coin using a 3D printer. This project blends creativity, digital modeling, and practical prototyping.
 
 ---
 
@@ -68,7 +68,7 @@ This hands-on project guides you through the process of designing and creating y
 
 ### 1. Creating the 3D Coin Model
 
-**Objective**: Transform your 2D design into a 3D coin model.
+**Objective**: Building a 3D coin model.
 
 **Content**:
 1. Use sculpting tools to create a raised relief based on the image.
