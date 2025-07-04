@@ -1,16 +1,16 @@
 ---
-title: Create Your Own Zodics Coin
+title: Create Your Own Zodiac Coin
 lang_name: en 
 comments: true
 ---
 
-# Zodics Coin Design Project
+# Zodiac Coin Design Project
 
 ---
 
 ## Abstract
 
-This hands-on project guides you through the process of designing and creating your own custom Zodics Coin using AI tools, digital sculpting, and 3D printing. You'll learn how to generate unique coin designs based on zodiac signs, refine them in Nomad Sculpt, and produce a physical coin using a 3D printer. This project blends creativity, digital modeling, and practical prototyping.
+This hands-on project guides you through the process of designing and creating your own custom Zodiac Coin using AI tools, digital sculpting, and 3D printing. You'll learn how to generate unique coin designs based on zodiac signs, refine them in Nomad Sculpt, and produce a physical coin using a 3D printer. This project blends creativity, digital modeling, and practical prototyping.
 
 ---
 
@@ -70,36 +70,25 @@ This hands-on project guides you through the process of designing and creating y
 
 ## Project Steps
 
-### 1. Generating the Coin Design
 
-**Objective**: Create an initial coin face design using AI tools.
-
-**Content**:
-1. Research zodiac symbols and decide on your theme (e.g., your own zodiac sign).
-2. Use ChatGPT or DALL-E to generate a high-contrast image suitable for a coin face.
-   - Example prompt: "Create a circular coin design featuring the Leo zodiac symbol in a classical engraved style."
-3. Download the generated image.
-
-Example AI-generated coin face:
-![AI-generated coin face](./images/)
-
-### 2. Creating the 3D Coin Model
+### 1. Creating the 3D Coin Model
 
 **Objective**: Transform your 2D design into a 3D coin model.
 
 **Content**:
-1. Import the AI-generated image into Nomad Sculpt as a reference.
-2. Use sculpting tools to create a raised relief based on the image.
-3. Add details such as:
+1. Use sculpting tools to create a raised relief based on the image.
+2. Add details such as:
    - Raised or engraved zodiac symbol
    - Decorative border or edge pattern
    - Text (e.g., zodiac name, year)
-4. Adjust the coin's thickness and diameter (e.g., 30-40mm diameter, 2-3mm thick).
+3. Adjust the coin's thickness and diameter (e.g., 30-40mm diameter, 2-3mm thick).
 
 Coin model in Nomad Sculpt:
-![Coin model in Nomad](./images/nomad-coin.png)
+![02](./images/coin_gemini_autodesk_fusion%2001.png)
+![03](./images/coin_gemini_autodesk_fusion%2002.png)
 
-### 3. Preparing for 3D Printing
+
+### 2. Preparing for 3D Printing
 
 **Objective**: Export and slice your coin model for printing.
 
@@ -114,7 +103,9 @@ Coin model in Nomad Sculpt:
 5. Slice and preview the print.
 
 Slicer preview:
-![Slicer preview](./images/slicer-coin.png)
+![06](./images/coin_for_printing_gemini-bambustudio%2001.png)
+![07](./images/coin_for_printing_gemini-bambustudio%2002.png)
+
 
 ### 4. Printing and Post-Processing
 
@@ -127,10 +118,13 @@ Slicer preview:
 4. (Optional) Paint the coin with metallic paints for a realistic look.
 
 Printed coin before finishing:
-![Printed coin](./images/printed-coin.jpg)
+![04](./images/coin_gemini_autodesk_fusion%2003.png)
+![05](./images/coin_gemini_autodesk_fusion%2004.png)
 
 Painted and finished coin:
-![10](./images/coin_front.jpg)
+![01](./images/coin_front.jpg)
+![08](./images/coin_back.jpg)
+
 
 ---
 
