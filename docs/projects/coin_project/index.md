@@ -12,7 +12,9 @@ comments: true
 
 This is a hands-on, project-based course that guides you through the process of designing your own original coin using AI tools, refining the design in a 3D sculpting app, and preparing it for 3D printing or minting. The course combines creative design, digital modeling, and physical prototyping, allowing you to create a unique commemorative or fantasy coin.
 
+
 ---
+
 
 ## What You Will Learn
 
