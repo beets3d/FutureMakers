@@ -16,7 +16,7 @@ This hands-on project guides you through the process of designing and creating y
 
 ## What You Will Learn
 
-- How to use AI tools to generate 2D and 3D coin designs based on zodiac themes
+- How to use tools to generate 3D coin designs based on zodiac themes
 - Techniques for importing, cleaning, and refining models in Nomad Sculpt
 - Customizing coin features such as relief, text, and edge patterns
 - Preparing and slicing models for 3D printing
@@ -42,25 +42,20 @@ This hands-on project guides you through the process of designing and creating y
 
 ## Course Outline
 
-### Chapter 1: Introduction to AI-Driven Coin Design
-- Overview of AI image generation tools
-- Exploring zodiac symbolism and coin design prompts
-- Generate a coin face image using ChatGPT or DALL-E
-- Use the image to generate a 3D relief model
 
-### Chapter 2: Sculpting and Refinement in Nomad Sculpt
+### Chapter 1: Sculpting and Refinement in Nomad Sculpt
 - Importing AI-generated models into Nomad Sculpt
 - Cleaning geometry and optimizing mesh for coins
 - Adding relief, text, and edge details
 - Adjusting coin thickness and diameter
 
-### Chapter 3: Preparing for 3D Printing
+### Chapter 2: Preparing for 3D Printing
 - Exporting STL files from Nomad Sculpt
 - Importing into slicer software
 - Configuring print settings for coins (layer height, infill, supports)
 - Previewing and slicing the model
 
-### Chapter 4: Post-Processing and Finishing
+### Chapter 3: Post-Processing and Finishing
 - Removing supports and cleaning the print
 - Sanding and smoothing surfaces
 - Painting and finishing techniques for metallic effects
@@ -107,7 +102,7 @@ Slicer preview:
 ![07](./images/coin_for_printing_gemini-bambustudio%2002.png)
 
 
-### 4. Printing and Post-Processing
+### 3. Printing and Post-Processing
 
 **Objective**: Print and finish your Zodics Coin.
 
