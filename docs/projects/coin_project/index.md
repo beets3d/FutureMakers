@@ -17,7 +17,7 @@ This hands-on project guides you through the process of designing and creating y
 ## What You Will Learn
 
 - How to use tools to generate 3D coin designs based on zodiac themes
-- Techniques for importing, cleaning, and refining models in Nomad Sculpt
+- Techniques for importing, cleaning, and refining models in Fusion 360
 - Customizing coin features such as relief, text, and edge patterns
 - Preparing and slicing models for 3D printing
 - Basics of 3D printing and post-processing
@@ -27,8 +27,7 @@ This hands-on project guides you through the process of designing and creating y
 
 | Category         | Item                                   | Notes                                 | Required/Optional |
 |------------------|----------------------------------------|---------------------------------------|------------------|
-| Hardware         | Smartphone/Tablet                      | Stylus support recommended            | Required         |
-|                  | Laptop/Desktop                         | For slicing and 3D printing           | Required         |
+| Hardware         | Laptop/Desktop                         | For slicing and 3D printing           | Required         |
 |                  | FDM 3D Printer                        | e.g. BambuLab                         | Required         |
 |                  | Resin 3D Printer                      | For higher detail, e.g. Phrozen       | Optional         |
 | Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Required         |
@@ -43,14 +42,13 @@ This hands-on project guides you through the process of designing and creating y
 ## Course Outline
 
 
-### Chapter 1: Sculpting and Refinement in Nomad Sculpt
-- Importing AI-generated models into Nomad Sculpt
-- Cleaning geometry and optimizing mesh for coins
+### Chapter 1: Designing and Refinement in Fusion 360
+- Creating geometry and optimizing mesh for coins
 - Adding relief, text, and edge details
 - Adjusting coin thickness and diameter
 
 ### Chapter 2: Preparing for 3D Printing
-- Exporting STL files from Nomad Sculpt
+- Exporting STL files from Fusion 360
 - Importing into slicer software
 - Configuring print settings for coins (layer height, infill, supports)
 - Previewing and slicing the model
@@ -71,12 +69,34 @@ This hands-on project guides you through the process of designing and creating y
 **Objective**: Building a 3D coin model.
 
 **Content**:
-1. Use sculpting tools to create a raised relief based on the image.
-2. Add details such as:
-   - Raised or engraved zodiac symbol
-   - Decorative border or edge pattern
-   - Text (e.g., zodiac name, year)
-3. Adjust the coin's thickness and diameter (e.g., 30-40mm diameter, 2-3mm thick).
+1. Use Fusion tools to create a raised relief based on the image.
+2. Create a 12-sided polygon base:
+   - Use the "Polygon" tool in Fusion 360
+   - Set the number of sides to 12
+   - Draw the polygon with appropriate diameter (e.g., 30-40mm)
+   - Extrude the polygon to create a coin thickness (2-3mm)
+
+3. Create the coin relief:
+   - Import or create your zodiac symbol design
+   - Use the "Emboss" tool to create raised relief on the front face
+   - Adjust the emboss depth (typically 0.5-1mm for good visibility)
+   - Use "Fillet" tool to round the edges for a more realistic coin appearance
+
+4. Add text and details:
+   - Use the "Text" tool to add zodiac name and year
+   - Position text elements on the coin face
+   - Use "Extrude" to create raised text or "Cut" for engraved text
+   - Add decorative border patterns using sketch tools and extrude/cut operations
+
+5. Create the reverse side:
+   - Mirror or create a new design for the back of the coin
+   - Add complementary details, symbols, or text
+   - Ensure both sides are properly aligned
+
+6. Finalize the design:
+   - Add a small hole in the center if desired (for hanging/display)
+   - Apply fillets to all sharp edges for safety and aesthetics
+   - Check that the model is manifold and ready for 3D printing
 
 Coin model in Nomad Sculpt:
 ![02](./images/coin_gemini_autodesk_fusion%2001.png)
@@ -88,7 +108,7 @@ Coin model in Nomad Sculpt:
 **Objective**: Export and slice your coin model for printing.
 
 **Content**:
-1. Export the finished coin model from Nomad Sculpt in STL format.
+1. Export the finished coin model from Fusion 360 in STL format.
 2. Import the STL into your slicer software (e.g., Bambu Studio).
 3. Adjust orientation for best print quality (face up recommended).
 4. Configure print settings:
@@ -127,6 +147,7 @@ Painted and finished coin:
 
 ### Multi-Material Coins
 - Experiment with dual-color or multi-material printing for contrast between the symbol and background.
+- Print the coin with metal material or paint it with metal painting tools for presenting in lustrous and shiny surface and metallic texture.
 
 ### Coin Display Stand
 - Design and print a small stand to display your finished coin.
