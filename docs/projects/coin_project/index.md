@@ -78,8 +78,8 @@ This hands-on project guides you through the process of designing and creating y
 
 3. Create the coin relief:
    - Import or create your zodiac symbol design
-   - Use the "Emboss" tool to create raised relief on the front face
-   - Adjust the emboss depth (typically 0.5-1mm for good visibility)
+   - Use the "Extrude" tool to create raised relief on the front face
+   - Adjust the extrude depth (typically 0.5-1mm for good visibility)
    - Use "Fillet" tool to round the edges for a more realistic coin appearance
 
 4. Add text and details:
