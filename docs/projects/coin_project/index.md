@@ -30,7 +30,7 @@ This hands-on project guides you through the process of designing and creating y
 | Hardware         | Laptop/Desktop                         | For slicing and 3D printing           | Required         |
 |                  | FDM 3D Printer                        | e.g. BambuLab                         | Required         |
 |                  | Resin 3D Printer                      | For higher detail, e.g. Phrozen       | Optional         |
-| Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Required         |
+| Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Optional         |
 |                  | Nomad Sculpt                          | iOS/Android – paid                    | Required         |
 |                  | Slicing Software                      | Chitubox, Bambu Studio                | Required         |
 | Tools & Materials| 3D Printer Filament/Resin              | PLA, PETG, or resin                   | Required         |
