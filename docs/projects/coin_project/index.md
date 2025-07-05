@@ -83,7 +83,7 @@ This hands-on project guides you through the process of designing and creating y
    - Use "Fillet" tool to round the edges for a more realistic coin appearance
 
 4. Add text and details:
-   - Use the "Text" tool to add zodiac name and year
+   - Use the "Text" tool to add zodiac name and months
    - Position text elements on the coin face
    - Use "Extrude" to create raised text or "Cut" for engraved text
    - Add decorative border patterns using sketch tools and extrude/cut operations
