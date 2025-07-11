@@ -4,7 +4,7 @@ lang_name: en
 comments: true
 ---
 
-# Zodiac Coin Design Project hiii
+# Zodiac Coin Design Project
 
 ---
 
