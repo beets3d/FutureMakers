@@ -106,10 +106,10 @@ Slicer preview:
    - Use acrylics for the base, frosting, and sprinkles.
    - Add gloss or matte varnish for realism.
 
-Printed donut keycap before finishing:
+Donut keycap before finishing:
 ![Printed Donut Keycap](./images/keyboard_cap_05.jpg)
 
-Painted and finished donut keycap:
+Finished donut keycap:
 ![Painted Donut Keycap](./images/keyboard_cap_01.jpg)
 
 5. Test fit the keycap on your keyboard. Make adjustments if needed.
