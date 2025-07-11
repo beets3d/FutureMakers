@@ -7,7 +7,7 @@ comments: true
 # Keyboard Cap Design Project
 ## Abstract
 
-This hands-on project guides you through the process of designing and creating your own custom Donut-themed keyboard cap using digital sculpting and 3D printing. You'll learn how to conceptualize a playful donut design, refine it in Nomad Sculpt and/or Fusion 360, and produce a unique keycap for your mechanical keyboard. This project blends creativity, digital modeling, and practical prototyping.
+This hands-on project guides you through the process of designing and creating your own custom Donut-themed keyboard cap using digital sculpting and 3D printing. You'll learn how to conceptualize a playful donut design, refine it in Nomad Sculpt and/or Fusion 360, and produce a unique keycap for your mechanical keyboard. This project your blends creativity, digital modeling, and practical prototyping.
 
 ---
 
