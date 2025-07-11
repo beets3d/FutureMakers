@@ -25,16 +25,18 @@ This hands-on project guides you through the process of designing and creating y
 
 ## What You Will Need
 
-| Category         | Item                                   | Notes                                 | Required/Optional |
+| Category         | Item                                   | Notes                                 | Required/Optional|
 |------------------|----------------------------------------|---------------------------------------|------------------|
-| Hardware         | Laptop/Desktop/iPad                         | For slicing and 3D printing           | Required         |
-|                  | FDM 3D Printer                        | e.g. BambuLab                         | Required         |
-|                  | Resin 3D Printer                      | For higher detail, e.g. Phrozen       | Optional         |
-| Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Optional         | Nomad Sculpt                             | Smoothen, Detailed Design            | Optional          |Fusion 360                                | For 3D designing                   | Required         |
-|                  | Slicing Software                      | Chitubox, Bambu Studio                | Required         |
+| Hardware         | Laptop/Desktop/iPad                    | For modelling, slicing and 3D printing| Required         |
+|                  | FDM 3D Printer                         | e.g. BambuLab                         | Required         |
+|                  | Resin 3D Printer                       | For higher detail, e.g. Phrozen       | Optional         |
+| Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Optional         |
+|                  | Nomad Sculpt                           | Smoothen, Detailed Design             | Optional         |
+|                  | Fusion 360                             | For 3D designing                      | Required         |
+|                  | Slicing Software                       | Chitubox, Bambu Studio                | Required         |
 | Tools & Materials| 3D Printer Filament/Resin              | PLA, PETG, or resin                   | Required         |
-|                  | Finishing Tools                       | Sandpaper, files, rotary tool         | Optional         |
-|                  | Painting Tools                        | Brushes, acrylics, metallic paints    | Optional         |
+|                  | Finishing Tools                        | Sandpaper, files, rotary tool         | Optional         |
+|                  | Painting Tools                         | Brushes, acrylics, metallic paints    | Optional         |
 
 ---
 
