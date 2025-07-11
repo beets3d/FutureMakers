@@ -110,7 +110,7 @@ Printed donut keycap before finishing:
 ![Printed Donut Keycap](./images/keyboard_cap_05.jpg)
 
 Painted and finished donut keycap:
-![Painted Donut Keycap](./images/keyboard_cap_01)
+![Painted Donut Keycap](./images/keyboard_cap_01.jpg)
 
 5. Test fit the keycap on your keyboard. Make adjustments if needed.
 
