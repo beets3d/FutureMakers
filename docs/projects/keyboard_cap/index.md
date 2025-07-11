@@ -91,7 +91,7 @@ Beginners and younger makers can focus on the creative sculpting and painting st
 
 
 Donut keycap digital sculpt:
-![Donut Keycap Sculpt](./images/keyboard_cap_03.jpg)
+![Donut Keycap Sculpt](./images/Keyboard%20Cap_For%20Tryout_Dimensions.pdf)
 
 
 ### 2. Model the Keycap Base and Prepare for 3D Printing
@@ -147,6 +147,7 @@ Slicer preview:
 
 Donut keycap before finishing:
 ![Printed Donut Keycap](./images/keyboard_cap_05.jpg)
+![Printed Donut Keycap](./images/keyboard_cap_03.jpg)
 
 Finished donut keycap:
 ![Painted Donut Keycap](./images/keyboard_cap_01.jpg)
