@@ -57,31 +57,58 @@ This hands-on project guides you through the process of designing and creating y
 - Assembling and testing the keycap on your keyboard
 
 ---
-
-## Project Steps
+## Project Steps - Adapting the Project to Skill Level
+This project can be tailored to different experience levels, from beginners to advanced makers. Here’s how you can approach each step: 
 
 ### 1. Creating the 3D Donut Keycap Model
 
 **Objective**: Build a 3D model of a donut-themed keyboard cap.
 
-**Content**:
-1. Research and sketch your donut design (classic ring, frosting, sprinkles, etc.).
-2. In Nomad Sculpt or Fusion 360:
-   - Start with a cylinder or torus shape for the donut base.
-   - Sculpt the frosting layer on top, letting it drip over the sides.
-   - Hollow out the bottom and add an MX-style keycap stem (use a reference model for fit).
-3. Refine the model:
-   - Smooth out rough areas.
-   - Ensure the stem is properly aligned and sized for your keyboard switch.
-   - Check for overhangs and printability.
+- **Contents:**
+
+- **Advanced:**  
+  - Start by carefully measuring an existing MX-style keycap using calipers or a ruler.
+  - Record key measurements such as width, height, stem size, and overall profile. 
+  - Optionally, refer to a mechanical drawing or datasheet for precise specifications.
+  - In Fusion 360, create the keycap base using your measured dimensions or the provided mechanical drawing.
+  - Model the MX-style stem to ensure compatibility with your keyboard switches.
+  - Design the donut-themed top of the keycap in Fusion 360 or Nomad Sculpt, blending the creative donut shape, frosting, and sprinkles with the functional base.
+  - Export your finished model as an STL file, slice and print it, then post-process (remove supports, sand, and paint) for a realistic finish.
+
+- **Intermediate:**  
+  - Use a provided mechanical drawing or reference model for the keycap stem and base dimensions.
+  - Model the keycap base in Fusion 360, ensuring the stem fits MX-style switches.
+  - Focus on designing the donut-themed top in Fusion 360 or Nomad Sculpt, adding creative details.
+  - Export, slice, print, and finish your keycap as above.
+
+- **Beginner/Younger Groups:**  
+  - Skip the measuring and base modeling steps. Use a pre-made keycap stem model or template.
+  - Focus on the creative aspects: in Nomad Sculpt or Fusion 360, sculpt the donut shape, add frosting and sprinkles, and attach it to the provided base.
+  - Export, slice, print, and paint your keycap.
+
+**Tip:**  
+Beginners and younger makers can focus on the creative sculpting and painting steps, using a provided keycap base and stem to ensure a good fit. Advanced users can challenge themselves by modeling every part from scratch for a fully custom result.
+
 
 Donut keycap digital sculpt:
 ![Donut Keycap Sculpt](./images/keyboard_cap_03.jpg)
-### 2. Preparing for 3D Printing
+
+
+### 2. Model the Keycap Base and Prepare for 3D Printing
 
 **Objective**: Export and slice your donut keycap model for printing.
 
-**Content**:
+**Contents:**
+
+- **Advanced/Intermediate:**  
+  - In Fusion 360, create the keycap base using your measured dimensions or a provided mechanical drawing. Model the MX-style stem to ensure compatibility with your keyboard switches.
+  - Once your base and stem are modeled, design the donut-themed top and merge it with the base.
+  - Export the finished keycap model in STL format.
+
+- **Beginner:**  
+  - Use a ready-made keycap base or import a reference model, focusing on the creative aspects like sculpting the donut, frosting, and sprinkles.
+  - Attach your creative design to the provided base and export the combined model as an STL file.
+
 1. Export the finished keycap model in STL format.
 2. Import the STL into your slicer software (e.g., Bambu Studio).
 3. Adjust orientation for best print quality (stem down recommended).
@@ -89,22 +116,34 @@ Donut keycap digital sculpt:
    - Layer height: 0.1-0.2mm for detail
    - Infill: 100% or high for strength
    - Supports: Enable for overhanging frosting/sprinkles
-5. Slice and preview the print.
+4. Slice and preview the print.
 
 Slicer preview:
 ![Slicer Preview](./images/keyboard_cap_04.jpg)
 
-### 3. Printing and Post-Processing
+### 3. Design, Print, and Finish Your Donut Keycap
 
-**Objective**: Print and finish your donut keycap.
+**Objective**: Create, print, and finish your donut-themed keycap.
 
 **Content**:
-1. Print the keycap using your 3D printer.
-2. Remove the print and clean up any supports or rough edges.
-3. Sand the surfaces for a smooth finish, especially the stem area.
-4. (Optional) Paint the donut:
-   - Use acrylics for the base, frosting, and sprinkles.
-   - Add gloss or matte varnish for realism.
+
+1. **Design the Aesthetics**  
+   - In Fusion 360 or Nomad Sculpt, design the donut-themed top of the keycap:
+     - Sculpt the donut shape, add frosting, and sprinkle details.
+     - Blend the creative design with the functional keycap base.
+     - Beginners can focus on this step, using a pre-made base and stem.
+
+2. **Print the Keycap**  
+   - Export your finished model as an STL file.
+   - Print the keycap using your 3D printer.
+
+3. **Post-Processing**  
+   - Remove the print and clean up any supports or rough edges.
+   - Sand the surfaces for a smooth finish, especially the stem area.
+   - (Optional) Paint the donut:
+     - Use acrylics for the base, frosting, and sprinkles.
+     - Add gloss or matte varnish for realism.
+
 
 Donut keycap before finishing:
 ![Printed Donut Keycap](./images/keyboard_cap_05.jpg)
@@ -112,7 +151,15 @@ Donut keycap before finishing:
 Finished donut keycap:
 ![Painted Donut Keycap](./images/keyboard_cap_01.jpg)
 
-5. Test fit the keycap on your keyboard. Make adjustments if needed.
+4. Test fit the keycap on your keyboard. Make adjustments if needed.
+
+---
+
+**Tip:**  
+- Beginners and younger makers can focus on steps 3 and 4, using a provided keycap base.
+- Intermediate students can try with a given drawing.
+- Advanced students are encouraged to start from scratch, measuring and modeling the keycap base themselves for a complete engineering and design experience.
+
 
 ---
 
@@ -129,9 +176,10 @@ Finished donut keycap:
 
 ---
 
-> Note: Images shown are placeholders. Replace with your own project photos as you complete each step.
+Note: Images shown are placeholders. Replace with your own project photos as you complete each step.
 
 
 
 ---
+
 
