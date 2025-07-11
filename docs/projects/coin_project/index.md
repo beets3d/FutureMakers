@@ -27,11 +27,10 @@ This hands-on project guides you through the process of designing and creating y
 
 | Category         | Item                                   | Notes                                 | Required/Optional |
 |------------------|----------------------------------------|---------------------------------------|------------------|
-| Hardware         | Laptop/Desktop                         | For slicing and 3D printing           | Required         |
+| Hardware         | Laptop/Desktop/iPad                         | For slicing and 3D printing           | Required         |
 |                  | FDM 3D Printer                        | e.g. BambuLab                         | Required         |
 |                  | Resin 3D Printer                      | For higher detail, e.g. Phrozen       | Optional         |
-| Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Optional         |
-|                  | Fusion 360                                | For 3D designing                   | Required         |
+| Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Optional         | Nomad Sculpt                             | Smoothen, Detailed Design            | Optional          |Fusion 360                                | For 3D designing                   | Required         |
 |                  | Slicing Software                      | Chitubox, Bambu Studio                | Required         |
 | Tools & Materials| 3D Printer Filament/Resin              | PLA, PETG, or resin                   | Required         |
 |                  | Finishing Tools                       | Sandpaper, files, rotary tool         | Optional         |
@@ -109,12 +108,12 @@ Coin model in Nomad Sculpt:
 
 **Content**:
 1. Export the finished coin model from Fusion 360 in STL format.
-2. Import the STL into your slicer software (e.g., Bambu Studio).
+2. Import the STL into your slicer (e.g., Bambu Studio).
 3. Adjust orientation for best print quality (face up recommended).
 4. Configure print settings:
    - Layer height: 0.1-0.2mm for detail
-   - Infill: 100% for solid feel
-   - Supports: May not be needed if printing face up
+   - Infill: 10% for solid feel
+   - Supports: May not be needed if printing face side
 5. Slice and preview the print.
 
 Slicer preview:
@@ -145,9 +144,23 @@ Painted and finished coin:
 
 ## Optional Projects
 
+### Nomad Sculpt for Detailed Design
+- Use Nomad Sculpt to add intricate details or custom textures to your coin model.
+- Import your base coin model into Nomad Sculpt.
+- Sculpt or paint fine details, such as reliefs, patterns, or additional symbols.
+- Export the detailed model as an STL file for 3D printing.
+- This approach is ideal for those who want to create highly personalized or artistic coins beyond basic CAD modeling.
+
 ### Multi-Material Coins
 - Experiment with dual-color or multi-material printing for contrast between the symbol and background.
 - Print the coin with metal material or paint it with metal painting tools for presenting in lustrous and shiny surface and metallic texture.
+
+### Metal Painting Techniques
+- Enhance your 3D printed coin by applying metal painting techniques for a realistic metallic finish.
+- After sanding and cleaning the coin, apply a primer suitable for plastic surfaces.
+- Use metallic acrylic paints (such as gold, silver, bronze, or copper) to paint the coin's surface.
+- For added depth, use a dark wash or patina effect in recessed areas, then highlight raised details with a lighter metallic shade.
+- Finish with a clear gloss or matte varnish to protect the paint and give the coin a professional look.
 
 ### Coin Display Stand
 - Design and print a small stand to display your finished coin.
