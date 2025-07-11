@@ -4,7 +4,7 @@ lang_name: en
 comments: true
 ---
 
-# Zodiac Coin Design Project
+# Zodiac Coin Design Project hiii
 
 ---
 
@@ -100,8 +100,8 @@ This hands-on project guides you through the process of designing and creating y
    - Check that the model is manifold and ready for 3D printing
 
 Coin model in Fusion 360:
-![04](./images/coin_gemini_autodesk_fusion%2003.png)
-![05](./images/coin_gemini_autodesk_fusion%2004.png)
+![04](./images/coin10.jpg)
+![05](./images/coin12.jpg)
 
 
 ### 2. Preparing for 3D Printing
@@ -133,11 +133,7 @@ Slicer preview:
 3. Sand the surfaces for a smooth finish.
 4. (Optional) Paint the coin with metallic paints for a realistic look.
 
-Printed coin before finishing:
-![02](./images/coin_gemini_autodesk_fusion%2001.png)
-![03](./images/coin_gemini_autodesk_fusion%2002.png)
-
-Painted and finished coin:
+Finished coin:
 ![01](./images/coin_front.jpg)
 ![08](./images/coin_back.jpg)
 
