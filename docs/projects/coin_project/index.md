@@ -100,8 +100,8 @@ This hands-on project guides you through the process of designing and creating y
    - Check that the model is manifold and ready for 3D printing
 
 Coin model in Fusion 360:
-![02](./images/coin_gemini_autodesk_fusion%2001.png)
-![03](./images/coin_gemini_autodesk_fusion%2002.png)
+![04](./images/coin_gemini_autodesk_fusion%2003.png)
+![05](./images/coin_gemini_autodesk_fusion%2004.png)
 
 
 ### 2. Preparing for 3D Printing
@@ -125,7 +125,7 @@ Slicer preview:
 
 ### 3. Printing and Post-Processing
 
-**Objective**: Print and finish your Zodics Coin.
+**Objective**: Print and finish your Zodiac Coin.
 
 **Content**:
 1. Print the coin using your 3D printer.
@@ -134,8 +134,8 @@ Slicer preview:
 4. (Optional) Paint the coin with metallic paints for a realistic look.
 
 Printed coin before finishing:
-![04](./images/coin_gemini_autodesk_fusion%2003.png)
-![05](./images/coin_gemini_autodesk_fusion%2004.png)
+![02](./images/coin_gemini_autodesk_fusion%2001.png)
+![03](./images/coin_gemini_autodesk_fusion%2002.png)
 
 Painted and finished coin:
 ![01](./images/coin_front.jpg)
@@ -152,10 +152,6 @@ Painted and finished coin:
 - Sculpt or paint fine details, such as reliefs, patterns, or additional symbols.
 - Export the detailed model as an STL file for 3D printing.
 - This approach is ideal for those who want to create highly personalized or artistic coins beyond basic CAD modeling.
-
-### Multi-Material Coins
-- Experiment with dual-color or multi-material printing for contrast between the symbol and background.
-- Print the coin with metal material or paint it with metal painting tools for presenting in lustrous and shiny surface and metallic texture.
 
 ### Metal Painting Techniques
 - Enhance your 3D printed coin by applying metal painting techniques for a realistic metallic finish.
