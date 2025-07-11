@@ -99,7 +99,7 @@ This hands-on project guides you through the process of designing and creating y
    - Apply fillets to all sharp edges for safety and aesthetics
    - Check that the model is manifold and ready for 3D printing
 
-Coin model in Nomad Sculpt:
+Coin model in Fusion 360:
 ![02](./images/coin_gemini_autodesk_fusion%2001.png)
 ![03](./images/coin_gemini_autodesk_fusion%2002.png)
 
