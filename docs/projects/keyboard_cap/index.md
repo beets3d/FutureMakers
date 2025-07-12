@@ -158,10 +158,6 @@ Finished donut keycap:
 
 ---
 
-Note: Images shown are placeholders. Replace with your own project photos as you complete each step.
 
-
-
----
 
 
