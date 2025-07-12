@@ -100,15 +100,6 @@ Donut keycap digital sculpt:
 
 **Contents:**
 
-- **Advanced/Intermediate:**  
-  - In Fusion 360, create the keycap base using your measured dimensions or a provided mechanical drawing. Model the MX-style stem to ensure compatibility with your keyboard switches.
-  - Once your base and stem are modeled, design the donut-themed top and merge it with the base.
-  - Export the finished keycap model in STL format.
-
-- **Beginner:**  
-  - Use a ready-made keycap base or import a reference model, focusing on the creative aspects like sculpting the donut, frosting, and sprinkles.
-  - Attach your creative design to the provided base and export the combined model as an STL file.
-
 1. Export the finished keycap model in STL format.
 2. Import the STL into your slicer software (e.g., Bambu Studio).
 3. Adjust orientation for best print quality (stem down recommended).
