@@ -73,24 +73,37 @@ This hands-on project guides you through the process of designing and creating y
 1. Use Fusion tools to create a raised relief based on the image.
 2. Create a 12-sided polygon base:
    - Use the "Polygon" tool in Fusion 360
+   ![01](./images/coin1.jpg)
    - Set the number of sides to 12
    - Draw the polygon with appropriate diameter (e.g., 30-40mm)
+   ![02](./images/coin2.jpg)
    - Extrude the polygon to create a coin thickness (2-3mm)
+   ![03](./images/coin3.jpg)
+
 
 3. Create the coin relief:
-   - Import or create your zodiac symbol design
+   - Import or create your zodiac symbol design(e.g. svg file)
+   ![04](./images/coin4.jpg)
    - Use the "Extrude" tool to create raised relief on the front face
-   - Adjust the extrude depth (typically 0.5-1mm for good visibility)
+   - Adjust the extrude depth (typically 0.5-3mm for good visibility)
+   ![05](./images/coin5.jpg)
+   ![06](./images/coin6.jpg)
    - Use "Fillet" tool to round the edges for a more realistic coin appearance
+   ![07](./images/coin9.jpg)
+   ![08](./images/coin10.jpg)
 
 4. Add text and details:
    - Use the "Text" tool to add zodiac name and months
    - Position text elements on the coin face
+   ![09](./images/coin7.jpg)
+   ![10](./images/coin14.jpg)
+   ![11](./images/coin15.jpg)
    - Use "Extrude" to create raised text or "Cut" for engraved text
    - Add decorative border patterns using sketch tools and extrude/cut operations
 
 5. Create the reverse side:
    - Mirror or create a new design for the back of the coin
+   ![12](./images/coin16.jpg)
    - Add complementary details, symbols, or text
    - Ensure both sides are properly aligned
 
@@ -100,8 +113,8 @@ This hands-on project guides you through the process of designing and creating y
    - Check that the model is manifold and ready for 3D printing
 
 Coin model in Fusion 360:
-![04](./images/coin10.jpg)
-![05](./images/coin12.jpg)
+![13](./images/coin11.jpg)
+![14](./images/coin13.jpg)
 
 
 ### 2. Preparing for 3D Printing
