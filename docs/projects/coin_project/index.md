@@ -163,5 +163,3 @@ Finished coin:
 - Create a full set of coins, one for each zodiac sign, and present them as a collection.
 
 ---
-
-> Note: Images shown are placeholders. Replace with your own project photos as you complete each step.
