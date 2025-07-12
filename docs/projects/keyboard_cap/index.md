@@ -104,9 +104,9 @@ Donut keycap digital sculpt:
 2. Import the STL into your slicer software (e.g., Bambu Studio).
 3. Adjust orientation for best print quality (stem down recommended).
 4. Configure print settings:
-   - Layer height: 0.1-0.2mm for detail
-   - Infill: 100% or high for strength
-   - Supports: Enable for overhanging frosting/sprinkles
+   - Layer height: 0.08-0.1mm for detail
+   - Infill: 10% or high for strength
+   - Supports: Enable for tree support
 4. Slice and preview the print.
 
 Slicer preview:
@@ -118,17 +118,7 @@ Slicer preview:
 
 **Content**:
 
-1. **Design the Aesthetics**  
-   - In Fusion 360 or Nomad Sculpt, design the donut-themed top of the keycap:
-     - Sculpt the donut shape, add frosting, and sprinkle details.
-     - Blend the creative design with the functional keycap base.
-     - Beginners can focus on this step, using a pre-made base and stem.
-
-2. **Print the Keycap**  
-   - Export your finished model as an STL file.
-   - Print the keycap using your 3D printer.
-
-3. **Post-Processing**  
+**Post-Processing**  
    - Remove the print and clean up any supports or rough edges.
    - Sand the surfaces for a smooth finish, especially the stem area.
    - (Optional) Paint the donut:
@@ -158,7 +148,7 @@ Finished donut keycap:
 ## Optional Projects
 
 ### Multi-Color Printing
-- Use multi-material or color-changing filament to print the frosting and base in different colors.
+- Use multi-color filament to print the frosting and base in different colors.
 
 ### Other Food-Themed Keycaps
 - Design and print a series of food-themed keycaps (e.g., burger, pizza, sushi) for a fun keyboard set.
