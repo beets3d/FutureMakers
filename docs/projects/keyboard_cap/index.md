@@ -81,7 +81,7 @@ This project can be tailored to different experience levels, from beginners to a
   - Export, slice, print, and finish your keycap as above.
 
   Mechanical drawing of the keycap stem:
-![mechanical drawing](./images/keyboard_cap_dimensions.jpeg)
+![mechanical drawing](./images/keyboard_cap_dimensions.png)
 
 - **Beginner/Younger Groups:**  
   - Skip the measuring and base modelling steps. Use the pre-made keycap stem model instead.
