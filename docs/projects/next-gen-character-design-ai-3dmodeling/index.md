@@ -18,7 +18,7 @@
 
 - 體驗完整創作流程：從創意構思/ AI 靈感發想 → 建模 → 分件 → 打印 → 上色
 
-- 鼓勵學生發展自己的藝術風格，強化創意思維與表達能力
+- 鼓勵發展個人藝術風格，強化創意思維與表達能力
 
 這是一場結合科技與藝術的沉浸式創作體驗，不只是做出一個可愛角色，更是一次製作出「僅此一個獨一無二角色」的歷程。
 
@@ -96,19 +96,27 @@
 
 6. 上色與組裝：手工上色與零件組合，完成實體角色
 
+## 課程計劃
+
+### 課程目標
+
+- 掌握創意發想和工具整合的流程
+
+- 建立基本 3D 建模與雕刻能力
+
+- 實踐 AI → 3D 建模 → 3D打印 數位轉實體的完整流程
+
 ## 課程大綱 | Course Outline
 
-### 第1堂：AI構思與3D圖片與模型生成  
-**Lesson 1: AI Ideation & 3D Image/Model Generation**
-- 使用GPT等AI工具發想角色主題與故事背景（可選）。
-- 利用AI繪圖工具生成角色設計圖。
-- 使用Tripo等AI工具生成3D模型。
+總課時：6 節 每節時長：約 120 分鐘
 
-- Use GPT and other AI tools to brainstorm character themes and (optional) storylines.
-- Generate character design images with AI drawing tools.
-- Use Tripo or similar AI tools to create 3D models.
+目標一：角色構思與數位造型基礎
 
----
+### 第1堂： 角色概念 × AI 構思與造型雛形
+
+**練習：**使用 ChatGPT 發想角色造型，生成角色設計圖，使用 Tripo 生成3D模型。
+**時長：**120 分鐘
+**對應：**角色發想、視覺風格整合、AI圖像生成實作
 
 ### 第2堂：Nomad Sculpt基礎建模練習  
 **Lesson 2: Nomad Sculpt Basic Modeling Practice**
