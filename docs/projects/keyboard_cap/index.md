@@ -39,7 +39,7 @@ This hands-on project guides you through the process of designing and creating y
 ### Chapter 1: Designing and Refinement in Nomad Sculpt or Fusion 360
 - Overview of keyboard cap anatomy and MX stem compatibility
 - (For advanced students) Measure and recreate an exisitng keycap and ensure it fits the provided keyboard
-- (For intermediate studetns) Model and recreate the keycap using the given mechanical drawing
+- (For intermediate students) Model and recreate the keycap using the given mechanical drawing
 - Add your own design onto keycap using Fusion 360 or Nomad
 
 ### Chapter 2: Preparing for 3D Printing
