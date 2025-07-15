@@ -88,6 +88,14 @@ This project can be tailored to different experience levels, from beginners to a
   - Focus on the creative aspects: in Nomad Sculpt or Fusion 360, create your own design, and attach it to the provided base.
   - Export, slice, print, and paint your keycap.
 
+
+Here's an example of customised Donut Keycap
+Donut keycap:
+![Printed Donut Keycap](./images/keyboard_cap_05.jpg)
+![Printed Donut Keycap](./images/keyboard_cap_03.jpg)
+
+
+
 **Tip:**  
 Beginners and younger makers can focus on the creative aspect, using a provided keycap base and stem to ensure a good fit. Advanced users can challenge themselves by modeling every part from scratch.
 
@@ -122,11 +130,6 @@ Slicer preview:
    - (Optional) Paint the your model:
      - Use acrylic paint to make the model more colourful.
      - Add gloss or matte varnish for different effects.
-
-
-Donut keycap before finishing:
-![Printed Donut Keycap](./images/keyboard_cap_05.jpg)
-![Printed Donut Keycap](./images/keyboard_cap_03.jpg)
 
 Finished donut keycap:
 ![Painted Donut Keycap](./images/keyboard_cap_01.jpg)
