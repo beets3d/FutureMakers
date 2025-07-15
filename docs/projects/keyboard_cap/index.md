@@ -89,9 +89,10 @@ This project can be tailored to different experience levels, from beginners to a
   - Export, slice, print, and paint your keycap.
 
 
-Here's an example of customised Donut Keycap
-Donut keycap:
+Here's an example of customised Donut Keycap built in Fusion:
 ![Printed Donut Keycap](./images/keyboard_cap_05.jpg)
+
+And then combined with the base keycap model:
 ![Printed Donut Keycap](./images/keyboard_cap_03.jpg)
 
 
