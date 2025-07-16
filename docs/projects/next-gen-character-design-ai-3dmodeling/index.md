@@ -116,65 +116,47 @@
 
 **練習：**使用 ChatGPT 發想角色造型，生成角色設計圖，使用 Tripo 生成3D模型。
 **時長：**120 分鐘
-**對應：**角色發想、視覺風格整合、AI圖像生成實作
+**對應：**角色發想、AI圖像及模型生成實作
 
-### 第2堂：Nomad Sculpt基礎建模練習  
-**Lesson 2: Nomad Sculpt Basic Modeling Practice**
-- 認識Nomad Sculpt介面與基本操作。
-- 實作簡單幾何形狀，練習雕塑工具。
-- 根據AI生成設計圖建立角色雛形。
+目標二：建立角色基礎造型與結構
 
-- Learn Nomad Sculpt interface and basic operations.
-- Practice basic geometric modeling and sculpting tools.
-- Build character prototypes based on AI-generated designs.
+### 第2堂：建立角色雛形與基礎比例  
 
----
+**練習：**使用 Tripo 生成角色模型雛形，匯入 Nomad Sculpt 認識其介面與基本操作。
+**時長：**120 分鐘
+**對應：**實作練習使用雕塑工具，調整模型雛形
 
-### 第3堂：AI分件與組裝基本處理  
-**Lesson 3: AI Model Splitting & Assembly Basics**
-- 介紹3D模型分件的必要性與基本原則。
-- 使用Tripo Studio對AI生成模型進行分件與簡單修整。
+目標三：掌握雕刻工具與細節建模技巧
 
-- Introduction to the necessity and principles of 3D model splitting.
-- Use Tripo Studio to split and refine AI-generated models.
+### 第3堂：細節雕刻與個性化部件設計
 
----
+**練習：**進行眼睛、嘴巴、髮型、服裝等細節雕刻，加入個性化裝飾（如配件、標誌、表情）。
+**時長：**120 分鐘
+**對應：**針對角色細節進行修改與創意設計的調整，模型結構以適合3D打印
 
-### 第4堂：修改AI生成模型  
-**Lesson 4: Editing AI-Generated Models**
-- 將AI生成的3D模型匯入Nomad Sculpt。
-- 針對角色細節進行修改與創意再設計。
-- 優化模型結構以適合3D列印。
+目標四：分件組裝基本處理與數位轉實體準備
 
-- Import AI-generated 3D models into Nomad Sculpt.
-- Edit details and creatively redesign the character.
-- Optimize model structure for 3D printing.
+### 第4堂：模型分件與匯出打印檔案
 
----
+**練習：**製作連接結構與插銷，匯出 STL/OBJ 檔案，再切片軟件中模擬打印流程。
+**時長：**120 分鐘
+**對應：**了解3D模型分件的必要性與基本原則、部件分件的的處理方法、學習切片軟體操作與打印參數調整
 
-### 第5堂：3D打印技術體驗  
-**Lesson 5: 3D Printing Technology Experience**
-- 介紹3D列印技術、常見材料與設備。
-- 學習切片軟體操作與列印參數調整。
-- 分件模型單色列印實作。
+目標五：角色實體化與組裝製作
 
-- Introduction to 3D printing technology, materials, and equipment.
-- Learn slicing software and printing parameter settings.
-- Practice single-color printing of split models.
+### 第5堂：模型打印與打磨組裝
 
----
+**練習：**分件單色打印後的實體模型打磨與黏合，確認結構完成度。
+**時長：**120 分鐘
+**對應：**介紹3D打印技術、常見材料與設備、實體後處理技巧、組裝與手作操作
 
-### 第6堂：模型上色與作品呈現  
-**Lesson 6: Model Painting & Presentation**
-- 學習壓克力顏料等模型上色技巧。
-- 結合角色故事與設計理念，完成作品展示。
-- 回顧AI如何協助從構思到實體製作。
+目標六：創意上色與角色展示
 
-- Learn model painting techniques (e.g., acrylic paint).
-- Present works by combining character stories and design concepts.
-- Review how AI assisted from ideation to physical creation.
+### 第6堂：模型上色與角色介紹
 
----
+**練習：**使用壓克力顏料進行模型上色，配色設計與層次處理
+**時長：**120 分鐘
+**對應：**色彩應用、美感表現、作品展示
 
 ## AI協作流程說明 | AI Collaboration Flow
 
@@ -182,11 +164,6 @@
 - 學員可選擇設計角色故事背景，增強角色吸引力。
 - 全流程體驗，從創意到3D列印與上色。
 
-- Combine AI generation with personal style to create unique IP characters.
-- Students may design character backstories to enhance appeal.
-- Experience the full process from ideation to 3D printing and painting.
-
 ---
 
 > 請依照每堂課的進度，準備相關素材與工具。
-> Please prepare relevant materials and tools according to each lesson's progress. 
