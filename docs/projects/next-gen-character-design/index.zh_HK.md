@@ -12,7 +12,7 @@ comments: true
 ---
 
 ![Spiderman-ai01](./images/image-20250616-092920.png)
-![Spiderman-ai02](./images/IMG_1511.jpeg)
+![Spiderman-ai02](./images/IMG_1000.jpeg)
 
 ## 這是什麼？
 
