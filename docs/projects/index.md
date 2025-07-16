@@ -7,9 +7,6 @@ Welcome to the Projects section! Here, you will find a variety of STEAM-based pr
 - [Singing Chiikawa](singing-chiikawa/index.md)  
   Explore the world of Chiikawa with this fun and interactive project. Includes optional Micro:bit integration.
 
-- [Original Character: AI × 3D Modeling](next-gen-character-design/index.md)  
-  Create original character and explore AI generation, digital modeling and 3D printing. 
-
 - [Car Project](car-project/index.md)  
   Dive into vehicle design and aerodynamics using 3D technology.
 
@@ -18,3 +15,6 @@ Welcome to the Projects section! Here, you will find a variety of STEAM-based pr
 
 - [3D AI Sculpture](3d-ai-sculpture/index.md)  
   Create stunning 3D sculptures using AI tools.  
+
+- [Original Character: AI × 3D Modeling](next-gen-character-design/index.md)  
+  Create original character and explore AI generation, digital modeling and 3D printing. 
