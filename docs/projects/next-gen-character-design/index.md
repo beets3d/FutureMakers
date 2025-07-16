@@ -9,7 +9,7 @@
 
 ## What is this?
 
-This is a creative learning activity that combines AI generation, character design, and digital modeling. Students will start from their own traits and styles, use AI tools (such as ChatGPT, Tripo) to spark inspiration and generate character appearances, then further use Nomad Sculpt for character modeling and part splitting, and finally 3D print their physical works.
+This is a creative learning activity that combines AI generation, character design, and digital modeling. Students will start from their own traits and styles, use AI tools (such as ChatGPT/Doubao AI, Tripo) to spark inspiration and generate character appearances, then further use Nomad Sculpt for character modeling and part splitting, and finally 3D print their physical works.
 
 From concept to model to physical work, students are encouraged to create their own original characters and build basic concepts of digital modeling and 3D printing.
 
@@ -28,7 +28,7 @@ Students will personally complete the creative ideation, appearance design, and 
 
 **Creative Ideation and Character Design Thinking**
 
-- Use ChatGPT to create reference images for character appearance design.
+- Use ChatGPT/Doubao AI to create reference images for character appearance design.
 - Use Tripo AI to generate the prototype of the character's 3D model.
 
 **Digital Modeling and Sculpting Skills**
@@ -63,7 +63,7 @@ Students will personally complete the creative ideation, appearance design, and 
 |-----------------------|-----------------------------------------------|----------|-------------------|
 | Nomad Sculpt          | For 3D modeling                               | 1        | ✅                |
 | Tripo AI / Tripo Studio| AI model prototyping and part splitting      | 1        | ✅                |
-| ChatGPT               | Concept ideation and character reference images| 1        | ✅                |
+| ChatGPT / Doubao AI              | Concept ideation and character reference images| 1        | ✅                |
 | Slicer                | 3D printing setup, convert models to printable format | 1 | ✅         |
 
 ### Tools & Materials
@@ -79,7 +79,7 @@ Students will personally complete the creative ideation, appearance design, and 
 
 The production process is as follows:
 
-1. AI Inspiration Generation: Use ChatGPT to assist in generating reference images.
+1. AI Inspiration Generation: Use ChatGPT/Doubao AI to assist in generating reference images.
 2. AI Model Prototyping: Use Tripo to generate 3D model prototypes and basic part splitting.
 3. 3D Modeling Modification: Import into Nomad, adjust appearance, sculpt details, and adjust part components.
 4. Part Export: Disassemble components and export STL/OBJ.
@@ -102,7 +102,7 @@ Goal 1: Character Ideation and Digital Modeling Basics
 
 ### Lesson 1: Character Concept × AI Ideation and Prototyping
 
-**Practice:** Use ChatGPT to brainstorm character appearance, generate character design images, and use Tripo to generate 3D models.  
+**Practice:** Use ChatGPT/Doubao AI to brainstorm character appearance, generate character design images, and use Tripo to generate 3D models.  
 **Duration:** 120 minutes  
 **Corresponds to:** Character ideation, AI image and model generation practice
 
@@ -113,6 +113,8 @@ Goal 2: Building Character Prototypes and Basic Structure
 **Practice:** Use Tripo to generate character model prototypes, import into Nomad Sculpt to learn its interface and basic operations.  
 **Duration:** 120 minutes  
 **Corresponds to:** Hands-on practice with sculpting tools, adjusting model prototypes
+
+![Spiderman-ai06](./images/IMG_1533.png)
 
 Goal 3: Mastering Sculpting Tools and Detail Modeling Skills
 
@@ -131,6 +133,7 @@ Goal 4: Basic Part Splitting and Digital-to-Physical Preparation
 **Corresponds to:** Understand the necessity and principles of 3D model part splitting, methods for handling part splitting, learn slicing software operation and printing parameter adjustment
 
 ![Spiderman-ai03](./images/IMG_1011.jpeg)
+![Spiderman-ai07](./images/IMG_1544.jpeg)
 
 Goal 5: Character Realization and Assembly Production
 

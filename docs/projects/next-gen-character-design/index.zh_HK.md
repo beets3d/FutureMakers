@@ -38,7 +38,7 @@ comments: true
 
 **創意發想與角色設計思維**
 
-- 使用 ChatGPT 建立角色造型設計參考圖
+- 使用 ChatGPT/豆包AI 建立角色造型設計參考圖
 
 - 使用 Tripo AI 生成角色3D模型的雛形
 
@@ -78,7 +78,7 @@ comments: true
 |----------------|----------------------|------|-----------|
 | Nomad Sculpt   | 3D建模用             | 1    | ✅        |
 | Tripo AI / Tripo Studio | AI 生成模型雛形與分件 | 1    | ✅        |
-| ChatGPT        | 概念發想與角色參考圖 | 1    | ✅        |
+| ChatGPT / 豆包AI    | 概念發想與角色參考圖 | 1    | ✅        |
 | 切片軟體（Slicer） | 進行3D打印設定，轉換模型為可打印格式 | 1    | ✅        |
 
 ### 工具與材料（Tools & Materials）
@@ -94,7 +94,7 @@ comments: true
 
 製作流程如下：
 
-1. AI靈感生成：使用 ChatGPT 輔助生成參考圖
+1. AI靈感生成：使用 ChatGPT/豆包AI 輔助生成參考圖
 
 2. AI模型初建：使用 Tripo 生成3D模型雛形及基本分件
 
@@ -124,7 +124,7 @@ comments: true
 
 ### 第1堂： 角色概念 × AI 構思與造型雛形
 
-**練習：**使用 ChatGPT 發想角色造型，生成角色設計圖，使用 Tripo 生成3D模型。
+**練習：**使用 ChatGPT/豆包AI 發想角色造型，生成角色設計圖，使用 Tripo 生成3D模型。
 **時長：**120 分鐘
 **對應：**角色發想、AI圖像及模型生成實作
 
@@ -135,6 +135,8 @@ comments: true
 **練習：**使用 Tripo 生成角色模型雛形，匯入 Nomad Sculpt 認識其介面與基本操作。
 **時長：**120 分鐘
 **對應：**實作練習使用雕塑工具，調整模型雛形
+
+![Spiderman-ai06](./images/IMG_1533.png)
 
 目標三：掌握雕刻工具與細節建模技巧
 
@@ -153,6 +155,7 @@ comments: true
 **對應：**了解3D模型分件的必要性與基本原則、部件分件的的處理方法、學習切片軟體操作與打印參數調整
 
 ![Spiderman-ai03](./images/IMG_1011.jpeg)
+![Spiderman-ai07](./images/IMG_1544.jpeg)
 
 目標五：角色實體化與組裝製作
 
