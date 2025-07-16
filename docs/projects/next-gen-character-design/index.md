@@ -1,169 +1,154 @@
 ---
 
-# 原創角色工作坊：AI × 3D建模  
+# Original Character Workshop: AI × 3D Modeling
 
 ---
 
-## 這是什麼？
+## What is this?
 
-這是一個結合人工智慧生成、角色設計與數位建模的創作型學習活動。學生將以個人特質與風格為出發點，透過 AI 工具（如 ChatGPT、Tripo）激發靈感、生成角色造型，再進一步使用 Nomad Sculpt 進行角色建模、分件，並透過3D打印出實體作品。
+This is a creative learning activity that combines AI generation, character design, and digital modeling. Students will start from their own traits and styles, use AI tools (such as ChatGPT, Tripo) to spark inspiration and generate character appearances, then further use Nomad Sculpt for character modeling and part splitting, and finally 3D print their physical works.
 
-從概念到模型再到實體作品，鼓勵學生創作屬於自己的原創角色，並建立數位建模及3D打印的基本概念。
+From concept to model to physical work, students are encouraged to create their own original characters and build basic concepts of digital modeling and 3D printing.
 
-## 主要特點
+## Key Features
 
-- 利用 AI 工具發想原創角色主題，結合個人風格與理念。
+- Use AI tools to brainstorm original character themes, integrating personal style and ideas.
+- Develop character appearance, style, accessories, and personality, training narrative and visual transformation abilities.
+- Experience the complete creative process: from creative ideation/AI inspiration → modeling → part splitting → printing → painting.
+- Encourage the development of personal artistic style, strengthening creative thinking and expressive ability.
 
-- 建立角色外型、風格、配件與個性，訓練敘事與視覺轉化能力。
+This is an immersive creative experience combining technology and art—not just making a cute character, but creating a one-of-a-kind, unique character.
 
-- 體驗完整創作流程：從創意構思/ AI 靈感發想 → 建模 → 分件 → 打印 → 上色
+## What will you learn?
 
-- 鼓勵發展個人藝術風格，強化創意思維與表達能力
+Students will personally complete the creative ideation, appearance design, and 3D model realization of their characters, cultivating the following core abilities:
 
-這是一場結合科技與藝術的沉浸式創作體驗，不只是做出一個可愛角色，更是一次製作出「僅此一個獨一無二角色」的歷程。
+**Creative Ideation and Character Design Thinking**
 
-## 你將學到什麼？
+- Use ChatGPT to create reference images for character appearance design.
+- Use Tripo AI to generate the prototype of the character's 3D model.
 
-學生將親自完成角色的創意發想、造型設計與 3D 模型實體轉化，培養以下核心能力：
+**Digital Modeling and Sculpting Skills**
 
-**創意發想與角色設計思維**
+- Use Nomad Sculpt to modify models, build structure, and sculpt details.
+- Master symmetrical modeling, proportion adjustment, and basic part splitting techniques.
 
-- 使用 ChatGPT 建立角色造型設計參考圖
+**Digital to Physical Operation**
 
-- 使用 Tripo AI 生成角色3D模型的雛形
+- Model part splitting and export STL/OBJ files.
+- Use slicing software to set 3D printing parameters.
+- Understand the 3D printing process and post-processing.
 
-**數位建模與雕刻技能**
+**Artistic Expression and Style Painting**
 
-- 透過 Nomad Sculpt 進行模型修改、結構建構與細節雕刻
+- Learn basic acrylic painting techniques for models.
+- Practice color design for consistent character style.
 
-- 掌握對稱建模、比例調整與基本分件技巧
+## What you need
 
-**數位轉實體操作**
+### Hardware
 
-- 模型分件與匯出 STL/OBJ 檔案
+| Item                  | Description                                   | Quantity | Required/Optional |
+|-----------------------|-----------------------------------------------|----------|-------------------|
+| iPad or Android Tablet| Installed Nomad Sculpt, stylus recommended    | 1        | ✅                |
+| Computer and Mouse    | Organize and transfer 3D model files          | 1        | ✅                |
+| 3D Printer            | Print character models                        | 1        | ✅                |
 
-- 使用切片軟體設定 3D 打印參數
+### Software
 
-- 了解 3D 打印流程與後製處理
+| Item                  | Description                                   | Quantity | Required/Optional |
+|-----------------------|-----------------------------------------------|----------|-------------------|
+| Nomad Sculpt          | For 3D modeling                               | 1        | ✅                |
+| Tripo AI / Tripo Studio| AI model prototyping and part splitting      | 1        | ✅                |
+| ChatGPT               | Concept ideation and character reference images| 1        | ✅                |
+| Slicer                | 3D printing setup, convert models to printable format | 1 | ✅         |
 
-**藝術表達與風格上色**
+### Tools & Materials
 
-- 學習基礎筆塗塑膠彩的上色技巧
+| Item                  | Description                                   | Quantity | Required/Optional |
+|-----------------------|-----------------------------------------------|----------|-------------------|
+| Stylus                | Improve modeling accuracy                     | 1        | ✅                |
+| Sandpaper             | Polish model surface                          | 1        | ✅                |
+| Glue                  | Assemble model parts                          | 1        | ✅                |
+| Acrylic Paint + Brushes| Paint models                                 | 1 set    | ✅                |
 
-- 練習角色風格一致性的色彩設計
+## How it works
 
-## 你需要的東西
+The production process is as follows:
 
-### 硬件（Hardware）
+1. AI Inspiration Generation: Use ChatGPT to assist in generating reference images.
+2. AI Model Prototyping: Use Tripo to generate 3D model prototypes and basic part splitting.
+3. 3D Modeling Modification: Import into Nomad, adjust appearance, sculpt details, and adjust part components.
+4. Part Export: Disassemble components and export STL/OBJ.
+5. 3D Printing: Print single-color models.
+6. Painting and Assembly: Hand-paint and assemble parts to complete the physical character.
 
-| 項目           | 描述                                 | 數量 | 必需/可選 |
-|----------------|--------------------------------------|------|-----------|
-| iPad 或 Android 平板 | 已安裝 Nomad Sculpt，建議配手寫筆         | 1    | ✅        |
-| 電腦和滑鼠           | 整理與傳輸 3D 模型檔案                | 1    | ✅        |
-| 3D 打印機      | 打印角色模型                          | 1    | ✅        |
+## Course Plan
 
-### 軟件（Software）
+### Course Objectives
 
-| 項目           | 描述                 | 數量 | 必需/可選 |
-|----------------|----------------------|------|-----------|
-| Nomad Sculpt   | 3D建模用             | 1    | ✅        |
-| Tripo AI / Tripo Studio | AI 生成模型雛形與分件 | 1    | ✅        |
-| ChatGPT        | 概念發想與角色參考圖 | 1    | ✅        |
-| 切片軟體（Slicer） | 進行3D打印設定，轉換模型為可打印格式 | 1    | ✅        |
+- Master the process of creative ideation and tool integration.
+- Build basic 3D modeling and sculpting skills.
+- Practice the complete process from AI → 3D modeling → 3D printing, turning digital into physical.
 
-### 工具與材料（Tools & Materials）
+## Course Outline
 
-| 項目           | 描述                 | 數量 | 必需/可選 |
-|----------------|----------------------|------|-----------|
-| 手寫筆         | 提高建模精準度       | 1    | ✅        |
-| 砂紙           | 打磨模型表面         | 1    | ✅        |
-| 膠水           | 組裝模型零件         | 1    | ✅        |
-| 壓克力顏料 + 畫筆 | 為模型上色         | 1組  | ✅        |
+Total sessions: 6, each about 120 minutes
 
-## 如何運作
+Goal 1: Character Ideation and Digital Modeling Basics
 
-製作流程如下：
+### Lesson 1: Character Concept × AI Ideation and Prototyping
 
-1. AI靈感生成：使用 ChatGPT 輔助生成參考圖
+**Practice:** Use ChatGPT to brainstorm character appearance, generate character design images, and use Tripo to generate 3D models.  
+**Duration:** 120 minutes  
+**Corresponds to:** Character ideation, AI image and model generation practice
 
-2. AI模型初建：使用 Tripo 生成3D模型雛形及基本分件
+Goal 2: Building Character Prototypes and Basic Structure
 
-3. 3D 建模修改：匯入 Nomad，進行外型調整、細節雕刻、分件部件的調整等
+### Lesson 2: Building Character Prototypes and Basic Proportions
 
-4. 分件輸出：進行組件拆解並輸出 STL/OBJ
+**Practice:** Use Tripo to generate character model prototypes, import into Nomad Sculpt to learn its interface and basic operations.  
+**Duration:** 120 minutes  
+**Corresponds to:** Hands-on practice with sculpting tools, adjusting model prototypes
 
-5. 3D 打印：打印出單色模型
+Goal 3: Mastering Sculpting Tools and Detail Modeling Skills
 
-6. 上色與組裝：手工上色與零件組合，完成實體角色
+### Lesson 3: Detail Sculpting and Personalized Part Design
 
-## 課程計劃
+**Practice:** Sculpt details such as eyes, mouth, hairstyle, clothing, and add personalized decorations (e.g., accessories, logos, expressions).  
+**Duration:** 120 minutes  
+**Corresponds to:** Modify and creatively design character details, adjust model structure for 3D printing
 
-### 課程目標
+Goal 4: Basic Part Splitting and Digital-to-Physical Preparation
 
-- 掌握創意發想和工具整合的流程
+### Lesson 4: Model Part Splitting and Exporting Print Files
 
-- 建立基本 3D 建模與雕刻能力
+**Practice:** Create connection structures and pegs, export STL/OBJ files, and simulate the printing process in slicing software.  
+**Duration:** 120 minutes  
+**Corresponds to:** Understand the necessity and principles of 3D model part splitting, methods for handling part splitting, learn slicing software operation and printing parameter adjustment
 
-- 實踐 AI → 3D 建模 → 3D打印 數位轉實體的完整流程
+Goal 5: Character Realization and Assembly Production
 
-## 課程大綱 | Course Outline
+### Lesson 5: Model Printing, Polishing, and Assembly
 
-總課時：6 節 每節時長：約 120 分鐘
+**Practice:** Polish and glue the physical model after single-color part printing, confirm structural completeness.  
+**Duration:** 120 minutes  
+**Corresponds to:** Introduction to 3D printing technology, common materials and equipment, post-processing techniques, assembly and handcrafting
 
-目標一：角色構思與數位造型基礎
+Goal 6: Creative Painting and Character Presentation
 
-### 第1堂： 角色概念 × AI 構思與造型雛形
+### Lesson 6: Model Painting and Character Introduction
 
-**練習：**使用 ChatGPT 發想角色造型，生成角色設計圖，使用 Tripo 生成3D模型。
-**時長：**120 分鐘
-**對應：**角色發想、AI圖像及模型生成實作
+**Practice:** Use acrylic paint to paint the model, design color schemes and handle layers  
+**Duration:** 120 minutes  
+**Corresponds to:** Color application, aesthetic expression, work presentation
 
-目標二：建立角色基礎造型與結構
+## AI Collaboration Flow
 
-### 第2堂：建立角色雛形與基礎比例  
-
-**練習：**使用 Tripo 生成角色模型雛形，匯入 Nomad Sculpt 認識其介面與基本操作。
-**時長：**120 分鐘
-**對應：**實作練習使用雕塑工具，調整模型雛形
-
-目標三：掌握雕刻工具與細節建模技巧
-
-### 第3堂：細節雕刻與個性化部件設計
-
-**練習：**進行眼睛、嘴巴、髮型、服裝等細節雕刻，加入個性化裝飾（如配件、標誌、表情）。
-**時長：**120 分鐘
-**對應：**針對角色細節進行修改與創意設計的調整，模型結構以適合3D打印
-
-目標四：分件組裝基本處理與數位轉實體準備
-
-### 第4堂：模型分件與匯出打印檔案
-
-**練習：**製作連接結構與插銷，匯出 STL/OBJ 檔案，再切片軟件中模擬打印流程。
-**時長：**120 分鐘
-**對應：**了解3D模型分件的必要性與基本原則、部件分件的的處理方法、學習切片軟體操作與打印參數調整
-
-目標五：角色實體化與組裝製作
-
-### 第5堂：模型打印與打磨組裝
-
-**練習：**分件單色打印後的實體模型打磨與黏合，確認結構完成度。
-**時長：**120 分鐘
-**對應：**介紹3D打印技術、常見材料與設備、實體後處理技巧、組裝與手作操作
-
-目標六：創意上色與角色展示
-
-### 第6堂：模型上色與角色介紹
-
-**練習：**使用壓克力顏料進行模型上色，配色設計與層次處理
-**時長：**120 分鐘
-**對應：**色彩應用、美感表現、作品展示
-
-## AI協作流程說明 | AI Collaboration Flow
-
-- AI生成與個人風格結合，打造獨一無二的IP角色。
-- 學員可選擇設計角色故事背景，增強角色吸引力。
-- 全流程體驗，從創意到3D列印與上色。
+- Combine AI generation with personal style to create unique IP characters.
+- Students may design character backstories to enhance character appeal.
+- Experience the full process from ideation to 3D printing and painting.
 
 ---
 
-> 請依照每堂課的進度，準備相關素材與工具。
+> Please prepare relevant materials and tools according to each lesson's progress. 
