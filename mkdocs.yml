@@ -177,7 +177,7 @@ plugins:
             Concepts of Walking: 行走概念
             Optional Microbit: 附加Microbit
             Original Character: 原創角色
-            AI × 3D Modeling: AI × 3D建模
+            AI×3D Modeling: AI×3D建模
   
 extra_css:
   - assets/stylesheets/extra.css

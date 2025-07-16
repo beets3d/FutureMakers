@@ -1,6 +1,6 @@
 ---
 
-# Original Character Workshop: AI × 3D Modeling
+# Original Character: AI × 3D Modeling
 
 ---
 
