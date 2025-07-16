@@ -1,4 +1,11 @@
 ---
+title: Original Character Workshop: AI × 3D Modeling
+lang: en
+lang_name: English
+alt_lang: zh_HK
+alt_lang_name: 繁體中文 (香港)
+comments: true
+---
 
 # Original Character Workshop: AI × 3D Modeling
 

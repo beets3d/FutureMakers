@@ -1,4 +1,11 @@
 ---
+title: 原創角色工作坊：AI × 3D建模
+lang: zh_HK
+lang_name: 繁體中文 (香港)
+alt_lang: en
+alt_lang_name: English
+comments: true
+---
 
 # 原創角色工作坊：AI × 3D建模  
 
