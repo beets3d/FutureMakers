@@ -11,6 +11,9 @@ comments: true
 
 ---
 
+![Spiderman-ai01](./images/image-20250616-092920.png)
+![Spiderman-ai02](./images/IMG_1511.jpeg)
+
 ## 這是什麼？
 
 這是一個結合人工智慧生成、角色設計與數位建模的創作型學習活動。學生將以個人特質與風格為出發點，透過 AI 工具（如 ChatGPT、Tripo）激發靈感、生成角色造型，再進一步使用 Nomad Sculpt 進行角色建模、分件，並透過3D打印出實體作品。
@@ -149,6 +152,8 @@ comments: true
 **時長：**120 分鐘
 **對應：**了解3D模型分件的必要性與基本原則、部件分件的的處理方法、學習切片軟體操作與打印參數調整
 
+![Spiderman-ai03](./images/IMG_1011.jpeg)
+
 目標五：角色實體化與組裝製作
 
 ### 第5堂：模型打印與打磨組裝
@@ -156,6 +161,8 @@ comments: true
 **練習：**分件單色打印後的實體模型打磨與黏合，確認結構完成度。
 **時長：**120 分鐘
 **對應：**介紹3D打印技術、常見材料與設備、實體後處理技巧、組裝與手作操作
+
+![Spiderman-ai04](./images/IMG_1522.jpg) ![Spiderman-ai05](./images/IMG_1523.jpg)
 
 目標六：創意上色與角色展示
 
@@ -165,7 +172,9 @@ comments: true
 **時長：**120 分鐘
 **對應：**色彩應用、美感表現、作品展示
 
-## AI協作流程說明 | AI Collaboration Flow
+![Spiderman-ai06](./images/IMG_1433.jpeg) ![Spiderman-ai02](./images/IMG_1511.jpeg)
+
+### AI協作流程說明 | AI Collaboration Flow
 
 - AI生成與個人風格結合，打造獨一無二的IP角色。
 - 學員可選擇設計角色故事背景，增強角色吸引力。

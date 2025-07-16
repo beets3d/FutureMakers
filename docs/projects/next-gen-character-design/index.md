@@ -11,6 +11,9 @@ comments: true
 
 ---
 
+![Spiderman-ai01](./images/image-20250616-092920.png)
+![Spiderman-ai02](./images/IMG_1511.jpeg)
+
 ## What is this?
 
 This is a creative learning activity that combines AI generation, character design, and digital modeling. Students will start from their own traits and styles, use AI tools (such as ChatGPT, Tripo) to spark inspiration and generate character appearances, then further use Nomad Sculpt for character modeling and part splitting, and finally 3D print their physical works.
@@ -134,6 +137,8 @@ Goal 4: Basic Part Splitting and Digital-to-Physical Preparation
 **Duration:** 120 minutes  
 **Corresponds to:** Understand the necessity and principles of 3D model part splitting, methods for handling part splitting, learn slicing software operation and printing parameter adjustment
 
+![Spiderman-ai03](./images/IMG_1011.jpeg)
+
 Goal 5: Character Realization and Assembly Production
 
 ### Lesson 5: Model Printing, Polishing, and Assembly
@@ -142,6 +147,8 @@ Goal 5: Character Realization and Assembly Production
 **Duration:** 120 minutes  
 **Corresponds to:** Introduction to 3D printing technology, common materials and equipment, post-processing techniques, assembly and handcrafting
 
+![Spiderman-ai04](./images/IMG_1522.jpg) ![Spiderman-ai05](./images/IMG_1523.jpg)
+
 Goal 6: Creative Painting and Character Presentation
 
 ### Lesson 6: Model Painting and Character Introduction
@@ -149,6 +156,8 @@ Goal 6: Creative Painting and Character Presentation
 **Practice:** Use acrylic paint to paint the model, design color schemes and handle layers  
 **Duration:** 120 minutes  
 **Corresponds to:** Color application, aesthetic expression, work presentation
+
+![Spiderman-ai06](./images/IMG_1433.jpeg) ![Spiderman-ai02](./images/IMG_1511.jpeg)
 
 ## AI Collaboration Flow
 
