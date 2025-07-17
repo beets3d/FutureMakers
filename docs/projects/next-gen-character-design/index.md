@@ -103,7 +103,9 @@ Goal 1: Character Ideation and Digital Modeling Basics
 ### Lesson 1: Character Concept × AI Ideation and Prototyping
 
 **Practice:** Use ChatGPT/Doubao AI to brainstorm character appearance, generate character design images, and use Tripo to generate 3D models.  
+
 **Duration:** 120 minutes  
+
 **Corresponds to:** Character ideation, AI image and model generation practice
 
 Goal 2: Building Character Prototypes and Basic Structure
@@ -111,7 +113,9 @@ Goal 2: Building Character Prototypes and Basic Structure
 ### Lesson 2: Building Character Prototypes and Basic Proportions
 
 **Practice:** Use Tripo to generate character model prototypes, import into Nomad Sculpt to learn its interface and basic operations.  
+
 **Duration:** 120 minutes  
+
 **Corresponds to:** Hands-on practice with sculpting tools, adjusting model prototypes
 
 ![Spiderman-ai06](./images/IMG_1533.png)
@@ -121,7 +125,9 @@ Goal 3: Mastering Sculpting Tools and Detail Modeling Skills
 ### Lesson 3: Detail Sculpting and Personalized Part Design
 
 **Practice:** Sculpt details such as eyes, mouth, hairstyle, clothing, and add personalized decorations (e.g., accessories, logos, expressions).  
+
 **Duration:** 120 minutes  
+
 **Corresponds to:** Modify and creatively design character details, adjust model structure for 3D printing
 
 Goal 4: Basic Part Splitting and Digital-to-Physical Preparation
@@ -129,7 +135,9 @@ Goal 4: Basic Part Splitting and Digital-to-Physical Preparation
 ### Lesson 4: Model Part Splitting and Exporting Print Files
 
 **Practice:** Create connection structures and pegs, export STL/OBJ files, and simulate the printing process in slicing software.  
+
 **Duration:** 120 minutes  
+
 **Corresponds to:** Understand the necessity and principles of 3D model part splitting, methods for handling part splitting, learn slicing software operation and printing parameter adjustment
 
 ![Spiderman-ai03](./images/IMG_1011.jpeg)
@@ -140,7 +148,9 @@ Goal 5: Character Realization and Assembly Production
 ### Lesson 5: Model Printing, Polishing, and Assembly
 
 **Practice:** Polish and glue the physical model after single-color part printing, confirm structural completeness.  
+
 **Duration:** 120 minutes  
+
 **Corresponds to:** Introduction to 3D printing technology, common materials and equipment, post-processing techniques, assembly and handcrafting
 
 ![Spiderman-ai04](./images/IMG_1522.jpg) ![Spiderman-ai05](./images/IMG_1523.jpg)
@@ -150,7 +160,9 @@ Goal 6: Creative Painting and Character Presentation
 ### Lesson 6: Model Painting and Character Introduction
 
 **Practice:** Use acrylic paint to paint the model, design color schemes and handle layers  
+
 **Duration:** 120 minutes  
+
 **Corresponds to:** Color application, aesthetic expression, work presentation
 
 ![Spiderman-ai06](./images/IMG_1433.jpeg) ![Spiderman-ai02](./images/IMG_1511.jpeg)
