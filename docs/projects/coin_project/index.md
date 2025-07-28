@@ -31,7 +31,7 @@ This hands-on project guides you through the process of designing and creating y
 |                  | FDM 3D Printer                         | e.g. BambuLab                         | Required         |
 |                  | Resin 3D Printer                       | For higher detail, e.g. Phrozen       | Optional         |
 | Software         | AI Image Generation                    | ChatGPT, DALL-E, Midjourney           | Optional         |
-|                  | Nomad Sculpt                           | Smoothen, Detailed Design             | Optional         |
+|                  | Nomad Sculpt                           | Smoothen, Detailed Design             | Required         |
 |                  | Fusion 360                             | For 3D designing                      | Required         |
 |                  | Slicing Software                       | Chitubox, Bambu Studio                | Required         |
 | Tools & Materials| 3D Printer Filament/Resin              | PLA, PETG, or resin                   | Required         |
@@ -117,7 +117,26 @@ Coin model in Fusion 360:
 ![14](./images/coin13.jpg)
 
 
-### 2. Preparing for 3D Printing
+
+### 2. Nomad Sculpt for Detailed Design
+**Objective**: Add intricate details and custom textures to your coin model using Nomad Sculpt.
+
+**Content**:
+1. Export your basic coin shape from Fusion 360 as an STL file, then import it into Nomad Sculpt. 
+2. Use Nomad Sculpt’s sculpting brushes to add or refine reliefs, engrave patterns, or create additional symbols on the coin’s surface. 
+   -  Push, pull, carve, or smooth areas to achieve the desired level of detail.
+3. Apply surface textures, or material effects directly in Nomad Sculpt to visualize how your finished coin might look.
+4. Once satisfied with your sculpted and textured coin, export the model as an STL file. 
+
+**Nomad Sculpt allows for a higher level of artistic customization than traditional CAD tools. This workflow is ideal if you want to create coins with unique, hand-crafted details or artistic flourishes that go beyond basic modeling.**
+
+Coin model in Nomad:
+![30](./images/nomad_front.png)
+![40](./images/nomad_back.png)
+
+
+
+### 3. Preparing for 3D Printing
 
 **Objective**: Export and slice your coin model for printing.
 
@@ -151,16 +170,11 @@ Finished coin:
 ![08](./images/coin_back.jpg)
 
 
+
+
 ---
 
 ## Optional Projects
-
-### Nomad Sculpt for Detailed Design
-- Use Nomad Sculpt to add intricate details or custom textures to your coin model.
-- Import your base coin model into Nomad Sculpt.
-- Sculpt or paint fine details, such as reliefs, patterns, or additional symbols.
-- Export the detailed model as an STL file for 3D printing.
-- This approach is ideal for those who want to create highly personalized or artistic coins beyond basic CAD modeling.
 
 ### Metal Painting Techniques
 - Enhance your 3D printed coin by applying metal painting techniques for a realistic metallic finish.
