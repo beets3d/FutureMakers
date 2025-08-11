@@ -83,10 +83,9 @@ This project is designed for all makers, from beginners to advanced engineers. H
 - **Advanced:**  
   - Start by researching create your ballista or crossbow mechanisms.
   - Record key measurements such as arm length, frame width, trigger mechanism, and ball channel size.
-  - Optionally, refer to historical diagrams or engineering datasheets for inspiration.
-  - In Fusion 360, create the ballista frame and launching arms using your measured dimensions or the provided technical drawing.
+  - In Fusion 360, create the ballista frame and launching arms using your measured dimensions.
   - Model the trigger and loading mechanism to ensure smooth firing of a ping pong ball.
-  - Add custom features or decorations in Fusion 360 or Nomad Sculpt.
+  - Add custom features or decorations in Fusion 360.
   - Export your finished model as an STL file, slice and print it, then post-process (remove supports, sand, and paint) for a battle-ready finish.
 
 - **Intermediate:**  
