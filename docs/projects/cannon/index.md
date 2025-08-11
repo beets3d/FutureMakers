@@ -96,7 +96,7 @@ This project is designed for all makers, from beginners to advanced engineers. H
   - Export, slice, print, and finish your ballista as above.
 
   Technical drawing of the ballista frame:
-![technical drawing](./images/caannon_dimensions.jpg)
+![technical drawing](./images/cannon_dimensions.jpg)
 
 
 Here's an example of a custom Ballista built in Fusion:
