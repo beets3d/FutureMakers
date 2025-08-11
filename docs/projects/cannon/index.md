@@ -27,7 +27,7 @@ This hands-on project launches you into the world of designing, building, and fi
 |                  | Resin 3D Printer                       | For higher detail, e.g. Phrozen       | Optional         |
 | Software         | Fusion 360                             | For 3D modeling                       | Required         |
 |                  | Slicing Software                       | Bambu Studio                          | Required         |
-| Tools & Materials| 3D Printer Filament/Resin              | PLA, PETG, or resin                   | Required         |
+| Tools & Materials| 3D Printer Filament/Resin              | PLA                                   | Required         |
 |                  | Finishing Tools                        | Sandpaper, files, rotary tool         | Optional         |
 |                  | Painting Tools                         | Brushes, acrylics, pastel paints      | Optional         |
 |                  | Keycap Stem Reference                  | For MX-style switches                 | Required         |
