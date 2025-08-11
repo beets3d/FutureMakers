@@ -152,9 +152,9 @@ Finished ballista:
 ![Painted Ballista](./images/cannon_printed_02.jpg)
 ![Painted Ballista](./images/cannon_printed_03.jpg)
 
-4. Assemble the ballista, load a ping pong ball, and test fire! Make adjustments for best range and accuracy.
+### 4. Assemble the ballista, load a ping pong ball, and test fire! Make adjustments for best range and accuracy.
 
-5. Play the Ballista Challenge Game
+### 5. Play the Ballista Challenge Game
 
 ### Materials Needed
 - 3D-printed ballista (or similar ping pong ball launcher)
