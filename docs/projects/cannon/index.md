@@ -114,7 +114,7 @@ And then combined with the base frame:
 
 
 **Tip:**  
-Beginners and younger makers can focus on the creative aspect, using a provided ballista base and arms to ensure a working launcher. Advanced users can challenge themselves by engineering every part from scratch.
+Beginners and intermediate makers can focus on the creative aspect, using a provided ballista base and arms to ensure a working launcher. Advanced users can challenge themselves by engineering every part from scratch.
 
 ### 2. Prepare for 3D Printing
 
