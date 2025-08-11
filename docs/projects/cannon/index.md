@@ -54,6 +54,22 @@ This hands-on project launches you into the world of designing, building, and fi
 - Painting and decorating your ballista for style and intimidation
 - Assembling and testing your ping pong ballista for maximum range and accuracy
 
+### Chapter 4: Design a Ping Pong Battle
+
+- Plan and set up a tabletop battlefield for your ballista.
+- Design obstacles, shields, and targets using Fusion 360 or simple craft materials (cardboard, foam, etc.).
+- (Optional) 3D model and print custom barriers, bunkers, or themed scenery to enhance your arena.
+- Establish game rules:  
+  - Number of shots per round  
+  - Scoring system (e.g., points for hitting targets, knocking down obstacles, or landing balls in specific zones)  
+  - Safety guidelines and fair play
+- Test your ballista in the arena, adjust your design for better accuracy or power, and challenge friends to a ping pong battle!
+- Document your battle setup with photos or videos, and share your creative arena and ballista designs.
+
+**Tip:**  
+Get creative with your battlefield! Try themed arenas (medieval, sci-fi, sports), moving targets, or team-based challenges for extra fun and engineering practice.
+
+
 ---
 ## Project Steps – Adapting the Ballista Blitz to Your Skill Level
 This project is designed for all makers, from beginners to advanced engineers. Here’s how you can approach each step:
@@ -174,6 +190,9 @@ Finished ballista:
 - 10 points for landing in the farthest target
 - 5 points for mid-range
 - 2 points for the closest
+
+Game Preview:
+![Painted Ballista](./images/cannon_battle.jpg)
 
 ---
 
