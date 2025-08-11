@@ -4,7 +4,7 @@ lang_name: en
 comments: true
 ---
 
-# Keyboard Cap Design Project
+# Load, Aim, Dominate – Ping Pong Ballista Blitz Project
 ## Abstract
 
 This hands-on project launches you into the world of designing, building, and firing your own ping pong ballista! You'll learn how to engineer a working tabletop launcher, fine-tune your aim, and dominate the battlefield with precision shots. This project combines creative design, practical prototyping, and a blast of competitive fun.
