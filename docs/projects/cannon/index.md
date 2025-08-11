@@ -126,8 +126,8 @@ Beginners and intermediate makers can focus on the creative aspect, using a prov
 2. Import the STL files into your slicer software (e.g., Bambu Studio).
 3. Adjust orientation for best print strength and quality.
 4. Configure print settings:
-   - Layer height: 0.16-0.2mm for strength
-   - Infill: 20% or higher for durability
+   - Layer height: 0.08mm for strength
+   - Infill: 15% or higher for durability
    - Supports: Enable for overhangs and moving parts
 5. Slice and preview the print.
 
