@@ -30,7 +30,6 @@ This hands-on project launches you into the world of designing, building, and fi
 | Tools & Materials| 3D Printer Filament/Resin              | PLA                                   | Required         |
 |                  | Finishing Tools                        | Sandpaper, files, rotary tool         | Optional         |
 |                  | Painting Tools                         | Brushes, acrylics, pastel paints      | Optional         |
-|                  | Keycap Stem Reference                  | For MX-style switches                 | Required         |
 
 ---
 
