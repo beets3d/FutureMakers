@@ -1,19 +1,19 @@
 ---
-title: Load, Aim, Dominate – Ping Pong Ballista Blitz
+title: Load, Aim, Dominate – Ping Pong Launcher
 lang_name: en 
 comments: true
 ---
 
-# Load, Aim, Dominate – Ping Pong Ballista Blitz Project
+# Load, Aim, Dominate – Ping Pong Launcher Project
 ## Abstract
 
-This hands-on project launches you into the world of designing, building, and firing your own ping pong ballista! You'll learn how to engineer a working tabletop launcher, fine-tune your aim, and dominate the battlefield with precision shots. This project combines creative design, practical prototyping, and a blast of competitive fun.
+This hands-on project launches you into the world of designing, building, and firing your own ping pong launcher! You'll learn how to engineer a working tabletop launcher, fine-tune your aim, and dominate the battlefield with precision shots. This project combines creative design, practical prototyping, and a blast of competitive fun.
 
 ---
 
 ## What You Will Learn
 
-- How to design and build your own ping pong ballista for tabletop battles
+- How to design and build your own ping pong launcher for tabletop battles
 - Techniques for digital modeling and prototyping in Fusion 360
 - Preparing and slicing launcher parts for 3D printing
 - Fundamentals of 3D printing, assembly, and tuning for maximum firing power
@@ -22,7 +22,7 @@ This hands-on project launches you into the world of designing, building, and fi
 
 | Category         | Item                                   | Notes                                 | Required/Optional |
 |------------------|----------------------------------------|---------------------------------------|------------------|
-| Hardware         | Laptop/Desktop/iPad                    | For digital sculpting, modelling and slicing| Required         |
+| Hardware         | Laptop/Desktop                         | For digital sculpting, modelling and slicing| Required         |
 |                  | FDM 3D Printer                         | e.g. BambuLab                         | Required         |
 |                  | Resin 3D Printer                       | For higher detail, e.g. Phrozen       | Optional         |
 | Software         | Fusion 360                             | For 3D modeling                       | Required         |
@@ -35,94 +35,83 @@ This hands-on project launches you into the world of designing, building, and fi
 
 ## Course Outline
 
-### Chapter 1: Designing and Engineering Your Ping Pong Ballista
-- Overview of ballista mechanics and launching principles
-- (For advanced students) Create a real-world ballista or crossbow mechanism, ensuring it fits ping pong ball dimensions
-- (For intermediate students) Measure and build the ballista using provided technical drawings and templates
-- Add your own creative design or modifications to the ballista frame or arms using Fusion 360
+### Chapter 1: Designing and Engineering Your Ping Pong launcher
+- Overview of launcher mechanics and launching principles
+- (For advanced students) Create a real-world launcher or crossbow mechanism, ensuring it fits ping pong ball dimensions
+- (For intermediate students) Measure and build the launcher using provided technical drawings and templates
+- Add your own creative design or modifications to the launcher frame or arms using Fusion 360
 
 ### Chapter 2: Preparing for 3D Printing
 - Exporting STL files from your modeling software
 - Importing into your slicer
 - Configuring print settings for strong, functional parts
 - Previewing and slicing the model
-- 3D print your ballista components
+- 3D print your launcher components
 
 ### Chapter 3: Assembly, Tuning, and Battle-Ready Finishing
 - Removing supports and cleaning the printed parts
 - Sanding and smoothing surfaces for smooth operation
-- Painting and decorating your ballista for style and intimidation
-- Assembling and testing your ping pong ballista for maximum range and accuracy
+- Painting and decorating your launcher for style and intimidation
+- Assembling and testing your ping pong launcher for maximum range and accuracy
 
 ### Chapter 4: Design a Ping Pong Battle
 
-- Plan and set up a tabletop battlefield for your ballista.
+- Plan and set up a tabletop battlefield for your launcher.
 - Design obstacles, shields, and targets using Fusion 360 or simple craft materials (cardboard, foam, etc.).
 - (Optional) 3D model and print custom barriers, bunkers, or themed scenery to enhance your arena.
 - Establish game rules:  
   - Number of shots per round  
   - Scoring system (e.g., points for hitting targets, knocking down obstacles, or landing balls in specific zones)  
   - Safety guidelines and fair play
-- Test your ballista in the arena, adjust your design for better accuracy or power, and challenge friends to a ping pong battle!
-- Document your battle setup with photos or videos, and share your creative arena and ballista designs.
+- Test your launcher in the arena, adjust your design for better accuracy or power, and challenge friends to a ping pong battle!
+- Document your battle setup with photos or videos, and share your creative arena and launcher designs.
 
 **Tip:**  
 Get creative with your battlefield! Try themed arenas (medieval, sci-fi, sports), moving targets, or team-based challenges for extra fun and engineering practice.
 
 
 ---
-## Project Steps – Adapting the Ballista Blitz to Your Skill Level
-This project is designed for all makers, from beginners to advanced engineers. Here’s how you can approach each step:
+## Project Steps – Adapting the launcher Blitz to Your Skill Level
+This project is designed for all makerS. Here’s how you can approach each step:
 
-### 1. Building Your Ping Pong Ballista
+### 1. Building Your Ping Pong launcher
 
-**Objective**: Design and model a working ping pong ballista.
+**Objective**: Design and model a working ping pong launcher.
 
 - **Contents:**
-
-- **Advanced:**  
-  - Start by researching create your ballista or crossbow mechanisms.
-  - Record key measurements such as arm length, frame width, trigger mechanism, and ball channel size.
-  - In Fusion 360, create the ballista frame and launching arms using your measured dimensions.
+ 
+  - Start by researching create your launcher or crossbow mechanisms.
+  - In Fusion 360, recreate the launcher frame and launching arms by the reference photos shown below.
   - Model the trigger and loading mechanism to ensure smooth firing of a ping pong ball.
   - Add custom features or decorations in Fusion 360.
   - Export your finished model as an STL file, slice and print it, then post-process (remove supports, sand, and paint) for a battle-ready finish.
 
-- **Intermediate:**  
-  - Use the provided technical drawing or reference model for the ballista frame and launching arms.
-  - Model the main components in Fusion 360, ensuring the channel fits a ping pong ball.
-  - Add your own creative modifications or decorations.
-  - Export, slice, print, and finish your ballista as above.
-
-  Technical drawing of the ballista frame:
+  Technical drawing of the launcher frame:
 ![technical drawing](./images/cannon_dimensions.jpg)
 
 
-Here's an example of a custom Ballista built in Fusion:
-![Printed Ballista](./images/cannon_01.jpg)
-![Printed Ballista](./images/cannon_02.jpg)
-![Printed Ballista](./images/cannon_03.jpg)
-![Printed Ballista](./images/cannon_04.jpg)
-![Printed Ballista](./images/cannon_05.jpg)
-![Printed Ballista](./images/cannon_06.jpg)
-![Printed Ballista](./images/cannon_07.jpg)
+Here's an example of a custom launcher built in Fusion:
+![Printed launcher](./images/cannon_01.jpg)
+![Printed launcher](./images/cannon_02.jpg)
+![Printed launcher](./images/cannon_03.jpg)
+![Printed launcher](./images/cannon_04.jpg)
+![Printed launcher](./images/cannon_05.jpg)
+![Printed launcher](./images/cannon_06.jpg)
+![Printed launcher](./images/cannon_07.jpg)
 
 
 And then combined with the base frame:
-![Ballista with Custom Shield](./images/cannon_08.jpg)
-![Ballista with Custom Shield](./images/cannon_09.jpg)
+![launcher with Custom Shield](./images/cannon_08.jpg)
+![launcher with Custom Shield](./images/cannon_09.jpg)
 
-
-**Tip:**  
-Beginners and intermediate makers can focus on the creative aspect, using a provided ballista base and arms to ensure a working launcher. Advanced users can challenge themselves by engineering every part from scratch.
 
 ### 2. Prepare for 3D Printing
 
-**Objective**: Export and slice your ballista model for printing.
+**Objective**: Export and slice your launcher model for printing.
 
 **Contents:**
 
-1. Export the finished ballista parts in STL format.
+1. Export the finished launcher parts in STL format.
 2. Import the STL files into your slicer software (e.g., Bambu Studio).
 3. Adjust orientation for best print strength and quality.
 4. Configure print settings:
@@ -134,40 +123,42 @@ Beginners and intermediate makers can focus on the creative aspect, using a prov
 Slicer preview:
 ![Slicer Preview](./images/cannon_slicer_preview.jpg)
 
-### 3. Finish and Test Your Ballista
+### 3. Finish and Test Your launcher
 
-**Objective**: Post-process and assemble your ping pong ballista.
+**Objective**: Post-process and assemble your ping pong launcher.
 
 **Content**:
 
 **Post-Processing**  
    - Remove the print and clean up any supports or rough edges.
    - Sand the surfaces for smooth movement, especially at pivot points and the ball channel.
-   - (Optional) Paint your ballista:
+   - (Optional) Paint your launcher:
      - Use acrylic paint for team colors or battle effects.
      - Add gloss or matte varnish for different finishes.
 
-Finished ballista:
-![Painted Ballista](./images/cannon_printed_01.jpg)
-![Painted Ballista](./images/cannon_printed_02.jpg)
-![Painted Ballista](./images/cannon_printed_03.jpg)
+Finished launcher:
+![Painted launcher](./images/cannon_printed_01.jpg)
+![Painted launcher](./images/cannon_printed_02.jpg)
+![Painted launcher](./images/cannon_printed_03.jpg)
 
-### 4. Assemble the ballista, load a ping pong ball, and test fire! Make adjustments for best range and accuracy.
+### 4. Assemble the launcher, load a ping pong ball, and test fire! Make adjustments for best range and accuracy.
 
-### 5. Play the Ballista Challenge Game
+### 5. Play the launcher Challenge Game
 
 ### Materials Needed
-- 3D-printed ballista (or similar ping pong ball launcher)
+- 3D-printed launcher (or similar ping pong ball launcher)
 - Ping pong balls (ammunition)
 - Targets (e.g., stacked cups, cardboard towers, or moving objects on strings)
 - Measuring tape and protractor (for angle and distance calculations)
 - Scoreboard and timer
 
-### Game Rules & Setup
+*Tip:* Students may design a game by themselve with a given amount of blocks protecting their own charcaters, and others may try to hit the characters with a given amount of balls shooted by the launcher.
+
+### Game Rules & Setup (Example)
 
 #### 1. Target Knockdown (Static Mode)
 - Set up a tower of cups or lightweight blocks as the target.
-- Students adjust the ballista’s angle and power to knock down the target in as few shots as possible.
+- Students adjust the launcher’s angle and power to knock down the target in as few shots as possible.
 
 **Scoring:**
 - 3 points for a direct hit (target falls completely)
@@ -191,7 +182,7 @@ Finished ballista:
 - 2 points for the closest
 
 Game Preview:
-![Painted Ballista](./images/cannon_battle.jpg)
+![Painted launcher](./images/cannon_battle.jpg)
 
 ---
 
@@ -200,8 +191,7 @@ Encourage students to record their scores, adjust their designs or aim, and comp
 ---
 
 **Tip:**  
-- Intermediate students can try with a given technical drawing.
-- Advanced students are encouraged to start from scratch, measuring and modeling the ballista for a complete engineering and design experience.
+- Sudents are encouraged to start from scratch, measuring and modeling the launcher for a complete engineering and design experience.
 
 ---
 
@@ -210,11 +200,11 @@ Encourage students to record their scores, adjust their designs or aim, and comp
 ### Multi-Color Printing
 - Use multi-color filament to print the frame, arms, and decorations in different colors.
 
-### Themed Ballista Shields
-- Design and print custom shields or banners for your ballista (e.g., medieval, sci-fi, fantasy).
+### Themed launcher Shields
+- Design and print custom shields or banners for your launcher (e.g., medieval, sci-fi, fantasy).
 
-### Ballista Target Range
-- Design and print a set of targets or obstacles for competitive ballista battles.
+### launcher Target Range
+- Design and print a set of targets or obstacles for competitive launcher battles.
 
 ---
 
