@@ -147,13 +147,38 @@ Finished donut keycap:
 
 ---
 
+## Extended Project
+### Pokemon-themed Keycaps
+
+You can create Pokemon-themed keycaps using both Nomad Sculpt (on iPad) and Fusion 360 (on desktop):
+
+**In Fusion 360:**
+- Model the keycap base using precise measurements for a perfect keyboard fit.
+- Export your design as an STL for Nomad creation.
+
+**In Nomad Sculpt:**
+- Import the basic keycap base.
+- Use sculpting tools to add features like Pikachu’s ears, Pokeball details, or other Pokemon elements.
+- Paint your model directly in Nomad for colorful designs.
+- Export the finished model as an OBJ for 3D printing.
+
+
+Mix and match: You can use Fusion 360 for precise fitting, then import into Nomad for sculpting details , or vice versa. This way, you get both creative freedom and engineering accuracy for your Pokemon-themed keycaps!
+
+![Painted pokemon Keycap](./images/pokemon.jpg)
+![Painted charmander Keycap](./images/charmander.jpg)
+![Painted bulbasaur Keycap](./images/bulbasaur.jpg)
+![Painted squirtle Keycap](./images/squirtle.jpg)
+
+---
+
 ## Optional Projects
 
 ### Multi-Color Printing
 - Use multi-color filament to print the frosting and base in different colors.
 
-### Other Food-Themed Keycaps
-- Design and print a series of food-themed keycaps (e.g., burger, pizza, sushi) for a fun keyboard set.
+### Other Themed Keycaps
+- Design and print a series of themed keycaps (e.g., burger, pizza, sushi) for a fun keyboard set.
 
 ### Keycap Display Stand
 - Design and print a small stand to display your donut keycap when not in use.
