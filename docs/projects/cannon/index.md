@@ -163,10 +163,10 @@ Test of Strings:
 | 4        | Circle       | 4.0           | 110         | Strong, good elasticity, high tension       |
 
 **Comments on Strings Tested:**
-- The circle string (String 4) provided the best balance of stretch and snap, resulting in consistent launches.
-- The 5mm-diametered square string (String 2) was easy to handle but did not stretch much, leading to lower launch power.
 - The 3.5mm-diametered square string (String 1) was very durable and gave a smooth, strong launch, but was slightly harder to launch securely.
+- The 5mm-diametered square string (String 2) was easy to handle but did not stretch much, leading to lower launch power.
 - The 2.5mm-diametered square string (String 3) was soft and easy to break, affecting performance.
+- The circle string (String 4) provided the best balance of stretch and snap, resulting in consistent launches.
 
 
 ### Game Rules & Setup (Example)
