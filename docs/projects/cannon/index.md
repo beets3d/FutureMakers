@@ -154,6 +154,21 @@ Finished launcher:
 
 *Tip:* Students may design a game by themselve with a given amount of blocks protecting their own charcaters, and others may try to hit the characters with a given amount of balls shooted by the launcher.
 
+Test of Strings:
+| String # | Shape         | Diameter (mm) | Length (cm) | Comments                                  |
+|----------|--------------|---------------|-------------|---------------------------------------------|
+| 1        | Square       | 3.5           | 65          | Srong, good elasticity, not enoungh tension |
+| 2        | Square       | 5.0           | 65          | Strong, less stretchable, not enough tension|
+| 3        | Square       | 2.5           | 100         | Brittle , good elasticity, weak tension     |
+| 4        | Circle       | 4.0           | 110         | Strong, good elasticity, high tension       |
+
+**Comments on Strings Tested:**
+- The circle string (String 4) provided the best balance of stretch and snap, resulting in consistent launches.
+- The 5mm-diametered square string (String 2) was easy to handle but did not stretch much, leading to lower launch power.
+- The 3.5mm-diametered square string (String 1) was very durable and gave a smooth, strong launch, but was slightly harder to launch securely.
+- The 2.5mm-diametered square string (String 3) was soft and easy to break, affecting performance.
+
+
 ### Game Rules & Setup (Example)
 
 #### 1. Target Knockdown (Static Mode)
