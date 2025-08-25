@@ -1,0 +1,1028 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh_HK">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Combining Art and Technologies, this project is bringing your 3D sculpture to live with GenAI. You will unleash your creativity to create your favorite 3D sculpture using just an iPAD, and then give it a soul by using GenAI. So it can talk and interact with you. Learners can explore:" name="description"/>
+<link href="https://futuremakers.beets3d.com/zh_HK/projects/3d-ai-sculpture/" rel="canonical"/>
+<link href="../walking-robot/exercise-teeter-totter-test/" rel="prev"/>
+<link href="../next-gen-character-design/" rel="next"/>
+<link href="../../../images/favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.18" name="generator"/>
+<title>3D AI Sculpture - 未來創客: 動手做STEAM專案套裝</title>
+<link href="../../../assets/stylesheets/main.7e37652d.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M64%20480c-35.3%200-64-28.7-64-64V96c0-35.3%2028.7-64%2064-64h320c35.3%200%2064%2028.7%2064%2064v213.5c0%2017-6.7%2033.3-18.7%2045.3L322.7%20461.3c-12%2012-28.3%2018.7-45.3%2018.7zm325.5-176H296c-13.3%200-24%2010.7-24%2024v93.5z%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M384%20512H96c-53%200-96-43-96-96V96C0%2043%2043%200%2096%200h304c26.5%200%2048%2021.5%2048%2048v288c0%2020.9-13.4%2038.7-32%2045.3V448c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032zM96%20384c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032h256v-64zm32-232c0%2013.3%2010.7%2024%2024%2024h176c13.3%200%2024-10.7%2024-24s-10.7-24-24-24H152c-13.3%200-24%2010.7-24%2024m24%2072c-13.3%200-24%2010.7-24%2024s10.7%2024%2024%2024h176c13.3%200%2024-10.7%2024-24s-10.7-24-24-24z%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m-32-352a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200m-8%2064h48c13.3%200%2024%2010.7%2024%2024v88h8c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-80c-13.3%200-24-10.7-24-24s10.7-24%2024-24h24v-64h-24c-13.3%200-24-10.7-24-24s10.7-24%2024-24%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M461.2%2018.9C472.7%2024%20480%2035.4%20480%2048v416c0%2012.6-7.3%2024-18.8%2029.1s-24.8%203.2-34.3-5.1l-46.6-40.7c-43.6-38.1-98.7-60.3-156.4-63V480c0%2017.7-14.3%2032-32%2032h-32c-17.7%200-32-14.3-32-32v-96C57.3%20384%200%20326.7%200%20256s57.3-128%20128-128h84.5c61.8-.2%20121.4-22.7%20167.9-63.3L427%2024c9.4-8.3%2022.9-10.2%2034.3-5.1zM224%20320v.2c70.3%202.7%20137.8%2028.5%20192%2073.4V118.3c-54.2%2044.9-121.7%2070.7-192%2073.4z%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M434.8%2070.1c14.3%2010.4%2017.5%2030.4%207.1%2044.7l-256%20352c-5.5%207.6-14%2012.3-23.4%2013.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8%200-45.3s32.8-12.5%2045.3%200l101.5%20101.5%20234-321.7c10.4-14.3%2030.4-17.5%2044.7-7.1z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M256%20512a256%20256%200%201%200%200-512%20256%20256%200%201%200%200%20512m0-336c-17.7%200-32%2014.3-32%2032%200%2013.3-10.7%2024-24%2024s-24-10.7-24-24c0-44.2%2035.8-80%2080-80s80%2035.8%2080%2080c0%2047.2-36%2067.2-56%2074.5v3.8c0%2013.3-10.7%2024-24%2024s-24-10.7-24-24v-8.1c0-20.5%2014.8-35.2%2030.1-40.2%206.4-2.1%2013.2-5.5%2018.2-10.3%204.3-4.2%207.7-10%207.7-19.6%200-17.7-14.3-32-32-32zm-32%20192a32%2032%200%201%201%2064%200%2032%2032%200%201%201-64%200%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M256%200c14.7%200%2028.2%208.1%2035.2%2021l216%20400c6.7%2012.4%206.4%2027.4-.8%2039.5S486.1%20480%20472%20480H40c-14.1%200-27.1-7.4-34.4-19.5s-7.5-27.1-.8-39.5l216-400c7-12.9%2020.5-21%2035.2-21m0%20168c-13.3%200-24%2010.7-24%2024v112c0%2013.3%2010.7%2024%2024%2024s24-10.7%2024-24V192c0-13.3-10.7-24-24-24m26.7%20216a26.7%2026.7%200%201%200-53.3%200%2026.7%2026.7%200%201%200%2053.3%200%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20576%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M480-16c6.9%200%2013%204.4%2015.2%2010.9l13.5%2040.4%2040.4%2013.5C555.6%2051%20560%2057.1%20560%2064s-4.4%2013-10.9%2015.2l-40.4%2013.5-13.5%2040.4c-2.2%206.5-8.3%2010.9-15.2%2010.9s-13-4.4-15.2-10.9l-13.5-40.4-40.4-13.5C404.4%2077%20400%2070.9%20400%2064s4.4-13%2010.9-15.2l40.4-13.5%2013.5-40.4C467-11.6%20473.1-16%20480-16M321.4%2097.4c12.5-12.5%2032.8-12.5%2045.3%200l80%2080c12.5%2012.5%2012.5%2032.8%200%2045.3l-10.9%2010.9c7.9%2022%2012.2%2045.7%2012.2%2070.5%200%20114.9-93.1%20208-208%20208S32%20418.9%2032%20304%20125.1%2096%20240%2096c24.7%200%2048.5%204.3%2070.5%2012.3zM144%20304c0-53%2043-96%2096-96%2013.3%200%2024-10.7%2024-24s-10.7-24-24-24c-79.5%200-144%2064.5-144%20144%200%2013.3%2010.7%2024%2024%2024s24-10.7%2024-24%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M416%20427.4c58.5-44%2096-111.6%2096-187.4C512%20107.5%20397.4%200%20256%200S0%20107.5%200%20240c0%2075.8%2037.5%20143.4%2096%20187.4V464c0%2026.5%2021.5%2048%2048%2048h32v-40c0-13.3%2010.7-24%2024-24s24%2010.7%2024%2024v40h64v-40c0-13.3%2010.7-24%2024-24s24%2010.7%2024%2024v40h32c26.5%200%2048-21.5%2048-48zM96%20256a64%2064%200%201%201%20128%200%2064%2064%200%201%201-128%200m256-64a64%2064%200%201%201%200%20128%2064%2064%200%201%201%200-128%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20640%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M352%200c0-17.7-14.3-32-32-32s-32%2014.3-32%2032v64h-96c-53%200-96%2043-96%2096v224c0%2053%2043%2096%2096%2096h256c53%200%2096-43%2096-96V160c0-53-43-96-96-96h-96zM160%20368c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24m120%200c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24m120%200c0-13.3%2010.7-24%2024-24h32c13.3%200%2024%2010.7%2024%2024s-10.7%2024-24%2024h-32c-13.3%200-24-10.7-24-24M224%20176a48%2048%200%201%201%200%2096%2048%2048%200%201%201%200-96m144%2048a48%2048%200%201%201%2096%200%2048%2048%200%201%201-96%200m-304%200c0-17.7-14.3-32-32-32S0%20206.3%200%20224v96c0%2017.7%2014.3%2032%2032%2032s32-14.3%2032-32zm544-32c-17.7%200-32%2014.3-32%2032v96c0%2017.7%2014.3%2032%2032%2032s32-14.3%2032-32v-96c0-17.7-14.3-32-32-32%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M288%200H128c-17.7%200-32%2014.3-32%2032s14.3%2032%2032%2032v151.5L7.5%20426.3C2.6%20435%200%20444.7%200%20454.7%200%20486.4%2025.6%20512%2057.3%20512h333.4c31.6%200%2057.3-25.6%2057.3-57.3%200-10-2.6-19.8-7.5-28.4L320%20215.5V64c17.7%200%2032-14.3%2032-32S337.7%200%20320%200zm-96%20215.5V64h64v151.5c0%2011.1%202.9%2022.1%208.4%2031.8L306%20320H142l41.6-72.7c5.5-9.7%208.4-20.6%208.4-31.8%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C%21--%21%20Font%20Awesome%20Free%207.0.0%20by%20%40fontawesome%20-%20https%3A//fontawesome.com%20License%20-%20https%3A//fontawesome.com/license/free%20%28Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License%29%20Copyright%202025%20Fonticons%2C%20Inc.--%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M0%20216C0%20149.7%2053.7%2096%20120%2096h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064H64c-35.3%200-64-28.7-64-64zm256%200c0-66.3%2053.7-120%20120-120h8c17.7%200%2032%2014.3%2032%2032s-14.3%2032-32%2032h-8c-30.9%200-56%2025.1-56%2056v8h64c35.3%200%2064%2028.7%2064%2064v64c0%2035.3-28.7%2064-64%2064h-64c-35.3%200-64-28.7-64-64z%22/%3E%3C/svg%3E');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<link href="../../../assets/mkdocs_puml/puml.css" rel="stylesheet"/>
+<link href="../../../assets/mkdocs_puml/interaction.css" rel="stylesheet"/>
+<link href="../../../assets/mkdocs_puml/puml.css" rel="stylesheet"/>
+<link href="../../../assets/mkdocs_puml/interaction.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<meta content="website" property="og:type">
+<meta content="未來創客: 動手做STEAM專案套裝 - 3D AI Sculpture" property="og:title">
+<meta content="The Future Makers is the open source course kit for STEAM education." property="og:description">
+<meta content="https://futuremakers.beets3d.com/zh_HK/projects/3d-ai-sculpture/" property="og:url">
+<meta content="https://futuremakers.beets3d.com/assets/images/banner.png" property="og:image"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></link></meta></meta></meta></meta><meta content="3D AI Sculpture" name="title"/><meta content="website" property="og:type"/><meta content="https://futuremakers.beets3d.com/zh_HK/projects/3d-ai-sculpture" property="og:url"/><meta content="3D AI Sculpture" property="og:title"/><meta content="Combining Art and Technologies, this project is bringing your 3D sculpture to live with GenAI. You will unleash your creativity to create your favorite 3D sculpture using just an iPAD, and then give it a soul by using GenAI. So it can talk and interact with you. Learners can explore:" property="og:description"/><meta content="summary_large_image" property="twitter:card"/><meta content="https://futuremakers.beets3d.com/zh_HK/projects/3d-ai-sculpture" property="twitter:url"/><meta content="3D AI Sculpture" property="twitter:title"/><meta content="Combining Art and Technologies, this project is bringing your 3D sculpture to live with GenAI. You will unleash your creativity to create your favorite 3D sculpture using just an iPAD, and then give it a soul by using GenAI. So it can talk and interact with you. Learners can explore:" property="twitter:description"/></head>
+<body data-md-color-accent="indigo" data-md-color-primary="black" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#3d-ai-sculpture">
+          跳至內容
+        </a>
+</div>
+<div data-md-component="announce">
+<aside class="md-banner">
+<div class="md-banner__inner md-grid md-typeset">
+<!-- Add your announcement here if needed -->
+</div>
+</aside>
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="頁首" class="md-header__inner md-grid">
+<a aria-label="未來創客: 動手做STEAM專案套裝" class="md-header__button md-logo" data-md-component="logo" href="../../" title="未來創客: 動手做STEAM專案套裝">
+<img alt="logo" src="../../../assets/beets-logo-square.avif"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            未來創客: 動手做STEAM專案套裝
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              3D AI Sculpture
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="black" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="black" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="選擇語言" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="../../../projects/3d-ai-sculpture/" hreflang="en">
+              English
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="./" hreflang="zh_HK">
+              繁體中文 (香港)
+            </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="搜尋" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜尋" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="搜尋" class="md-search__options">
+<button aria-label="清除" class="md-search__icon md-icon" tabindex="-1" title="清除" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            正在初始化搜尋
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/beets3d/FutureMakers" title="前往倉庫">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+<nav aria-label="標籤" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../">
+        
+  
+  
+    
+  
+  首頁
+
+      </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../">
+          
+  
+  
+    
+  
+  專案
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../resources/assessment/">
+          
+  
+  
+    
+  
+  Resource
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../reference/faq/">
+          
+  
+  
+    
+  
+  參考
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../about/">
+        
+  
+  
+    
+  
+  About
+
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="導航" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="未來創客: 動手做STEAM專案套裝" class="md-nav__button md-logo" data-md-component="logo" href="../../" title="未來創客: 動手做STEAM專案套裝">
+<img alt="logo" src="../../../assets/beets-logo-square.avif"/>
+</a>
+    未來創客: 動手做STEAM專案套裝
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/beets3d/FutureMakers" title="前往倉庫">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4" fill="currentColor"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../">
+<span class="md-ellipsis">
+    首頁
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../">
+<span class="md-ellipsis">
+    專案
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            專案
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../singing-chiikawa/">
+<span class="md-ellipsis">
+    Singing Chiikawa
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+            Singing Chiikawa
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../singing-chiikawa/optional-microbit/">
+<span class="md-ellipsis">
+    Optional microbit
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../car-project/">
+<span class="md-ellipsis">
+    Car Project
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_4" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../walking-robot/">
+<span class="md-ellipsis">
+    Walking Robot
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+            Walking Robot
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../walking-robot/assembly-guide/">
+<span class="md-ellipsis">
+    組裝指南
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../walking-robot/exercise-gait-diagramming/">
+<span class="md-ellipsis">
+    練習：步態圖示
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../walking-robot/exercise-teeter-totter-test/">
+<span class="md-ellipsis">
+    練習：翹翹板測試
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_5" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    3D AI Sculpture
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_2_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
+<span class="md-nav__icon md-icon"></span>
+            3D AI Sculpture
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_6" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../next-gen-character-design/">
+<span class="md-ellipsis">
+    Original Character:AIx3D Modeling
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_2_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_6">
+<span class="md-nav__icon md-icon"></span>
+            Original Character:AIx3D Modeling
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../resources/assessment/">
+<span class="md-ellipsis">
+    Resource
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Resource
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/getting-to-know-nomad-sculpt/">
+<span class="md-ellipsis">
+    getting-to-know-nomad-sculpt
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/materials/">
+<span class="md-ellipsis">
+    教材
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/project-chiikawa/">
+<span class="md-ellipsis">
+    創建你的 Chiikawa
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/project-moai/">
+<span class="md-ellipsis">
+    創建你的 Moai
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/teaching-tips/">
+<span class="md-ellipsis">
+    教學技巧
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    參考
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            參考
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../reference/faq/">
+<span class="md-ellipsis">
+    常見問題
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../reference/glossary/">
+<span class="md-ellipsis">
+    詞彙表
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../reference/troubleshooting/">
+<span class="md-ellipsis">
+    故障排除指南
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../about/">
+<span class="md-ellipsis">
+    About
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="目錄" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-is-this">
+<span class="md-ellipsis">
+      What is this?
+    </span>
+</a>
+<nav aria-label="What is this?" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#key-features">
+<span class="md-ellipsis">
+      Key Features:
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#-base-framework-model-to-build-around-the-technology">
+<span class="md-ellipsis">
+      - Base framework / model to build around the technology
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-you-will-learn">
+<span class="md-ellipsis">
+      What you will learn
+    </span>
+</a>
+<nav aria-label="What you will learn" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-you-need">
+<span class="md-ellipsis">
+      What you need
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-it-works">
+<span class="md-ellipsis">
+      How it works
+    </span>
+</a>
+<nav aria-label="How it works" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-design-process">
+<span class="md-ellipsis">
+      The Design Process
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#assembly-guide">
+<span class="md-ellipsis">
+      Assembly Guide
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#lesson-plan">
+<span class="md-ellipsis">
+      Lesson Plan
+    </span>
+</a>
+<nav aria-label="Lesson Plan" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#course-objectives">
+<span class="md-ellipsis">
+      Course Objectives:
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-use-plantuml">
+<span class="md-ellipsis">
+      How to Use PlantUML
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="3d-ai-sculpture">3D AI Sculpture<a class="headerlink" href="#3d-ai-sculpture" title="Permanent link">¶</a></h1>
+<hr/>
+<h2 id="what-is-this">What is this?<a class="headerlink" href="#what-is-this" title="Permanent link">¶</a></h2>
+<p>Combining Art and Technologies, this project is bringing your 3D sculpture to live with GenAI. You will unleash your creativity to create your favorite 3D sculpture using just an iPAD, and then give it a soul by using GenAI. So it can talk and interact with you. Learners can explore:</p>
+<ul>
+<li>3D modelling in particular sculpting</li>
+<li>Post processing and color of 3D model</li>
+<li>Build AI powered chatbot<ul>
+<li>Speech Reconition model</li>
+<li>Text to Speech model</li>
+<li>AI response using LLM or AI generated rule based response</li>
+</ul>
+</li>
+<li>Raspberry Pi </li>
+<li>Coding in Python</li>
+</ul>
+<h3 id="key-features">Key Features:<a class="headerlink" href="#key-features" title="Permanent link">¶</a></h3>
+<h2 id="-base-framework-model-to-build-around-the-technology">- Base framework / model to build around the technology<a class="headerlink" href="#-base-framework-model-to-build-around-the-technology" title="Permanent link">¶</a></h2>
+<p>The 3D Sculpt AI project acts as a powerful educational resource, enabling learners to grasp essential art principles, foundational concepts in AI, and the intricate connections between technology and art.</p>
+<hr/>
+<h2 id="what-you-will-learn">What you will learn<a class="headerlink" href="#what-you-will-learn" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>AI Principles</strong>: Understanding how AI can be used in design</li>
+<li><strong>Creativity</strong>: Exploring the role of technology in artistic expression</li>
+<li><strong>3D Modeling</strong>: Techniques for creating and modifying 3D models</li>
+<li><strong>3D Printing</strong>: Basics of 3D printing technology and processes</li>
+<li><strong>Problem Solving</strong>: Iterative design and troubleshooting in 3D deling</li>
+<li><strong>Teamwork</strong>: Collaborative design and sharing of ideas</li>
+<li><strong>STEM Integration</strong>: Connecting technology concepts with real-world applications</li>
+</ul>
+<h3 id="what-you-need">What you need<a class="headerlink" href="#what-you-need" title="Permanent link">¶</a></h3>
+<p><strong>Hardware</strong></p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Minimum Specs</th>
+<th>Recommended Specs</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raspberry Pi</td>
+<td>Raspberry Pi 3B</td>
+<td>Raspberry Pi 4 (4GB or 8GB)</td>
+<td>Pi 4 is recommended for better performance with Whisper.</td>
+</tr>
+<tr>
+<td>MicroSD Card</td>
+<td>8GB (Class 10)</td>
+<td>16GB or 32GB (Class 10 or higher)</td>
+<td>Larger cards provide more storage for models and swap space.</td>
+</tr>
+<tr>
+<td>Power Supply</td>
+<td>5V/2.5A</td>
+<td>5V/3A</td>
+<td>A stable power supply is crucial for reliable operation.</td>
+</tr>
+<tr>
+<td>USB Headset</td>
+<td>Any USB headset with microphone</td>
+<td>Jabra, Logitech, or similar</td>
+<td>Ensure the headset is compatible with Raspberry Pi.</td>
+</tr>
+<tr>
+<td>Cooling</td>
+<td>Passive heatsink</td>
+<td>Active cooling (fan)</td>
+<td>Prevents thermal throttling, especially on Pi 4.</td>
+</tr>
+<tr>
+<td>External Storage</td>
+<td>Not required</td>
+<td>USB SSD or HDD (optional)</td>
+<td>Useful for storing larger Whisper models (e.g., small or medium).</td>
+</tr>
+<tr>
+<td>Network</td>
+<td>Wi-Fi or Ethernet</td>
+<td>Ethernet for stable connection</td>
+<td>Required for initial setup and optional for cloud-based services.</td>
+</tr>
+<tr>
+<td>Case</td>
+<td>Basic case</td>
+<td>Case with cooling and GPIO access</td>
+<td>Protects the Pi and improves thermal management.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Software</strong></p>
+<table>
+<thead>
+<tr>
+<th>Software</th>
+<th>Purpose</th>
+<th>Installation Command</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raspberry Pi OS</td>
+<td>Operating system</td>
+<td>Pre-installed or download from raspberrypi.org</td>
+<td>Use the Lite version for headless setups.</td>
+</tr>
+<tr>
+<td>Python 3</td>
+<td>Programming language</td>
+<td>Pre-installed or sudo apt install python3</td>
+<td>Ensure Python 3.7 or higher is installed.</td>
+</tr>
+<tr>
+<td>pip</td>
+<td>Python package manager</td>
+<td>sudo apt install python3-pip</td>
+<td>Required for installing Python libraries.</td>
+</tr>
+<tr>
+<td>Whisper</td>
+<td>Speech-to-text (STT)</td>
+<td>pip3 install openai-whisper</td>
+<td>Use the tiny or small model for Raspberry Pi.</td>
+</tr>
+<tr>
+<td>PyTorch</td>
+<td>Machine learning framework</td>
+<td>pip3 install torch torchaudio --extra-index-url https://download.pytorch.org/whl/cpu</td>
+<td>Required for Whisper.</td>
+</tr>
+<tr>
+<td>sounddevice</td>
+<td>Audio input/output library</td>
+<td>pip3 install sounddevice</td>
+<td>Used for recording audio from the microphone.</td>
+</tr>
+<tr>
+<td>numpy</td>
+<td>Numerical computing library</td>
+<td>pip3 install numpy</td>
+<td>Required for audio data processing.</td>
+</tr>
+<tr>
+<td>Piper TTS</td>
+<td>Text-to-speech (TTS)</td>
+<td>pip3 install piper-tts</td>
+<td>Use a Cantonese voice model (if available).</td>
+</tr>
+<tr>
+<td>eSpeak-ng</td>
+<td>Lightweight TTS (fallback)</td>
+<td>sudo apt install espeak-ng</td>
+<td>Supports Cantonese but has robotic voice quality.</td>
+</tr>
+<tr>
+<td>ffmpeg</td>
+<td>Audio processing tool</td>
+<td>sudo apt install ffmpeg</td>
+<td>Required for Whisper to handle audio files.</td>
+</tr>
+<tr>
+<td>Git</td>
+<td>Version control</td>
+<td>sudo apt install git</td>
+<td>Optional, but useful for cloning repositories.</td>
+</tr>
+<tr>
+<td>systemd</td>
+<td>Service management</td>
+<td>Pre-installed</td>
+<td>Used to run the chatbot as a service on boot.</td>
+</tr>
+<tr>
+<td>alsa-utils</td>
+<td>Audio device management</td>
+<td>sudo apt install alsa-utils</td>
+<td>Used for configuring audio devices.</td>
+</tr>
+<tr>
+<td>libopenblas-dev</td>
+<td>Optimized math library</td>
+<td>sudo apt install libopenblas-dev</td>
+<td>Improves performance for Whisper and PyTorch.</td>
+</tr>
+<tr>
+<td>portaudio19-dev</td>
+<td>Audio I/O library</td>
+<td>sudo apt install portaudio19-dev</td>
+<td>Required for sounddevice.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Tools</strong></p>
+<hr/>
+<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">¶</a></h2>
+<div class="puml-container"><div class="puml light" style=""><svg class="diagram" contentstyletype="text/css" data-diagram-type="DESCRIPTION" height="649px" preserveaspectratio="xMidYMid meet" style="width:779px;height:649px;background:#FFFFFF;" version="1.1" viewbox="0 0 779 649" width="779px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomandpan="magnify"><title>Cantonese Chatbot Context Diagram</title><defs></defs><g><g class="title" data-source-line="4"><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthadjust="spacing" textlength="289.2217" x="231.8892" y="22.9951">Cantonese Chatbot Context Diagram</text></g><g class="cluster" data-entity="headset" data-source-line="8" data-uid="ent0003" id="cluster_headset"><rect fill="none" height="81" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1;" width="254" x="14" y="562.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthadjust="spacing" textlength="102.1973" x="17" y="577.292">USB Headset</text></g><g class="cluster" data-entity="rpi" data-source-line="13" data-uid="ent0006" id="cluster_rpi"><rect fill="none" height="344.5" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1;" width="214" x="211" y="174.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthadjust="spacing" textlength="126.2529" x="214" y="189.292">Raspberry Pi 3B</text></g><g class="cluster" data-entity="models" data-source-line="19" data-uid="ent0010" id="cluster_models"><path d="M385,51.2969 C385,41.2969 573.5,41.2969 573.5,41.2969 C573.5,41.2969 762,41.2969 762,51.2969 L762,127.2969 C762,137.2969 573.5,137.2969 573.5,137.2969 C573.5,137.2969 385,137.2969 385,127.2969 L385,51.2969" fill="none" style="stroke:#181818;stroke-width:1;"></path><path d="M385,51.2969 C385,61.2969 573.5,61.2969 573.5,61.2969 C573.5,61.2969 762,61.2969 762,51.2969" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthadjust="spacing" textlength="102.1563" x="522.4219" y="76.292">Local Models</text></g><g class="entity" data-entity="user" data-source-line="6" data-uid="ent0002" id="entity_user"><ellipse cx="151.9551" cy="449.7969" fill="#ADD8E6" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"></ellipse><path d="M151.9551,457.7969 L151.9551,484.7969 M138.9551,465.7969 L164.9551,465.7969 M151.9551,484.7969 L138.9551,499.7969 M151.9551,484.7969 L164.9551,499.7969" fill="none" style="stroke:#181818;stroke-width:0.5;"></path><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="31.9102" x="136" y="514.292">User</text></g><g class="entity" data-entity="GMN21" data-source-line="35" data-uid="ent0022" id="entity_GMN21"><path d="M473,197.2969 L473,267.8281 L711.1914,267.8281 L711.1914,207.2969 L701.1914,197.2969 L473,197.2969" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"></path><path d="M701.1914,197.2969 L701.1914,207.2969 L711.1914,207.2969 L701.1914,197.2969" fill="#FEFFDD" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthadjust="spacing" textlength="133.7578" x="479" y="214.3638">Offline Processing</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="181.0732" x="479" y="229.4966">- All components run locally</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="217.1914" x="479" y="244.6294">- No internet connection required</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="196.8662" x="479" y="259.7622">- Cantonese language support</text></g><g class="entity" data-entity="mic" data-source-line="9" data-uid="ent0004" id="entity_mic"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121.7988" x="22" y="589.2969"></rect><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="123.7988" y="594.2969"></rect><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="121.7988" y="596.2969"></rect><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="121.7988" y="600.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="81.7988" x="37" y="622.292">Microphone</text></g><g class="entity" data-entity="spk" data-source-line="10" data-uid="ent0005" id="entity_spk"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="97.4424" x="162.5" y="589.2969"></rect><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="239.9424" y="594.2969"></rect><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="237.9424" y="596.2969"></rect><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="237.9424" y="600.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="57.4424" x="177.5" y="622.292">Speaker</text></g><g class="entity" data-entity="stt" data-source-line="14" data-uid="ent0007" id="entity_stt"><rect fill="#90EE90" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="163.5938" x="253" y="201.2969"></rect><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="396.5938" y="206.2969"></rect><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="394.5938" y="208.2969"></rect><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="394.5938" y="212.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="106.668" x="268" y="234.292">Speech-to-Text</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="123.5938" x="268" y="250.5889">(Vosk Cantonese)</text></g><g class="entity" data-entity="nlp" data-source-line="15" data-uid="ent0008" id="entity_nlp"><rect fill="#FFC0CB" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="168.2354" x="225" y="323.2969"></rect><rect fill="#FFC0CB" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="373.2354" y="328.2969"></rect><rect fill="#FFC0CB" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="371.2354" y="330.2969"></rect><rect fill="#FFC0CB" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="371.2354" y="334.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="110.7012" x="240" y="356.292">Text Processing</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="128.2354" x="240" y="372.5889">(Rule-based/Rasa)</text></g><g class="entity" data-entity="tts" data-source-line="16" data-uid="ent0009" id="entity_tts"><rect fill="#FFD700" height="62.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="165.7266" x="251" y="447.7969"></rect><rect fill="#FFD700" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="396.7266" y="452.7969"></rect><rect fill="#FFD700" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="394.7266" y="454.7969"></rect><rect fill="#FFD700" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="394.7266" y="458.7969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="106.668" x="266" y="480.792">Text-to-Speech</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="125.7266" x="266" y="497.0889">(Piper/eSpeak-ng)</text></g><g class="entity" data-entity="voskmodel" data-source-line="20" data-uid="ent0011" id="entity_voskmodel"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="152.6699" x="600.5" y="83.2969"></rect><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="733.1699" y="88.2969"></rect><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="731.1699" y="90.2969"></rect><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="731.1699" y="94.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="112.6699" x="615.5" y="116.292">Vosk ASR Model</text></g><g class="entity" data-entity="ttsmodel" data-source-line="21" data-uid="ent0012" id="entity_ttsmodel"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="155.2676" x="427.5" y="83.2969"></rect><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="562.7676" y="88.2969"></rect><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="560.7676" y="90.2969"></rect><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="560.7676" y="94.2969"></rect><text fill="#000000" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="115.2676" x="442.5" y="116.292">TTS Voice Model</text></g><g class="link" data-entity-1="user" data-entity-2="mic" data-uid="lnk13" id="link_user_mic"><polygon fill="#181818" points="72.1093,589.148,72.5815,579.3104,70.3,584.4868,65.1236,582.2054,72.1093,589.148" style="stroke:#181818;stroke-width:1;"></polygon><path d="M135.7898,485.773 C116.1221,493.3968 83.8757,509.2821 70,535.2969 C61.1174,551.9504 63.792,567.721 69.9381,583.5546" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="121.3608" x="72" y="549.3638">Cantonese Speech</text></g><g class="link" data-entity-1="mic" data-entity-2="stt" data-uid="lnk14" id="link_mic_stt"><polygon fill="#181818" points="288.2255,264.3797,278.5611,266.2772,284.1333,267.2527,283.1578,272.8248,288.2255,264.3797" style="stroke:#181818;stroke-width:1;"></polygon><path d="M70.141,589.235 C62.9144,574.0057 56.3724,553.3298 62,535.2969 C96.6932,424.1265 133.5956,405.589 216,323.2969 C237.8585,301.4681 260.3295,283.9641 283.3148,267.8272" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="74.7437" x="135" y="418.3638">Audio Input</text></g><g class="link" data-entity-1="stt" data-entity-2="nlp" data-uid="lnk15" id="link_stt_nlp"><polygon fill="#181818" points="307.3482,323.2241,311.3729,314.2351,307.3619,318.2241,303.3729,314.2131,307.3482,323.2241" style="stroke:#181818;stroke-width:1;"></polygon><path d="M318.5338,264.4415 C315.4747,271.4401 312.7077,278.9771 311,286.2969 C308.2298,298.1709 307.3968,305.5374 307.3647,317.2241" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="108.1704" x="313" y="300.3638">Recognized Text</text></g><g class="link" data-entity-1="nlp" data-entity-2="tts" data-uid="lnk16" id="link_nlp_tts"><polygon fill="#181818" points="327.7489,447.6664,329.8685,438.0484,326.7491,442.7674,322.03,439.648,327.7489,447.6664" style="stroke:#181818;stroke-width:1;"></polygon><path d="M315.2441,386.3928 C319.0622,405.1016 322.7297,423.0725 326.5491,441.7876" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="95.8813" x="325" y="418.3638">Response Text</text></g><g class="link" data-entity-1="tts" data-entity-2="spk" data-uid="lnk17" id="link_tts_spk"><polygon fill="#181818" points="259.7822,602.2208,269.5375,603.575,264.5871,600.8377,267.3245,595.8872,259.7822,602.2208" style="stroke:#181818;stroke-width:1;"></polygon><path d="M341.7386,510.8609 C343.5998,525.096 343.1116,541.6406 335,554.2969 C318.4435,580.1294 292.6726,592.7528 265.548,600.561" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="86.2393" x="344" y="549.3638">Audio Output</text></g><g class="link" data-entity-1="spk" data-entity-2="user" data-uid="lnk18" id="link_spk_user"><polygon fill="#181818" points="168.1274,494.5472,171.7826,503.6927,171.7088,498.0363,177.3652,497.9625,168.1274,494.5472" style="stroke:#181818;stroke-width:1;"></polygon><path d="M210.6628,589.0866 C209.6826,573.4182 206.8276,552.2809 199,535.2969 C191.745,519.5553 182.9518,508.9896 172.4251,498.7342" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="121.3608" x="208" y="549.3638">Cantonese Speech</text></g><g class="link" data-entity-1="models" data-entity-2="stt" data-uid="lnk19" id="link_models_stt"><polygon fill="#181818" points="339.1037,201.2403,344.7433,193.1659,340.0552,196.3316,336.8895,191.6436,339.1037,201.2403" style="stroke:#181818;stroke-width:1;"></polygon><path d="M384.8791,118.669 C384.8323,118.7061 384.7855,118.7432 384.7386,118.7804 C384.6448,118.8548 384.5508,118.9295 384.4566,119.0046 C381.4433,121.405 378.2463,124.1125 375.074,127.0678 C368.7292,132.9784 362.4828,139.8798 358,147.2969 C348.091,163.6919 343.5063,178.5277 340.2455,195.3499" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="69.3418" x="360" y="161.3638">ASR Model</text></g><g class="link" data-entity-1="models" data-entity-2="tts" data-uid="lnk20" id="link_models_tts"><polygon fill="#181818" points="403.8043,447.5855,413.3834,445.2962,407.7762,444.5484,408.524,438.9412,403.8043,447.5855" style="stroke:#181818;stroke-width:1;"></polygon><path d="M418,137.2969 C422.7809,142.7995 427.7799,140.7573 431,147.2969 C434.7303,154.8727 431.0821,157.8528 431,166.2969 C429.8888,280.5353 483.3311,324.4799 426,423.2969 C420.4903,432.7935 417.3998,437.1896 408.5705,443.941" fill="none" style="stroke:#181818;stroke-width:1;"></path><text fill="#000000" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="67.2979" x="453" y="300.3638">TTS Model</text></g><g class="link" data-entity-1="rpi" data-entity-2="GMN21" data-uid="lnk23" id="link_rpi_GMN21"><path d="M236.8173,174.2935 C236.999,173.9385 237.1838,173.5856 237.3718,173.2348 C238.1241,171.8315 238.9284,170.4622 239.7883,169.1355 C243.2281,163.8285 247.5574,159.2016 253,155.7969 C290.114,132.5795 407.5663,145.0323 450,155.7969 C482.3477,164.0028 515.3055,181.2179 541.3165,197.2934" fill="none" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"></path></g></g></svg></div><div class="puml dark" style=""><svg class="diagram" contentstyletype="text/css" data-diagram-type="DESCRIPTION" height="649px" preserveaspectratio="xMidYMid meet" style="width:779px;height:649px;background:#1B1B1B;" version="1.1" viewbox="0 0 779 649" width="779px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" zoomandpan="magnify"><title>Cantonese Chatbot Context Diagram</title><defs></defs><g><rect fill="#1B1B1B" height="649" style="stroke:none;stroke-width:1;" width="779" x="0" y="0"></rect><g class="title" data-source-line="4"><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthadjust="spacing" textlength="289.2217" x="231.8892" y="22.9951">Cantonese Chatbot Context Diagram</text></g><g class="cluster" data-entity="headset" data-source-line="8" data-uid="ent0003" id="cluster_headset"><rect fill="none" height="81" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:1;" width="254" x="14" y="562.2969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthadjust="spacing" textlength="102.1973" x="17" y="577.292">USB Headset</text></g><g class="cluster" data-entity="rpi" data-source-line="13" data-uid="ent0006" id="cluster_rpi"><rect fill="none" height="344.5" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:1;" width="214" x="211" y="174.2969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthadjust="spacing" textlength="126.2529" x="214" y="189.292">Raspberry Pi 3B</text></g><g class="cluster" data-entity="models" data-source-line="19" data-uid="ent0010" id="cluster_models"><path d="M385,51.2969 C385,41.2969 573.5,41.2969 573.5,41.2969 C573.5,41.2969 762,41.2969 762,51.2969 L762,127.2969 C762,137.2969 573.5,137.2969 573.5,137.2969 C573.5,137.2969 385,137.2969 385,127.2969 L385,51.2969" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><path d="M385,51.2969 C385,61.2969 573.5,61.2969 573.5,61.2969 C573.5,61.2969 762,61.2969 762,51.2969" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthadjust="spacing" textlength="102.1563" x="522.4219" y="76.292">Local Models</text></g><g class="entity" data-entity="user" data-source-line="6" data-uid="ent0002" id="entity_user"><ellipse cx="151.9551" cy="449.7969" fill="#ADD8E6" rx="8" ry="8" style="stroke:#E7E7E7;stroke-width:0.5;"></ellipse><path d="M151.9551,457.7969 L151.9551,484.7969 M138.9551,465.7969 L164.9551,465.7969 M151.9551,484.7969 L138.9551,499.7969 M151.9551,484.7969 L164.9551,499.7969" fill="none" style="stroke:#E7E7E7;stroke-width:0.5;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="31.9102" x="136" y="514.292">User</text></g><g class="entity" data-entity="GMN21" data-source-line="35" data-uid="ent0022" id="entity_GMN21"><path d="M473,197.2969 L473,267.8281 L711.1914,267.8281 L711.1914,207.2969 L701.1914,197.2969 L473,197.2969" fill="#714137" style="stroke:#E7E7E7;stroke-width:0.5;"></path><path d="M701.1914,197.2969 L701.1914,207.2969 L711.1914,207.2969 L701.1914,197.2969" fill="#714137" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="bold" lengthadjust="spacing" textlength="133.7578" x="479" y="214.3638">Offline Processing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="181.0732" x="479" y="229.4966">- All components run locally</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="217.1914" x="479" y="244.6294">- No internet connection required</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="196.8662" x="479" y="259.7622">- Cantonese language support</text></g><g class="entity" data-entity="mic" data-source-line="9" data-uid="ent0004" id="entity_mic"><rect fill="#313139" height="46.2969" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:0.5;" width="121.7988" x="22" y="589.2969"></rect><rect fill="#313139" height="10" style="stroke:#E7E7E7;stroke-width:0.5;" width="15" x="123.7988" y="594.2969"></rect><rect fill="#313139" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="121.7988" y="596.2969"></rect><rect fill="#313139" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="121.7988" y="600.2969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="81.7988" x="37" y="622.292">Microphone</text></g><g class="entity" data-entity="spk" data-source-line="10" data-uid="ent0005" id="entity_spk"><rect fill="#313139" height="46.2969" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:0.5;" width="97.4424" x="162.5" y="589.2969"></rect><rect fill="#313139" height="10" style="stroke:#E7E7E7;stroke-width:0.5;" width="15" x="239.9424" y="594.2969"></rect><rect fill="#313139" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="237.9424" y="596.2969"></rect><rect fill="#313139" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="237.9424" y="600.2969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="57.4424" x="177.5" y="622.292">Speaker</text></g><g class="entity" data-entity="stt" data-source-line="14" data-uid="ent0007" id="entity_stt"><rect fill="#90EE90" height="62.5938" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:0.5;" width="163.5938" x="253" y="201.2969"></rect><rect fill="#90EE90" height="10" style="stroke:#E7E7E7;stroke-width:0.5;" width="15" x="396.5938" y="206.2969"></rect><rect fill="#90EE90" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="394.5938" y="208.2969"></rect><rect fill="#90EE90" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="394.5938" y="212.2969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="106.668" x="268" y="234.292">Speech-to-Text</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="123.5938" x="268" y="250.5889">(Vosk Cantonese)</text></g><g class="entity" data-entity="nlp" data-source-line="15" data-uid="ent0008" id="entity_nlp"><rect fill="#FFC0CB" height="62.5938" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:0.5;" width="168.2354" x="225" y="323.2969"></rect><rect fill="#FFC0CB" height="10" style="stroke:#E7E7E7;stroke-width:0.5;" width="15" x="373.2354" y="328.2969"></rect><rect fill="#FFC0CB" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="371.2354" y="330.2969"></rect><rect fill="#FFC0CB" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="371.2354" y="334.2969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="110.7012" x="240" y="356.292">Text Processing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="128.2354" x="240" y="372.5889">(Rule-based/Rasa)</text></g><g class="entity" data-entity="tts" data-source-line="16" data-uid="ent0009" id="entity_tts"><rect fill="#FFD700" height="62.5938" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:0.5;" width="165.7266" x="251" y="447.7969"></rect><rect fill="#FFD700" height="10" style="stroke:#E7E7E7;stroke-width:0.5;" width="15" x="396.7266" y="452.7969"></rect><rect fill="#FFD700" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="394.7266" y="454.7969"></rect><rect fill="#FFD700" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="394.7266" y="458.7969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="106.668" x="266" y="480.792">Text-to-Speech</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="125.7266" x="266" y="497.0889">(Piper/eSpeak-ng)</text></g><g class="entity" data-entity="voskmodel" data-source-line="20" data-uid="ent0011" id="entity_voskmodel"><rect fill="#313139" height="46.2969" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:0.5;" width="152.6699" x="600.5" y="83.2969"></rect><rect fill="#313139" height="10" style="stroke:#E7E7E7;stroke-width:0.5;" width="15" x="733.1699" y="88.2969"></rect><rect fill="#313139" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="731.1699" y="90.2969"></rect><rect fill="#313139" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="731.1699" y="94.2969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="112.6699" x="615.5" y="116.292">Vosk ASR Model</text></g><g class="entity" data-entity="ttsmodel" data-source-line="21" data-uid="ent0012" id="entity_ttsmodel"><rect fill="#313139" height="46.2969" rx="2.5" ry="2.5" style="stroke:#E7E7E7;stroke-width:0.5;" width="155.2676" x="427.5" y="83.2969"></rect><rect fill="#313139" height="10" style="stroke:#E7E7E7;stroke-width:0.5;" width="15" x="562.7676" y="88.2969"></rect><rect fill="#313139" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="560.7676" y="90.2969"></rect><rect fill="#313139" height="2" style="stroke:#E7E7E7;stroke-width:0.5;" width="4" x="560.7676" y="94.2969"></rect><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthadjust="spacing" textlength="115.2676" x="442.5" y="116.292">TTS Voice Model</text></g><g class="link" data-entity-1="user" data-entity-2="mic" data-uid="lnk13" id="link_user_mic"><polygon fill="#E7E7E7" points="72.1093,589.148,72.5815,579.3104,70.3,584.4868,65.1236,582.2054,72.1093,589.148" style="stroke:#E7E7E7;stroke-width:1;"></polygon><path d="M135.7898,485.773 C116.1221,493.3968 83.8757,509.2821 70,535.2969 C61.1174,551.9504 63.792,567.721 69.9381,583.5546" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="121.3608" x="72" y="549.3638">Cantonese Speech</text></g><g class="link" data-entity-1="mic" data-entity-2="stt" data-uid="lnk14" id="link_mic_stt"><polygon fill="#E7E7E7" points="288.2255,264.3797,278.5611,266.2772,284.1333,267.2527,283.1578,272.8248,288.2255,264.3797" style="stroke:#E7E7E7;stroke-width:1;"></polygon><path d="M70.141,589.235 C62.9144,574.0057 56.3724,553.3298 62,535.2969 C96.6932,424.1265 133.5956,405.589 216,323.2969 C237.8585,301.4681 260.3295,283.9641 283.3148,267.8272" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="74.7437" x="135" y="418.3638">Audio Input</text></g><g class="link" data-entity-1="stt" data-entity-2="nlp" data-uid="lnk15" id="link_stt_nlp"><polygon fill="#E7E7E7" points="307.3482,323.2241,311.3729,314.2351,307.3619,318.2241,303.3729,314.2131,307.3482,323.2241" style="stroke:#E7E7E7;stroke-width:1;"></polygon><path d="M318.5338,264.4415 C315.4747,271.4401 312.7077,278.9771 311,286.2969 C308.2298,298.1709 307.3968,305.5374 307.3647,317.2241" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="108.1704" x="313" y="300.3638">Recognized Text</text></g><g class="link" data-entity-1="nlp" data-entity-2="tts" data-uid="lnk16" id="link_nlp_tts"><polygon fill="#E7E7E7" points="327.7489,447.6664,329.8685,438.0484,326.7491,442.7674,322.03,439.648,327.7489,447.6664" style="stroke:#E7E7E7;stroke-width:1;"></polygon><path d="M315.2441,386.3928 C319.0622,405.1016 322.7297,423.0725 326.5491,441.7876" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="95.8813" x="325" y="418.3638">Response Text</text></g><g class="link" data-entity-1="tts" data-entity-2="spk" data-uid="lnk17" id="link_tts_spk"><polygon fill="#E7E7E7" points="259.7822,602.2208,269.5375,603.575,264.5871,600.8377,267.3245,595.8872,259.7822,602.2208" style="stroke:#E7E7E7;stroke-width:1;"></polygon><path d="M341.7386,510.8609 C343.5998,525.096 343.1116,541.6406 335,554.2969 C318.4435,580.1294 292.6726,592.7528 265.548,600.561" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="86.2393" x="344" y="549.3638">Audio Output</text></g><g class="link" data-entity-1="spk" data-entity-2="user" data-uid="lnk18" id="link_spk_user"><polygon fill="#E7E7E7" points="168.1274,494.5472,171.7826,503.6927,171.7088,498.0363,177.3652,497.9625,168.1274,494.5472" style="stroke:#E7E7E7;stroke-width:1;"></polygon><path d="M210.6628,589.0866 C209.6826,573.4182 206.8276,552.2809 199,535.2969 C191.745,519.5553 182.9518,508.9896 172.4251,498.7342" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="121.3608" x="208" y="549.3638">Cantonese Speech</text></g><g class="link" data-entity-1="models" data-entity-2="stt" data-uid="lnk19" id="link_models_stt"><polygon fill="#E7E7E7" points="339.1037,201.2403,344.7433,193.1659,340.0552,196.3316,336.8895,191.6436,339.1037,201.2403" style="stroke:#E7E7E7;stroke-width:1;"></polygon><path d="M384.8791,118.669 C384.8323,118.7061 384.7855,118.7432 384.7386,118.7804 C384.6448,118.8548 384.5508,118.9295 384.4566,119.0046 C381.4433,121.405 378.2463,124.1125 375.074,127.0678 C368.7292,132.9784 362.4828,139.8798 358,147.2969 C348.091,163.6919 343.5063,178.5277 340.2455,195.3499" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="69.3418" x="360" y="161.3638">ASR Model</text></g><g class="link" data-entity-1="models" data-entity-2="tts" data-uid="lnk20" id="link_models_tts"><polygon fill="#E7E7E7" points="403.8043,447.5855,413.3834,445.2962,407.7762,444.5484,408.524,438.9412,403.8043,447.5855" style="stroke:#E7E7E7;stroke-width:1;"></polygon><path d="M418,137.2969 C422.7809,142.7995 427.7799,140.7573 431,147.2969 C434.7303,154.8727 431.0821,157.8528 431,166.2969 C429.8888,280.5353 483.3311,324.4799 426,423.2969 C420.4903,432.7935 417.3998,437.1896 408.5705,443.941" fill="none" style="stroke:#E7E7E7;stroke-width:1;"></path><text fill="#FFFFFF" font-family="sans-serif" font-size="13" lengthadjust="spacing" textlength="67.2979" x="453" y="300.3638">TTS Model</text></g><g class="link" data-entity-1="rpi" data-entity-2="GMN21" data-uid="lnk23" id="link_rpi_GMN21"><path d="M236.8173,174.2935 C236.999,173.9385 237.1838,173.5856 237.3718,173.2348 C238.1241,171.8315 238.9284,170.4622 239.7883,169.1355 C243.2281,163.8285 247.5574,159.2016 253,155.7969 C290.114,132.5795 407.5663,145.0323 450,155.7969 C482.3477,164.0028 515.3055,181.2179 541.3165,197.2934" fill="none" style="stroke:#E7E7E7;stroke-width:1;stroke-dasharray:7,7;"></path></g></g></svg></div></div>
+<h3 id="the-design-process">The Design Process<a class="headerlink" href="#the-design-process" title="Permanent link">¶</a></h3>
+<p><strong>3D Modeling</strong>
+   - Create and refine 3D models using software tools. Participants will learn techniques for manipulating shapes, textures, and colors to achieve desired outcomes.</p>
+<p><strong>3D Printing</strong>
+   - Prepare models for printing using slicing software, which converts 3D designs into instructions for the printer. Participants will understand the importance of settings such as layer height, infill, and support structures.</p>
+<p>**AI Elements</p>
+<h3 id="assembly-guide">Assembly Guide<a class="headerlink" href="#assembly-guide" title="Permanent link">¶</a></h3>
+<p>For detailed assembly instructions, please refer to the <a href="assembly-guide.md">Assembly Guide</a>.</p>
+<hr/>
+<h2 id="lesson-plan">Lesson Plan<a class="headerlink" href="#lesson-plan" title="Permanent link">¶</a></h2>
+<h3 id="course-objectives">Course Objectives:<a class="headerlink" href="#course-objectives" title="Permanent link">¶</a></h3>
+<h2 id="how-to-use-plantuml">How to Use PlantUML<a class="headerlink" href="#how-to-use-plantuml" title="Permanent link">¶</a></h2>
+<p>PlantUML is a tool that allows you to create diagrams from plain text descriptions. To use PlantUML in your project, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Install PlantUML</strong>: You can install PlantUML via various methods, including using a package manager or downloading it directly from the <a href="http://plantuml.com/">PlantUML website</a>.</p>
+</li>
+<li>
+<p><strong>Basic Syntax</strong>: Here's a simple example of how to create a UML class diagram:</p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code>@startuml
+class Car {
+    +String model
+    +String color
+    +drive()
+}
+@enduml
+</code></pre></div>
+<ol>
+<li>
+<p><strong>Rendering Diagrams</strong>: Once you have written your PlantUML code, you can render it using a PlantUML-compatible tool or plugin in your IDE.</p>
+</li>
+<li>
+<p><strong>Integration</strong>: If you are using MkDocs, you can integrate PlantUML by using a plugin that supports rendering PlantUML diagrams directly in your documentation.</p>
+</li>
+</ol>
+<hr/>
+<h2 id="__comments">評論</h2>
+<!-- Insert generated snippet here -->
+<script async="" crossorigin="anonymous" data-category="General" data-category-id="DIC_kwDONlB54M4Cltxh" data-emit-metadata="0" data-input-position="bottom" data-lang="en" data-mapping="pathname" data-reactions-enabled="1" data-repo="beets3d/FutureMakers" data-repo-id="R_kgDONlB54A" data-strict="0" data-theme="light" src="https://giscus.app/client.js">
+</script>
+<!-- Synchronize Giscus theme with palette -->
+<script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme == "slate"
+        ? "transparent_dark"
+        : "light"
+
+      // Instruct Giscus to set theme
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    // Register event handlers after document loaded
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme == "slate"
+            ? "transparent_dark"
+            : "light"
+
+          // Instruct Giscus to change theme
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  返回頂部
+</button>
+</main>
+<footer class="md-footer">
+<nav aria-label="頁腳" class="md-footer__inner md-grid">
+<a aria-label="上一頁: 練習：翹翹板測試" class="md-footer__link md-footer__link--prev" href="../walking-robot/exercise-teeter-totter-test/">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                上一頁
+              </span>
+<div class="md-ellipsis">
+                練習：翹翹板測試
+              </div>
+</div>
+</a>
+<a aria-label="下一頁: 原創角色：AI × 3D建模" class="md-footer__link md-footer__link--next" href="../next-gen-character-design/">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                下一頁
+              </span>
+<div class="md-ellipsis">
+                原創角色：AI × 3D建模
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © All rights reserved. 2017 - 2024 Beets Limited
+    </div>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://github.com/beets3d/FutureMakers" rel="noopener" target="_blank" title="FutureMakers on Github">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2" fill="currentColor"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<div class="md-progress" data-md-component="progress" role="progressbar"></div>
+<div class="md-consent" data-md-component="consent" hidden="" id="__consent">
+<div class="md-consent__overlay"></div>
+<aside class="md-consent__inner">
+<form class="md-consent__form md-grid md-typeset" name="consent">
+<!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+<!-- Determine cookies -->
+<!-- Determine actions -->
+<!-- Determine initial settings state -->
+<!-- Consent title -->
+<h4>Cookie Consent</h4>
+<p>We use cookies to enhance quality of docs content, analyse site effectiveness and needs.  By consenting, you help us improve our website. Thanks!</p>
+<!-- Consent settings -->
+<input class="md-toggle" id="__settings" type="checkbox">
+<div class="md-consent__settings">
+<ul class="task-list">
+<li class="task-list-item">
+<label class="task-list-control">
+<input checked="" name="github" type="checkbox"/>
+<span class="task-list-indicator"></span>
+          GitHub
+        </label>
+</li>
+</ul>
+</div>
+<!-- Consent controls -->
+<div class="md-consent__controls">
+<!-- Button to accept cookies -->
+<button class="md-button md-button--primary">接受</button>
+<!-- Button to reject cookies -->
+<!-- Button to manage settings -->
+<!-- Button to accept cookies -->
+<!-- Button to reject cookies -->
+<!-- Button to manage settings -->
+<label class="md-button" for="__settings">管理設定</label>
+</div>
+</input></form>
+</aside>
+</div>
+<script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "navigation.indexes", "navigation.tracking", "navigation.expand", "search.suggest", "search.highlight", "content.tabs", "content.code.annotation", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u8907\u88fd", "clipboard.copy": "\u8907\u88fd", "search.result.more.one": "\u5728\u8a72\u9801\u4e0a\u9084\u6709 1 \u500b\u7b26\u5408\u9805", "search.result.more.other": "\u5728\u8a72\u9801\u4e0a\u9084\u6709 # \u500b\u7b26\u5408\u9805", "search.result.none": "\u6c92\u6709\u627e\u5230\u7b26\u5408\u7684\u6587\u4ef6", "search.result.one": "\u627e\u5230 1 \u500b\u7b26\u5408\u7684\u6587\u4ef6", "search.result.other": "\u627e\u5230 # \u500b\u7b26\u5408\u7684\u6587\u4ef6", "search.result.placeholder": "\u8f38\u5165\u4ee5\u958b\u59cb\u641c\u5c0b", "search.result.term.missing": "\u7f3a\u5c11\u641c\u5c0b\u5b57\u8a5e", "select.version": "\u9078\u64c7\u7248\u672c"}, "version": null}</script>
+<script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+<script src="../../../assets/mkdocs_puml/puml.js"></script>
+<script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+<script src="../../../assets/mkdocs_puml/interaction.js"></script>
+<script src="../../../assets/mkdocs_puml/puml.js"></script>
+<script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+<script src="../../../assets/mkdocs_puml/interaction.js"></script>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
