@@ -130,7 +130,10 @@ Beginners and younger makers can focus on the creative aspect, using a provided 
 4. Slice and preview the print.
 
 Slicer preview:
-![Slicer Preview](./images/keyboard_cap_04.jpg)
+![Sliced snorlax Keycap](./images/snorlax_b.png)
+![Sliced charmander Keycap](./images/charmander_b.jpg)
+![Sliced bulbasaur Keycap](./images/bulbasaur_b.jpg)
+![Sliced squirtle Keycap](./images/squirtle_b.jpg)
 
 ### 3. Finish Your Customised Keycap
 
@@ -146,7 +149,8 @@ Slicer preview:
      - Add gloss or matte varnish for different effects.
 
 Finished keycap:
-![Painted Keycap](./images/keyboard_cap_01.jpg)
+![Painted Keycap](./images/snorlax_c.jpg)
+![Painted Keycap](./images/pokemon_c.jpg)
 
 4. Test fit the keycap on your keyboard. Make adjustments if needed.
 
