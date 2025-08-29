@@ -1,0 +1,47 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+    .md-header{position:initial}
+    .md-main__inner{margin:0}
+    .mdx-hero{
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+    @media screen and (min-width: 60em) {
+        .md-sidebar--primary{display:none}
+        .md-sidebar--secondary{display:none}
+        .md-sidebar--secondary:not([hidden]){display:none}
+    }
+    @media screen and (min-width:76.25em){
+        .md-sidebar--primary{display:none}
+        .md-sidebar--secondary{display:none}
+        .md-sidebar--secondary:not([hidden]){display:none}
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+  <header>
+      <h1>Welcome to Future Makers</h1>
+      <p>The opensource course hub for innovative projects and STEAM education.</p>
+  </header>
+
+  <section id="introduction">
+      <h2>About Future Makers</h2>
+      <p>Future Makers is dedicated to showcasing groundbreaking projects and initiatives that aim to create a better tomorrow. Join us in exploring the latest advancements and ideas that are transforming our world.</p>
+  </section>
+
+  <section id="latest-projects">
+      <h2>Latest Projects</h2>
+      <ul>
+        <li><a href="projects/nomadsculpt/">NomadSculpt</a> - An innovative digital sculpting tool that empowers users to create stunning 3D art effortlessly, featuring intuitive controls and a unique self-optimizing feature that enhances the creative process.</li>
+        <li><a href="projects/walking-robot/">Walking Robot (B3D1)</a> - An educational platform for hands-on experimentation with walking mechanisms, allowing students to explore robot locomotion through customizable designs.</li>
+          <!-- Add more projects as needed -->
+      </ul>
+  </section>
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}
