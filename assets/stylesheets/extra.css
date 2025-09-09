@@ -1,0 +1,9 @@
+/* Ensure TOC visibility for all languages */
+.md-sidebar--secondary {
+  display: block !important;
+}
+
+[dir="rtl"] .md-sidebar--secondary {
+  margin-right: 0;
+  margin-left: -24rem;
+}
