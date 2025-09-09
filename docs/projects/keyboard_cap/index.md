@@ -119,13 +119,13 @@ Mix and match: You can use Fusion 360 for precise fitting, then import into Noma
 - This can allow students to create more complicated designs and experience using AI to optimise workflow.
 
 This is a generated Snorlax Image by ChatGPT
-![AI generated snorlax](./images/kabigon_ref.png)
+![AI generated snorlax](./images/kabigon_ref.jpg)
 
 We can then use it to generate a 3D model in Tripo AI
-![Tripo generated snorlax](./images/tripo_kabigon.png)
+![Tripo generated snorlax](./images/tripo_kabigon.jpg)
 
 In most cases AI generated models are flawed, we can then import it to Nomad Sculpt and fine tune it with the built-in tools
-![Tripo generated snorlax](./images/mono_kabigon.png)
+![Tripo generated snorlax](./images/mono_kabigon.jpg)
 
 These are the edited designs in Nomad along with some other examples.
 ![Painted snorlax Keycap](./images/snorlax.png)
