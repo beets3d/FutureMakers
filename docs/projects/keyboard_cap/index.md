@@ -13,7 +13,7 @@ This hands-on project guides you through the process of designing and creating y
 
 ## What You Will Learn
 
-- How to design your very own customised keyboard cap for MX-style mechanical keyboards
+- How to design your very own customised keyboard cap for most keyboards
 - Techniques for digital sculpting and modeling in Nomad Sculpt and/or Fusion 360
 - Preparing and slicing models for 3D printing
 - Basics of 3D printing and post-processing
@@ -23,33 +23,37 @@ This hands-on project guides you through the process of designing and creating y
 | Category         | Item                                   | Notes                                 | Required/Optional |
 |------------------|----------------------------------------|---------------------------------------|------------------|
 | Hardware         | Laptop/Desktop/iPad                    | For digital sculpting, modelling and slicing     | Required         |
-|                  | FDM 3D Printer                        | e.g. BambuLab                         | Required         |
-|                  | Resin 3D Printer                      | For higher detail, e.g. Phrozen       | Optional         |
+|                  | 3D Printer                        | FDM or resin                 | Required         |
 | Software         | Nomad Sculpt or Fusion 360             | For 3D modeling                       | Required         |
 |                  | Slicing Software                      | Chitubox, Bambu Studio                | Required         |
 | Tools & Materials| 3D Printer Filament/Resin              | PLA, PETG, or resin                   | Required         |
 |                  | Finishing Tools                       | Sandpaper, files, rotary tool         | Optional         |
 |                  | Painting Tools                        | Brushes, acrylics, pastel paints      | Optional         |
-|                  | Keycap Stem Reference                 | For MX-style switches                 | Required         |
+|                  | Keycap Mechanical drawing           | For MX-style switches                 | Optional         |
 
 ---
 
 ## Course Outline
 
-### Chapter 1: Designing and Refinement in Nomad Sculpt or Fusion 360
+### Chapter 1: Model the keycap using Fusion 360 or equivalent CAD software
 - Overview of keyboard cap anatomy and MX stem compatibility
-- (For advanced students) Measure and recreate an exisitng keycap and ensure it fits the provided keyboard
+- (For advanced students) Measure and recreate an existng keycap and ensure it fits the provided keyboard
 - (For intermediate students) Model and recreate the keycap using the given mechanical drawing
-- Add your own design onto keycap using Fusion 360 or Nomad
 
-### Chapter 2: Preparing for 3D Printing
+### Chapter 2: Add design to the keycap using various tools
+- Make use of AI model generators to help creating a design for the keycap
+- Use Nomad Sculpt to create and edit designs
+- Import the keycap stem created in Chapter 1, and the combine with the design created in Nomad Sculpt.
+
+### Chapter 3: Preparing for 3D Printing
+- Optimisation for 3D printing
 - Exporting STL files from your modeling software
 - Importing into slicer
 - Configuring print settings for small, detailed parts
 - Previewing and slicing the model
 - 3D print
 
-### Chapter 3: Post-Processing and Finishing
+### Chapter 4: Post-Processing and Finishing
 - Removing supports and cleaning the print
 - Sanding and smoothing surfaces
 - Painting and finishing 
@@ -65,8 +69,8 @@ This project can be tailored to different experience levels, from beginners to a
 
 - **Contents:**
 
-- **Advanced:**  
-  - Start by carefully measuring an existing MX-style keycap using calipers or a ruler.
+- **For Advanced Students:**  
+  - Start by carefully measuring an existing keycap using calipers or a ruler.
   - Record key measurements such as width, height, stem size, and overall profile. 
   - Optionally, refer to a mechanical drawing or datasheet for precise specifications.
   - In Fusion 360, create the keycap base using your measured dimensions or the provided mechanical drawing.
@@ -74,60 +78,76 @@ This project can be tailored to different experience levels, from beginners to a
   - Design a customised keycap in Fusion 360 or Nomad Sculpt and combine it with the existing keycap base.
   - Export your finished model as an STL file, slice and print it, then post-process (remove supports, sand, and paint) for a realistic finish.
 
-- **Intermediate:**  
+- **For Intermediate Students:**  
   - Use the provided mechanical drawing or reference model for the keycap stem and base dimensions.
-  - Model the keycap base in Fusion 360, ensuring the stem fits MX-style switches.
-  - Design a customised keycap in Fusion 360 or Nomad Sculpt and combine it with the existing keycap base.
-  - Export, slice, print, and finish your keycap as above.
+  - Model the keycap base in Fusion 360, using basic tools like Extrude.
+
+- **For Beginner/Younger Groups:**  
+  - Skip the measuring and base modelling steps. Use the pre-made keycap stem model instead.
+  - Focus on the creative aspects: in Nomad Sculpt or Fusion 360, create your own design, and attach it to the provided base.
 
   Mechanical drawing of the keycap stem:
 ![mechanical drawing](./images/keyboard_cap_dimensions.png)
 
-### Pokemon-themed Keycaps
+### 2. Design the keycap
 
-You can create Pokemon-themed keycaps using both Nomad Sculpt (on iPad) and Fusion 360 (on desktop):
+**Objective**: Add more aesthetical or personal designs onto the keycap
 
 **In Nomad Sculpt:**
-- Import the basic keycap base.
-- Use sculpting tools to add features like Pokemon’s ears, Pokeball details, or other Pokemon elements.
-- Paint your model directly in Nomad for colorful designs.
-- Export the finished model as an OBJ for 3D printing.
+- Learn Using sculpting tools to create a pokemon Figure.
+- Import the keycap model from Fusion 360 to Nomad Sculpt.
+- Resize and assemble the pokemon figure with the keycap
+- (optional) Paint the digital model for multi-colour printing
+- Export the finished model for 3D printing.
+
+3D modelling in Nomad
+![chiikawa](./images/chiikawa_nomad.png)
+
+
+Import keycap model and fit the figure onto the stem
+![chiikawa and keycap](./images/chiikawa_keycap.png)
 
 
 Mix and match: You can use Fusion 360 for precise fitting, then import into Nomad for sculpting details , or vice versa. This way, you get both creative freedom and engineering accuracy for your Pokemon-themed keycaps!
 
+
+**AI tools:** 
+
+- Students can make use of AI modelling tools like Tripo AI to simplify the modelling process
+- They can first generate or find a rendered image of their intended design, using tools like Gemini or ChatGPT, and then use Tripo AI to generate the model.
+- Then import to Nomad Sculpt and edit the model.
+- This can allow students to create more complicated designs and experience using AI to optimise workflow.
+
+This is a generated Snorlax Image by ChatGPT
+![AI generated snorlax](./images/kabigon_ref.png)
+
+We can then use it to generate a 3D model in Tripo AI
+![Tripo generated snorlax](./images/tripo_kabigon.png)
+
+In most cases AI generated models are flawed, we can then import it to Nomad Sculpt and fine tune it with the built-in tools
+![Tripo generated snorlax](./images/mono_kabigon.png)
+
+These are the edited designs in Nomad along with some other examples.
 ![Painted snorlax Keycap](./images/snorlax.png)
 ![Painted charmander Keycap](./images/charmander.png)
 ![Painted bulbasaur Keycap](./images/bulbasaur.png)
 ![Painted squirtle Keycap](./images/squirtle.png)
 
-
-- **Beginner/Younger Groups:**  
-  - Skip the measuring and base modelling steps. Use the pre-made keycap stem model instead.
-  - Focus on the creative aspects: in Nomad Sculpt or Fusion 360, create your own design, and attach it to the provided base.
-  - Export, slice, print, and paint your keycap.
-
-
-
-
-**Tip:**  
-Beginners and younger makers can focus on the creative aspect, using a provided keycap base and stem to ensure a good fit. Advanced users can challenge themselves by modeling every part from scratch.
-
-
-### 2. Prepare for 3D Printing
+### 3. Prepare for 3D Printing
 
 **Objective**: Export and slice the keycap model for printing.
 
 **Contents:**
 
-1. Export the finished keycap model in STL format.
-2. Import the STL into your slicer software (e.g., Bambu Studio).
+1. Export the finished keycap model.
+2. Import the model into your slicer software (e.g., Bambu Studio).
 3. Adjust orientation for best print quality.
 4. Configure print settings:
    - Layer height: 0.08-0.1mm for detail
-   - Infill: 10% or high
+   - Infill: about 10%
    - Supports: Enable for tree support
-4. Slice and preview the print.
+5. Optional: Use AMS of Bambu Printers to print multi-colour prints.
+6. Slice and preview the print.
 
 Slicer preview:
 ![Sliced snorlax Keycap](./images/snorlax_b.png)
@@ -135,7 +155,7 @@ Slicer preview:
 ![Sliced bulbasaur Keycap](./images/bulbasaur_b.jpg)
 ![Sliced squirtle Keycap](./images/squirtle_b.jpg)
 
-### 3. Finish Your Customised Keycap
+### 4. Finish Your Customised Keycap
 
 **Objective**: Post-process the customised keycap.
 
@@ -157,7 +177,7 @@ Finished keycap:
 ---
 
 **Tip:**  
-- Beginners and younger makers can focus on steps 3 and 4, using a provided keycap base.
+- Beginners and younger makers can focus on steps 2-4, using a provided keycap base.
 - Intermediate students can try with a given drawing.
 - Advanced students are encouraged to start from scratch, measuring and modeling the keycap base themselves for a complete engineering and design experience.
 
